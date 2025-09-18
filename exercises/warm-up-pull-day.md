@@ -40,12 +40,6 @@
 - Banded Squats — 1x10
 - Banded Good Mornings — 1x10
 
-🔧 Movement preparation (pull focus):
-
-- Scapular pull ups 2x8–10.
-- Ring support hold 2x15–20s.
-- Light straight arm band pulldowns 2x15.
-
 📈 Power lift ramp sets for weighted pull ups:
 
 - Warm up set 1: bodyweight 1x6.
