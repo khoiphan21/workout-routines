@@ -82,8 +82,11 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
 ### Day 1 — Push A
 
 - **Power:** Weighted Dip — 3x3 (belted)
-- **Skill:** Ring Support Hold — 3x20 s
+  - _Rest 3-4 min._
+- **Skill:** Iron Cross Hold Progression — 3x10 s
+  - _Rest 2-3 min._
 - **Skill:** Pike Handstand Push-Up (elevated feet) — 3x3
+  - _Rest 2-3 min._
 - **Hypertrophy Superset 1**
   - A1: Decline Ring Push-up — 3x10
   - A2: Ring Flye — 3x12
@@ -93,11 +96,13 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - B2: Band Triceps Pressdown — 3x15
   - _Rest 60s between exercises._
 - **Abs:** Hanging Knee Raises — 3x15
+  - _Rest 60s._
 
 ### Day 2 — Pull A (your finalized day)
 
 - **Power:** Weighted Pull-Up — 3x3
   - _Progression: add +2.5 kg next pull day after a clean 3x3._
+  - _Rest 3-4 min._
 - **Skill Superset**
   - A1: Front Lever Hold — 3x12 s
   - A2: Rings Hamstring Curl — 3x8
@@ -109,6 +114,7 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - A2: Straight-Arm Band Pulldown — 3x15
   - _Rest 60s between exercises._
 - **Abs:** Ring Body Saw — 3x12
+  - _Rest 60s._
 
 ### Day 3 — Conditioning (Cali-style steady HR)
 
@@ -122,13 +128,18 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - Odd: Jumping Jacks — 45 s
   - Even: Band Straight-Arm Pulldown — 15 reps
 - **Finisher:** L-Sit Hold (floor or low bars) — Accumulate 60s total hold time.
+  - _Rest as needed between sets._
 - **Abs:** V-Ups — 3x20
+  - _Rest 60s._
 
 ### Day 4 — Push B
 
 - **Power:** Weighted Dip (2 s pause at bottom) — 3x3
+  - _Rest 3-4 min._
 - **Skill:** Ring Archer Push-Up — 3x6 per side
+  - _Rest 2-3 min._
 - **Skill:** Ring Support Turned-Out Hold — 3x15 s
+  - _Rest 2-3 min._
 - **Hypertrophy Superset 1**
   - A1: Pike Push-up — 3x8
   - A2: Ring Push-Up — 3x12
@@ -138,15 +149,18 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - B2: Overhead Band Triceps Extension — 3x15
   - _Rest 60s between exercises._
 - **Abs:** Ring Knee Tucks — 3x15
+  - _Rest 60s._
 
 ### Day 5 — Pull B
 
 - **Power:** Weighted Chin-Up — 3x3
+  - _Rest 3-4 min._
 - **Skill Superset**
   - A1: Back Lever Tuck Hold — 3x12 s
   - A2: Nordic Curl (band-assist as needed) — 3x6
   - _Rest 60s between exercises._
 - **Strength-skill:** Tuck Front-Lever Row — 3x5
+  - _Rest 2-3 min._
 - **Hypertrophy Superset 1**
   - A1: Wide-Grip Inverted Row — 3x10
   - A2: Band High-to-Low Row — 3x15
@@ -155,6 +169,7 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - B1: Reverse Fly (band) — 3x15
   - _Rest 60s._
 - **Abs:** Dragon Flag Negatives — 3x5
+  - _Rest 60s._
 
 _If a listed skill exceeds your level, select the appropriate progression ladder step but keep the same sets/reps/seconds._
 
@@ -181,7 +196,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 
 ## Canonical exercise list (used in every week)
 
-- **Push A:** Weighted Dip; Ring Support Hold; Pike Handstand Push-Up; Decline Ring Push-up; Ring Flye; Band Lateral Raise; Band Triceps Pressdown; Hanging Knee Raises.
+- **Push A:** Weighted Dip; Iron Cross Hold Progression; Pike Handstand Push-Up; Decline Ring Push-up; Ring Flye; Band Lateral Raise; Band Triceps Pressdown; Hanging Knee Raises.
 - **Pull A:** Weighted Pull-Up; Front Lever Hold; Rings Hamstring Curl; Bar Muscle Up; Archer Pull-Ups; Feet-Elevated Inverted Row; Straight-Arm Band Pulldown; Ring Body Saw.
 - **Conditioning:** Ring Row; Band Overhead Press; Bodyweight Split Squat; Hollow Body Rock; Jumping Jacks; Band Straight-Arm Pulldown; L-Sit Hold; V-Ups.
 - **Push B:** Weighted Dip (pause); Ring Archer Push-Up; Ring Support Turned-Out Hold; Pike Push-up; Ring Push-Up; Band Lateral Raise; Overhead Band Triceps Extension; Ring Knee Tucks.

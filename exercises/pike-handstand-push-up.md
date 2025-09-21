@@ -14,10 +14,10 @@
 
 📈 5 progression levels:
 
-- Level 1: 3x5 pike push-ups with feet on the floor.
-- Level 2: 3x3 pike push-ups with feet on the floor.
-- Level 3: 3x5 pike push-ups with feet elevated.
-- Level 4: 3x3 pike push-ups with feet elevated.
+- Level 1: 3x3 pike push-ups with feet on the floor.
+- Level 2: 3x5 pike push-ups with feet on the floor.
+- Level 3: 3x3 pike push-ups with feet elevated.
+- Level 4: 3x5 pike push-ups with feet elevated.
 - Level 5: 3x3 handstand push-ups against a wall.
 
 ✅ Progress when:
