@@ -14,9 +14,9 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
 ## Equipment
 
 - Pull-up bar, weight plates, weight belt.
-- Adjustable dumbbells.
 - Rings with adjustable straps.
 - Resistance bands of various tensions.
+- Low bars (for dips and rows).
 
 ## Weekly structure
 
@@ -39,10 +39,13 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
 - **General warm-up (every day):**
   - Band Pull-Aparts — 1x10
   - Band Dislocates — 1x10
-  - Banded Face Pulls — 1x10
-  - Banded Overhead Press — 1x10
-  - Banded Squats — 1x10
-  - Banded Good Mornings — 1x10
+  - Banded Scapular Protraction — 1x10
+  - Banded Shoulder External Rotation — 1x10
+  - Banded One-Arm Triceps Overhead Press — 1x10 per side
+  - Banded RDLs — 1x10
+  - Banded Bent-Over Rows — 1x10
+  - Banded Squat to Press — 1x10
+  - Quadruped Thoracic Rotation — 1x10 per side
 - **Power triples:** ~85–90% of the day’s triple; 1 rep in reserve on the first 2 sets.
 - **Hypertrophy:** RPE 8–9 (1–2 reps in reserve).
 - **Holds:** pick a level that allows full target time with clean positions plus 1–2 s in reserve.
@@ -82,13 +85,14 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
 - **Skill:** Ring Support Hold — 3x20 s
 - **Skill:** Pike Handstand Push-Up (elevated feet) — 3x3
 - **Hypertrophy Superset 1**
-  - A1: Dumbbell Incline Press — 3x10
+  - A1: Decline Ring Push-up — 3x10
   - A2: Ring Flye — 3x12
   - _Rest 60s between exercises._
 - **Hypertrophy Superset 2**
-  - B1: Lateral Raise — 3x15
+  - B1: Band Lateral Raise — 3x15
   - B2: Band Triceps Pressdown — 3x15
   - _Rest 60s between exercises._
+- **Abs:** Hanging Knee Raises — 3x15
 
 ### Day 2 — Pull A (your finalized day)
 
@@ -100,14 +104,11 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - _Rest 60s between exercises._
 - **Strength-skill:** Bar Muscle Up — 1x3 warm-up (easier variation), then 3x3 (rest 2 min)
 - **Strength-skill:** Archer Pull-Ups — 3x4 per side (rest 2 min)
-- **Hypertrophy Superset 1**
-  - A1: Dumbbell Row (1-arm bench supported) — 3x10 per side
+- **Hypertrophy Superset**
+  - A1: Feet-Elevated Inverted Row — 3x10
   - A2: Straight-Arm Band Pulldown — 3x15
   - _Rest 60s between exercises._
-- **Hypertrophy Superset 2**
-  - B1: Band Face Pull — 3x15
-  - B2: Dumbbell Curl — 3x10
-  - _Rest 60s between exercises._
+- **Abs:** Ring Body Saw — 3x12
 
 ### Day 3 — Conditioning (Cali-style steady HR)
 
@@ -118,9 +119,10 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - Hollow Body Rock — 20 s
   - _Rest 60–90 s between rounds_
 - **EMOM 12**
-  - Odd: Jump Rope — 45 s
+  - Odd: Jumping Jacks — 45 s
   - Even: Band Straight-Arm Pulldown — 15 reps
-- **Finisher:** Farmer Carry — 4x40 m (rest 45–60 s)
+- **Finisher:** L-Sit Hold (floor or low bars) — Accumulate 60s total hold time.
+- **Abs:** V-Ups — 3x20
 
 ### Day 4 — Push B
 
@@ -128,13 +130,14 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
 - **Skill:** Ring Archer Push-Up — 3x6 per side
 - **Skill:** Ring Support Turned-Out Hold — 3x15 s
 - **Hypertrophy Superset 1**
-  - A1: Dumbbell Overhead Press — 3x8
+  - A1: Pike Push-up — 3x8
   - A2: Ring Push-Up — 3x12
   - _Rest 60s between exercises._
 - **Hypertrophy Superset 2**
   - B1: Band Lateral Raise — 3x15
   - B2: Overhead Band Triceps Extension — 3x15
   - _Rest 60s between exercises._
+- **Abs:** Ring Knee Tucks — 3x15
 
 ### Day 5 — Pull B
 
@@ -145,13 +148,13 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - _Rest 60s between exercises._
 - **Strength-skill:** Tuck Front-Lever Row — 3x5
 - **Hypertrophy Superset 1**
-  - A1: One-Arm Dumbbell High Row — 3x10 per side
+  - A1: Wide-Grip Inverted Row — 3x10
   - A2: Band High-to-Low Row — 3x15
   - _Rest 60s between exercises._
-- **Hypertrophy Superset 2**
+- **Hypertrophy Accessory**
   - B1: Reverse Fly (band) — 3x15
-  - B2: Hammer Curl — 3x10
-  - _Rest 60s between exercises._
+  - _Rest 60s._
+- **Abs:** Dragon Flag Negatives — 3x5
 
 _If a listed skill exceeds your level, select the appropriate progression ladder step but keep the same sets/reps/seconds._
 
@@ -178,11 +181,11 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 
 ## Canonical exercise list (used in every week)
 
-- **Push A:** Weighted Dip; Ring Support Hold; Pike Handstand Push-Up; Dumbbell Incline Press; Ring Flye; Lateral Raise; Band Triceps Pressdown.
-- **Pull A:** Weighted Pull-Up; Front Lever Hold; Rings Hamstring Curl; Bar Muscle Up; Archer Pull-Ups; Dumbbell Row (1-arm bench supported); Straight-Arm Band Pulldown; Band Face Pull; Dumbbell Curl.
-- **Conditioning:** Ring Row; Band Overhead Press; Bodyweight Split Squat; Hollow Body Rock; Jump Rope; Band Straight-Arm Pulldown; Farmer Carry.
-- **Push B:** Weighted Dip (pause); Ring Archer Push-Up; Ring Support Turned-Out Hold; Dumbbell Overhead Press; Ring Push-Up; Band Lateral Raise; Overhead Band Triceps Extension.
-- **Pull B:** Weighted Chin-Up; Back Lever Tuck Hold; Nordic Curl; Tuck Front-Lever Row; One-Arm Dumbbell High Row; Band High-to-Low Row; Reverse Fly (band); Hammer Curl.
+- **Push A:** Weighted Dip; Ring Support Hold; Pike Handstand Push-Up; Decline Ring Push-up; Ring Flye; Band Lateral Raise; Band Triceps Pressdown; Hanging Knee Raises.
+- **Pull A:** Weighted Pull-Up; Front Lever Hold; Rings Hamstring Curl; Bar Muscle Up; Archer Pull-Ups; Feet-Elevated Inverted Row; Straight-Arm Band Pulldown; Ring Body Saw.
+- **Conditioning:** Ring Row; Band Overhead Press; Bodyweight Split Squat; Hollow Body Rock; Jumping Jacks; Band Straight-Arm Pulldown; L-Sit Hold; V-Ups.
+- **Push B:** Weighted Dip (pause); Ring Archer Push-Up; Ring Support Turned-Out Hold; Pike Push-up; Ring Push-Up; Band Lateral Raise; Overhead Band Triceps Extension; Ring Knee Tucks.
+- **Pull B:** Weighted Chin-Up; Back Lever Tuck Hold; Nordic Curl; Tuck Front-Lever Row; Wide-Grip Inverted Row; Band High-to-Low Row; Reverse Fly (band); Dragon Flag Negatives.
 
 ## Key notes (selected)
 
