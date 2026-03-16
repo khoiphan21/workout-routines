@@ -117,10 +117,15 @@ for (const [, items] of directoryGroups) {
 const sectionNavLinks = Array.from(directoryGroups.entries())
   .sort(([a], [b]) => a.localeCompare(b))
   .slice(0, 4)
-  .map(([section, items]) => ({
-    text: titleFromFileName(section),
-    link: items[0]?.link ?? '/',
-  }));
+  .map(([section, items]) => {
+    const indexLink = `/${section}/`;
+    const link =
+      items.find((item) => item.link === indexLink)?.link ?? items[0]?.link ?? '/';
+    return {
+      text: titleFromFileName(section),
+      link,
+    };
+  });
 
 const repositoryName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
 const base =
