@@ -129,6 +129,7 @@ export default defineConfig({
   description: 'Workout program docs generated from Markdown.',
   base,
   cleanUrls: true,
+  ignoreDeadLinks: true, // Needed for links to program READMEs in subfolders
   lastUpdated: true,
   srcExclude: [
     '**/node_modules/**',
