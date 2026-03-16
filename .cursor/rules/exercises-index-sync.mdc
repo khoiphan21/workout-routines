@@ -1,0 +1,21 @@
+---
+description: Keep exercises/index.md in sync when exercises or equipment change
+globs: ["exercises/**/*.md", "equipment/**/*.md"]
+alwaysApply: false
+---
+
+# Exercise and equipment index sync
+
+When you **add**, **remove**, or **rename** an exercise file in `exercises/` or an equipment file in `equipment/`, you **must** update `exercises/index.md` to reflect the change.
+
+## What to update
+
+1. **By muscle group** — Add or remove the exercise from the appropriate muscle group(s): Back, Chest, Shoulders, Triceps, Core, Legs, Skill/holds, Conditioning.
+2. **By equipment** — Add or remove the exercise from the appropriate equipment section(s). Equipment sections match the files in `equipment/`: pull-up-station, resistance-bands, weight-plates, weight-belt, dip-station, rings, gym-monster-2.
+3. **Reference** — The "General Notes and Warm-up" stays in Reference; other reference-style pages go there.
+
+## Format
+
+- Use the exercise title from the `#` heading in the exercise file.
+- Link format: `[Exercise Title](slug)` where slug is the filename without `.md`.
+- Equipment links: `[Equipment name](../equipment/slug)`.
