@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume weeks using the same exercises. Only the progression level, reps/sets, and (for Tempo) tempo change.",
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khoiphan21/workout-routines.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khoiphan21/workout-routines/issues"
+  },
+  "homepage": "https://github.com/khoiphan21/workout-routines#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
