@@ -2,6 +2,13 @@
 
 This plan outlines how to publish workout programs and exercises from this repo to [Hevy](https://www.hevyapp.com/) using the [Hevy API](https://api.hevyapp.com/docs/).
 
+## Current repo structure
+
+- **exercises/** — Exercise library with `index.md` (muscle groups + equipment mapping)
+- **equipment/** — Equipment definitions with `index.md`
+- **programs/khoiphan21/push-pull-homegym/** — Program content in `index.md`
+- **AGENTS.md** — Documents `HEVY_API_KEY_KHOIPHAN21`
+
 ## Prerequisites
 
 - **Hevy Pro membership** — required for API access
@@ -58,13 +65,14 @@ This plan outlines how to publish workout programs and exercises from this repo 
 
 3. **Exercise metadata alignment**
    - Our format: `exercises/<slug>.md` (technique, progressions, scaling)
+   - Our index: `exercises/index.md` groups exercises by muscle group and equipment — use as reference for Hevy metadata
    - Hevy format: name, primary/secondary muscles, equipment, type (rep vs duration)
    - Define a mapping or schema to convert our data → Hevy exercise template
 
 ### Phase 3: Program → routine conversion
 
 1. **Parse program structure**
-   - Read `programs/khoiphan21/push-pull-homegym/README.md` (or structured JSON/YAML)
+   - Read `programs/khoiphan21/push-pull-homegym/index.md` (or structured JSON/YAML)
    - Extract: days, exercises per day, sets/reps, supersets, rest times
 
 2. **Map to Hevy routine format**
@@ -127,7 +135,9 @@ This plan outlines how to publish workout programs and exercises from this repo 
 
 ```
 exercises/*.md          →  Hevy exercise templates (match or create)
-programs/.../README.md  →  Hevy routines (create/update)
+exercises/index.md      →  Muscle group + equipment mapping (reference for Phase 2)
+programs/.../index.md  →  Hevy routines (create/update)
+equipment/*.md          →  Equipment metadata (reference for exercise mapping)
 assets/                 →  Exercise images (optional)
 ```
 
@@ -160,4 +170,4 @@ exercises/
 3. [ ] Implement Phase 2 (exercise mapping + cache)
 4. [ ] Implement Phase 3 (program parser → Hevy routine format)
 5. [ ] Implement Phase 4 (push script with dry-run)
-6. [ ] Test with `programs/khoiphan21/push-pull-homegym`
+6. [ ] Test with `programs/khoiphan21/push-pull-homegym` (uses `index.md`)
