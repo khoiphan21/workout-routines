@@ -74,6 +74,10 @@ function linkFromMarkdownPath(relativePath: string): string {
     return `/${normalizedPath.slice(0, -'/README.md'.length)}/`;
   }
 
+  if (normalizedPath.endsWith('/index.md')) {
+    return `/${normalizedPath.slice(0, -'/index.md'.length)}/`;
+  }
+
   return `/${normalizedPath.replace(/\.md$/i, '')}`;
 }
 
@@ -131,10 +135,6 @@ export default defineConfig({
   cleanUrls: true,
   ignoreDeadLinks: true, // Needed for links to program READMEs in subfolders
   lastUpdated: true,
-  rewrites: {
-    'programs/khoiphan21/push-pull-homegym/README.md':
-      'programs/khoiphan21/push-pull-homegym/index.md',
-  },
   srcExclude: [
     '**/node_modules/**',
     '**/.git/**',
