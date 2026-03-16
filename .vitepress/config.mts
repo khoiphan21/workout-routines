@@ -74,6 +74,10 @@ function linkFromMarkdownPath(relativePath: string): string {
     return `/${normalizedPath.slice(0, -'/README.md'.length)}/`;
   }
 
+  if (normalizedPath.endsWith('/index.md')) {
+    return `/${normalizedPath.slice(0, -'/index.md'.length)}/`;
+  }
+
   return `/${normalizedPath.replace(/\.md$/i, '')}`;
 }
 
@@ -113,10 +117,15 @@ for (const [, items] of directoryGroups) {
 const sectionNavLinks = Array.from(directoryGroups.entries())
   .sort(([a], [b]) => a.localeCompare(b))
   .slice(0, 4)
-  .map(([section, items]) => ({
-    text: titleFromFileName(section),
-    link: items[0]?.link ?? '/',
-  }));
+  .map(([section, items]) => {
+    const indexLink = `/${section}/`;
+    const link =
+      items.find((item) => item.link === indexLink)?.link ?? items[0]?.link ?? '/';
+    return {
+      text: titleFromFileName(section),
+      link,
+    };
+  });
 
 const repositoryName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
 const base =
@@ -129,6 +138,7 @@ export default defineConfig({
   description: 'Workout program docs generated from Markdown.',
   base,
   cleanUrls: true,
+  ignoreDeadLinks: true, // Needed for links to program READMEs in subfolders
   lastUpdated: true,
   srcExclude: [
     '**/node_modules/**',
@@ -159,6 +169,7 @@ export default defineConfig({
         .sort(([a], [b]) => a.localeCompare(b))
         .map(([section, items]) => ({
           text: titleFromFileName(section),
+          collapsed: section === 'exercises' || section === 'equipment',
           items,
         })),
     ],
