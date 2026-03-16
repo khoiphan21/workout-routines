@@ -2,6 +2,20 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { defineConfig } from 'vitepress';
 
+type SidebarItem = {
+  text: string;
+  link: string;
+};
+
+const excludedDirectories = new Set([
+  '.git',
+  '.github',
+  '.cursor',
+  '.vitepress',
+  'node_modules',
+  'dist',
+]);
+
 function titleFromFileName(fileName: string): string {
   return fileName
     .replace(/\.md$/i, '')
@@ -10,18 +24,99 @@ function titleFromFileName(fileName: string): string {
     .join(' ');
 }
 
-const exercisesDir = path.resolve(process.cwd(), 'exercises');
-const exerciseFiles = fs.existsSync(exercisesDir)
-  ? fs
-      .readdirSync(exercisesDir)
-      .filter((file) => file.endsWith('.md'))
-      .sort((a, b) => a.localeCompare(b))
-  : [];
+function titleFromMarkdown(relativeFilePath: string): string {
+  const absolutePath = path.resolve(process.cwd(), relativeFilePath);
+  const content = fs.readFileSync(absolutePath, 'utf8');
+  const headingMatch = content.match(/^#\s+(.+)$/m);
 
-const exerciseItems = exerciseFiles.map((file) => ({
-  text: titleFromFileName(file),
-  link: `/exercises/${file.replace(/\.md$/i, '')}`,
-}));
+  if (headingMatch?.[1]) {
+    return headingMatch[1].trim();
+  }
+
+  return titleFromFileName(path.basename(relativeFilePath));
+}
+
+function getMarkdownFiles(directory: string, baseDirectory = directory): string[] {
+  const markdownFiles: string[] = [];
+  const entries = fs.readdirSync(directory, { withFileTypes: true });
+
+  for (const entry of entries) {
+    if (entry.isDirectory()) {
+      if (excludedDirectories.has(entry.name)) {
+        continue;
+      }
+
+      const childDirectory = path.join(directory, entry.name);
+      markdownFiles.push(...getMarkdownFiles(childDirectory, baseDirectory));
+      continue;
+    }
+
+    if (!entry.name.endsWith('.md')) {
+      continue;
+    }
+
+    const absoluteFilePath = path.join(directory, entry.name);
+    const relativeFilePath = path.relative(baseDirectory, absoluteFilePath);
+    markdownFiles.push(relativeFilePath);
+  }
+
+  return markdownFiles;
+}
+
+function linkFromMarkdownPath(relativePath: string): string {
+  const normalizedPath = relativePath.replace(/\\/g, '/');
+
+  if (normalizedPath === 'README.md') {
+    return '/';
+  }
+
+  if (normalizedPath.endsWith('/README.md')) {
+    return `/${normalizedPath.slice(0, -'/README.md'.length)}/`;
+  }
+
+  return `/${normalizedPath.replace(/\.md$/i, '')}`;
+}
+
+const markdownFiles = getMarkdownFiles(process.cwd()).sort((a, b) =>
+  a.localeCompare(b),
+);
+
+const rootItems: SidebarItem[] = markdownFiles
+  .filter((filePath) => !filePath.includes('/') && filePath !== 'README.md')
+  .map((filePath) => ({
+    text: titleFromMarkdown(filePath),
+    link: linkFromMarkdownPath(filePath),
+  }));
+
+const directoryGroups = new Map<string, SidebarItem[]>();
+
+for (const filePath of markdownFiles) {
+  if (!filePath.includes('/')) {
+    continue;
+  }
+
+  const [topLevelDirectory] = filePath.split('/');
+  const groupItems = directoryGroups.get(topLevelDirectory) ?? [];
+
+  groupItems.push({
+    text: titleFromMarkdown(filePath),
+    link: linkFromMarkdownPath(filePath),
+  });
+
+  directoryGroups.set(topLevelDirectory, groupItems);
+}
+
+for (const [, items] of directoryGroups) {
+  items.sort((a, b) => a.text.localeCompare(b.text));
+}
+
+const sectionNavLinks = Array.from(directoryGroups.entries())
+  .sort(([a], [b]) => a.localeCompare(b))
+  .slice(0, 4)
+  .map(([section, items]) => ({
+    text: titleFromFileName(section),
+    link: items[0]?.link ?? '/',
+  }));
 
 const repositoryName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
 const base =
@@ -45,18 +140,27 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      ...(exerciseItems.length > 0
-        ? [{ text: 'Exercises', link: exerciseItems[0].link }]
-        : []),
+      ...sectionNavLinks,
     ],
     sidebar: [
       {
         text: 'Program',
         items: [{ text: 'Overview', link: '/' }],
       },
-      ...(exerciseItems.length > 0
-        ? [{ text: 'Exercises', items: exerciseItems }]
+      ...(rootItems.length > 0
+        ? [
+            {
+              text: 'Root Pages',
+              items: rootItems,
+            },
+          ]
         : []),
+      ...Array.from(directoryGroups.entries())
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([section, items]) => ({
+          text: titleFromFileName(section),
+          items,
+        })),
     ],
     search: {
       provider: 'local',
