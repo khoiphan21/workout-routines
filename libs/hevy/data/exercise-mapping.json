@@ -1,38 +1,13 @@
 {
-  "generatedAt": "2026-03-16T22:03:55.298Z",
+  "generatedAt": "2026-03-22T22:41:13.799Z",
   "hevyTemplateCount": 449,
   "repoExerciseCount": 39,
-  "matched": 21,
+  "matched": 34,
   "toCreate": [
-    {
-      "slug": "archer-pull-ups",
-      "title": "Archer or Typewriter Pull-Ups",
-      "file": "exercises/archer-pull-ups.md"
-    },
-    {
-      "slug": "back-lever-tuck-hold",
-      "title": "Back Lever Tuck Hold",
-      "file": "exercises/back-lever-tuck-hold.md"
-    },
     {
       "slug": "band-high-to-low-row",
       "title": "Band High-to-Low Row",
       "file": "exercises/band-high-to-low-row.md"
-    },
-    {
-      "slug": "band-overhead-press",
-      "title": "Band Overhead Press",
-      "file": "exercises/band-overhead-press.md"
-    },
-    {
-      "slug": "bar-muscle-up",
-      "title": "Bar Muscle Up",
-      "file": "exercises/bar-muscle-up.md"
-    },
-    {
-      "slug": "bodyweight-split-squat",
-      "title": "Bodyweight Split Squat",
-      "file": "exercises/bodyweight-split-squat.md"
     },
     {
       "slug": "dragon-flag-negatives",
@@ -40,54 +15,14 @@
       "file": "exercises/dragon-flag-negatives.md"
     },
     {
-      "slug": "hollow-body-rock",
-      "title": "Hollow Body Rock",
-      "file": "exercises/hollow-body-rock.md"
-    },
-    {
-      "slug": "jumping-jacks",
-      "title": "Jumping Jacks",
-      "file": "exercises/jumping-jacks.md"
-    },
-    {
-      "slug": "nordic-curl",
-      "title": "Nordic Curl",
-      "file": "exercises/nordic-curl.md"
-    },
-    {
-      "slug": "pike-handstand-push-up",
-      "title": "Pike Handstand Push-Up",
-      "file": "exercises/pike-handstand-push-up.md"
-    },
-    {
       "slug": "reverse-fly-band",
       "title": "Reverse Fly (band)",
       "file": "exercises/reverse-fly-band.md"
     },
     {
-      "slug": "ring-archer-push-up",
-      "title": "Ring Archer Push-Up",
-      "file": "exercises/ring-archer-push-up.md"
-    },
-    {
       "slug": "ring-knee-tucks",
       "title": "Ring Knee Tucks",
       "file": "exercises/ring-knee-tucks.md"
-    },
-    {
-      "slug": "ring-support-turned-out-hold",
-      "title": "Ring Support Turned-Out Hold",
-      "file": "exercises/ring-support-turned-out-hold.md"
-    },
-    {
-      "slug": "tuck-front-lever-row",
-      "title": "Tuck Front-Lever Row",
-      "file": "exercises/tuck-front-lever-row.md"
-    },
-    {
-      "slug": "v-ups",
-      "title": "V-Ups",
-      "file": "exercises/v-ups.md"
     },
     {
       "slug": "wide-grip-inverted-row",
@@ -96,6 +31,21 @@
     }
   ],
   "mapping": [
+    {
+      "slug": "archer-pull-ups",
+      "repoTitle": "Archer or Typewriter Pull-Ups",
+      "hevyId": "cd92a721-419c-4693-9362-f642a5244143",
+      "hevyTitle": "Archer Pull-Up",
+      "matchScore": 1
+    },
+    {
+      "slug": "back-lever-tuck-hold",
+      "repoTitle": "Back Lever Tuck Hold",
+      "hevyId": "0E608350",
+      "hevyTitle": "Front Lever Hold",
+      "matchScore": 0.55,
+      "proxyNote": "Power Week Pull B: log back lever tuck on front-lever hold template; see routine notes."
+    },
     {
       "slug": "band-face-pull",
       "repoTitle": "Band Face Pull",
@@ -111,11 +61,34 @@
       "matchScore": 1
     },
     {
+      "slug": "band-overhead-press",
+      "repoTitle": "Band Overhead Press",
+      "hevyId": "878CD1D0",
+      "hevyTitle": "Shoulder Press (Dumbbell)",
+      "matchScore": 0.62,
+      "proxyNote": "Conditioning day: log band overhead press on dumbbell shoulder press template (zero or nominal load)."
+    },
+    {
       "slug": "band-triceps-pressdown",
       "repoTitle": "Band Triceps Pressdown",
       "hevyId": "fc552e96-bf21-47e9-9ddd-36468f8c125d",
       "hevyTitle": "Band Triceps Pressdown",
       "matchScore": 1
+    },
+    {
+      "slug": "bar-muscle-up",
+      "repoTitle": "Bar Muscle Up",
+      "hevyId": "9F9C164B",
+      "hevyTitle": "Muscle Up",
+      "matchScore": 0.88
+    },
+    {
+      "slug": "bodyweight-split-squat",
+      "repoTitle": "Bodyweight Split Squat",
+      "hevyId": "5E1A7777",
+      "hevyTitle": "Lunge",
+      "matchScore": 0.7,
+      "proxyNote": "Conditioning: alternating split squat pattern logged as lunge."
     },
     {
       "slug": "decline-ring-push-up",
@@ -146,10 +119,24 @@
       "matchScore": 1
     },
     {
+      "slug": "hollow-body-rock",
+      "repoTitle": "Hollow Body Rock",
+      "hevyId": "970ADF87",
+      "hevyTitle": "Hollow Rock",
+      "matchScore": 0.85
+    },
+    {
       "slug": "iron-cross-hold-progression",
       "repoTitle": "Iron Cross Hold Progression",
       "hevyId": "9f7e20e1-81a6-4621-b715-701c60ac75b9",
       "hevyTitle": "Iron Cross Hold Progression",
+      "matchScore": 1
+    },
+    {
+      "slug": "jumping-jacks",
+      "repoTitle": "Jumping Jacks",
+      "hevyId": "991833C2",
+      "hevyTitle": "Jumping Jack",
       "matchScore": 1
     },
     {
@@ -160,11 +147,25 @@
       "matchScore": 1
     },
     {
+      "slug": "nordic-curl",
+      "repoTitle": "Nordic Curl",
+      "hevyId": "108D7A14",
+      "hevyTitle": "Nordic Hamstrings Curls",
+      "matchScore": 0.9
+    },
+    {
       "slug": "overhead-band-triceps-extension",
       "repoTitle": "Overhead Band Triceps Extension",
       "hevyId": "B5EFBF9C",
       "hevyTitle": "Overhead Triceps Extension (Cable)",
       "matchScore": 0.9655172413793104
+    },
+    {
+      "slug": "pike-handstand-push-up",
+      "repoTitle": "Pike Handstand Push-Up",
+      "hevyId": "a416a14b-519b-4a6a-b7b6-949c3fb25997",
+      "hevyTitle": "Pike Handstand Push-Up (elevated feet)",
+      "matchScore": 1
     },
     {
       "slug": "pike-push-up",
@@ -179,6 +180,14 @@
       "hevyId": "3FF6A22E",
       "hevyTitle": "Pistol Squat",
       "matchScore": 1
+    },
+    {
+      "slug": "ring-archer-push-up",
+      "repoTitle": "Ring Archer Push-Up",
+      "hevyId": "AEA56BDC",
+      "hevyTitle": "Ring Push Up",
+      "matchScore": 0.65,
+      "proxyNote": "Push B: archer variation logged on ring push-up template; see routine notes."
     },
     {
       "slug": "ring-body-saw",
@@ -209,6 +218,14 @@
       "matchScore": 1
     },
     {
+      "slug": "ring-support-turned-out-hold",
+      "repoTitle": "Ring Support Turned-Out Hold",
+      "hevyId": "BE3615CF",
+      "hevyTitle": "Handstand Hold",
+      "matchScore": 0.5,
+      "proxyNote": "Push B: rings turned-out support hold logged on handstand hold template; see routine notes."
+    },
+    {
       "slug": "rings-hamstring-curl",
       "repoTitle": "Rings Hamstring Curl",
       "hevyId": "b5440ed7-2280-4148-a624-fef61482edba",
@@ -220,6 +237,21 @@
       "repoTitle": "Straight Arm Band Pulldown",
       "hevyId": "ccbbde07-7590-427c-a455-7885ce6ef422",
       "hevyTitle": "Straight Arm Band Pulldown",
+      "matchScore": 1
+    },
+    {
+      "slug": "tuck-front-lever-row",
+      "repoTitle": "Tuck Front-Lever Row",
+      "hevyId": "425805F4",
+      "hevyTitle": "Inverted Row",
+      "matchScore": 0.58,
+      "proxyNote": "Pull A: tuck front-lever row logged on inverted row template; see routine notes."
+    },
+    {
+      "slug": "v-ups",
+      "repoTitle": "V-Ups",
+      "hevyId": "6BE68B62",
+      "hevyTitle": "V Up",
       "matchScore": 1
     },
     {
