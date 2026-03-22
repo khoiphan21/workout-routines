@@ -93,14 +93,86 @@ export async function fetchAllPaginated(path, params = {}) {
 }
 
 /**
+ * Lazy-load fetch (for use with dynamic import)
+ */
+async function hevyFetch(url, options = {}) {
+  const res = await fetch(url, { ...options, headers: { ...getHevyHeaders(), ...options.headers } });
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Hevy API failed (${res.status}): ${text}`);
+  }
+  return res.json();
+}
+
+/**
  * Fetch a single resource by ID.
  */
 export async function fetchById(path, id) {
   const url = `${HEVY_BASE}/${path}/${id}`;
-  const res = await fetch(url, { headers: getHevyHeaders() });
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Hevy API ${path}/${id} failed (${res.status}): ${text}`);
-  }
-  return res.json();
+  return hevyFetch(url);
+}
+
+/**
+ * Create a routine via Hevy API.
+ * @param {object} payload - { title, exercises, folderId?, notes? }
+ * @returns {Promise<object>} Created routine
+ */
+export async function createRoutine(payload) {
+  const body = {
+    routine: {
+      title: payload.title,
+      notes: payload.notes ?? '',
+      folder_id: payload.folderId ?? null,
+      exercises: (payload.exercises ?? []).map((ex) => ({
+        exercise_template_id: ex.exerciseTemplateId,
+        rest_seconds: ex.restSeconds ?? 60,
+        notes: ex.notes ?? null,
+        superset_id: ex.supersetId ?? null,
+        sets: (ex.sets ?? []).map((s) => {
+          const set = { type: s.type ?? 'normal' };
+          if (s.reps != null) set.reps = s.reps;
+          if (s.durationSeconds != null) set.duration_seconds = s.durationSeconds;
+          if (s.weightKg != null) set.weight_kg = s.weightKg;
+          return set;
+        }),
+      })),
+    },
+  };
+
+  const data = await hevyFetch(`${HEVY_BASE}/routines`, {
+    method: 'POST',
+    body: JSON.stringify(body),
+  });
+  const routine = data?.routine;
+  return Array.isArray(routine) ? routine[0] : data;
+}
+
+/**
+ * Update an existing routine.
+ */
+export async function updateRoutine(routineId, payload) {
+  const body = {
+    routine: {
+      title: payload.title,
+      notes: payload.notes ?? '',
+      exercises: (payload.exercises ?? []).map((ex) => ({
+        exercise_template_id: ex.exerciseTemplateId,
+        rest_seconds: ex.restSeconds ?? 60,
+        notes: ex.notes ?? null,
+        superset_id: ex.supersetId ?? null,
+        sets: (ex.sets ?? []).map((s) => {
+          const set = { type: s.type ?? 'normal' };
+          if (s.reps != null) set.reps = s.reps;
+          if (s.durationSeconds != null) set.duration_seconds = s.durationSeconds;
+          if (s.weightKg != null) set.weight_kg = s.weightKg;
+          return set;
+        }),
+      })),
+    },
+  };
+
+  return hevyFetch(`${HEVY_BASE}/routines/${routineId}`, {
+    method: 'PUT',
+    body: JSON.stringify(body),
+  });
 }
