@@ -114,16 +114,19 @@ for (const [, items] of directoryGroups) {
   items.sort((a, b) => a.text.localeCompare(b.text));
 }
 
-const sectionNavLinks = Array.from(directoryGroups.entries())
-  .sort(([a], [b]) => a.localeCompare(b))
+const navSectionOrder = ['equipment', 'exercises', 'hevy', 'research', 'plans', 'programs'];
+const sectionNavLinks = navSectionOrder
+  .filter((section) => directoryGroups.has(section) && section !== 'libs')
   .slice(0, 4)
-  .map(([section, items]) => {
+  .map((section) => {
+    const items = directoryGroups.get(section) ?? [];
     const indexLink = `/${section}/`;
     const link =
       items.find((item) => item.link === indexLink)?.link ?? items[0]?.link ?? '/';
     return {
       text: titleFromFileName(section),
       link,
+      target: '_self',
     };
   });
 

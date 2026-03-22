@@ -5,7 +5,12 @@
   "scripts": {
     "docs:dev": "vitepress dev .",
     "docs:build": "vitepress build .",
-    "docs:preview": "vitepress preview ."
+    "docs:preview": "vitepress preview .",
+    "hevy:fetch": "node scripts/hevy-fetch-all.mjs",
+    "hevy:fetch-exercises": "node scripts/hevy-fetch-exercise-templates.mjs",
+    "hevy:fetch-routines": "node scripts/hevy-fetch-routines.mjs",
+    "hevy:fetch-folders": "node scripts/hevy-fetch-routine-folders.mjs",
+    "hevy:map-exercises": "node scripts/hevy-map-exercises.mjs"
   },
   "repository": {
     "type": "git",

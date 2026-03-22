@@ -1,0 +1,864 @@
+{
+  "fetchedAt": "2026-03-16T22:03:09.249Z",
+  "count": 4,
+  "data": [
+    {
+      "id": "34ae88da-9701-440f-90eb-f0eabba0d149",
+      "title": "Power Week - Day 2: Pull A",
+      "folder_id": null,
+      "updated_at": "2025-09-24T00:12:06.244Z",
+      "created_at": "2025-09-17T09:19:54.685Z",
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Warmup: Pull - Power Week",
+          "notes": "🎯 Program purpose:\n\n- Strength first (heavy triples).\n- Calisthenics skill strength second (holds and technical pulls).\n- Hypertrophy last (pump and control).\n- Quality before quantity. Progress only when technique is consistent.\n\n🔗 Superset pairs (rest 60s between exercises):\n\n- **Push A:**\n  - Decline Ring Push-up ↔ Ring Flye\n  - Band Lateral Raise ↔ Band Triceps Pressdown\n- **Pull A:**\n  - Front Lever Hold ↔ Rings Hamstring Curl\n  - Feet-Elevated Inverted Row ↔ Straight-Arm Band Pulldown\n- **Push B:**\n  - Pike Push-up ↔ Ring Push-Up\n  - Band Lateral Raise ↔ Overhead Band Triceps Extension\n- **Pull B:**\n  - Back Lever Tuck Hold ↔ Nordic Curl\n  - Wide-Grip Inverted Row ↔ Band High-to-Low Row\n\n🔥 Intensity guidance:\n\n- **Power triples:** work at ~85–90% of today’s best triple with 1 rep in reserve on the first 2 work sets.\n- **Hypertrophy sets:** aim for RPE 8–9, which is 1–2 reps in reserve.\n- **Timed holds:** choose a level that allows strong positions for the whole set time with 1–2 seconds in reserve.\n\n🤝 Shared scaling for partners:\n\n- Choose assistance or load so the final 2 reps (or final seconds) are challenging with clean technique.\n- Match range of motion and tempo first, then adjust load, band tension, or leverage.\n\n🛡️ General safety:\n\n- Keep shoulders depressed and retracted on all pulling movements.\n- On presses, keep shoulders packed and avoid excessive flare.\n- Keep ribs down on straight arm and core work to avoid lower back extension.\n- Stop a set if technique breaks down.\n\n🚀 General warm up (every day):\n\n- Band Pull-Aparts — 1x10\n- Band Dislocates — 1x10\n- Banded Scapular Protraction — 1x10\n- Banded Shoulder External Rotation — 1x10\n- Banded One-Arm Triceps Overhead Press — 1x10 per side\n- Banded RDLs — 1x10\n- Banded Bent-Over Rows — 1x10\n- Banded Squat to Press — 1x10\n- Quadruped Thoracic Rotation — 1x10 per side\n\n📈 Power lift ramp-up sets (e.g. Weighted Pull-ups/Dips):\n\n- Warm up set 1: Bodyweight 1x6.\n- Warm up set 2: Light weight or band assistance 1x3.\n- Warm up set 3: ~80% of work weight 1x2.\n- Warm up set 4: ~90% of work weight 1x1.\n- Then perform work sets (e.g., 3x3) with 3–4 min rest.\n\n🔄 If you attempt a progression and cannot meet the target today (applies to all exercises):\n\n**_Strength prescriptions (for example 3x3 or 4x5)_**\n\n- If you miss early (only set 1 completes): reduce load by 2.5–5 kg or increase assistance and finish the remaining sets at the easier level with perfect form.\n- If you miss only the final set: rest an extra 60–90s and try again. If still short, reduce load 2.5–5 kg (or add a small band) and complete the set.\n- If bar speed is very slow or form breaks: drop 5–10% load immediately and complete quality sets.\n- You may use clusters to complete a set without grinding: split a triple as 2+1 with 20–30s between mini-sets (counts as 1 set).\n- Consider 1 back-off set at the end: reduce 5–10% and perform 1x3–5 with crisp form.\n\n**_Hypertrophy rep ranges (for example 3x10 or 3x12)_**\n\n- If you cannot hit the target on later sets, keep the same weight and stop 1 rep short of form breakdown, then increase rest by 15–30s next time.\n- If you are under the target by >2 reps across the session, reduce load next time by 2.5–5% and rebuild.\n\n**_Timed holds (for example 3x12s)_**\n\n- If you cannot hold the target seconds with clean position, shorten each set to your minimum for the day or regress leverage (for example advanced tuck → tuck).\n- If you are short by >2–3s on multiple sets, repeat the same level next time or regress leverage slightly.\n\n🗓️ Next session rules after a miss:\n\n- If you were within 1 rep (or 2–5s on holds) of the total target across the session, repeat the same load/level next time.\n- If you were short by more than that, reduce next session by 2.5–5 kg (or easier leverage/band) to secure clean volume, then climb again.\n- If you fail the same target 2 sessions in a row, deload 7–10% (or easier leverage and slightly longer rests) for 1 session, then reattempt.\n",
+          "exercise_template_id": "b33075d5-4d97-4f79-b530-70eb75498eb3",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 468,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Pull Up (Weighted)",
+          "notes": "⚙️ Technique:\n- Start from a dead hang, legs still, chin clearly over the bar, no kipping.\n- Brace ribs down and keep shoulders packed down and back throughout.\n\n🚀 Warm up sequence (before work sets):\n- Bodyweight 1x6\n- +5–10 kg 1x3\n- ~80% of work weight 1x2\n- ~90% of work weight 1x1\n\n🎯 Work prescription:\n- 3x3\n- Rest 3–4 min between work sets\n- Aim to finish with 0–1 reps in reserve on the first 2 sets and perfect technique on all reps\n\n📈 Progression:\n- When you complete 3x3 with clean reps, increase the work weight by +2.5 kg next pull day\n- Use microplates (1.25 kg per side) if available\n\n✅ Progress when:\n- Chin clearly clears the bar on every rep, no leg kick, and you can pause 1–2s at the top on the final rep of each set\n",
+          "exercise_template_id": "729237D1",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 6,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "warmup",
+              "weight_kg": 10,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "warmup",
+              "weight_kg": 15,
+              "reps": 2,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "warmup",
+              "weight_kg": 20,
+              "reps": 1,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 4,
+              "type": "normal",
+              "weight_kg": 25,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 5,
+              "type": "normal",
+              "weight_kg": 25,
+              "reps": 2,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 6,
+              "type": "normal",
+              "weight_kg": 25,
+              "reps": 2,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 180
+        },
+        {
+          "index": 2,
+          "title": "Front Lever Hold (Rings)",
+          "notes": "⚙️ Technique:\n- Hollow body, straight elbows, hips in line with shoulders.\n- Depress shoulder blades and keep them stable.\n\n🎯 Work prescription:\n- 3x12s\n- Superset pairing: alternate with Rings Hamstring Curl; rest 60s between exercises\n\n📈 5 progression levels:\n- Level 1: 3x12s tuck hold.\n- Level 2: 3x12s advanced tuck (open hips).\n- Level 3: 3x10s one leg per side.\n- Level 4: 3x8s straddle.\n- Level 5: 3x8s full lever.\n\n✅ Progress when:\n- You hold the full target time with flat hips, locked elbows, and no shoulder elevation.\n",
+          "exercise_template_id": "abc04808-44c4-4780-9128-7d0ed0042a91",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 9,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 3,
+          "title": "Hamstring Curl (Rings)",
+          "notes": "⚙️ Technique:\n- Keep hips high, squeeze glutes, control the lowering phase for 2–3s.\n\n🎯 Work prescription:\n- 3x8\n- Superset pairing: alternate with Front Lever Hold; rest 60s between exercises\n\n📈 5 progression levels:\n- Level 1: 3x8 short lever with knees bent and light band assist.\n- Level 2: 3x8 standard 2-leg curl with hips high.\n- Level 3: 3x8 extended lever with feet further from hips.\n- Level 4: 3x8 with 3s lowering, hips high.\n- Level 5: 3x8 single-leg with light band assist per side.\n\n✅ Progress when:\n- Hips remain tall through every rep and the last 2 reps are controlled without hip drop.\n",
+          "exercise_template_id": "b5440ed7-2280-4148-a624-fef61482edba",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 60
+        },
+        {
+          "index": 4,
+          "title": "Muscle Up",
+          "notes": "⚙️ Technique:\n- Overhand grip slightly wider than shoulder width.\n- Pull explosively to sternum or upper chest without leg kick.\n- Fast wrist turnover as the bar reaches chest height, then press through to straight bar dip lockout.\n- Keep ribs down; avoid “chicken wing” (one elbow over first). Aim for both elbows together over the bar.\n\n🎯 Work prescription:\n- Warm up 1x3 at an easier variation (for example chest-to-bar pull or light band assist)\n- Then 3x3\n- Rest 2 min between sets\n\n📈 5 progression levels (all 3x3 unless noted):\n- Level 1: 3x3 chest-to-bar pull-ups (sternum height).\n- Level 2: 3x3 explosive chest-over-bar pulls.\n- Level 3: 3x3 band-assisted bar muscle ups.\n- Level 4: 3x6s controlled negatives from the top.\n- Level 5: 3x3 strict bar muscle ups.\n\n✅ Progress when:\n- Both elbows clear together, no kip, smooth turnover, and full lockout each rep.\n\n🪜 Scaling tools:\n- Adjust band thickness or use a slightly higher box for assisted starts, then remove assistance gradually.\n- Narrow grip slightly if elbows flare; think “pull to ribs, then push over”.\n- Use isometric holds at the top of pull (bar at chest) for 3–5s to improve turnover confidence.\n",
+          "exercise_template_id": "9F9C164B",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 1,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 2,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 2,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 120
+        },
+        {
+          "index": 5,
+          "title": "Feet-Elevated Inverted Row",
+          "notes": "⚙️ Technique:\n\n- Set up a bar at waist height.\n- Lie underneath the bar and grab it with an overhand grip, slightly wider than your shoulders.\n- Place your feet on an elevated surface.\n- Pull your chest towards the bar, keeping your body in a straight line.\n- Lower yourself back down with control.\n\n🎯 Work prescription:\n\n- 3x10\n- Superset with Straight-Arm Band Pulldown.\n\n📈 5 progression levels:\n\n- Level 1: 3x10 inverted rows with feet on the floor.\n- Level 2: 3x10 inverted rows with feet elevated.\n- Level 3: 3x10 inverted rows with feet elevated and a pause at the top.\n- Level 4: 3x10 weighted inverted rows with feet elevated.\n- Level 5: 3x10 archer rows with feet elevated.\n\n✅ Progress when:\n\n- You can complete all prescribed reps with a full range of motion.\n\n🪜 Scaling tools:\n\n- Adjust the height of the bar to make the exercise easier or harder.\n- Bend your knees to make the exercise easier.\n- Use a resistance band for assistance.\n",
+          "exercise_template_id": "a83dde48-834f-4422-a049-db17db6c2507",
+          "superset_id": 1,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 7,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 6,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 6,
+          "title": "Straight Arm Band Pulldown",
+          "notes": "⚙️ Technique:\n- Slight hip hinge, ribs down, long arms with a soft elbow. Pull to the thighs without using the lower back.\n\n🎯 Work prescription:\n- 3x15\n- Superset pairing: alternate with Dumbbell Row (1-arm bench supported); rest 60s between exercises\n\n📈 5 progression levels:\n- Level 1: 3x15 light band with 2s squeeze near the hips.\n- Level 2: 3x15 medium band with 2s squeeze.\n- Level 3: 3x15 step further from the anchor to increase tension.\n- Level 4: 3x12 with 3s lowering.\n- Level 5: 3x12 heavier band or double up 2 light bands.\n\n✅ Progress when:\n- You keep ribs down and feel lats doing the work without lower back extension.\n\n🪜 Scaling tools:\n- Adjust stance distance and band thickness. Add isometric hold at bottom if needed.\n",
+          "exercise_template_id": "ccbbde07-7590-427c-a455-7885ce6ef422",
+          "superset_id": 1,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 60
+        },
+        {
+          "index": 7,
+          "title": "Ring Body Saw",
+          "notes": "⚙️ Technique:\n\n- Start in a plank position with your feet in the rings.\n- Extend your body backwards by pushing through your forearms.\n- Pull your body back to the starting position.\n- Keep your core engaged and your body in a straight line.\n\n🎯 Work prescription:\n\n- 3x12\n\n📈 5 progression levels:\n\n- Level 1: 3x12 plank on elbows.\n- Level 2: 3x12 plank with feet in rings.\n- Level 3: 3x12 body saw with a small range of motion.\n- Level 4: 3x12 body saw with a full range of motion.\n- Level 5: 3x12 body saw with a weight vest.\n\n✅ Progress when:\n\n- You can complete all prescribed reps without your hips sagging.\n\n🪜 Scaling tools:\n\n- Perform the exercise on your knees to make it easier.\n- Reduce the range of motion to make it easier.\n- Use a slider or a towel on a smooth surface as an alternative to rings.\n",
+          "exercise_template_id": "66ae8bf1-7e65-4b56-9201-2cbdad0d8953",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 5,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 60
+        }
+      ]
+    },
+    {
+      "id": "56f0ba52-32c4-4b8e-bc5e-8d7cebad42b6",
+      "title": "Power Week - Day 1: Push A",
+      "folder_id": null,
+      "updated_at": "2025-09-23T08:33:52.361Z",
+      "created_at": "2025-09-21T12:43:00.028Z",
+      "exercises": [
+        {
+          "index": 0,
+          "title": "General Notes & Warm-Up ",
+          "notes": "🎯 Program purpose:\n\n- Strength first (heavy triples).\n- Calisthenics skill strength second (holds and technical pulls).\n- Hypertrophy last (pump and control).\n- Quality before quantity. Progress only when technique is consistent.\n\n🔗 Superset pairs (rest 60s between exercises):\n\n- **Push A:**\n  - Decline Ring Push-up ↔ Ring Flye\n  - Band Lateral Raise ↔ Band Triceps Pressdown\n- **Pull A:**\n  - Front Lever Hold ↔ Rings Hamstring Curl\n  - Feet-Elevated Inverted Row ↔ Straight-Arm Band Pulldown\n- **Push B:**\n  - Pike Push-up ↔ Ring Push-Up\n  - Band Lateral Raise ↔ Overhead Band Triceps Extension\n- **Pull B:**\n  - Back Lever Tuck Hold ↔ Nordic Curl\n  - Wide-Grip Inverted Row ↔ Band High-to-Low Row\n\n🔥 Intensity guidance:\n\n- **Power triples:** work at ~85–90% of today’s best triple with 1 rep in reserve on the first 2 work sets.\n- **Hypertrophy sets:** aim for RPE 8–9, which is 1–2 reps in reserve.\n- **Timed holds:** choose a level that allows strong positions for the whole set time with 1–2 seconds in reserve.\n\n🤝 Shared scaling for partners:\n\n- Choose assistance or load so the final 2 reps (or final seconds) are challenging with clean technique.\n- Match range of motion and tempo first, then adjust load, band tension, or leverage.\n\n🛡️ General safety:\n\n- Keep shoulders depressed and retracted on all pulling movements.\n- On presses, keep shoulders packed and avoid excessive flare.\n- Keep ribs down on straight arm and core work to avoid lower back extension.\n- Stop a set if technique breaks down.\n\n🚀 General warm up (every day):\n\n- Band Pull-Aparts — 1x10\n- Band Dislocates — 1x10\n- Banded Scapular Protraction — 1x10\n- Banded Shoulder External Rotation — 1x10\n- Banded One-Arm Triceps Overhead Press — 1x10 per side\n- Banded RDLs — 1x10\n- Banded Bent-Over Rows — 1x10\n- Banded Squat to Press — 1x10\n- Quadruped Thoracic Rotation — 1x10 per side\n\n📈 Power lift ramp-up sets (e.g. Weighted Pull-ups/Dips):\n\n- Warm up set 1: Bodyweight 1x6.\n- Warm up set 2: Light weight or band assistance 1x3.\n- Warm up set 3: ~80% of work weight 1x2.\n- Warm up set 4: ~90% of work weight 1x1.\n- Then perform work sets (e.g., 3x3) with 3–4 min rest.\n\n🔄 If you attempt a progression and cannot meet the target today (applies to all exercises):\n\n**_Strength prescriptions (for example 3x3 or 4x5)_**\n\n- If you miss early (only set 1 completes): reduce load by 2.5–5 kg or increase assistance and finish the remaining sets at the easier level with perfect form.\n- If you miss only the final set: rest an extra 60–90s and try again. If still short, reduce load 2.5–5 kg (or add a small band) and complete the set.\n- If bar speed is very slow or form breaks: drop 5–10% load immediately and complete quality sets.\n- You may use clusters to complete a set without grinding: split a triple as 2+1 with 20–30s between mini-sets (counts as 1 set).\n- Consider 1 back-off set at the end: reduce 5–10% and perform 1x3–5 with crisp form.\n\n**_Hypertrophy rep ranges (for example 3x10 or 3x12)_**\n\n- If you cannot hit the target on later sets, keep the same weight and stop 1 rep short of form breakdown, then increase rest by 15–30s next time.\n- If you are under the target by >2 reps across the session, reduce load next time by 2.5–5% and rebuild.\n\n**_Timed holds (for example 3x12s)_**\n\n- If you cannot hold the target seconds with clean position, shorten each set to your minimum for the day or regress leverage (for example advanced tuck → tuck).\n- If you are short by >2–3s on multiple sets, repeat the same level next time or regress leverage slightly.\n\n🗓️ Next session rules after a miss:\n\n- If you were within 1 rep (or 2–5s on holds) of the total target across the session, repeat the same load/level next time.\n- If you were short by more than that, reduce next session by 2.5–5 kg (or easier leverage/band) to secure clean volume, then climb again.\n- If you fail the same target 2 sessions in a row, deload 7–10% (or easier leverage and slightly longer rests) for 1 session, then reattempt.\n",
+          "exercise_template_id": "2e6c1b67-6b65-4467-a325-7e718fefc65a",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 1,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Weighted Dip",
+          "notes": "⚙️ Technique:\n\n- Keep your chest up and shoulders down and back.\n- Lower yourself until your shoulders are below your elbows.\n- Press back up to the starting position, fully extending your arms.\n\n🎯 Work prescription:\n\n- 3x3 (belted)\n- Rest 3-4 min between sets.\n\n📈 5 progression levels:\n\n- Level 1: 3x5 bodyweight dips with a 2-second pause at the bottom.\n- Level 2: 3x3 bodyweight dips with a 2-second pause at the bottom.\n- Level 3: 3x5 with added weight.\n- Level 4: 3x3 with added weight.\n- Level 5: 3x3 with heavier weight, focusing on explosive power.\n\n✅ Progress when:\n\n- You can complete all prescribed reps with clean form and full range of motion.\n\n🪜 Scaling tools:\n\n- Use a resistance band for assistance if you cannot complete bodyweight reps.\n- Reduce the weight or use band assistance if your form breaks down.\n- Focus on a full range of motion before adding weight.\n",
+          "exercise_template_id": "f38313ef-01ce-4d91-8700-e12b2d7e9f84",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 6,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "warmup",
+              "weight_kg": 10,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "warmup",
+              "weight_kg": 15,
+              "reps": 2,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "warmup",
+              "weight_kg": 20,
+              "reps": 1,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 4,
+              "type": "normal",
+              "weight_kg": 25,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 5,
+              "type": "normal",
+              "weight_kg": 25,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 6,
+              "type": "normal",
+              "weight_kg": 25,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 180
+        },
+        {
+          "index": 2,
+          "title": "Iron Cross Hold Progression",
+          "notes": "⚙️ Technique:\n\n- Start in a ring support position with arms straight and shoulders depressed.\n- Keep your body hollow and core engaged; avoid arching your back.\n- Slowly lower your arms out to the sides, maintaining straight elbows.\n- Go only as low as you can control without pain. The goal is a horizontal line with the body for a full Iron Cross.\n\n🎯 Work prescription:\n\n- 3x10 s holds at your current progression level.\n- Rest 2-3 minutes between sets.\n\n📈 5 progression levels:\n\n- Level 1: 3x10s Ring Support Hold with arms straight down.\n- Level 2: 3x10s hold with arms flared out to a 15-degree angle.\n- Level 3: 3x10s hold with arms flared out to a 30-degree angle.\n- Level 4: 3x10s hold with arms flared out to a 45-degree angle (halfway to full cross).\n- Level 5: 3x10s Band-Supported Iron Cross (band under hips/thighs for assistance).\n\n✅ Progress when:\n\n- You can complete all prescribed holds at a given angle without shoulder elevation or bending your arms.\n\n🪜 Scaling tools:\n\n- Adjust band tension for the Level 5 progression. Use a thicker band for more support.\n- Reduce hold times if you cannot maintain the position with good form.\n- Focus on scapular depression (shoulders down) at all times.\n",
+          "exercise_template_id": "9f7e20e1-81a6-4621-b715-701c60ac75b9",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 10,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 10,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 7,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 120
+        },
+        {
+          "index": 3,
+          "title": "Pike Handstand Push-Up (elevated feet)",
+          "notes": "⚙️ Technique:\n\n- Place your feet on an elevated surface and your hands on the floor.\n- Form an inverted 'V' with your body, keeping your hips high.\n- Lower your head towards the floor, keeping your elbows tucked in.\n- Push back up to the starting position.\n\n🎯 Work prescription:\n\n- 3x3 (elevated feet)\n- Rest as needed.\n\n📈 5 progression levels:\n\n- Level 1: 3x3 pike push-ups with feet on the floor.\n- Level 2: 3x5 pike push-ups with feet on the floor.\n- Level 3: 3x3 pike push-ups with feet elevated.\n- Level 4: 3x5 pike push-ups with feet elevated.\n- Level 5: 3x3 handstand push-ups against a wall.\n\n✅ Progress when:\n\n- You can complete all prescribed reps with a full range of motion and good form.\n\n🪜 Scaling tools:\n\n- Increase the height of the elevated surface to make the exercise harder.\n- Decrease the height of the elevated surface to make the exercise easier.\n- Place your hands on an elevated surface to reduce the range of motion.\n",
+          "exercise_template_id": "a416a14b-519b-4a6a-b7b6-949c3fb25997",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 5,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 5,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 5,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 120
+        },
+        {
+          "index": 4,
+          "title": "Pistol Squat",
+          "notes": "⚙️ Technique:\n\n- Stand on one leg with the other leg extended straight out in front of you.\n- Keep your back straight, chest up, and core engaged.\n- Lower yourself down until your hamstring rests on your calf, keeping your heel on the ground.\n- Drive through your heel to return to the starting position.\n\n🎯 Work prescription:\n\n- 3x8 per side\n- Superset with Ring Flye.\n\n📈 5 progression levels:\n\n- Level 1: 3x10 assisted pistol squats, holding onto a support.\n- Level 2: 3x8 box pistol squats, lowering to a box or bench.\n- Level 3: 3x8 pistol squat negatives, lowering slowly and using both legs to stand up.\n- Level 4: 3x8 full pistol squats with a counterweight held in front.\n- Level 5: 3x8 full bodyweight pistol squats.\n\n✅ Progress when:\n\n- You can complete all prescribed reps on both sides with stable balance and full depth.\n\n🪜 Scaling tools:\n\n- Hold a light weight in front of you as a counterbalance.\n- Use a doorframe or suspension trainer for assistance.\n- Reduce the range of motion by squatting to a higher surface.\n",
+          "exercise_template_id": "3FF6A22E",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 5,
+          "title": "Ring Flye",
+          "notes": "⚙️ Technique:\n\n- Start in a push-up position with your hands on the rings.\n- Lower your body by allowing your arms to extend out to the sides.\n- Keep a slight bend in your elbows.\n- Squeeze your chest to bring your hands back together.\n\n🎯 Work prescription:\n\n- 3x12\n- Superset with Decline Ring Push-up.\n\n📈 5 progression levels:\n\n- Level 1: 3x12 with feet on the floor and a high ring height.\n- Level 2: 3x12 with feet on the floor and a medium ring height.\n- Level 3: 3x12 with feet on the floor and a low ring height.\n- Level 4: 3x12 with feet elevated and a low ring height.\n- Level 5: 3x12 with feet elevated and a low ring height, with a pause at the bottom.\n\n✅ Progress when:\n\n- You can complete all prescribed reps with good form and without your hips sagging.\n\n🪜 Scaling tools:\n\n- Adjust the height of the rings to make the exercise easier or harder.\n- Adjust the height of your feet to make the exercise easier or harder.\n- Perform the exercise on your knees to reduce the difficulty.\n",
+          "exercise_template_id": "f0110aa1-bbd7-4d89-8347-ad5ed4734829",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 7,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 9,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 60
+        },
+        {
+          "index": 6,
+          "title": "Band Lateral Raise",
+          "notes": "⚙️ Technique:\n\n- Stand on a resistance band with your feet shoulder-width apart.\n- Hold the handles of the band with your arms at your sides.\n- Raise your arms out to the sides until they are parallel to the floor.\n- Lower your arms back to the starting position in a controlled manner.\n\n🎯 Work prescription:\n\n- 3x15\n- Superset with Band Triceps Pressdown.\n\n📈 5 progression levels:\n\n- Level 1: 3x15 with a light resistance band.\n- Level 2: 3x15 with a medium resistance band.\n- Level 3: 3x15 with a heavy resistance band.\n- Level 4: 3x15 with a pause at the top of the movement.\n- Level 5: 3x15 with a slow and controlled tempo.\n\n✅ Progress when:\n\n- You can complete all prescribed reps without using momentum to lift the band.\n\n🪜 Scaling tools:\n\n- Use a lighter or heavier resistance band to adjust the difficulty.\n- Perform the exercise one arm at a time to focus on form.\n- Stand on the band with a wider or narrower stance to adjust the tension.\n",
+          "exercise_template_id": "ba0dbba0-26a8-4211-b2b2-4d6ed06c3e15",
+          "superset_id": 1,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 13,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 7,
+          "title": "Band Triceps Pressdown",
+          "notes": "⚙️ Technique:\n\n- Attach a resistance band to a high anchor point.\n- Grab the band with both hands and pull it down until your arms are fully extended.\n- Keep your elbows close to your body.\n- Squeeze your triceps at the bottom of the movement.\n- Slowly return to the starting position.\n\n🎯 Work prescription:\n\n- 3x15\n- Superset with Band Lateral Raise.\n\n📈 5 progression levels:\n\n- Level 1: 3x15 with a light resistance band.\n- Level 2: 3x15 with a medium resistance band.\n- Level 3: 3x15 with a heavy resistance band.\n- Level 4: 3x15 with a pause at the bottom of the movement.\n- Level 5: 3x15 with a slow and controlled tempo.\n\n✅ Progress when:\n\n- You can complete all prescribed reps without your shoulders rounding forward.\n\n🪜 Scaling tools:\n\n- Use a lighter or heavier resistance band to adjust the difficulty.\n- Perform the exercise one arm at a time to focus on form.\n- Adjust your distance from the anchor point to change the tension.\n",
+          "exercise_template_id": "fc552e96-bf21-47e9-9ddd-36468f8c125d",
+          "superset_id": 1,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 60
+        },
+        {
+          "index": 8,
+          "title": "Hanging Knee Raises",
+          "notes": "⚙️ Technique:\n\n- Hang from a pull-up bar with an overhand grip.\n- Raise your knees towards your chest, keeping your legs together.\n- Lower your legs back to the starting position in a controlled manner.\n- Avoid swinging or using momentum.\n\n🎯 Work prescription:\n\n- 3x15\n\n📈 5 progression levels:\n\n- Level 1: 3x15 lying knee raises.\n- Level 2: 3x15 captain's chair knee raises.\n- Level 3: 3x15 hanging knee raises.\n- Level 4: 3x15 hanging leg raises (straight legs).\n- Level 5: 3x15 toes-to-bar.\n\n✅ Progress when:\n\n- You can complete all prescribed reps without swinging.\n\n🪜 Scaling tools:\n\n- Perform the exercise with a bent-knee position to make it easier.\n- Use a resistance band for assistance.\n- Perform the exercise with a slower tempo to increase the difficulty.\n",
+          "exercise_template_id": "19477b53-d27f-41b5-96e8-8c3da6db1b17",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 5,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 60
+        }
+      ]
+    },
+    {
+      "id": "e33970ec-9a13-4177-99f0-5a3d27428db4",
+      "title": "Power - Weighted Pull Up",
+      "folder_id": null,
+      "updated_at": "2026-01-04T23:32:44.211Z",
+      "created_at": "2026-01-04T22:39:55.893Z",
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Warmup: Pull - Power Week",
+          "notes": "🔥 Intensity guidance:\n\n- **Power triples:** work at ~85–90% of today’s best triple with 1 rep in reserve on the first 2 work sets.\n\n🛡️ General safety:\n\n- Keep shoulders depressed and retracted on all pulling movements.\n\n🚀 General warm up:\n\n- Band Pull-Aparts — 1x10\n- Band Dislocates — 1x10\n- Banded Scapular Protraction — 1x10\n- Banded Shoulder External Rotation — 1x10\n- Banded One-Arm Triceps Overhead Press — 1x10 per side\n- Banded RDLs — 1x10\n- Banded Bent-Over Rows — 1x10\n- Banded Squat to Press — 1x10\n- Quadruped Thoracic Rotation — 1x10 per side\n\n📈 Power lift ramp-up sets (e.g. Weighted Pull-ups/Dips):\n\n- Warm up set 1: Bodyweight 1x6.\n- Warm up set 2: Light weight or band assistance 1x3.\n- Warm up set 3: ~80% of work weight 1x2.\n- Warm up set 4: ~90% of work weight 1x1.\n- Then perform work sets (e.g., 3x3) with 3–4 min rest.\n\n🔄 If you attempt a progression and cannot meet the target today (applies to all exercises):\n\n**_Strength prescriptions (for example 3x3 or 4x5)_**\n\n- If you miss early (only set 1 completes): reduce load by 2.5–5 kg or increase assistance and finish the remaining sets at the easier level with perfect form.\n- If you miss only the final set: rest an extra 60–90s and try again. If still short, reduce load 2.5–5 kg (or add a small band) and complete the set.\n- If bar speed is very slow or form breaks: drop 5–10% load immediately and complete quality sets.\n- You may use clusters to complete a set without grinding: split a triple as 2+1 with 20–30s between mini-sets (counts as 1 set).\n- Consider 1 back-off set at the end: reduce 5–10% and perform 1x3–5 with crisp form.",
+          "exercise_template_id": "b33075d5-4d97-4f79-b530-70eb75498eb3",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 389,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Pull Up (Weighted)",
+          "notes": "⚙️ Technique:\n- Start from a dead hang, legs still, chin clearly over the bar, no kipping.\n- Brace ribs down and keep shoulders packed down and back throughout.\n\n🚀 Warm up sequence (before work sets):\n- Bodyweight 1x6\n- +5–10 kg 1x3\n- ~80% of work weight 1x2\n- ~90% of work weight 1x1\n\n🎯 Work prescription:\n- 3x3\n- Rest 3–4 min between work sets\n- Aim to finish with 0–1 reps in reserve on the first 2 sets and perfect technique on all reps\n\n📈 Progression:\n- When you complete 3x3 with clean reps, increase the work weight by +2.5 kg next pull day\n- Use microplates (1.25 kg per side) if available\n\n✅ Progress when:\n- Chin clearly clears the bar on every rep, no leg kick, and you can pause 1–2s at the top on the final rep of each set\n",
+          "exercise_template_id": "729237D1",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 6,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "warmup",
+              "weight_kg": 10,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": 15,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": 15,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 4,
+              "type": "normal",
+              "weight_kg": 15,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 180
+        }
+      ]
+    },
+    {
+      "id": "2acb7551-328e-4298-ab9c-27687efb662c",
+      "title": "Power - Weighted Dip",
+      "folder_id": null,
+      "updated_at": "2026-01-05T23:57:06.411Z",
+      "created_at": "2026-01-05T23:27:29.092Z",
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Warm Up",
+          "notes": "🎯 Program purpose:\n\n- Strength first (heavy triples).\n\n🔥 Intensity guidance:\n\n- **Power triples:** work at ~85–90% of today’s best triple with 1 rep in reserve on the first 2 work sets.\n\n🛡️ General safety:\n\n- On presses, keep shoulders packed and avoid excessive flare.\n- Stop a set if technique breaks down.\n\n🚀 General warm up:\n\n- Band Pull-Aparts — 1x10\n- Band Dislocates — 1x10\n- Banded Scapular Protraction — 1x10\n- Banded Shoulder External Rotation — 1x10\n- Banded One-Arm Triceps Overhead Press — 1x10 per side\n- Banded RDLs — 1x10\n- Banded Bent-Over Rows — 1x10\n- Banded Squat to Press — 1x10\n- Quadruped Thoracic Rotation — 1x10 per side\n\n📈 Power lift ramp-up sets:\n\n- Warm up set 1: Bodyweight 1x6.\n- Warm up set 2: Light weight or band",
+          "exercise_template_id": "79EF4E4F",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 422,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Weighted Dip",
+          "notes": "⚙️ Technique:\n\n- Keep your chest up and shoulders down and back.\n- Lower yourself until your shoulders are below your elbows.\n- Press back up to the starting position, fully extending your arms.\n\n🎯 Work prescription:\n\n- 3x3 (belted)\n- Rest 3-4 min between sets.\n\n📈 5 progression levels:\n\n- Level 1: 3x5 bodyweight dips with a 2-second pause at the bottom.\n- Level 2: 3x3 bodyweight dips with a 2-second pause at the bottom.\n- Level 3: 3x5 with added weight.\n- Level 4: 3x3 with added weight.\n- Level 5: 3x3 with heavier weight, focusing on explosive power.\n\n✅ Progress when:\n\n- You can complete all prescribed reps with clean form and full range of motion.\n\n🪜 Scaling tools:\n\n- Use a resistance band for assistance if you cannot complete bodyweight reps.\n- Reduce the weight or use band assistance if your form breaks down.\n- Focus on a full range of motion before adding weight.\n",
+          "exercise_template_id": "f38313ef-01ce-4d91-8700-e12b2d7e9f84",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 6,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "warmup",
+              "weight_kg": 10,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": 15,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": 15,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 4,
+              "type": "normal",
+              "weight_kg": 15,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 180
+        }
+      ]
+    }
+  ]
+}
