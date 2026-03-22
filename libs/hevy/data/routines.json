@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-22T22:41:13.799Z",
+  "fetchedAt": "2026-03-22T22:50:51.148Z",
   "source": "prepared-for-hevy-api-push:khoiphan21@programs/khoiphan21/push-pull-homegym (Power Week, 5 days)",
   "count": 5,
   "data": [
@@ -724,7 +724,7 @@
       ]
     },
     {
-      "id": null,
+      "id": "7ecd730a-e4a5-4b46-8b6c-5d439c22fbae",
       "title": "Power Week - Day 3: Conditioning",
       "folder_id": null,
       "updated_at": "2026-03-22T22:41:13.799Z",
@@ -1111,7 +1111,7 @@
       ]
     },
     {
-      "id": null,
+      "id": "2290be71-c3b4-4cb6-8c93-9352a3365470",
       "title": "Power Week - Day 4: Push B",
       "folder_id": null,
       "updated_at": "2026-03-22T22:41:13.799Z",
@@ -1471,7 +1471,7 @@
       ]
     },
     {
-      "id": null,
+      "id": "3b12149c-577a-4539-96e1-a77b423a002a",
       "title": "Power Week - Day 5: Pull B",
       "folder_id": null,
       "updated_at": "2026-03-22T22:41:13.799Z",

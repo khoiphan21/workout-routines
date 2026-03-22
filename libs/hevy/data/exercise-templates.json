@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-03-16T22:03:09.218Z",
-  "count": 449,
+  "fetchedAt": "2026-03-22T22:51:34.704Z",
+  "count": 455,
   "data": [
     {
       "id": "3BC06AD3",
@@ -141,6 +141,18 @@
       "primary_muscle_group": "upper_back",
       "secondary_muscle_groups": [
         "shoulders"
+      ],
+      "equipment": "resistance_band",
+      "is_custom": true
+    },
+    {
+      "id": "352ea699-f45c-4e63-8284-eda90b1a9110",
+      "title": "Band High-to-Low Row",
+      "type": "reps_only",
+      "primary_muscle_group": "upper_back",
+      "secondary_muscle_groups": [
+        "lats",
+        "biceps"
       ],
       "equipment": "resistance_band",
       "is_custom": true
@@ -1114,6 +1126,15 @@
       "secondary_muscle_groups": [],
       "equipment": "none",
       "is_custom": false
+    },
+    {
+      "id": "4e0ac6fb-880b-4bcf-9dfa-a9bf2b7b1fb9",
+      "title": "Dragon Flag Negatives",
+      "type": "reps_only",
+      "primary_muscle_group": "abdominals",
+      "secondary_muscle_groups": [],
+      "equipment": "none",
+      "is_custom": true
     },
     {
       "id": "B7192800",
@@ -3142,6 +3163,17 @@
       "is_custom": false
     },
     {
+      "id": "49b60968-dc7d-4615-ae61-dbb8f17e4e1b",
+      "title": "Reverse Fly (band)",
+      "type": "reps_only",
+      "primary_muscle_group": "shoulders",
+      "secondary_muscle_groups": [
+        "upper_back"
+      ],
+      "equipment": "resistance_band",
+      "is_custom": true
+    },
+    {
       "id": "9264ADA1",
       "title": "Reverse Fly Single Arm (Cable)",
       "type": "weight_reps",
@@ -3271,6 +3303,15 @@
       "title": "Ring Flye",
       "type": "reps_only",
       "primary_muscle_group": "chest",
+      "secondary_muscle_groups": [],
+      "equipment": "suspension",
+      "is_custom": true
+    },
+    {
+      "id": "02df5517-3542-4ce0-9a74-4996d21916ed",
+      "title": "Ring Knee Tucks",
+      "type": "reps_only",
+      "primary_muscle_group": "abdominals",
       "secondary_muscle_groups": [],
       "equipment": "suspension",
       "is_custom": true
@@ -4426,6 +4467,15 @@
       "is_custom": false
     },
     {
+      "id": "7f8483a8-b6de-4b92-8fc0-8027a6248923",
+      "title": "TEST_DELETE_ME_AGENT",
+      "type": "reps_only",
+      "primary_muscle_group": "other",
+      "secondary_muscle_groups": [],
+      "equipment": "none",
+      "is_custom": true
+    },
+    {
       "id": "90E506D5",
       "title": "Thruster (Barbell)",
       "type": "weight_reps",
@@ -4775,6 +4825,18 @@
       ],
       "equipment": "dumbbell",
       "is_custom": false
+    },
+    {
+      "id": "f0b96676-8789-4b6f-92f7-5f33c2d20baf",
+      "title": "Wide-Grip Inverted Row",
+      "type": "reps_only",
+      "primary_muscle_group": "lats",
+      "secondary_muscle_groups": [
+        "upper_back",
+        "biceps"
+      ],
+      "equipment": "none",
+      "is_custom": true
     },
     {
       "id": "7C50F118",

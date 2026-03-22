@@ -10,7 +10,8 @@
     "hevy:fetch-exercises": "node scripts/hevy-fetch-exercise-templates.mjs",
     "hevy:fetch-routines": "node scripts/hevy-fetch-routines.mjs",
     "hevy:fetch-folders": "node scripts/hevy-fetch-routine-folders.mjs",
-    "hevy:map-exercises": "node scripts/hevy-map-exercises.mjs"
+    "hevy:map-exercises": "node scripts/hevy-map-exercises.mjs",
+    "hevy:push": "node scripts/hevy-push-program.mjs"
   },
   "repository": {
     "type": "git",

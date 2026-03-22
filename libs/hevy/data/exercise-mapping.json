@@ -1,35 +1,9 @@
 {
-  "generatedAt": "2026-03-22T22:41:13.799Z",
-  "hevyTemplateCount": 449,
+  "generatedAt": "2026-03-22T22:50:50.775Z",
+  "hevyTemplateCount": 455,
   "repoExerciseCount": 39,
-  "matched": 34,
-  "toCreate": [
-    {
-      "slug": "band-high-to-low-row",
-      "title": "Band High-to-Low Row",
-      "file": "exercises/band-high-to-low-row.md"
-    },
-    {
-      "slug": "dragon-flag-negatives",
-      "title": "Dragon Flag Negatives",
-      "file": "exercises/dragon-flag-negatives.md"
-    },
-    {
-      "slug": "reverse-fly-band",
-      "title": "Reverse Fly (band)",
-      "file": "exercises/reverse-fly-band.md"
-    },
-    {
-      "slug": "ring-knee-tucks",
-      "title": "Ring Knee Tucks",
-      "file": "exercises/ring-knee-tucks.md"
-    },
-    {
-      "slug": "wide-grip-inverted-row",
-      "title": "Wide-Grip Inverted Row",
-      "file": "exercises/wide-grip-inverted-row.md"
-    }
-  ],
+  "matched": 39,
+  "toCreate": [],
   "mapping": [
     {
       "slug": "archer-pull-ups",
@@ -51,6 +25,13 @@
       "repoTitle": "Band Face Pull",
       "hevyId": "0678a629-dca3-493d-a8d9-6efd190e4378",
       "hevyTitle": "Band Face Pull",
+      "matchScore": 1
+    },
+    {
+      "slug": "band-high-to-low-row",
+      "repoTitle": "Band High-to-Low Row",
+      "hevyId": "352ea699-f45c-4e63-8284-eda90b1a9110",
+      "hevyTitle": "Band High-to-Low Row",
       "matchScore": 1
     },
     {
@@ -95,6 +76,13 @@
       "repoTitle": "Decline Ring Push-up",
       "hevyId": "1a8e799e-20fa-4776-b1ae-5e24affa3c67",
       "hevyTitle": "Decline Ring Push-up",
+      "matchScore": 1
+    },
+    {
+      "slug": "dragon-flag-negatives",
+      "repoTitle": "Dragon Flag Negatives",
+      "hevyId": "4e0ac6fb-880b-4bcf-9dfa-a9bf2b7b1fb9",
+      "hevyTitle": "Dragon Flag Negatives",
       "matchScore": 1
     },
     {
@@ -182,6 +170,13 @@
       "matchScore": 1
     },
     {
+      "slug": "reverse-fly-band",
+      "repoTitle": "Reverse Fly (band)",
+      "hevyId": "49b60968-dc7d-4615-ae61-dbb8f17e4e1b",
+      "hevyTitle": "Reverse Fly (band)",
+      "matchScore": 1
+    },
+    {
       "slug": "ring-archer-push-up",
       "repoTitle": "Ring Archer Push-Up",
       "hevyId": "AEA56BDC",
@@ -201,6 +196,13 @@
       "repoTitle": "Ring Flye",
       "hevyId": "f0110aa1-bbd7-4d89-8347-ad5ed4734829",
       "hevyTitle": "Ring Flye",
+      "matchScore": 1
+    },
+    {
+      "slug": "ring-knee-tucks",
+      "repoTitle": "Ring Knee Tucks",
+      "hevyId": "02df5517-3542-4ce0-9a74-4996d21916ed",
+      "hevyTitle": "Ring Knee Tucks",
       "matchScore": 1
     },
     {
@@ -273,6 +275,13 @@
       "repoTitle": "Weighted Pull-Up",
       "hevyId": "729237D1",
       "hevyTitle": "Pull Up (Weighted)",
+      "matchScore": 1
+    },
+    {
+      "slug": "wide-grip-inverted-row",
+      "repoTitle": "Wide-Grip Inverted Row",
+      "hevyId": "f0b96676-8789-4b6f-92f7-5f33c2d20baf",
+      "hevyTitle": "Wide-Grip Inverted Row",
       "matchScore": 1
     }
   ]
