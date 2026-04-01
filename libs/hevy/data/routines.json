@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-01T22:44:42.406Z",
+  "fetchedAt": "2026-04-01T23:11:02.506Z",
   "source": "prepared-for-hevy-api-push:khoiphan21@programs/khoiphan21/push-pull-homegym (Power Week, 5 days)",
   "count": 5,
   "data": [
@@ -179,9 +179,9 @@
         {
           "index": 4,
           "title": "Bulgarian Split Squat (Cable)",
-          "notes": "GM2 / cable stack: 3x8 per side. Rest 60 s between moves in this block.",
+          "notes": "Hypertrophy H1: 3x8/side. Superset with chest fly; 0 s before H2; 60–75 s after H2 each round.",
           "exercise_template_id": "B5D3A742",
-          "superset_id": null,
+          "superset_id": 2,
           "sets": [
             {
               "index": 0,
@@ -211,14 +211,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 0
         },
         {
           "index": 5,
           "title": "Chest Fly (Cable)",
-          "notes": "3x12 on cable crossover / GM2.",
+          "notes": "Hypertrophy H2: 3x12. End of push/leg–chest pair.",
           "exercise_template_id": "651F844C",
-          "superset_id": null,
+          "superset_id": 2,
           "sets": [
             {
               "index": 0,
@@ -248,20 +248,20 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 75
         },
         {
           "index": 6,
-          "title": "Lateral Raise (Cable)",
-          "notes": "3x15.",
-          "exercise_template_id": "BE289E45",
-          "superset_id": null,
+          "title": "Leg Extension (Machine)",
+          "notes": "Hypertrophy H3: 3x12 quad isolation. Superset with hammer curl; balances arms vs prior push days.",
+          "exercise_template_id": "75A4F6C4",
+          "superset_id": 3,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -270,7 +270,7 @@
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -279,26 +279,26 @@
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 0
         },
         {
           "index": 7,
-          "title": "Triceps Pressdown (Cable)",
-          "notes": "3x15.",
-          "exercise_template_id": "CDC472B1",
-          "superset_id": null,
+          "title": "Hammer Curl (Cable)",
+          "notes": "Hypertrophy H4: 3x12. End of quad–biceps pair.",
+          "exercise_template_id": "36E8F14E",
+          "superset_id": 3,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -307,7 +307,7 @@
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -316,18 +316,18 @@
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 75
         },
         {
           "index": 8,
           "title": "Cable Crunch",
-          "notes": "3x15.",
+          "notes": "Abs: 3x15. Single exercise; 60 s before next round if repeating.",
           "exercise_template_id": "23A48484",
           "superset_id": null,
           "sets": [
@@ -575,16 +575,16 @@
         },
         {
           "index": 5,
-          "title": "Lat Pulldown (Cable)",
-          "notes": "Hypertrophy (GM2): 3x10. Rest 60 s in this block.",
-          "exercise_template_id": "6A6C31A5",
-          "superset_id": null,
+          "title": "Face Pull",
+          "notes": "Hypertrophy H1: 3x15 rear delt / external rotation. Superset with cable row; 60–75 s after H2.",
+          "exercise_template_id": "BE640BA0",
+          "superset_id": 2,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 10,
+              "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -593,7 +593,7 @@
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": 10,
+              "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -602,20 +602,20 @@
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": 10,
+              "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 0
         },
         {
           "index": 6,
           "title": "Seated Cable Row - Bar Grip",
-          "notes": "Cable row: 3x10.",
+          "notes": "Hypertrophy H2: 3x10 mid-back row.",
           "exercise_template_id": "F1D60854",
-          "superset_id": null,
+          "superset_id": 2,
           "sets": [
             {
               "index": 0,
@@ -645,14 +645,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 75
         },
         {
           "index": 7,
           "title": "Straight Arm Lat Pulldown (Cable)",
-          "notes": "3x15.",
+          "notes": "Hypertrophy H3: 3x15 lats. Superset with bicep curl; spreads elbow flexor work onto Pull A.",
           "exercise_template_id": "D2387AB1",
-          "superset_id": null,
+          "superset_id": 3,
           "sets": [
             {
               "index": 0,
@@ -682,12 +682,49 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 0
         },
         {
           "index": 8,
+          "title": "Bicep Curl (Cable)",
+          "notes": "Hypertrophy H4: 3x12.",
+          "exercise_template_id": "ADA8623C",
+          "superset_id": 3,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        },
+        {
+          "index": 9,
           "title": "Cable Crunch",
-          "notes": "3x12.",
+          "notes": "Abs: 3x12.",
           "exercise_template_id": "23A48484",
           "superset_id": null,
           "sets": [
@@ -1284,128 +1321,91 @@
           "rest_seconds": 0
         },
         {
-          "index": 4,
-          "title": "Freestanding Handstand Hold",
-          "notes": "Handstand giant D3: Freestanding HS hold 15 s ×3. End of giant set.",
-          "exercise_template_id": "1e929910-a921-4568-81fc-a04d2457a117",
-          "superset_id": 0,
+          "index": 5,
+          "title": "Seated Shoulder Press (Machine)",
+          "notes": "Hypertrophy H1: 3x8 overhead. Superset with incline press; 60–75 s after H2.",
+          "exercise_template_id": "9237BAD1",
+          "superset_id": 2,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": null,
+              "reps": 8,
               "distance_meters": null,
-              "duration_seconds": 15,
+              "duration_seconds": null,
               "custom_metric": null
             },
             {
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": null,
+              "reps": 8,
               "distance_meters": null,
-              "duration_seconds": 15,
+              "duration_seconds": null,
               "custom_metric": null
             },
             {
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": null,
+              "reps": 8,
               "distance_meters": null,
-              "duration_seconds": 15,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 6,
+          "title": "Incline Chest Press (Machine)",
+          "notes": "Hypertrophy H2: 3x12 incline (not flat bench—power bench is separate).",
+          "exercise_template_id": "FBF92739",
+          "superset_id": 2,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
               "custom_metric": null
             }
           ],
           "rest_seconds": 75
         },
         {
-          "index": 5,
-          "title": "Seated Shoulder Press (Machine)",
-          "notes": "Overhead press on GM2 / cable stack: 3x8.",
-          "exercise_template_id": "9237BAD1",
-          "superset_id": null,
-          "sets": [
-            {
-              "index": 0,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 8,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 8,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 8,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            }
-          ],
-          "rest_seconds": 60
-        },
-        {
-          "index": 6,
-          "title": "Incline Chest Press (Machine)",
-          "notes": "Hypertrophy: incline press on GM2 / stack (different angle from flat bench power work). 3x12.",
-          "exercise_template_id": "FBF92739",
-          "superset_id": null,
-          "sets": [
-            {
-              "index": 0,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            }
-          ],
-          "rest_seconds": 60
-        },
-        {
           "index": 7,
-          "title": "Lateral Raise (Cable)",
-          "notes": "3x15.",
-          "exercise_template_id": "BE289E45",
-          "superset_id": null,
+          "title": "Seated Leg Curl (Machine)",
+          "notes": "Hypertrophy H3: 3x12 hamstrings. Superset with OH triceps—non-competing with shoulders/chest.",
+          "exercise_template_id": "11A123F3",
+          "superset_id": 3,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1414,7 +1414,7 @@
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1423,20 +1423,20 @@
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 0
         },
         {
           "index": 8,
           "title": "Overhead Triceps Extension (Cable)",
-          "notes": "3x15.",
+          "notes": "Hypertrophy H4: 3x15.",
           "exercise_template_id": "B5EFBF9C",
-          "superset_id": null,
+          "superset_id": 3,
           "sets": [
             {
               "index": 0,
@@ -1466,12 +1466,12 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 75
         },
         {
           "index": 9,
           "title": "Cable Crunch",
-          "notes": "3x15.",
+          "notes": "Abs: 3x15.",
           "exercise_template_id": "23A48484",
           "superset_id": null,
           "sets": [
@@ -1766,9 +1766,9 @@
         {
           "index": 6,
           "title": "Seated Cable Row - Bar Wide Grip",
-          "notes": "Hypertrophy (GM2): 3x10.",
+          "notes": "Hypertrophy H1: 3x10. Superset with reverse fly—alternate row pattern with rear delt (60–75 s after H2).",
           "exercise_template_id": "C3BCABB3",
-          "superset_id": null,
+          "superset_id": 2,
           "sets": [
             {
               "index": 0,
@@ -1798,14 +1798,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 0
         },
         {
           "index": 7,
-          "title": "Iso-Lateral High Row (Machine)",
-          "notes": "High-to-low row on GM2 cables (log as iso-lateral high row or closest cable path). 3x15.",
-          "exercise_template_id": "BC3492DA",
-          "superset_id": null,
+          "title": "Rear Delt Reverse Fly (Cable)",
+          "notes": "Hypertrophy H2: 3x15.",
+          "exercise_template_id": "C315DC2A",
+          "superset_id": 2,
           "sets": [
             {
               "index": 0,
@@ -1835,14 +1835,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 75
         },
         {
           "index": 8,
-          "title": "Rear Delt Reverse Fly (Cable)",
-          "notes": "3x15.",
-          "exercise_template_id": "C315DC2A",
-          "superset_id": null,
+          "title": "Iso-Lateral High Row (Machine)",
+          "notes": "Hypertrophy H3: 3x15 high row. Superset with cable crunch—avoids third straight horizontal pull without rest variety.",
+          "exercise_template_id": "BC3492DA",
+          "superset_id": 3,
           "sets": [
             {
               "index": 0,
@@ -1872,14 +1872,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 0
         },
         {
           "index": 9,
           "title": "Cable Crunch",
-          "notes": "3x12.",
+          "notes": "Hypertrophy H4 / abs finisher: 3x12.",
           "exercise_template_id": "23A48484",
-          "superset_id": null,
+          "superset_id": 3,
           "sets": [
             {
               "index": 0,
@@ -1909,7 +1909,7 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 75
         }
       ]
     }
