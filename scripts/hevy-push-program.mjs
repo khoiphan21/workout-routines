@@ -62,7 +62,26 @@ const TO_CREATE_SPECS = {
     muscleGroup: 'lats',
     otherMuscles: ['upper_back', 'biceps'],
   },
+  'chest-to-wall-handstand-hold': {
+    title: 'Chest-to-Wall Handstand Hold',
+    exerciseType: 'duration',
+    equipmentCategory: 'none',
+    muscleGroup: 'shoulders',
+    otherMuscles: ['triceps', 'abdominals'],
+  },
+  'freestanding-handstand-hold': {
+    title: 'Freestanding Handstand Hold',
+    exerciseType: 'duration',
+    equipmentCategory: 'none',
+    muscleGroup: 'shoulders',
+    otherMuscles: ['triceps', 'abdominals'],
+  },
 };
+
+/** Slugs to ensure on every push even when toCreate is empty (program-specific customs). */
+const ADDITIONAL_PUSH_SLUGS = ['chest-to-wall-handstand-hold', 'freestanding-handstand-hold'];
+
+const PLACEHOLDER_TEMPLATE_IDS = new Set(['00000000-0000-0000-0000-000000000001']);
 
 function normTitle(s) {
   return String(s || '')
@@ -89,10 +108,22 @@ function hevyExerciseToPayload(ex) {
 
 async function ensureCustomExercises(mapping, templatesByTitle) {
   const created = [];
-  const toCreate = mapping.toCreate ?? [];
+  const seen = new Set();
+  const queue = [];
 
-  for (const entry of toCreate) {
-    const slug = entry.slug;
+  for (const entry of mapping.toCreate ?? []) {
+    queue.push({ slug: entry.slug, repoTitle: entry.title });
+    seen.add(entry.slug);
+  }
+  for (const slug of ADDITIONAL_PUSH_SLUGS) {
+    if (!seen.has(slug)) {
+      const spec = TO_CREATE_SPECS[slug];
+      queue.push({ slug, repoTitle: spec?.title ?? slug });
+      seen.add(slug);
+    }
+  }
+
+  for (const { slug, repoTitle } of queue) {
     const spec = TO_CREATE_SPECS[slug];
     if (!spec) {
       console.warn(`No TO_CREATE_SPECS for slug ${slug}, skipping`);
@@ -102,14 +133,14 @@ async function ensureCustomExercises(mapping, templatesByTitle) {
     const existing = templatesByTitle.get(key);
     if (existing) {
       console.log(`Exercise exists: "${spec.title}" → ${existing.id}`);
-      created.push({ slug, repoTitle: entry.title, hevyId: existing.id, hevyTitle: existing.title });
+      created.push({ slug, repoTitle, hevyId: existing.id, hevyTitle: existing.title });
       continue;
     }
 
     const { id } = await createExerciseTemplate(spec);
     console.log(`Created exercise: "${spec.title}" → ${id}`);
     templatesByTitle.set(key, { id, title: spec.title });
-    created.push({ slug, repoTitle: entry.title, hevyId: id, hevyTitle: spec.title });
+    created.push({ slug, repoTitle, hevyId: id, hevyTitle: spec.title });
   }
 
   return created;
@@ -132,12 +163,34 @@ function applyMappingUpdates(mapping, exerciseResults) {
   }
 
   newMapping.mapping.sort((a, b) => a.slug.localeCompare(b.slug));
-  newMapping.matched = newMapping.repoExerciseCount;
+  newMapping.matched = newMapping.mapping.length;
   newMapping.generatedAt = new Date().toISOString();
   return newMapping;
 }
 
-async function pushRoutines(routinesDoc) {
+function buildTitleToTemplateId(templatesByTitle) {
+  const m = new Map();
+  for (const [k, v] of templatesByTitle) {
+    m.set(k, v.id);
+  }
+  return m;
+}
+
+function resolveExerciseTemplateId(ex, titleToTemplateId) {
+  let tid = ex.exercise_template_id;
+  if (PLACEHOLDER_TEMPLATE_IDS.has(tid)) {
+    const resolved = titleToTemplateId.get(normTitle(ex.title));
+    if (!resolved) {
+      throw new Error(
+        `Missing Hevy template for "${ex.title}" (placeholder id ${tid}). Add TO_CREATE_SPECS and re-run.`
+      );
+    }
+    return resolved;
+  }
+  return tid;
+}
+
+async function pushRoutines(routinesDoc, titleToTemplateId) {
   const list = [...(routinesDoc.data ?? [])].sort((a, b) => {
     const order = (t) => {
       if (t.includes('Day 1')) return 1;
@@ -153,7 +206,14 @@ async function pushRoutines(routinesDoc) {
   const idUpdates = new Map();
 
   for (const routine of list) {
-    const exercises = [...routine.exercises].sort((a, b) => a.index - b.index).map(hevyExerciseToPayload);
+    const exercises = [...routine.exercises]
+      .sort((a, b) => a.index - b.index)
+      .map((ex) =>
+        hevyExerciseToPayload({
+          ...ex,
+          exercise_template_id: resolveExerciseTemplateId(ex, titleToTemplateId),
+        })
+      );
 
     const payload = {
       title: routine.title,
@@ -195,6 +255,18 @@ function applyRoutineIds(routinesDoc, idUpdates) {
   return next;
 }
 
+function applyResolvedTemplateIds(routinesDoc, titleToTemplateId) {
+  const next = JSON.parse(JSON.stringify(routinesDoc));
+  for (const r of next.data ?? []) {
+    for (const ex of r.exercises ?? []) {
+      if (PLACEHOLDER_TEMPLATE_IDS.has(ex.exercise_template_id)) {
+        ex.exercise_template_id = resolveExerciseTemplateId(ex, titleToTemplateId);
+      }
+    }
+  }
+  return next;
+}
+
 async function main() {
   getHevyApiKey();
 
@@ -209,9 +281,12 @@ async function main() {
 
   const exerciseResults = await ensureCustomExercises(mapping, templatesByTitle);
   const mappingNext = applyMappingUpdates(mapping, exerciseResults);
+  const titleToTemplateId = buildTitleToTemplateId(templatesByTitle);
 
-  const idUpdates = await pushRoutines(routinesDoc);
-  const routinesNext = applyRoutineIds(routinesDoc, idUpdates);
+  const idUpdates = await pushRoutines(routinesDoc, titleToTemplateId);
+  let routinesNext = applyRoutineIds(routinesDoc, idUpdates);
+  routinesNext = applyResolvedTemplateIds(routinesNext, titleToTemplateId);
+  routinesNext.fetchedAt = new Date().toISOString();
 
   fs.writeFileSync(MAPPING_PATH, JSON.stringify(mappingNext, null, 2), 'utf8');
   fs.writeFileSync(ROUTINES_PATH, JSON.stringify(routinesNext, null, 2), 'utf8');

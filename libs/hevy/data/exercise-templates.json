@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-03-22T22:51:34.704Z",
-  "count": 455,
+  "fetchedAt": "2026-04-01T22:13:52.232Z",
+  "count": 457,
   "data": [
     {
       "id": "3BC06AD3",
@@ -707,6 +707,18 @@
       "is_custom": false
     },
     {
+      "id": "3814de10-1893-43b5-8510-61b2e5aaaeb0",
+      "title": "Chest-to-Wall Handstand Hold",
+      "type": "duration",
+      "primary_muscle_group": "shoulders",
+      "secondary_muscle_groups": [
+        "triceps",
+        "abdominals"
+      ],
+      "equipment": "none",
+      "is_custom": true
+    },
+    {
       "id": "29083183",
       "title": "Chin Up",
       "type": "reps_only",
@@ -1311,6 +1323,18 @@
       "secondary_muscle_groups": [],
       "equipment": "none",
       "is_custom": false
+    },
+    {
+      "id": "1e929910-a921-4568-81fc-a04d2457a117",
+      "title": "Freestanding Handstand Hold",
+      "type": "duration",
+      "primary_muscle_group": "shoulders",
+      "secondary_muscle_groups": [
+        "triceps",
+        "abdominals"
+      ],
+      "equipment": "none",
+      "is_custom": true
     },
     {
       "id": "207DC636",

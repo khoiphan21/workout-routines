@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-22T22:50:51.148Z",
+  "fetchedAt": "2026-04-01T22:12:03.675Z",
   "source": "prepared-for-hevy-api-push:khoiphan21@programs/khoiphan21/push-pull-homegym (Power Week, 5 days)",
   "count": 5,
   "data": [
@@ -1120,7 +1120,7 @@
         {
           "index": 0,
           "title": "General Notes & Warm-Up ",
-          "notes": "Pull–Push Home Gym — Power Week\n\nHypertrophy finish: Gym Monster 2 cable block (60 s between moves; complete at GM2 without returning to calisthenics station).\n\nPower triples: ~85–90% of today's best triple; 1 RIR on the first 2 work sets. Do not superset power work.\n\nSkills / holds: pick a level with clean positions and 1–2 s in reserve on timed holds.\n\nGeneral warm-up (every day):\nBand Pull-Aparts — 1x10; Band Dislocates — 1x10; Banded Scapular Protraction — 1x10; Banded Shoulder External Rotation — 1x10; Banded One-Arm Triceps Overhead Press — 1x10 per side; Banded RDLs — 1x10; Banded Bent-Over Rows — 1x10; Banded Squat to Press — 1x10; Quadruped Thoracic Rotation — 1x10 per side.\n\nPower ramp (weighted pull/chin/dip): bodyweight × 5, light load × 3, ~50% × 3, ~70% × 2, then work sets. Rest 3–4 min on power work.\n\nSee programs/khoiphan21/push-pull-homegym for progression, tempo/volume week rules, and skill ladders.",
+          "notes": "Pull–Push Home Gym — Power Week\n\nHypertrophy finish: Gym Monster 2 cable block (60 s between moves; complete at GM2 without returning to calisthenics station).\n\nPower triples: ~85–90% of today's best triple; 1 RIR on the first 2 work sets. Do not superset power work.\n\nSkills / holds: pick a level with clean positions and 1–2 s in reserve on timed holds.\n\nGeneral warm-up (every day):\nBand Pull-Aparts — 1x10; Band Dislocates — 1x10; Banded Scapular Protraction — 1x10; Banded Shoulder External Rotation — 1x10; Banded One-Arm Triceps Overhead Press — 1x10 per side; Banded RDLs — 1x10; Banded Bent-Over Rows — 1x10; Banded Squat to Press — 1x10; Quadruped Thoracic Rotation — 1x10 per side.\n\nPower ramp: weighted pull/chin/dip — bodyweight × 5, light × 3, ~50% × 3, ~70% × 2. Bench — empty bar × 8–10, then ~50% × 3, ~70% × 2, ~85% × 1, then work sets. Rest 3–4 min on power work.\n\nSee programs/khoiphan21/push-pull-homegym for progression, tempo/volume week rules, and skill ladders.",
           "exercise_template_id": "2e6c1b67-6b65-4467-a325-7e718fefc65a",
           "superset_id": null,
           "sets": [
@@ -1138,16 +1138,16 @@
         },
         {
           "index": 1,
-          "title": "Weighted Dip",
-          "notes": "Power: 3x3 with 2 s pause at bottom. Same ramp as Push A.",
-          "exercise_template_id": "f38313ef-01ce-4d91-8700-e12b2d7e9f84",
+          "title": "Bench Press (Barbell)",
+          "notes": "Power: 3x3 with 2 s pause on chest each rep. ~85–90% crisp triple, ~1 RIR on first 2 sets. Ramp: empty bar × 8–10, ~50% × 3, ~70% × 2, ~85% × 1, then work sets. Rest 3–4 min.",
+          "exercise_template_id": "79D0BB3A",
           "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "warmup",
               "weight_kg": null,
-              "reps": 5,
+              "reps": 10,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1165,7 +1165,7 @@
               "index": 2,
               "type": "warmup",
               "weight_kg": null,
-              "reps": 3,
+              "reps": 2,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1174,7 +1174,7 @@
               "index": 3,
               "type": "warmup",
               "weight_kg": null,
-              "reps": 2,
+              "reps": 1,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1211,36 +1211,36 @@
         },
         {
           "index": 2,
-          "title": "Ring Push Up",
-          "notes": "Ring archer push-up: 3x6 per side (log reps; template = ring push-up). Rest 2–3 min.",
-          "exercise_template_id": "AEA56BDC",
+          "title": "Chest-to-Wall Handstand Hold",
+          "notes": "Skill 1: chest faces wall, hands ~15–25 cm from wall, walk feet up. Open shoulders, straight line. 3 sets: 25 s target (use 20–30 s range from program). Rest 2–3 min.",
+          "exercise_template_id": "3814de10-1893-43b5-8510-61b2e5aaaeb0",
           "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 6,
+              "reps": null,
               "distance_meters": null,
-              "duration_seconds": null,
+              "duration_seconds": 25,
               "custom_metric": null
             },
             {
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": 6,
+              "reps": null,
               "distance_meters": null,
-              "duration_seconds": null,
+              "duration_seconds": 25,
               "custom_metric": null
             },
             {
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": 6,
+              "reps": null,
               "distance_meters": null,
-              "duration_seconds": null,
+              "duration_seconds": 25,
               "custom_metric": null
             }
           ],
@@ -1248,9 +1248,46 @@
         },
         {
           "index": 3,
-          "title": "Handstand Hold",
-          "notes": "Ring support turned-out hold 3x15 s — log on handstand hold template; perform on rings in turned-out support per program.",
-          "exercise_template_id": "BE3615CF",
+          "title": "Wall Handstand Push-Up",
+          "notes": "Skill 2: wall HSPU, full ROM, controlled head touch. 3x3. Rest 2–3 min. Regress: pike HSPU or reduced ROM if needed.",
+          "exercise_template_id": "90B04F96",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 120
+        },
+        {
+          "index": 4,
+          "title": "Freestanding Handstand Hold",
+          "notes": "Skill 3: no wall; accumulate 15 s clean line per set. Bail and reset if form breaks. Rest 2–3 min. Scale: light fingertip touch or shorter holds.",
+          "exercise_template_id": "1e929910-a921-4568-81fc-a04d2457a117",
           "superset_id": null,
           "sets": [
             {
@@ -1284,7 +1321,7 @@
           "rest_seconds": 120
         },
         {
-          "index": 4,
+          "index": 5,
           "title": "Seated Shoulder Press (Machine)",
           "notes": "Overhead press on GM2 / cable stack: 3x8.",
           "exercise_template_id": "9237BAD1",
@@ -1321,10 +1358,10 @@
           "rest_seconds": 60
         },
         {
-          "index": 5,
-          "title": "Bench Press (Cable)",
-          "notes": "Chest press (cable): 3x12.",
-          "exercise_template_id": "99C1F2AD",
+          "index": 6,
+          "title": "Incline Chest Press (Machine)",
+          "notes": "Hypertrophy: incline press on GM2 / stack (different angle from flat bench power work). 3x12.",
+          "exercise_template_id": "FBF92739",
           "superset_id": null,
           "sets": [
             {
@@ -1358,7 +1395,7 @@
           "rest_seconds": 60
         },
         {
-          "index": 6,
+          "index": 7,
           "title": "Lateral Raise (Cable)",
           "notes": "3x15.",
           "exercise_template_id": "BE289E45",
@@ -1395,7 +1432,7 @@
           "rest_seconds": 60
         },
         {
-          "index": 7,
+          "index": 8,
           "title": "Overhead Triceps Extension (Cable)",
           "notes": "3x15.",
           "exercise_template_id": "B5EFBF9C",
@@ -1432,7 +1469,7 @@
           "rest_seconds": 60
         },
         {
-          "index": 8,
+          "index": 9,
           "title": "Cable Crunch",
           "notes": "3x15.",
           "exercise_template_id": "23A48484",

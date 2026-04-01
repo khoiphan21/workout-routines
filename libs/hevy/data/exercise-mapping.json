@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-03-22T22:50:50.775Z",
-  "hevyTemplateCount": 455,
-  "repoExerciseCount": 39,
-  "matched": 39,
+  "generatedAt": "2026-04-01T22:12:03.229Z",
+  "hevyTemplateCount": 457,
+  "repoExerciseCount": 43,
+  "matched": 43,
   "toCreate": [],
   "mapping": [
     {
@@ -64,12 +64,26 @@
       "matchScore": 0.88
     },
     {
+      "slug": "barbell-bench-press",
+      "repoTitle": "Barbell Bench Press",
+      "hevyId": "79D0BB3A",
+      "hevyTitle": "Bench Press (Barbell)",
+      "matchScore": 1
+    },
+    {
       "slug": "bodyweight-split-squat",
       "repoTitle": "Bodyweight Split Squat",
       "hevyId": "5E1A7777",
       "hevyTitle": "Lunge",
       "matchScore": 0.7,
       "proxyNote": "Conditioning: alternating split squat pattern logged as lunge."
+    },
+    {
+      "slug": "chest-to-wall-handstand-hold",
+      "repoTitle": "Chest-to-Wall Handstand Hold",
+      "hevyId": "3814de10-1893-43b5-8510-61b2e5aaaeb0",
+      "hevyTitle": "Chest-to-Wall Handstand Hold",
+      "matchScore": 1
     },
     {
       "slug": "decline-ring-push-up",
@@ -93,10 +107,24 @@
       "matchScore": 1
     },
     {
+      "slug": "freestanding-handstand-hold",
+      "repoTitle": "Freestanding Handstand Hold",
+      "hevyId": "1e929910-a921-4568-81fc-a04d2457a117",
+      "hevyTitle": "Freestanding Handstand Hold",
+      "matchScore": 1
+    },
+    {
       "slug": "front-lever-hold",
       "repoTitle": "Front Lever Hold",
       "hevyId": "0E608350",
       "hevyTitle": "Front Lever Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "handstand-push-up",
+      "repoTitle": "Handstand Push-Up",
+      "hevyId": "90B04F96",
+      "hevyTitle": "Handstand Push Up",
       "matchScore": 1
     },
     {

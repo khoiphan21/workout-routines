@@ -23,6 +23,7 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 
 ### Chest
 
+- [Barbell Bench Press](barbell-bench-press)
 - [Decline Ring Push-up](decline-ring-push-up)
 - [Pike Handstand Push-Up](pike-handstand-push-up)
 - [Pike Push-up](pike-push-up)
@@ -37,6 +38,9 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [Band High-to-Low Row](band-high-to-low-row)
 - [Band Lateral Raise](band-lateral-raise)
 - [Band Overhead Press](band-overhead-press)
+- [Chest-to-Wall Handstand Hold](chest-to-wall-handstand-hold)
+- [Freestanding Handstand Hold](freestanding-handstand-hold)
+- [Handstand Push-Up](handstand-push-up)
 - [Reverse Fly (band)](reverse-fly-band)
 
 ### Triceps
@@ -69,7 +73,10 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 ### Skill / holds
 
 - [Back Lever Tuck Hold](back-lever-tuck-hold)
+- [Chest-to-Wall Handstand Hold](chest-to-wall-handstand-hold)
+- [Freestanding Handstand Hold](freestanding-handstand-hold)
 - [Front Lever Hold](front-lever-hold)
+- [Handstand Push-Up](handstand-push-up)
 - [Iron Cross Hold Progression](iron-cross-hold-progression)
 - [L-Sit Hold](l-sit-hold)
 - [Ring Support Turned-Out Hold](ring-support-turned-out-hold)

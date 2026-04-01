@@ -14,9 +14,11 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
 ## Equipment
 
 - Pull-up bar, weight plates, weight belt.
+- **Barbell + bench (or rack) with safeties** — for Push B power bench.
 - Rings with adjustable straps.
 - Resistance bands of various tensions.
 - Low bars (for dips and rows).
+- Wall space for handstand work (Push B skills).
 - Gym Monster 2 (Speediance) — for cable-based hypertrophy work (Push A, Pull A, Push B, Pull B). Use for easier progressive overload tracking (0.5 kg increments).
 
 ## Weekly structure
@@ -145,20 +147,22 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
 
 ### Day 4 — Push B
 
-- **Power:** Weighted Dip (2 s pause at bottom) — 3x3
-  - _Warm-up: bodyweight × 5, light load × 3, 50% × 3, 70% × 2, then work sets._
-  - _Rest 3-4 min._
-- **Skill:** Ring Archer Push-Up — 3x6 per side
-  - _Rest 2-3 min._
-- **Skill:** Ring Support Turned-Out Hold — 3x15 s
-  - _Rest 2-3 min._
+- **Power:** Barbell Bench Press (2 s pause on chest) — 3x3
+  - _Warm-up: empty bar × 8–10, then ~50% × 3, ~70% × 2, ~85% × 1, then work sets._
+  - _Rest 3–4 min. Aligns with compound-first strength work (see research/exercise-selection-technique)._
+- **Skill 1 (handstand line):** Chest-to-Wall Handstand Hold — 3×20–30 s
+  - _Chest stays close to the wall; open shoulders, straight line. Rest 2–3 min._
+- **Skill 2 (vertical press):** Wall Handstand Push-Up — 3x3
+  - _Full ROM to controlled head touch; wall for balance. Rest 2–3 min._
+- **Skill 3 (balance):** Freestanding Handstand Hold — 3×15 s
+  - _Accumulate clean time; bail and reset if line breaks. Rest 2–3 min._
 - **Hypertrophy + Abs (Gym Monster 2):**
   - Overhead Press (Cable) — 3x8
-  - Chest Press (Cable) — 3x12
+  - Incline Chest Press (machine / cable stack) — 3x12
   - Lateral Raise (Cable) — 3x15
   - Overhead Triceps Extension (Cable) — 3x15
   - Cable Crunch — 3x15
-  - _Rest 60 s between exercises. Stay at Gym Monster 2; easy to track load (0.5 kg steps)._
+  - _Rest 60 s between exercises. Stay at Gym Monster 2; easy to track load (0.5 kg steps). Incline press differentiates from flat bench power work._
 
 ### Day 5 — Pull B
 
@@ -210,7 +214,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 - **Push A:** Weighted Dip; Iron Cross Hold Progression; Pike Handstand Push-Up; Bulgarian Split Squat (GM2); Chest Fly (GM2); Lateral Raise (GM2); Triceps Pressdown (GM2); Cable Crunch (GM2).
 - **Pull A:** Weighted Pull-Up; Front Lever Hold; High Pull; Tuck Front-Lever Row; Lat Pulldown (GM2); Cable Row (GM2); Straight-Arm Pulldown (GM2); Cable Crunch (GM2).
 - **Conditioning:** Ring Row; Band Overhead Press; Bodyweight Split Squat; Hollow Body Rock; Jumping Jacks; Band Straight-Arm Pulldown; L-Sit Hold; V-Ups.
-- **Push B:** Weighted Dip (pause); Ring Archer Push-Up; Ring Support Turned-Out Hold; Overhead Press (GM2); Chest Press (GM2); Lateral Raise (GM2); Overhead Triceps Extension (GM2); Cable Crunch (GM2).
+- **Push B:** Barbell Bench Press (pause); Chest-to-Wall Handstand Hold; Wall Handstand Push-Up; Freestanding Handstand Hold; Overhead Press (GM2); Incline Chest Press (GM2); Lateral Raise (GM2); Overhead Triceps Extension (GM2); Cable Crunch (GM2).
 - **Pull B:** Weighted Chin-Up; Bar Muscle Up; Archer Pull-Ups; Back Lever Tuck Hold; Nordic Curl; Seated Cable Row Wide Grip (GM2); High-to-Low Row (GM2); Reverse Fly (GM2); Cable Crunch (GM2).
 
 ## Key notes (selected)
@@ -250,7 +254,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 - Do calisthenics skills first (outside), then move to GM2 and complete the hypertrophy block without going back.
 - **Pull A:** Lat Pulldown; Cable Row; Straight-Arm Pulldown; Cable Crunch.
 - **Push A:** Bulgarian Split Squat; Chest Fly; Lateral Raise; Triceps Pressdown; Cable Crunch.
-- **Push B:** Overhead Press; Chest Press; Lateral Raise; Overhead Triceps Extension; Cable Crunch.
+- **Push B:** Overhead Press; Incline Chest Press; Lateral Raise; Overhead Triceps Extension; Cable Crunch.
 - **Pull B:** Seated Cable Row (Wide Grip); High-to-Low Row; Reverse Fly; Cable Crunch.
 
 ### Lengthened partials (Tempo / Volume week)
