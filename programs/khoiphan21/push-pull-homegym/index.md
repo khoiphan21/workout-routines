@@ -53,6 +53,7 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
 - **Hypertrophy:** RPE 8–9 (1–2 reps in reserve).
 - **Holds:** pick a level that allows full target time with clean positions plus 1–2 s in reserve.
 - **Supersets:** alternate movements; rest 60–75 s between paired exercises (use 75 s for arms/isolation if sets feel rushed). Do not superset the power triple.
+- **Skill supersets:** after power, perform each day’s skill block as **linked supersets in Hevy** (`superset_id`): move A → move B (→ move C if a triplet) with minimal transition, then **60–75 s** before the next round. Keeps session density in line with hypertrophy superset rest (see `research/recovery-adaptation.md`).
 
 ### Progression failure rule (applies to all exercises)
 
@@ -98,10 +99,10 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
 - **Power:** Weighted Dip — 3x3 (belted)
   - _Warm-up: bodyweight × 5, light load × 3, 50% × 3, 70% × 2, then work sets._
   - _Rest 3-4 min._
-- **Skill:** Iron Cross Hold Progression — 3x10 s
-  - _Rest 2-3 min._
-- **Skill:** Pike Handstand Push-Up (elevated feet) — 3x3
-  - _Rest 2-3 min._
+- **Skill superset** (non-competing: ring hold line ↔ vertical press)
+  - A1: Iron Cross Hold Progression — 3x10 s
+  - A2: Pike Handstand Push-Up (elevated feet) — 3x3
+  - _A1 then A2 with minimal rest; **60–75 s** after A2 before repeating the pair._
 - **Hypertrophy + Abs (Gym Monster 2):**
   - Bulgarian Split Squat (Cable) — 3x8 per side
   - Chest Fly (Cable) — 3x12
@@ -116,12 +117,11 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - _Warm-up: bodyweight × 5, light load × 3, 50% × 3, 70% × 2, then work sets._
   - _Progression: add +2.5 kg next pull day after a clean 3x3._
   - _Rest 3-4 min._
-- **Skill 1:** Front Lever Hold — 3x12 s
-  - _Rest 2-3 min._
-- **Skill 2:** High Pull (barbell or band) — 3x5
-  - _Rest 2 min._
-- **Skill 3:** Tuck Front-Lever Row — 3x5
-  - _Rest 2-3 min._
+- **Skill giant set** (three moves, one round)
+  - B1: Front Lever Hold — 3x12 s
+  - B2: High Pull (barbell or band) — 3x5
+  - B3: Tuck Front-Lever Row — 3x5
+  - _B1 → B2 → B3 with minimal rest between; **60–75 s** after B3 before the next round._
 - **Hypertrophy + Abs (Gym Monster 2):**
   - Lat Pulldown — 3x10
   - Cable Row — 3x10
@@ -131,31 +131,30 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
 
 ### Day 3 — Conditioning (Cali-style steady HR)
 
-- **Circuit x 3 rounds**
+- **Circuit x 3 rounds** (log as one **giant superset** in Hevy: four moves, same `superset_id`)
   - Ring Row — 15 reps
   - Band Overhead Press — 15 reps
   - Bodyweight Split Squat — 12 per side
   - Hollow Body Rock — 20 s
-  - _Rest 60–90 s between rounds_
-- **EMOM 12**
+  - _Minimal rest between stations; **60–90 s** after Hollow Rock before the next round._
+- **EMOM 12** (alternate minutes; not a superset in the app—one station per minute)
   - Odd: Jumping Jacks — 45 s
   - Even: Band Straight-Arm Pulldown — 15 reps
-- **Finisher:** L-Sit Hold (floor or low bars) — Accumulate 60s total hold time.
-  - _Rest as needed between sets._
-- **Abs:** V-Ups — 3x20
-  - _Rest 60s._
+- **Finisher superset**
+  - C1: L-Sit Hold (floor or low bars) — accumulate 60 s total (e.g. 4×15 s)
+  - C2: V-Ups — 3x20
+  - _Alternate C1/C2 rounds with **60–75 s** after V-Ups, or complete L-sit blocks then V-ups as paired rounds—see routine notes._
 
 ### Day 4 — Push B
 
 - **Power:** Barbell Bench Press (2 s pause on chest) — 3x3
   - _Warm-up: empty bar × 8–10, then ~50% × 3, ~70% × 2, ~85% × 1, then work sets._
   - _Rest 3–4 min. Aligns with compound-first strength work (see research/exercise-selection-technique)._
-- **Skill 1 (handstand line):** Chest-to-Wall Handstand Hold — 3×20–30 s
-  - _Chest stays close to the wall; open shoulders, straight line. Rest 2–3 min._
-- **Skill 2 (vertical press):** Wall Handstand Push-Up — 3x3
-  - _Full ROM to controlled head touch; wall for balance. Rest 2–3 min._
-- **Skill 3 (balance):** Freestanding Handstand Hold — 3×15 s
-  - _Accumulate clean time; bail and reset if line breaks. Rest 2–3 min._
+- **Handstand skill giant set**
+  - D1: Chest-to-Wall Handstand Hold — 3×20–30 s
+  - D2: Wall Handstand Push-Up — 3x3
+  - D3: Freestanding Handstand Hold — 3×15 s
+  - _D1 → D2 → D3 with minimal rest; **60–75 s** after D3 before the next round. Chest stays close to the wall on D1; full ROM on D2; clean line on D3._
 - **Hypertrophy + Abs (Gym Monster 2):**
   - Overhead Press (Cable) — 3x8
   - Incline Chest Press (machine / cable stack) — 3x12
@@ -169,14 +168,14 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
 - **Power:** Weighted Chin-Up — 3x3
   - _Warm-up: bodyweight × 5, light load × 3, 50% × 3, 70% × 2, then work sets._
   - _Rest 3-4 min._
-- **Main skill:** Bar Muscle Up — 1x3 warm-up (easier variation), then 3x3
-  - _Rest 2 min. Demanding skill; perform when fresh._
-- **Skill 2:** Archer Pull-Ups — 3x4 per side
-  - _Rest 2 min._
-- **Skill Superset**
-  - A1: Back Lever Tuck Hold — 3x12 s
-  - A2: Nordic Curl (band-assist as needed) — 3x6
-  - _Perform A1 then A2 with minimal rest. Rest 60s after A2._
+- **Skill superset 1** (after power, while fresh)
+  - E1: Bar Muscle Up — 1x3 warm-up (easier variation), then 3x3
+  - E2: Archer Pull-Ups — 3x4 per side
+  - _E1 then E2 with minimal rest; **60–75 s** after E2 before the next round._
+- **Skill superset 2**
+  - F1: Back Lever Tuck Hold — 3x12 s
+  - F2: Nordic Curl (band-assist as needed) — 3x6
+  - _F1 then F2 with minimal rest; **60–75 s** after F2._
 - **Hypertrophy + Abs (Gym Monster 2):**
   - Seated Cable Row (Wide Grip) — 3x10
   - High-to-Low Row (Cable) — 3x15
@@ -191,7 +190,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 ### Power Week
 
 - **Power lifts:** 3x3, heavy; rest 3–4 min.
-- **Skills:** 3x12 s holds or 3x3 rep skills.
+- **Skills:** 3x12 s holds or 3x3 rep skills, performed as **supersets / giant sets** (see day write-ups).
 - **Hypertrophy:** 3x8–15 (use the fixed prescriptions listed); rest 60–75 s in supersets.
 
 ### Tempo Week

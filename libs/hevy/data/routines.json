@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-01T22:12:03.675Z",
+  "fetchedAt": "2026-04-01T22:44:42.406Z",
   "source": "prepared-for-hevy-api-push:khoiphan21@programs/khoiphan21/push-pull-homegym (Power Week, 5 days)",
   "count": 5,
   "data": [
@@ -105,9 +105,9 @@
         {
           "index": 2,
           "title": "Iron Cross Hold Progression",
-          "notes": "Skill: 3x10 s holds. Rest 2–3 min. Use ring cross progression from program doc.",
+          "notes": "Skill superset A1: 3x10 s iron cross progression. Then A2 with minimal rest. 60–75 s after A2 before next round.",
           "exercise_template_id": "9f7e20e1-81a6-4621-b715-701c60ac75b9",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -137,14 +137,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 120
+          "rest_seconds": 0
         },
         {
           "index": 3,
           "title": "Pike Handstand Push-Up (elevated feet)",
-          "notes": "Skill: 3x3. Rest 2–3 min.",
+          "notes": "Skill superset A2: Pike HSPU elevated 3x3. Paired with iron cross hold; 60–75 s rest after this exercise each round.",
           "exercise_template_id": "a416a14b-519b-4a6a-b7b6-949c3fb25997",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -174,7 +174,7 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 120
+          "rest_seconds": 75
         },
         {
           "index": 4,
@@ -465,9 +465,9 @@
         {
           "index": 2,
           "title": "Front Lever Hold (Rings)",
-          "notes": "Skill 1: 3x12 s. Rest 2–3 min. Use lever ladder in program doc.",
+          "notes": "Skill giant B1: Front lever hold rings 3x12 s. Then B2 → B3 minimal rest; 60–75 s after B3.",
           "exercise_template_id": "abc04808-44c4-4780-9128-7d0ed0042a91",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -497,14 +497,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 120
+          "rest_seconds": 0
         },
         {
           "index": 3,
           "title": "Deadlift High Pull",
-          "notes": "Skill 2: High pull — alternatively use Kettlebell High Pull or band high pull (see program). 3x5. Rest 2 min.",
+          "notes": "Skill giant B2: Deadlift high pull 3x5 (or KB/band per program). 60–75 s after tuck row each round.",
           "exercise_template_id": "FA5D0DE1",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -534,14 +534,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 120
+          "rest_seconds": 0
         },
         {
           "index": 4,
           "title": "Inverted Row",
-          "notes": "Skill 3: Tuck front-lever row on rings/bar as in program (template: Inverted Row for logging). 3x5. Rest 2–3 min.",
+          "notes": "Skill giant B3: Tuck front-lever row 3x5. Last move in giant set—rest 60–75 s before next round.",
           "exercise_template_id": "425805F4",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -571,7 +571,7 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 120
+          "rest_seconds": 75
         },
         {
           "index": 5,
@@ -752,9 +752,9 @@
         {
           "index": 1,
           "title": "Ring Row",
-          "notes": "Circuit: 3x15 (one set per round in program).",
+          "notes": "Circuit round 1/3: Ring row 15 reps. Giant set with next 3 moves; 60–90 s after hollow rock.",
           "exercise_template_id": "f2fac51e-7700-42d9-8f10-8feee8c99d9b",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -784,14 +784,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 75
+          "rest_seconds": 0
         },
         {
           "index": 2,
           "title": "Shoulder Press (Dumbbell)",
-          "notes": "Band overhead press: template is dumbbell press for logging; use band standing on feet, press overhead. 3x15.",
+          "notes": "Circuit: Band overhead press 15 reps (log as shoulder press template if needed).",
           "exercise_template_id": "878CD1D0",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -821,14 +821,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 75
+          "rest_seconds": 0
         },
         {
           "index": 3,
           "title": "Lunge",
-          "notes": "Bodyweight split squat: 3x12 per side (log 12 reps; alternate legs as in program).",
+          "notes": "Circuit: Split squat pattern 12 reps/side.",
           "exercise_template_id": "5E1A7777",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -858,14 +858,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 75
+          "rest_seconds": 0
         },
         {
           "index": 4,
           "title": "Hollow Rock",
-          "notes": "Hollow body rock: 3x20 s.",
+          "notes": "Circuit: Hollow rock 20 s. End of round—rest 60–90 s before next round.",
           "exercise_template_id": "970ADF87",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -895,7 +895,7 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 75
+          "rest_seconds": 90
         },
         {
           "index": 5,
@@ -1028,9 +1028,9 @@
         {
           "index": 7,
           "title": "L-Sit Hold",
-          "notes": "Accumulate 60 s total hold (example: 4×15 s).",
+          "notes": "Finisher superset C1: L-sit accumulate 60 s (e.g. 4×15 s). Then C2 with minimal rest; 60–75 s after V-ups.",
           "exercise_template_id": "6D54A050",
-          "superset_id": null,
+          "superset_id": 1,
           "sets": [
             {
               "index": 0,
@@ -1069,14 +1069,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 45
+          "rest_seconds": 0
         },
         {
           "index": 8,
           "title": "V Up",
-          "notes": "3x20. Rest 60 s.",
+          "notes": "Finisher superset C2: V-ups 3x20. 60–75 s after each round before next L-sit block if alternating.",
           "exercise_template_id": "6BE68B62",
-          "superset_id": null,
+          "superset_id": 1,
           "sets": [
             {
               "index": 0,
@@ -1106,7 +1106,7 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 60
+          "rest_seconds": 75
         }
       ]
     },
@@ -1212,9 +1212,9 @@
         {
           "index": 2,
           "title": "Chest-to-Wall Handstand Hold",
-          "notes": "Skill 1: chest faces wall, hands ~15–25 cm from wall, walk feet up. Open shoulders, straight line. 3 sets: 25 s target (use 20–30 s range from program). Rest 2–3 min.",
+          "notes": "Handstand giant D1: Chest-to-wall hold ~25 s ×3. Then D2 → D3; 60–75 s after freestanding each round.",
           "exercise_template_id": "3814de10-1893-43b5-8510-61b2e5aaaeb0",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -1244,14 +1244,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 120
+          "rest_seconds": 0
         },
         {
           "index": 3,
           "title": "Wall Handstand Push-Up",
-          "notes": "Skill 2: wall HSPU, full ROM, controlled head touch. 3x3. Rest 2–3 min. Regress: pike HSPU or reduced ROM if needed.",
+          "notes": "Handstand giant D2: Wall HSPU 3x3. 60–75 s after D3 before repeating.",
           "exercise_template_id": "90B04F96",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -1281,14 +1281,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 120
+          "rest_seconds": 0
         },
         {
           "index": 4,
           "title": "Freestanding Handstand Hold",
-          "notes": "Skill 3: no wall; accumulate 15 s clean line per set. Bail and reset if form breaks. Rest 2–3 min. Scale: light fingertip touch or shorter holds.",
+          "notes": "Handstand giant D3: Freestanding HS hold 15 s ×3. End of giant set.",
           "exercise_template_id": "1e929910-a921-4568-81fc-a04d2457a117",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -1318,7 +1318,7 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 120
+          "rest_seconds": 75
         },
         {
           "index": 5,
@@ -1609,9 +1609,9 @@
         {
           "index": 2,
           "title": "Muscle Up",
-          "notes": "Bar muscle up: warm-up 1×3 easier variation, then 3x3. Rest 2 min. Use progression ladder in program doc.",
+          "notes": "Skill superset E1: Muscle up warm-up 1×3 then 3x3. Then E2 archer pull-ups; 60–75 s after E2.",
           "exercise_template_id": "9F9C164B",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -1650,14 +1650,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 120
+          "rest_seconds": 0
         },
         {
           "index": 3,
           "title": "Archer Pull-Up",
-          "notes": "3x4 per side.",
+          "notes": "Skill superset E2: Archer pull-up 3x4/side. 60–75 s after this exercise each round.",
           "exercise_template_id": "cd92a721-419c-4693-9362-f642a5244143",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -1687,14 +1687,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 120
+          "rest_seconds": 75
         },
         {
           "index": 4,
           "title": "Front Lever Hold",
-          "notes": "Skill superset A1: back lever tuck hold 3x12 s (log on front lever hold; follow back lever regressions in program). Superset with Nordic.",
+          "notes": "Skill superset F1: Back lever tuck 3x12 s (log on front lever hold). Then F2 Nordic; 60–75 s after F2.",
           "exercise_template_id": "0E608350",
-          "superset_id": 0,
+          "superset_id": 1,
           "sets": [
             {
               "index": 0,
@@ -1729,9 +1729,9 @@
         {
           "index": 5,
           "title": "Nordic Hamstrings Curls",
-          "notes": "A2: 3x6, band-assist as needed. Rest 60 s after A2.",
+          "notes": "Skill superset F2: Nordic curl 3x6. Paired with back lever tuck.",
           "exercise_template_id": "108D7A14",
-          "superset_id": 0,
+          "superset_id": 1,
           "sets": [
             {
               "index": 0,
