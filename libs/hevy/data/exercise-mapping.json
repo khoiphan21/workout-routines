@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-01T23:11:02.135Z",
+  "generatedAt": "2026-04-01T23:31:41.750Z",
   "hevyTemplateCount": 457,
-  "repoExerciseCount": 43,
-  "matched": 43,
+  "repoExerciseCount": 45,
+  "matched": 45,
   "toCreate": [],
   "mapping": [
     {
@@ -77,6 +77,13 @@
       "hevyTitle": "Lunge",
       "matchScore": 0.7,
       "proxyNote": "Conditioning: alternating split squat pattern logged as lunge."
+    },
+    {
+      "slug": "cable-lateral-raise",
+      "repoTitle": "Lateral Raise (Cable)",
+      "hevyId": "BE289E45",
+      "hevyTitle": "Lateral Raise (Cable)",
+      "matchScore": 1
     },
     {
       "slug": "chest-to-wall-handstand-hold",
@@ -260,6 +267,13 @@
       "repoTitle": "Rings Hamstring Curl",
       "hevyId": "b5440ed7-2280-4148-a624-fef61482edba",
       "hevyTitle": "Hamstring Curl (Rings)",
+      "matchScore": 1
+    },
+    {
+      "slug": "standing-calf-raise-machine",
+      "repoTitle": "Standing Calf Raise (Machine)",
+      "hevyId": "E05C2C38",
+      "hevyTitle": "Standing Calf Raise (Machine)",
       "matchScore": 1
     },
     {

@@ -2,11 +2,11 @@
 
 This document lists exercises from this repo that are **not yet** in Hevy's exercise library. Use this list when creating custom exercise templates on Hevy via the API.
 
-**Generated:** 2026-04-01T22:12:03.229Z
+**Generated:** 2026-04-01T23:31:41.750Z
 
 **Summary:**
-- Repo exercises: 43
-- Matched to Hevy: 43 (see `libs/hevy/data/exercise-mapping.json`)
+- Repo exercises: 45
+- Matched to Hevy: 45 (see `libs/hevy/data/exercise-mapping.json`)
 - **To create on Hevy:** 0 — templates are created/updated via `npm run hevy:push` when needed
 
 ---

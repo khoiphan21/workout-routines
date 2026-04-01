@@ -51,10 +51,37 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - Quadruped Thoracic Rotation — 1x10 per side
 - **Power triples:** ~85–90% of the day's triple; 1 rep in reserve on the first 2 sets.
 - **Hypertrophy:** RPE 8–9 (1–2 reps in reserve).
-- **Weekly balance:** Over a **microcycle (one week)**, spread **direct** hypertrophy volume so major areas (chest, back/lats, shoulders, arms, legs, calves, abs) each get **~6–9 hard sets** at 2×/week where possible—consistent with **≥10 hard sets / muscle / week** from `research/strength-hypertrophy.md` when combined with power + skill work. No single session should stack **only** identical patterns (e.g. four horizontal rows back-to-back); **pair non-competing moves** in Hevy (`superset_id`) so shoulders recover while you train arms, legs while you train chest, etc.
+- **Weekly balance:** Over a **microcycle (one week)**, spread **direct** hypertrophy volume so major areas (chest, back/lats, shoulders, arms, legs, calves, abs) each get meaningful work at **2×/week** where possible. **≥10 hard sets / muscle / week** (from `research/strength-hypertrophy.md`) should include **power + skills + GM2** using a transparent count (see **Hard sets — how to count** below)—not table estimates alone.
+- **Skill quality:** If a **giant set** degrades the last movement, split it (e.g. pair two moves, then a separate block for the third) so motor learning stays clean (`research/periodization-programming.md`).
 - **Holds:** pick a level that allows full target time with clean positions plus 1–2 s in reserve.
 - **Supersets:** alternate movements; rest 60–75 s between paired exercises (use 75 s for arms/isolation if sets feel rushed). Do not superset the power triple.
-- **Skill supersets:** after power, perform each day’s skill block as **linked supersets in Hevy** (`superset_id`): move A → move B (→ move C if a triplet) with minimal transition, then **60–75 s** before the next round. Keeps session density in line with hypertrophy superset rest (see `research/recovery-adaptation.md`).
+- **Skill supersets:** after power, perform each day’s skill block as **linked supersets in Hevy** (`superset_id`) where noted: move A → move B (→ move C if a triplet) with minimal transition, then **60–75 s** before the next round. Keeps session density in line with hypertrophy superset rest (see `research/recovery-adaptation.md`).
+
+### Hard sets — how to count (weekly transparency)
+
+Use **hard sets** = work sets taken **~0–3 RIR** (exclude warm-ups and easy skill regressions). **Direct** = exercise primarily loads that muscle; **indirect** = compound contributes but is not counted as a full set for that muscle.
+
+| Muscle / area | Count as direct (examples) | Count as indirect (examples) |
+|---------------|------------------------------|--------------------------------|
+| Chest | Bench/dip **work** triples; fly; incline press | — |
+| Back / lats | Rows, pulldowns, SA pulldown **work** sets | Face pull → small upper-back |
+| Shoulders | OHP, lateral raise, face pull, rev fly **work** sets | Bench/dip/HSPU (1 indirect each if already counted for chest/triceps) |
+| Triceps | Tri extension **work** sets | Dip, bench, HSPU, muscle-up (1 indirect each) |
+| Biceps | Curl **work** sets | Chin-up, row, lever row (0.5 indirect per row set optional) |
+| Quads | BSS, leg ext, split squat **work** sets | High pull (if quad-dominant variant) |
+| Hamstrings | Leg curl, Nordic **work** sets | — |
+| Calves | Calf raise **work** sets | Jumping jacks (conditioning—not a hypertrophy set unless RPE high) |
+| Abs | Crunch, L-sit, V-up **work** sets | Hollow rock (time @ effort) |
+
+**Target:** after counting, aim **~10–16 hard sets / week / major muscle** for hypertrophy emphasis; **deload** or drop a set if recovery lags (`research/population-specific.md`).
+
+### Conditioning — intensity (concurrent training)
+
+Day 3 should stay **RPE ~5–7** or **conversational / steady** so weekly **systemic fatigue** and **interference** with strength stay low (`research/periodization-programming.md`). If you push conditioning hard, reduce one hypertrophy set elsewhere or expect slower strength progress.
+
+### Deload vs strength peaks
+
+Planned deloads help **fatigue**; they may **not** maximize **peak strength** in a short block (`research/recovery-adaptation.md`). For a strength-emphasis phase, shorten deloads or run autoregulation-only.
 
 ### Progression failure rule (applies to all exercises)
 
@@ -118,11 +145,11 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - _Warm-up: bodyweight × 5, light load × 3, 50% × 3, 70% × 2, then work sets._
   - _Progression: add +2.5 kg next pull day after a clean 3x3._
   - _Rest 3-4 min._
-- **Skill giant set** (three moves, one round)
-  - B1: Front Lever Hold — 3x12 s
-  - B2: High Pull (barbell or band) — 3x5
-  - B3: Tuck Front-Lever Row — 3x5
-  - _B1 → B2 → B3 with minimal rest between; **60–75 s** after B3 before the next round._
+- **Skill block** (split for shoulder-girdle quality: pair, then separate row work)
+  - **Pair:** B1 Front Lever Hold — 3x12 s → B2 High Pull (barbell or band) — 3x5  
+    _Minimal rest between B1 and B2; **60–75 s** after B2._
+  - **Then:** B3 Tuck Front-Lever Row — 3x5  
+    _Own block (full **2–3 min** between rounds if needed for clean rows—not chained to B1–B2)._
 - **Hypertrophy + Abs (Gym Monster 2)** — *rear-delts + arms so Pull B isn’t the only shoulder/biceps volume*
   - **H1:** Face Pull (Cable) — 3x15 → **H2:** Seated Cable Row — 3x10  
     _Rear delts / external rotation + mid-back row; **60–75 s** after H2._
@@ -157,11 +184,13 @@ A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume
   - D2: Wall Handstand Push-Up — 3x3
   - D3: Freestanding Handstand Hold — 3×15 s
   - _D1 → D2 → D3 with minimal rest; **60–75 s** after D3 before the next round. Chest stays close to the wall on D1; full ROM on D2; clean line on D3._
-- **Hypertrophy + Abs (Gym Monster 2)** — *shoulders + chest stack; legs/curls moved to Push A*
+- **Hypertrophy + Abs (Gym Monster 2)** — *mid-delt + calves added per exercise-selection isolation guidance*
   - **H1:** Overhead Press (Cable) — 3x8 → **H2:** Incline Chest Press (machine / cable stack) — 3x12  
     _Vertical + incline press; **60–75 s** after H2._
   - **H3:** Seated Leg Curl (Machine) — 3x12 → **H4:** Overhead Triceps Extension (Cable) — 3x15  
-    _Hamstrings + triceps (non-competing); **60–75 s** after H4._
+    _Hamstrings + triceps; **60–75 s** after H4._
+  - **H5:** Lateral Raise (Cable) — 3x12 → **H6:** Standing Calf Raise (Machine) — 3x12  
+    _Side delt + calves; **60–75 s** after H6._
   - Cable Crunch — 3x15  
     _Single._
 
@@ -191,7 +220,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 ### Power Week
 
 - **Power lifts:** 3x3, heavy; rest 3–4 min.
-- **Skills:** 3x12 s holds or 3x3 rep skills, performed as **supersets / giant sets** (see day write-ups).
+- **Skills:** 3x12 s holds or 3x3 rep skills, mostly as **supersets / giant sets**; Pull A uses a **pair + separate row block** for quality (see day write-ups).
 - **Hypertrophy:** 3x8–15 (use the fixed prescriptions listed); rest 60–75 s in supersets.
 
 ### Tempo Week
@@ -214,7 +243,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 - **Push A:** Weighted Dip; Iron Cross Hold Progression; Pike Handstand Push-Up; Bulgarian Split Squat (GM2); Chest Fly (GM2); Leg Extension (GM2); Hammer Curl (Cable, GM2); Cable Crunch (GM2).
 - **Pull A:** Weighted Pull-Up; Front Lever Hold; High Pull; Tuck Front-Lever Row; Face Pull (GM2); Cable Row (GM2); Straight-Arm Pulldown (GM2); Bicep Curl (Cable, GM2); Cable Crunch (GM2).
 - **Conditioning:** Ring Row; Band Overhead Press; Bodyweight Split Squat; Hollow Body Rock; Jumping Jacks; Band Straight-Arm Pulldown; L-Sit Hold; V-Ups.
-- **Push B:** Barbell Bench Press (pause); Chest-to-Wall Handstand Hold; Wall Handstand Push-Up; Freestanding Handstand Hold; Overhead Press (GM2); Incline Chest Press (GM2); Seated Leg Curl (GM2); Overhead Triceps Extension (GM2); Cable Crunch (GM2).
+- **Push B:** Barbell Bench Press (pause); Chest-to-Wall Handstand Hold; Wall Handstand Push-Up; Freestanding Handstand Hold; Overhead Press (GM2); Incline Chest Press (GM2); Seated Leg Curl (GM2); Overhead Triceps Extension (GM2); Lateral Raise (Cable, GM2); Standing Calf Raise (Machine, GM2); Cable Crunch (GM2).
 - **Pull B:** Weighted Chin-Up; Bar Muscle Up; Archer Pull-Ups; Back Lever Tuck Hold; Nordic Curl; Seated Cable Row Wide Grip (GM2); Reverse Fly (GM2); Iso-Lateral High Row (GM2); Cable Crunch (GM2).
 
 ## Key notes (selected)
@@ -240,13 +269,8 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 
 - **Placement:** Main skill on Pull B; perform when fresh after power.
 - **Technique:** overhand slightly wider than shoulders; explosive pull to sternum; fast turnover; straight bar dip lockout; no chicken-wing.
-- **Work:** 1x3 warm-up (easier variation), then 3x3; rest 2 min.
+- **Work:** 1x3 warm-up (easier variation), then 3x3; **60–75 s** after archer pull-ups each round (superset with E2).
 - **Ladder:** chest-to-bar 3x3 → explosive chest-over-bar 3x3 → band-assist 3x3 → negatives 3x6 s → strict 3x3.
-
-### High Pull (Pull A)
-
-- **Options:** Deadlift High Pull (barbell), Kettlebell High Pull, or band high pull (attach band low, pull to chest).
-- **Work:** 3x5; rest 2 min.
 
 ### Hypertrophy blocks — Gym Monster 2 (all days)
 
@@ -254,7 +278,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 - Do calisthenics skills first (outside), then move to GM2 and complete the hypertrophy block without going back.
 - **Pull A:** Face Pull; Cable Row; Straight-Arm Pulldown; Bicep Curl (Cable); Cable Crunch.
 - **Push A:** Bulgarian Split Squat; Chest Fly; Leg Extension; Hammer Curl (Cable); Cable Crunch.
-- **Push B:** Overhead Press; Incline Chest Press; Seated Leg Curl; Overhead Triceps Extension; Cable Crunch.
+- **Push B:** Overhead Press; Incline Chest Press; Seated Leg Curl; Overhead Triceps Extension; Lateral Raise (Cable); Standing Calf Raise (Machine); Cable Crunch.
 - **Pull B:** Seated Cable Row (Wide Grip); Reverse Fly; Iso-Lateral High Row; Cable Crunch (paired blocks per day summary).
 
 ### Weekly hypertrophy balance (direct sets, Power Week)
@@ -265,14 +289,20 @@ Approximate **hard sets per week** from GM2/cable work alone (power + skills add
 |------|--------|--------|--------|--------|---------------|
 | Chest | Fly | Incline | — | — | — |
 | Back / lats | — | — | Row, SA pulldown | Row, high row | Ring row, band pulldown |
-| Shoulders (incl. rear) | — | OHP | Face pull | Rev fly | Band OH press |
+| Shoulders (incl. rear) | — | OHP, lateral raise | Face pull | Rev fly | Band OH press |
 | Triceps | — | OH extension | — | — | — |
 | Biceps | Hammer curl | — | Cable curl | — | — |
 | Quads | BSS, leg ext | — | Split squat | — | Split squat |
 | Hamstrings | — | Leg curl (GM2) | — | Nordic (skill) | — |
+| Calves | — | Calf raise (GM2) | — | — | Jumping jacks* |
 | Abs | Crunch | Crunch | Crunch | Crunch (paired w/ row) | L-sit, V-up, hollow |
 
-\*Conditioning is lower-threshold; count separately if tracking volume.
+\*Conditioning is lower-threshold; count separately if tracking volume. Jumping jacks are not a default **hard set** for calves unless run at high RPE.
+
+### High Pull (Pull A)
+
+- **Options:** Deadlift High Pull (barbell), Kettlebell High Pull, or band high pull (attach band low, pull to chest).
+- **Work:** 3x5; paired with front lever hold in the skill block (**60–75 s** after the pair before tuck rows).
 
 ### Lengthened partials (Tempo / Volume week)
 

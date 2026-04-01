@@ -38,6 +38,7 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [Band High-to-Low Row](band-high-to-low-row)
 - [Band Lateral Raise](band-lateral-raise)
 - [Band Overhead Press](band-overhead-press)
+- [Lateral Raise (Cable)](cable-lateral-raise)
 - [Chest-to-Wall Handstand Hold](chest-to-wall-handstand-hold)
 - [Freestanding Handstand Hold](freestanding-handstand-hold)
 - [Handstand Push-Up](handstand-push-up)
@@ -69,6 +70,7 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [Nordic Curl](nordic-curl)
 - [Pistol Squat](pistol-squat)
 - [Rings Hamstring Curl](rings-hamstring-curl)
+- [Standing Calf Raise (Machine)](standing-calf-raise-machine)
 
 ### Skill / holds
 

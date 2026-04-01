@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-01T23:11:02.506Z",
+  "fetchedAt": "2026-04-01T23:31:42.145Z",
   "source": "prepared-for-hevy-api-push:khoiphan21@programs/khoiphan21/push-pull-homegym (Power Week, 5 days)",
   "count": 5,
   "data": [
@@ -465,7 +465,7 @@
         {
           "index": 2,
           "title": "Front Lever Hold (Rings)",
-          "notes": "Skill giant B1: Front lever hold rings 3x12 s. Then B2 → B3 minimal rest; 60–75 s after B3.",
+          "notes": "Skill B1: Front lever hold rings 3x12 s. Paired with high pull only—full recovery before tuck row block.",
           "exercise_template_id": "abc04808-44c4-4780-9128-7d0ed0042a91",
           "superset_id": 0,
           "sets": [
@@ -502,7 +502,7 @@
         {
           "index": 3,
           "title": "Deadlift High Pull",
-          "notes": "Skill giant B2: Deadlift high pull 3x5 (or KB/band per program). 60–75 s after tuck row each round.",
+          "notes": "Skill B2: High pull 3x5. End of first pair—60–75 s rest, then start tuck rows fresh (reduces 3-move shoulder girdle sprint).",
           "exercise_template_id": "FA5D0DE1",
           "superset_id": 0,
           "sets": [
@@ -534,14 +534,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 0
+          "rest_seconds": 75
         },
         {
           "index": 4,
           "title": "Inverted Row",
-          "notes": "Skill giant B3: Tuck front-lever row 3x5. Last move in giant set—rest 60–75 s before next round.",
+          "notes": "Skill B3: Tuck front-lever row 3x5. Own block (not in giant set with B1–B2)—rest 2–3 min between rounds if needed for quality.",
           "exercise_template_id": "425805F4",
-          "superset_id": 0,
+          "superset_id": null,
           "sets": [
             {
               "index": 0,
@@ -571,7 +571,7 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 75
+          "rest_seconds": 120
         },
         {
           "index": 5,
@@ -1286,7 +1286,7 @@
         {
           "index": 3,
           "title": "Wall Handstand Push-Up",
-          "notes": "Handstand giant D2: Wall HSPU 3x3. 60–75 s after D3 before repeating.",
+          "notes": "Handstand giant D2: Wall HSPU 3x3. Then D3 freestanding; 60–75 s after D3.",
           "exercise_template_id": "90B04F96",
           "superset_id": 0,
           "sets": [
@@ -1319,6 +1319,43 @@
             }
           ],
           "rest_seconds": 0
+        },
+        {
+          "index": 4,
+          "title": "Freestanding Handstand Hold",
+          "notes": "Handstand giant D3: Freestanding HS 15 s ×3. End of handstand triplet—60–75 s after this before hypertrophy.",
+          "exercise_template_id": "1e929910-a921-4568-81fc-a04d2457a117",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 15,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 15,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 15,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
         },
         {
           "index": 5,
@@ -1470,8 +1507,82 @@
         },
         {
           "index": 9,
+          "title": "Lateral Raise (Cable)",
+          "notes": "Hypertrophy H5: mid-delt isolation 3x12. Paired with calf raise—research: isolation for lateral delts when compounds dominate.",
+          "exercise_template_id": "BE289E45",
+          "superset_id": 4,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 10,
+          "title": "Standing Calf Raise (Machine)",
+          "notes": "Hypertrophy H6: 3x12. Paired with lateral raise; 60–75 s after calves each round.",
+          "exercise_template_id": "E05C2C38",
+          "superset_id": 4,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        },
+        {
+          "index": 11,
           "title": "Cable Crunch",
-          "notes": "Abs: 3x15.",
+          "notes": "Abs: 3x15. Single after arms/calves block.",
           "exercise_template_id": "23A48484",
           "superset_id": null,
           "sets": [
