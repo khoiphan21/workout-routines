@@ -65,3 +65,5 @@ An all-in-one smart home gym with electromagnetic resistance, combining a power 
 - Band rows, band pulldowns, band high-to-low rows
 - Ring rows (with AeroRow or cable setup)
 - Cable machine equivalents for most upper-body and some lower-body exercises
+
+For a **calisthenics-first** setup (bar, rings, bench, bands), use GM2 mainly as a **cable stack** for rows, pulldowns, flies, curls, triceps, and presses. Prefer **sissy squats** or **split squats** over a dedicated leg-extension station, **rings hamstring curls** over a seated leg curl machine, and **standing calf raises** on the floor or a low block over a standing calf machine.

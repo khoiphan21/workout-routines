@@ -27,4 +27,4 @@
 
 - Use a resistance band for assistance.
 - Perform negative chin-ups to build strength.
-- Use an assisted chin-up machine.
+- Use a low bar or rings for partial ROM or foot-assisted reps if you do not have a commercial assisted machine.

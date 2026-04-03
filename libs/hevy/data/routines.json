@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-01T23:31:42.145Z",
+  "fetchedAt": "2026-04-03T00:49:46.415Z",
   "source": "prepared-for-hevy-api-push:khoiphan21@programs/khoiphan21/push-pull-homegym (Power Week, 5 days)",
   "count": 5,
   "data": [
@@ -252,9 +252,9 @@
         },
         {
           "index": 6,
-          "title": "Leg Extension (Machine)",
-          "notes": "Hypertrophy H3: 3x12 quad isolation. Superset with hammer curl; balances arms vs prior push days.",
-          "exercise_template_id": "75A4F6C4",
+          "title": "Sissy Squat (Weighted)",
+          "notes": "Hypertrophy H3: 3x12 quad emphasis (sissy stand / anchored feet; plate or belt). Superset with hammer curl; **60–75 s** after H4.",
+          "exercise_template_id": "F5DEF1EB",
           "superset_id": 3,
           "sets": [
             {
@@ -1359,9 +1359,9 @@
         },
         {
           "index": 5,
-          "title": "Seated Shoulder Press (Machine)",
-          "notes": "Hypertrophy H1: 3x8 overhead. Superset with incline press; 60–75 s after H2.",
-          "exercise_template_id": "9237BAD1",
+          "title": "Overhead Press (Cable, Gym Monster 2)",
+          "notes": "Hypertrophy H1: 3x8 GM2 cable OHP (standing or tall kneel). Superset with incline cable press; **60–75 s** after H2.",
+          "exercise_template_id": "8917a840-6edb-498e-a59c-bae2b2da5eaa",
           "superset_id": 2,
           "sets": [
             {
@@ -1396,9 +1396,9 @@
         },
         {
           "index": 6,
-          "title": "Incline Chest Press (Machine)",
-          "notes": "Hypertrophy H2: 3x12 incline (not flat bench—power bench is separate).",
-          "exercise_template_id": "FBF92739",
+          "title": "Incline Bench Press (Cable, Gym Monster 2)",
+          "notes": "Hypertrophy H2: 3x12 low incline on bench with GM2 cables (~30–45°).",
+          "exercise_template_id": "0bdabadd-dff1-40a8-8f3e-1f77e80daa10",
           "superset_id": 2,
           "sets": [
             {
@@ -1433,9 +1433,9 @@
         },
         {
           "index": 7,
-          "title": "Seated Leg Curl (Machine)",
-          "notes": "Hypertrophy H3: 3x12 hamstrings. Superset with OH triceps—non-competing with shoulders/chest.",
-          "exercise_template_id": "11A123F3",
+          "title": "Hamstring Curl (Rings)",
+          "notes": "Hypertrophy H3: 3x12 supine/bridge rings curl (no leg curl machine). Superset with OH triceps.",
+          "exercise_template_id": "b5440ed7-2280-4148-a624-fef61482edba",
           "superset_id": 3,
           "sets": [
             {
@@ -1544,9 +1544,9 @@
         },
         {
           "index": 10,
-          "title": "Standing Calf Raise (Machine)",
-          "notes": "Hypertrophy H6: 3x12. Paired with lateral raise; 60–75 s after calves each round.",
-          "exercise_template_id": "E05C2C38",
+          "title": "Standing Calf Raise",
+          "notes": "Hypertrophy H6: 3x12 floor or low block (no calf machine). Paired with lateral raise; **60–75 s** after H6.",
+          "exercise_template_id": "06745E58",
           "superset_id": 4,
           "sets": [
             {
@@ -1950,9 +1950,9 @@
         },
         {
           "index": 8,
-          "title": "Iso-Lateral High Row (Machine)",
-          "notes": "Hypertrophy H3: 3x15 high row. Superset with cable crunch—avoids third straight horizontal pull without rest variety.",
-          "exercise_template_id": "BC3492DA",
+          "title": "Reverse Grip Lat Pulldown (Cable)",
+          "notes": "Hypertrophy H3: 3x15 vertical pull on GM2 (supinated/parallel). Superset with cable crunch.",
+          "exercise_template_id": "046E25A2",
           "superset_id": 3,
           "sets": [
             {

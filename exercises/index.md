@@ -20,10 +20,12 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [Weighted Chin-Up](weighted-chin-up)
 - [Weighted Pull-Up](weighted-pull-up)
 - [Wide-Grip Inverted Row](wide-grip-inverted-row)
+- [Reverse Grip Lat Pulldown (Cable)](reverse-grip-lat-pulldown-cable)
 
 ### Chest
 
 - [Barbell Bench Press](barbell-bench-press)
+- [Incline Bench Press (Cable, Gym Monster 2)](incline-bench-press-cable-gm2)
 - [Decline Ring Push-up](decline-ring-push-up)
 - [Pike Handstand Push-Up](pike-handstand-push-up)
 - [Pike Push-up](pike-push-up)
@@ -39,6 +41,7 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [Band Lateral Raise](band-lateral-raise)
 - [Band Overhead Press](band-overhead-press)
 - [Lateral Raise (Cable)](cable-lateral-raise)
+- [Overhead Press (Cable, Gym Monster 2)](overhead-press-cable-gm2)
 - [Chest-to-Wall Handstand Hold](chest-to-wall-handstand-hold)
 - [Freestanding Handstand Hold](freestanding-handstand-hold)
 - [Handstand Push-Up](handstand-push-up)
@@ -70,7 +73,8 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [Nordic Curl](nordic-curl)
 - [Pistol Squat](pistol-squat)
 - [Rings Hamstring Curl](rings-hamstring-curl)
-- [Standing Calf Raise (Machine)](standing-calf-raise-machine)
+- [Sissy Squat (Weighted)](sissy-squat-weighted)
+- [Standing Calf Raise](standing-calf-raise)
 
 ### Skill / holds
 

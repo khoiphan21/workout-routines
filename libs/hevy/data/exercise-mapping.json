@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-01T23:31:41.750Z",
+  "generatedAt": "2026-04-03T00:49:46.046Z",
   "hevyTemplateCount": 457,
-  "repoExerciseCount": 45,
-  "matched": 45,
+  "repoExerciseCount": 49,
+  "matched": 49,
   "toCreate": [],
   "mapping": [
     {
@@ -149,6 +149,13 @@
       "matchScore": 0.85
     },
     {
+      "slug": "incline-bench-press-cable-gm2",
+      "repoTitle": "Incline Bench Press (Cable, Gym Monster 2)",
+      "hevyId": "0bdabadd-dff1-40a8-8f3e-1f77e80daa10",
+      "hevyTitle": "Incline Bench Press (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
       "slug": "iron-cross-hold-progression",
       "repoTitle": "Iron Cross Hold Progression",
       "hevyId": "9f7e20e1-81a6-4621-b715-701c60ac75b9",
@@ -184,6 +191,13 @@
       "matchScore": 0.9655172413793104
     },
     {
+      "slug": "overhead-press-cable-gm2",
+      "repoTitle": "Overhead Press (Cable, Gym Monster 2)",
+      "hevyId": "8917a840-6edb-498e-a59c-bae2b2da5eaa",
+      "hevyTitle": "Overhead Press (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
       "slug": "pike-handstand-push-up",
       "repoTitle": "Pike Handstand Push-Up",
       "hevyId": "a416a14b-519b-4a6a-b7b6-949c3fb25997",
@@ -209,6 +223,13 @@
       "repoTitle": "Reverse Fly (band)",
       "hevyId": "49b60968-dc7d-4615-ae61-dbb8f17e4e1b",
       "hevyTitle": "Reverse Fly (band)",
+      "matchScore": 1
+    },
+    {
+      "slug": "reverse-grip-lat-pulldown-cable",
+      "repoTitle": "Reverse Grip Lat Pulldown (Cable)",
+      "hevyId": "046E25A2",
+      "hevyTitle": "Reverse Grip Lat Pulldown (Cable)",
       "matchScore": 1
     },
     {
@@ -270,10 +291,17 @@
       "matchScore": 1
     },
     {
-      "slug": "standing-calf-raise-machine",
-      "repoTitle": "Standing Calf Raise (Machine)",
-      "hevyId": "E05C2C38",
-      "hevyTitle": "Standing Calf Raise (Machine)",
+      "slug": "sissy-squat-weighted",
+      "repoTitle": "Sissy Squat (Weighted)",
+      "hevyId": "F5DEF1EB",
+      "hevyTitle": "Sissy Squat (Weighted)",
+      "matchScore": 1
+    },
+    {
+      "slug": "standing-calf-raise",
+      "repoTitle": "Standing Calf Raise",
+      "hevyId": "06745E58",
+      "hevyTitle": "Standing Calf Raise",
       "matchScore": 1
     },
     {

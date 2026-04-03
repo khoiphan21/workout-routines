@@ -2,12 +2,12 @@
 
 This document lists exercises from this repo that are **not yet** in Hevy's exercise library. Use this list when creating custom exercise templates on Hevy via the API.
 
-**Generated:** 2026-04-01T23:31:41.750Z
+**Generated:** 2026-04-03T00:49:46.046Z
 
 **Summary:**
-- Repo exercises: 45
-- Matched to Hevy: 45 (see `libs/hevy/data/exercise-mapping.json`)
-- **To create on Hevy:** 0 — templates are created/updated via `npm run hevy:push` when needed
+- Repo exercises: 49
+- Matched to Hevy: 49 (see `libs/hevy/data/exercise-mapping.json`)
+- **To create on Hevy:** 0 — two GM2-specific cable press templates are ensured on every `npm run hevy:push` run (`ADDITIONAL_PUSH_SLUGS` in `scripts/hevy-push-program.mjs`)
 
 ---
 

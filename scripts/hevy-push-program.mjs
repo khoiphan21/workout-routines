@@ -76,10 +76,29 @@ const TO_CREATE_SPECS = {
     muscleGroup: 'shoulders',
     otherMuscles: ['triceps', 'abdominals'],
   },
+  'overhead-press-cable-gm2': {
+    title: 'Overhead Press (Cable, Gym Monster 2)',
+    exerciseType: 'weight_reps',
+    equipmentCategory: 'machine',
+    muscleGroup: 'shoulders',
+    otherMuscles: ['triceps'],
+  },
+  'incline-bench-press-cable-gm2': {
+    title: 'Incline Bench Press (Cable, Gym Monster 2)',
+    exerciseType: 'weight_reps',
+    equipmentCategory: 'machine',
+    muscleGroup: 'chest',
+    otherMuscles: ['shoulders', 'triceps'],
+  },
 };
 
 /** Slugs to ensure on every push even when toCreate is empty (program-specific customs). */
-const ADDITIONAL_PUSH_SLUGS = ['chest-to-wall-handstand-hold', 'freestanding-handstand-hold'];
+const ADDITIONAL_PUSH_SLUGS = [
+  'chest-to-wall-handstand-hold',
+  'freestanding-handstand-hold',
+  'overhead-press-cable-gm2',
+  'incline-bench-press-cable-gm2',
+];
 
 const PLACEHOLDER_TEMPLATE_IDS = new Set(['00000000-0000-0000-0000-000000000001']);
 

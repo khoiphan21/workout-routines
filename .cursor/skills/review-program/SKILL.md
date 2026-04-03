@@ -32,6 +32,8 @@ From the user message, identify:
 - **Program root**: e.g. `programs/khoiphan21/push-pull-homegym/` (main doc is `index.md` unless they name another file).
 - **User instructions**: constraints (equipment, days, goals, injuries, time), and what must stay vs change.
 
+For **calisthenics station + Gym Monster 2** (no commercial gym), avoid dedicated-machine prescriptions (leg extension, seated leg curl, iso-lateral plate rows, standing calf machine, etc.); use bar/rings/bench/bands plus GM2 cables and bodyweight patterns. When Hevy lacks an exact cable variant, add a **custom template** with an explicit title (e.g. “Overhead Press (Cable, Gym Monster 2)”) in `TO_CREATE_SPECS` / `ADDITIONAL_PUSH_SLUGS`.
+
 Re-read that program’s `index.md` (and linked exercise pages under `exercises/` as needed) **after** research so edits align with both science and user intent.
 
 ## 3. Redesign the program (documentation)

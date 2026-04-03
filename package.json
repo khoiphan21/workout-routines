@@ -1,7 +1,7 @@
 {
   "name": "workspace",
   "version": "1.0.0",
-  "description": "A complete, machine-friendly 5-day split you can run in Power, Tempo, and Volume weeks using the same exercises. Only the progression level, reps/sets, and (for Tempo) tempo change.",
+  "description": "A calisthenics-station + Gym Monster 2 5-day split (Power, Tempo, Volume weeks). Same exercises; progression, reps/sets, and tempo vary by week type.",
   "scripts": {
     "docs:dev": "vitepress dev .",
     "docs:build": "vitepress build .",
