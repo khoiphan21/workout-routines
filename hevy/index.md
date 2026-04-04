@@ -4,7 +4,7 @@ Documentation and data for syncing this workout program with [Hevy](https://www.
 
 ## Contents
 
-- [Exercises to Create on Hevy](exercises-to-create) — List of repo exercises not yet in Hevy's library (for review before creating custom templates)
+- [Exercises to Create on Hevy](exercises-to-create) — Repo exercises still needing Hevy templates (usually empty after `hevy:push`)
 
 ## Scripts
 
@@ -15,6 +15,7 @@ Documentation and data for syncing this workout program with [Hevy](https://www.
 | `npm run hevy:fetch-routines` | Fetch routines only |
 | `npm run hevy:fetch-folders` | Fetch routine folders only |
 | `npm run hevy:map-exercises` | Compare repo exercises to Hevy templates; update mapping and [exercises-to-create](exercises-to-create) doc |
+| `npm run hevy:push` | Create missing custom exercises from `exercise-mapping.json` and upsert routines from `routines.json` (requires API key) |
 
 ## Data Files
 

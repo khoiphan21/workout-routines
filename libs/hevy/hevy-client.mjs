@@ -113,15 +113,58 @@ export async function fetchById(path, id) {
 }
 
 /**
+ * Create a custom exercise template via Hevy API.
+ * @param {object} payload - { title, exerciseType, equipmentCategory, muscleGroup, otherMuscles? }
+ * @returns {Promise<{ id: string }>}
+ */
+export async function createExerciseTemplate(payload) {
+  const body = {
+    exercise: {
+      title: payload.title,
+      exercise_type: payload.exerciseType,
+      equipment_category: payload.equipmentCategory,
+      muscle_group: payload.muscleGroup,
+      other_muscles: payload.otherMuscles ?? [],
+    },
+  };
+
+  const res = await fetch(`${HEVY_BASE}/exercise_templates`, {
+    method: 'POST',
+    headers: getHevyHeaders(),
+    body: JSON.stringify(body),
+  });
+  const text = await res.text();
+  if (!res.ok) {
+    throw new Error(`Hevy API exercise_templates POST failed (${res.status}): ${text}`);
+  }
+  const trimmed = text.trim();
+  if (trimmed.startsWith('{')) {
+    const data = JSON.parse(trimmed);
+    const id =
+      data?.exercise_template?.id ??
+      data?.exercise?.id ??
+      data?.id;
+    if (!id) throw new Error(`Unexpected exercise_templates response: ${trimmed}`);
+    return { id };
+  }
+  return { id: trimmed };
+}
+
+/**
  * Create a routine via Hevy API.
  * @param {object} payload - { title, exercises, folderId?, notes? }
  * @returns {Promise<object>} Created routine
  */
+function routineNotes(value) {
+  const s = value != null ? String(value).trim() : '';
+  return s.length > 0 ? s : '—';
+}
+
 export async function createRoutine(payload) {
   const body = {
     routine: {
       title: payload.title,
-      notes: payload.notes ?? '',
+      notes: routineNotes(payload.notes),
       folder_id: payload.folderId ?? null,
       exercises: (payload.exercises ?? []).map((ex) => ({
         exercise_template_id: ex.exerciseTemplateId,
@@ -144,7 +187,7 @@ export async function createRoutine(payload) {
     body: JSON.stringify(body),
   });
   const routine = data?.routine;
-  return Array.isArray(routine) ? routine[0] : data;
+  return Array.isArray(routine) ? routine[0] : routine ?? data;
 }
 
 /**
@@ -154,7 +197,7 @@ export async function updateRoutine(routineId, payload) {
   const body = {
     routine: {
       title: payload.title,
-      notes: payload.notes ?? '',
+      notes: routineNotes(payload.notes),
       exercises: (payload.exercises ?? []).map((ex) => ({
         exercise_template_id: ex.exerciseTemplateId,
         rest_seconds: ex.restSeconds ?? 60,
