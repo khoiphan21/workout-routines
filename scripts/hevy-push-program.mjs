@@ -15,6 +15,7 @@ import { fileURLToPath } from 'node:url';
 import {
   createExerciseTemplate,
   createRoutine,
+  createRoutineFolder,
   fetchAllPaginated,
   getHevyApiKey,
   updateRoutine,
@@ -209,6 +210,34 @@ function resolveExerciseTemplateId(ex, titleToTemplateId) {
   return tid;
 }
 
+async function ensureRoutineFolders(routinesDoc) {
+  const folderNames = new Set();
+  for (const r of routinesDoc.data ?? []) {
+    if (r._folder_name && !r.folder_id) folderNames.add(r._folder_name);
+  }
+  if (folderNames.size === 0) return;
+
+  const existing = await fetchAllPaginated('routine_folders', { pageSize: 10 });
+  const byTitle = new Map();
+  for (const f of existing) byTitle.set(normTitle(f.title), f.id);
+
+  for (const name of folderNames) {
+    let fid = byTitle.get(normTitle(name));
+    if (!fid) {
+      const created = await createRoutineFolder(name);
+      fid = created?.id;
+      console.log(`Created folder: "${name}" → ${fid}`);
+      byTitle.set(normTitle(name), fid);
+    } else {
+      console.log(`Folder exists: "${name}" → ${fid}`);
+    }
+
+    for (const r of routinesDoc.data ?? []) {
+      if (r._folder_name === name) r.folder_id = fid;
+    }
+  }
+}
+
 async function pushRoutines(routinesDoc, titleToTemplateId) {
   const list = [...(routinesDoc.data ?? [])].sort((a, b) => {
     const order = (t) => {
@@ -302,6 +331,7 @@ async function main() {
   const mappingNext = applyMappingUpdates(mapping, exerciseResults);
   const titleToTemplateId = buildTitleToTemplateId(templatesByTitle);
 
+  await ensureRoutineFolders(routinesDoc);
   const idUpdates = await pushRoutines(routinesDoc, titleToTemplateId);
   let routinesNext = applyRoutineIds(routinesDoc, idUpdates);
   routinesNext = applyResolvedTemplateIds(routinesNext, titleToTemplateId);
