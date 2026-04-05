@@ -191,6 +191,20 @@ export async function createRoutine(payload) {
 }
 
 /**
+ * Create a routine folder via Hevy API.
+ * @param {string} title - Folder name
+ * @returns {Promise<object>} Created folder (includes id)
+ */
+export async function createRoutineFolder(title) {
+  const data = await hevyFetch(`${HEVY_BASE}/routine_folders`, {
+    method: 'POST',
+    body: JSON.stringify({ routine_folder: { title } }),
+  });
+  const folder = data?.routine_folder ?? data;
+  return Array.isArray(folder) ? folder[0] : folder;
+}
+
+/**
  * Update an existing routine.
  */
 export async function updateRoutine(routineId, payload) {

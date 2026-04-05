@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-04-03T00:49:46.415Z",
-  "source": "prepared-for-hevy-api-push:khoiphan21@programs/khoiphan21/push-pull-homegym (Power Week, 5 days)",
-  "count": 5,
+  "fetchedAt": "2026-04-04T10:53:08.829Z",
+  "source": "prepared-for-hevy-api-push:khoiphan21@programs/khoiphan21/push-pull-homegym (Power Week, 5 days + Mini Routines)",
+  "count": 16,
   "data": [
     {
       "id": "56f0ba52-32c4-4b8e-bc5e-8d7cebad42b6",
@@ -2017,6 +2017,980 @@
               "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        }
+      ]
+    },
+    {
+      "id": "f5933ea9-bc65-4fcb-a9bb-dbe16352c503",
+      "title": "Mini Pull A: Row & Curl",
+      "_folder_name": "Mini Routines",
+      "folder_id": 2638884,
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Seated Cable Row - Bar Grip",
+          "notes": "Mini routine — back + biceps.\nWarm-up: 1x10 band pull-aparts before starting.\n3x10 @ RPE 8–9. Superset with bicep curl; 60–75 s after curl.",
+          "exercise_template_id": "F1D60854",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Bicep Curl (Cable)",
+          "notes": "3x12 @ RPE 8–9. 60–75 s after each round.",
+          "exercise_template_id": "ADA8623C",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        }
+      ]
+    },
+    {
+      "id": "6463d062-65fe-48d9-9c19-5e17819a3a94",
+      "title": "Mini Pull B: Pulldown & Face Pull",
+      "_folder_name": "Mini Routines",
+      "folder_id": 2638884,
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Straight Arm Lat Pulldown (Cable)",
+          "notes": "Mini routine — lats + rear delts.\nWarm-up: 1x10 band dislocates before starting.\n3x15 @ RPE 8–9. Superset with face pull; 60–75 s after face pull.",
+          "exercise_template_id": "D2387AB1",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Face Pull",
+          "notes": "3x15 @ RPE 8–9. 60–75 s after each round.",
+          "exercise_template_id": "BE640BA0",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        }
+      ]
+    },
+    {
+      "id": "8fe33820-5254-438e-b913-58e91998f205",
+      "title": "Mini Pull C: Wide Row & Reverse Fly",
+      "_folder_name": "Mini Routines",
+      "folder_id": 2638884,
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Seated Cable Row - Bar Wide Grip",
+          "notes": "Mini routine — back + rear delts.\nWarm-up: 1x10 band pull-aparts before starting.\n3x10 @ RPE 8–9. Superset with reverse fly; 60–75 s after reverse fly.",
+          "exercise_template_id": "C3BCABB3",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Rear Delt Reverse Fly (Cable)",
+          "notes": "3x15 @ RPE 8–9. 60–75 s after each round.",
+          "exercise_template_id": "C315DC2A",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        }
+      ]
+    },
+    {
+      "id": "7df16849-0bbf-4629-b6b7-d48486d40f12",
+      "title": "Mini Push A: Fly & Triceps",
+      "_folder_name": "Mini Routines",
+      "folder_id": 2638884,
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Chest Fly (Cable)",
+          "notes": "Mini routine — chest + triceps.\nWarm-up: 1x10 band dislocates + 1x8 push-ups before starting.\n3x12 @ RPE 8–9. Superset with OH triceps extension; 60–75 s after extension.",
+          "exercise_template_id": "651F844C",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Overhead Triceps Extension (Cable)",
+          "notes": "3x15 @ RPE 8–9. 60–75 s after each round.",
+          "exercise_template_id": "B5EFBF9C",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        }
+      ]
+    },
+    {
+      "id": "db508702-3307-4c95-8ad5-89cbc084c9df",
+      "title": "Mini Push B: OHP & Lateral Raise",
+      "_folder_name": "Mini Routines",
+      "folder_id": 2638884,
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Overhead Press (Cable, Gym Monster 2)",
+          "notes": "Mini routine — shoulders (front + side delts).\nWarm-up: 1x10 band overhead press before starting.\n3x8 @ RPE 8–9. Superset with lateral raise; 60–75 s after lateral raise.",
+          "exercise_template_id": "8917a840-6edb-498e-a59c-bae2b2da5eaa",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Lateral Raise (Cable)",
+          "notes": "3x12 @ RPE 8–9. 60–75 s after each round.",
+          "exercise_template_id": "BE289E45",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        }
+      ]
+    },
+    {
+      "id": "97294fea-5351-4d36-8b95-41182bfae2ef",
+      "title": "Mini Push C: Incline & Hammer Curl",
+      "_folder_name": "Mini Routines",
+      "folder_id": 2638884,
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Incline Bench Press (Cable, Gym Monster 2)",
+          "notes": "Mini routine — upper chest + biceps.\nWarm-up: 1x8 at light weight before starting.\n3x12 @ RPE 8–9. Superset with hammer curl; 60–75 s after hammer curl.",
+          "exercise_template_id": "0bdabadd-dff1-40a8-8f3e-1f77e80daa10",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Hammer Curl (Cable)",
+          "notes": "3x12 @ RPE 8–9. 60–75 s after each round.",
+          "exercise_template_id": "36E8F14E",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        }
+      ]
+    },
+    {
+      "id": "cf1ae873-9698-4da8-a200-c4bda8736ff1",
+      "title": "Mini Legs A: BSS & Calf Raise",
+      "_folder_name": "Mini Routines",
+      "folder_id": 2638884,
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Bulgarian Split Squat (Cable)",
+          "notes": "Mini routine — quads + calves.\nWarm-up: 1x10 bodyweight squats before starting.\n3x8/side @ RPE 8–9. Superset with calf raise; 60–75 s after calf raise.",
+          "exercise_template_id": "B5D3A742",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 8,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Standing Calf Raise",
+          "notes": "3x12 @ RPE 8–9. Floor or low block. 60–75 s after each round.",
+          "exercise_template_id": "06745E58",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        }
+      ]
+    },
+    {
+      "id": "7d455c01-c3f8-479a-b2e9-f43eedef8229",
+      "title": "Mini Legs B: Sissy Squat & Ham Curl",
+      "_folder_name": "Mini Routines",
+      "folder_id": 2638884,
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Sissy Squat (Weighted)",
+          "notes": "Mini routine — quads + hamstrings.\nWarm-up: 1x10 bodyweight squats before starting.\n3x12 @ RPE 8–9. Superset with ring ham curl; 60–75 s after ham curl.",
+          "exercise_template_id": "F5DEF1EB",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Hamstring Curl (Rings)",
+          "notes": "3x12 @ RPE 8–9. Supine/bridge on floor, heels in rings. 60–75 s after each round.",
+          "exercise_template_id": "b5440ed7-2280-4148-a624-fef61482edba",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        }
+      ]
+    },
+    {
+      "id": "5935dc41-a6ea-44fa-b5b1-8e2d666b611c",
+      "title": "Mini Core: Crunch & L-Sit",
+      "_folder_name": "Mini Routines",
+      "folder_id": 2638884,
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Cable Crunch",
+          "notes": "Mini routine — abs.\nNo warm-up needed.\n3x15 @ RPE 8–9. Superset with L-sit; 60 s after L-sit.",
+          "exercise_template_id": "23A48484",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "L-Sit Hold",
+          "notes": "3x15 s. Floor or low bars. 60 s after each round.",
+          "exercise_template_id": "6D54A050",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 15,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 15,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 15,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 60
+        }
+      ]
+    },
+    {
+      "id": "99dd1f79-0c4b-4822-8e8c-367e7b177517",
+      "title": "Mini Skill A: Handstand",
+      "_folder_name": "Mini Routines",
+      "folder_id": 2638884,
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Chest-to-Wall Handstand Hold",
+          "notes": "Mini routine — handstand skill.\nWarm-up: 1x10 band dislocates + wrist circles before starting.\n3x20–30 s. Superset with freestanding hold; 60–75 s after freestanding.",
+          "exercise_template_id": "3814de10-1893-43b5-8510-61b2e5aaaeb0",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 25,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 25,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 25,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Freestanding Handstand Hold",
+          "notes": "3x15 s. Clean line. 60–75 s after each round.",
+          "exercise_template_id": "1e929910-a921-4568-81fc-a04d2457a117",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 15,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 15,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 15,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        }
+      ]
+    },
+    {
+      "id": "7726497e-c526-4c30-9fe4-431e60861a03",
+      "title": "Mini Skill B: Levers",
+      "_folder_name": "Mini Routines",
+      "folder_id": 2638884,
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Front Lever Hold",
+          "notes": "Mini routine — lever skill.\nWarm-up: 1x5 pull-ups + 1x10 band pull-aparts before starting.\nFront lever hold 3x12 s. Superset with back lever tuck; 60–75 s after back lever.",
+          "exercise_template_id": "0E608350",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Front Lever Hold",
+          "notes": "Back lever tuck hold 3x12 s (logged on front lever template). 60–75 s after each round.",
+          "exercise_template_id": "0E608350",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
               "custom_metric": null
             }
           ],
