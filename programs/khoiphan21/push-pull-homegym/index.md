@@ -154,8 +154,8 @@ Planned deloads help **fatigue**; they may **not** maximize **peak strength** in
 - **Hypertrophy + Abs (Gym Monster 2)** — *rear-delts + arms so Pull B isn’t the only shoulder/biceps volume*
   - **H1:** Face Pull (Cable) — 3x15 → **H2:** Seated Cable Row — 3x10  
     _Rear delts / external rotation + mid-back row; **60–75 s** after H2._
-  - **H3:** Straight-Arm Lat Pulldown (Cable) — 3x15 → **H4:** Bicep Curl (Cable) — 3x12  
-    _Lats + elbows flexors; **60–75 s** after H4._
+  - **Bicep Curl (Cable)** — 3x12  
+    _Single after face pull / row superset; **60–75 s** between sets._
   - Cable Crunch — 3x12  
     _Single._
 
@@ -242,7 +242,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 ## Canonical exercise list (used in every week)
 
 - **Push A:** Weighted Dip; Iron Cross Hold Progression; Pike Handstand Push-Up; Bulgarian Split Squat (GM2); Chest Fly (GM2); Sissy Squat (weighted/BW); Hammer Curl (Cable, GM2); Cable Crunch (GM2).
-- **Pull A:** Weighted Pull-Up; Front Lever Hold; Band-assisted High Pull-Up; Ring Row; Face Pull (GM2); Cable Row (GM2); Straight-Arm Pulldown (GM2); Bicep Curl (Cable, GM2); Cable Crunch (GM2).
+- **Pull A:** Weighted Pull-Up; Front Lever Hold; Band-assisted High Pull-Up; Ring Row; Face Pull (GM2); Cable Row (GM2); Bicep Curl (Cable, GM2); Cable Crunch (GM2).
 - **Conditioning:** Ring Row; Band Overhead Press; Bodyweight Split Squat; Hollow Body Rock; Jumping Jacks; Band Straight-Arm Pulldown; L-Sit Hold; V-Ups.
 - **Push B:** Barbell Bench Press (pause); Chest-to-Wall Handstand Hold; Wall Handstand Push-Up; Freestanding Handstand Hold; Overhead Press (Cable, GM2); Incline Bench Press (Cable, GM2); Hamstring Curl (Rings); Overhead Triceps Extension (GM2); Lateral Raise (Cable, GM2); Standing Calf Raise (bodyweight / block); Cable Crunch (GM2).
 - **Pull B:** Weighted Chin-Up; Bar Muscle Up; Archer Pull-Ups; Back Lever Tuck Hold; Nordic Curl; Seated Cable Row Wide Grip (GM2); Reverse Fly (GM2); Reverse Grip Lat Pulldown (Cable, GM2); Cable Crunch (GM2).
@@ -277,7 +277,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 
 - All hypertrophy work is on Gym Monster 2 for easier progressive overload tracking (0.5 kg increments).
 - Do calisthenics skills first (outside), then move to GM2 and complete the hypertrophy block without going back.
-- **Pull A:** Face Pull; Cable Row; Straight-Arm Pulldown; Bicep Curl (Cable); Cable Crunch.
+- **Pull A:** Face Pull; Cable Row; Bicep Curl (Cable); Cable Crunch.
 - **Push A:** Bulgarian Split Squat; Chest Fly; Sissy Squat; Hammer Curl (Cable); Cable Crunch.
 - **Push B:** Overhead Press (Cable, GM2); Incline Bench Press (Cable, GM2); Rings Hamstring Curl; Overhead Triceps Extension; Lateral Raise (Cable); Standing Calf Raise (bodyweight); Cable Crunch.
 - **Pull B:** Seated Cable Row (Wide Grip); Reverse Fly; Reverse Grip Lat Pulldown; Cable Crunch (paired blocks per day summary).
@@ -289,7 +289,7 @@ Approximate **hard sets per week** from GM2/cable work alone (power + skills add
 | Area | Push A | Push B | Pull A | Pull B | Conditioning* |
 |------|--------|--------|--------|--------|---------------|
 | Chest | Fly | Incline | — | — | — |
-| Back / lats | — | — | Row, SA pulldown | Row, high row | Ring row, band pulldown |
+| Back / lats | — | — | Row | Row, high row | Ring row, band pulldown |
 | Shoulders (incl. rear) | — | OHP, lateral raise | Face pull | Rev fly | Band OH press |
 | Triceps | — | OH extension | — | — | — |
 | Biceps | Hammer curl | — | Cable curl | — | — |

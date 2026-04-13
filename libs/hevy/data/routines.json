@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-13T06:09:48.392Z",
+  "fetchedAt": "2026-04-13T09:33:19.987Z",
   "source": "prepared-for-hevy-api-push:khoiphan21@programs/khoiphan21/push-pull-homegym (Power Week, 5 days + Mini Routines)",
   "count": 16,
   "data": [
@@ -649,47 +649,10 @@
         },
         {
           "index": 7,
-          "title": "Straight Arm Lat Pulldown (Cable)",
-          "notes": "Hypertrophy H3: 3x15 lats. Superset with bicep curl; spreads elbow flexor work onto Pull A.",
-          "exercise_template_id": "D2387AB1",
-          "superset_id": 3,
-          "sets": [
-            {
-              "index": 0,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 15,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 15,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 15,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            }
-          ],
-          "rest_seconds": 0
-        },
-        {
-          "index": 8,
           "title": "Bicep Curl (Cable)",
-          "notes": "Hypertrophy H4: 3x12.",
+          "notes": "Hypertrophy: 3x12 biceps (single after face pull / row superset). Rest 60–75 s between sets.",
           "exercise_template_id": "ADA8623C",
-          "superset_id": 3,
+          "superset_id": null,
           "sets": [
             {
               "index": 0,
@@ -722,7 +685,7 @@
           "rest_seconds": 75
         },
         {
-          "index": 9,
+          "index": 8,
           "title": "Cable Crunch",
           "notes": "Abs: 3x12.",
           "exercise_template_id": "23A48484",
