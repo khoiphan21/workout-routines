@@ -9,7 +9,8 @@
 
 🎯 Work prescription:
 
-- 3x3
+- **Power Week main split:** Pull B uses **muscle-up** as the heavy slot; add **weighted chin-ups** as optional extra volume if you want more supinated heavy work.
+- Otherwise: **3×3** as a primary power pull when programmed.
 
 📈 5 progression levels:
 
