@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-04-01T22:13:52.232Z",
-  "count": 457,
+  "fetchedAt": "2026-04-13T05:54:53.183Z",
+  "count": 460,
   "data": [
     {
       "id": "3BC06AD3",
@@ -133,6 +133,19 @@
       "secondary_muscle_groups": [],
       "equipment": "other",
       "is_custom": false
+    },
+    {
+      "id": "463f2bbc-bc50-42ed-ba37-859ab0b4ea86",
+      "title": "Band-assisted High Pull-Up",
+      "type": "bodyweight_assisted",
+      "primary_muscle_group": "lats",
+      "secondary_muscle_groups": [
+        "upper_back",
+        "biceps",
+        "shoulders"
+      ],
+      "equipment": "resistance_band",
+      "is_custom": true
     },
     {
       "id": "0678a629-dca3-493d-a8d9-6efd190e4378",
@@ -1833,6 +1846,18 @@
       "is_custom": false
     },
     {
+      "id": "0bdabadd-dff1-40a8-8f3e-1f77e80daa10",
+      "title": "Incline Bench Press (Cable, Gym Monster 2)",
+      "type": "weight_reps",
+      "primary_muscle_group": "chest",
+      "secondary_muscle_groups": [
+        "shoulders",
+        "triceps"
+      ],
+      "equipment": "machine",
+      "is_custom": true
+    },
+    {
       "id": "07B38369",
       "title": "Incline Bench Press (Dumbbell)",
       "type": "weight_reps",
@@ -2681,6 +2706,17 @@
       ],
       "equipment": "barbell",
       "is_custom": false
+    },
+    {
+      "id": "8917a840-6edb-498e-a59c-bae2b2da5eaa",
+      "title": "Overhead Press (Cable, Gym Monster 2)",
+      "type": "weight_reps",
+      "primary_muscle_group": "shoulders",
+      "secondary_muscle_groups": [
+        "triceps"
+      ],
+      "equipment": "machine",
+      "is_custom": true
     },
     {
       "id": "6AC96645",
