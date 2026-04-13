@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-13T09:33:19.987Z",
+  "fetchedAt": "2026-04-13T12:24:14.758Z",
   "source": "prepared-for-hevy-api-push:khoiphan21@programs/khoiphan21/push-pull-homegym (Power Week, 5 days + Mini Routines)",
   "count": 16,
   "data": [
@@ -253,7 +253,7 @@
         {
           "index": 6,
           "title": "Sissy Squat (Weighted)",
-          "notes": "Hypertrophy H3: 3x12 quad emphasis (sissy stand / anchored feet; plate or belt). Superset with hammer curl; **60–75 s** after H4.",
+          "notes": "Hypertrophy H3: 3x12 quad emphasis (sissy stand / anchored feet; plate or belt). Superset with lateral raise—side delt work lives on Push A; hammer curl moves to Push B incline pair.",
           "exercise_template_id": "F5DEF1EB",
           "superset_id": 3,
           "sets": [
@@ -289,9 +289,9 @@
         },
         {
           "index": 7,
-          "title": "Hammer Curl (Cable)",
-          "notes": "Hypertrophy H4: 3x12. End of quad–biceps pair.",
-          "exercise_template_id": "36E8F14E",
+          "title": "Lateral Raise (Cable)",
+          "notes": "Hypertrophy H4: 3x12 side delt (GM2). Paired with sissy squat to spread fatigue; **60–75 s** after this exercise each round. Biceps: hammer curl on Push B.",
+          "exercise_template_id": "BE289E45",
           "superset_id": 3,
           "sets": [
             {
@@ -1323,7 +1323,7 @@
         {
           "index": 5,
           "title": "Overhead Press (Cable, Gym Monster 2)",
-          "notes": "Hypertrophy H1: 3x8 GM2 cable OHP (standing or tall kneel). Superset with incline cable press; **60–75 s** after H2.",
+          "notes": "Hypertrophy H1: 3x8 GM2 cable OHP (standing or tall kneel). Giant with incline next—minimal rest between H1 and H2; **60–75 s** after incline.",
           "exercise_template_id": "8917a840-6edb-498e-a59c-bae2b2da5eaa",
           "superset_id": 2,
           "sets": [
@@ -1360,7 +1360,7 @@
         {
           "index": 6,
           "title": "Incline Bench Press (Cable, Gym Monster 2)",
-          "notes": "Hypertrophy H2: 3x12 low incline on bench with GM2 cables (~30–45°).",
+          "notes": "Hypertrophy H2: 3x12 low incline on bench with GM2 cables (~30–45°). End of OHP + incline giant.",
           "exercise_template_id": "0bdabadd-dff1-40a8-8f3e-1f77e80daa10",
           "superset_id": 2,
           "sets": [
@@ -1396,16 +1396,16 @@
         },
         {
           "index": 7,
-          "title": "Hamstring Curl (Rings)",
-          "notes": "Hypertrophy H3: 3x12 supine/bridge rings curl (no leg curl machine). Superset with OH triceps.",
-          "exercise_template_id": "b5440ed7-2280-4148-a624-fef61482edba",
-          "superset_id": 3,
+          "title": "Overhead Triceps Extension (Cable)",
+          "notes": "Hypertrophy H3: 3x15 long-head triceps. Single after OHP/incline giant—**60–75 s** between sets.",
+          "exercise_template_id": "B5EFBF9C",
+          "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 12,
+              "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1414,7 +1414,7 @@
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": 12,
+              "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1423,129 +1423,18 @@
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": 12,
+              "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
             }
           ],
-          "rest_seconds": 0
+          "rest_seconds": 75
         },
         {
           "index": 8,
-          "title": "Overhead Triceps Extension (Cable)",
-          "notes": "Hypertrophy H4: 3x15.",
-          "exercise_template_id": "B5EFBF9C",
-          "superset_id": 3,
-          "sets": [
-            {
-              "index": 0,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 15,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 15,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 15,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            }
-          ],
-          "rest_seconds": 75
-        },
-        {
-          "index": 9,
-          "title": "Lateral Raise (Cable)",
-          "notes": "Hypertrophy H5: mid-delt isolation 3x12. Paired with calf raise—research: isolation for lateral delts when compounds dominate.",
-          "exercise_template_id": "BE289E45",
-          "superset_id": 4,
-          "sets": [
-            {
-              "index": 0,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            }
-          ],
-          "rest_seconds": 0
-        },
-        {
-          "index": 10,
-          "title": "Standing Calf Raise",
-          "notes": "Hypertrophy H6: 3x12 floor or low block (no calf machine). Paired with lateral raise; **60–75 s** after H6.",
-          "exercise_template_id": "06745E58",
-          "superset_id": 4,
-          "sets": [
-            {
-              "index": 0,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            }
-          ],
-          "rest_seconds": 75
-        },
-        {
-          "index": 11,
           "title": "Cable Crunch",
-          "notes": "Abs: 3x15. Single after arms/calves block.",
+          "notes": "Abs: 3x15. Single finisher.",
           "exercise_template_id": "23A48484",
           "superset_id": null,
           "sets": [
@@ -1609,23 +1498,23 @@
         },
         {
           "index": 1,
-          "title": "Chin Up (Weighted)",
-          "notes": "Power: 3x3. Same ramp style as weighted pull-up.",
-          "exercise_template_id": "023943F1",
+          "title": "Muscle Up",
+          "notes": "Power: 3x3 strict muscle-ups (first slot on Pull B). Rest 3–4 min. Warm up with easier variations or singles as needed—do not superset power work.",
+          "exercise_template_id": "9F9C164B",
           "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "warmup",
               "weight_kg": null,
-              "reps": 5,
+              "reps": 3,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
             },
             {
               "index": 1,
-              "type": "warmup",
+              "type": "normal",
               "weight_kg": null,
               "reps": 3,
               "distance_meters": null,
@@ -1634,7 +1523,7 @@
             },
             {
               "index": 2,
-              "type": "warmup",
+              "type": "normal",
               "weight_kg": null,
               "reps": 3,
               "distance_meters": null,
@@ -1643,33 +1532,6 @@
             },
             {
               "index": 3,
-              "type": "warmup",
-              "weight_kg": null,
-              "reps": 2,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 4,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 3,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 5,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 3,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 6,
               "type": "normal",
               "weight_kg": null,
               "reps": 3,
@@ -1682,54 +1544,8 @@
         },
         {
           "index": 2,
-          "title": "Muscle Up",
-          "notes": "Skill superset E1: Muscle up warm-up 1×3 then 3x3. Then E2 archer pull-ups; 60–75 s after E2.",
-          "exercise_template_id": "9F9C164B",
-          "superset_id": 0,
-          "sets": [
-            {
-              "index": 0,
-              "type": "warmup",
-              "weight_kg": null,
-              "reps": 3,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 3,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 3,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 3,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 3,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            }
-          ],
-          "rest_seconds": 0
-        },
-        {
-          "index": 3,
           "title": "Archer Pull-Up",
-          "notes": "Skill superset E2: Archer pull-up 3x4/side. 60–75 s after this exercise each round.",
+          "notes": "Skill pair S1a: Archer pull-up 3x4/side. Paired with back lever tuck (S1b)—minimal rest between moves; **60–75 s** after S1b.",
           "exercise_template_id": "cd92a721-419c-4693-9362-f642a5244143",
           "superset_id": 0,
           "sets": [
@@ -1761,84 +1577,84 @@
               "custom_metric": null
             }
           ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 3,
+          "title": "Front Lever Hold",
+          "notes": "Skill pair S1b: Back lever tuck 3x12 s (log on front lever hold template).",
+          "exercise_template_id": "0E608350",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            }
+          ],
           "rest_seconds": 75
         },
         {
           "index": 4,
-          "title": "Front Lever Hold",
-          "notes": "Skill superset F1: Back lever tuck 3x12 s (log on front lever hold). Then F2 Nordic; 60–75 s after F2.",
-          "exercise_template_id": "0E608350",
-          "superset_id": 1,
+          "title": "Nordic Hamstrings Curls",
+          "notes": "Skill S2: Nordic curl 3x6—own block after archer / lever pair (hamstrings + different hinge line than Pull A). Rest **90 s** if needed for quality.",
+          "exercise_template_id": "108D7A14",
+          "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": null,
+              "reps": 6,
               "distance_meters": null,
-              "duration_seconds": 12,
+              "duration_seconds": null,
               "custom_metric": null
             },
             {
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": null,
+              "reps": 6,
               "distance_meters": null,
-              "duration_seconds": 12,
+              "duration_seconds": null,
               "custom_metric": null
             },
             {
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": null,
+              "reps": 6,
               "distance_meters": null,
-              "duration_seconds": 12,
+              "duration_seconds": null,
               "custom_metric": null
             }
           ],
-          "rest_seconds": 0
+          "rest_seconds": 90
         },
         {
           "index": 5,
-          "title": "Nordic Hamstrings Curls",
-          "notes": "Skill superset F2: Nordic curl 3x6. Paired with back lever tuck.",
-          "exercise_template_id": "108D7A14",
-          "superset_id": 1,
-          "sets": [
-            {
-              "index": 0,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 6,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 6,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 6,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            }
-          ],
-          "rest_seconds": 60
-        },
-        {
-          "index": 6,
           "title": "Seated Cable Row - Bar Wide Grip",
           "notes": "Hypertrophy H1: 3x10. Superset with reverse fly—alternate row pattern with rear delt (60–75 s after H2).",
           "exercise_template_id": "C3BCABB3",
@@ -1875,7 +1691,7 @@
           "rest_seconds": 0
         },
         {
-          "index": 7,
+          "index": 6,
           "title": "Rear Delt Reverse Fly (Cable)",
           "notes": "Hypertrophy H2: 3x15.",
           "exercise_template_id": "C315DC2A",
@@ -1912,11 +1728,11 @@
           "rest_seconds": 75
         },
         {
-          "index": 8,
+          "index": 7,
           "title": "Reverse Grip Lat Pulldown (Cable)",
-          "notes": "Hypertrophy H3: 3x15 vertical pull on GM2 (supinated/parallel). Superset with cable crunch.",
+          "notes": "Hypertrophy H3: 3x15 vertical pull on GM2 (supinated/parallel)—supinated slot vs Pull A pronated work. Single; **60–75 s** between sets.",
           "exercise_template_id": "046E25A2",
-          "superset_id": 3,
+          "superset_id": null,
           "sets": [
             {
               "index": 0,
@@ -1946,14 +1762,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 0
+          "rest_seconds": 75
         },
         {
-          "index": 9,
+          "index": 8,
           "title": "Cable Crunch",
-          "notes": "Hypertrophy H4 / abs finisher: 3x12.",
+          "notes": "Abs: 3x12 finisher.",
           "exercise_template_id": "23A48484",
-          "superset_id": 3,
+          "superset_id": null,
           "sets": [
             {
               "index": 0,

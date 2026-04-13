@@ -9,4 +9,4 @@ Standing or high-kneeling overhead press on the Gym Monster 2 cable stack—same
 
 ## Prescription
 
-- **Power Week:** 3x8, RPE 8–9, superset with incline bench press (cable, GM2) on Push B.
+- **Power Week:** 3x8, RPE 8–9, giant-set with incline bench press (cable, GM2) on Push B—minimal rest between OHP and incline, then **60–75 s** after incline.
