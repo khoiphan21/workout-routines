@@ -9,6 +9,7 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [Archer or Typewriter Pull-Ups](archer-pull-ups)
 - [Back Lever Tuck Hold](back-lever-tuck-hold)
 - [Band Face Pull](band-face-pull)
+- [Band-assisted High Pull-Up](band-assisted-high-pull-up)
 - [Band High-to-Low Row](band-high-to-low-row)
 - [Bar Muscle Up](bar-muscle-up)
 - [Feet-Elevated Inverted Row](feet-elevated-inverted-row)
@@ -102,6 +103,7 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 ### [Pull-up station](../equipment/pull-up-station)
 
 - [Archer or Typewriter Pull-Ups](archer-pull-ups)
+- [Band-assisted High Pull-Up](band-assisted-high-pull-up)
 - [Bar Muscle Up](bar-muscle-up)
 - [Front Lever Hold](front-lever-hold)
 - [Hanging Knee Raises](hanging-knee-raises)
@@ -112,6 +114,7 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 ### [Resistance bands](../equipment/resistance-bands)
 
 - [Band Face Pull](band-face-pull)
+- [Band-assisted High Pull-Up](band-assisted-high-pull-up)
 - [Band High-to-Low Row](band-high-to-low-row)
 - [Band Lateral Raise](band-lateral-raise)
 - [Band Overhead Press](band-overhead-press)

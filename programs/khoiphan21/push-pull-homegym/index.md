@@ -147,7 +147,7 @@ Planned deloads help **fatigue**; they may **not** maximize **peak strength** in
   - _Progression: add +2.5 kg next pull day after a clean 3x3._
   - _Rest 3-4 min._
 - **Skill block** (split for shoulder-girdle quality: pair, then separate row work)
-  - **Pair:** B1 Front Lever Hold — 3x12 s → B2 High Pull (barbell or band) — 3x5  
+  - **Pair:** B1 Front Lever Hold — 3x12 s → B2 Band-assisted High Pull-Up — 3x5  
     _Minimal rest between B1 and B2; **60–75 s** after B2._
   - **Then:** B3 Ring Row — 3x5  
     _Own block (full **2–3 min** between rounds if needed for clean rows—not chained to B1–B2). Progress to tuck front-lever row when ring rows are easy._
@@ -242,7 +242,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 ## Canonical exercise list (used in every week)
 
 - **Push A:** Weighted Dip; Iron Cross Hold Progression; Pike Handstand Push-Up; Bulgarian Split Squat (GM2); Chest Fly (GM2); Sissy Squat (weighted/BW); Hammer Curl (Cable, GM2); Cable Crunch (GM2).
-- **Pull A:** Weighted Pull-Up; Front Lever Hold; High Pull; Ring Row; Face Pull (GM2); Cable Row (GM2); Straight-Arm Pulldown (GM2); Bicep Curl (Cable, GM2); Cable Crunch (GM2).
+- **Pull A:** Weighted Pull-Up; Front Lever Hold; Band-assisted High Pull-Up; Ring Row; Face Pull (GM2); Cable Row (GM2); Straight-Arm Pulldown (GM2); Bicep Curl (Cable, GM2); Cable Crunch (GM2).
 - **Conditioning:** Ring Row; Band Overhead Press; Bodyweight Split Squat; Hollow Body Rock; Jumping Jacks; Band Straight-Arm Pulldown; L-Sit Hold; V-Ups.
 - **Push B:** Barbell Bench Press (pause); Chest-to-Wall Handstand Hold; Wall Handstand Push-Up; Freestanding Handstand Hold; Overhead Press (Cable, GM2); Incline Bench Press (Cable, GM2); Hamstring Curl (Rings); Overhead Triceps Extension (GM2); Lateral Raise (Cable, GM2); Standing Calf Raise (bodyweight / block); Cable Crunch (GM2).
 - **Pull B:** Weighted Chin-Up; Bar Muscle Up; Archer Pull-Ups; Back Lever Tuck Hold; Nordic Curl; Seated Cable Row Wide Grip (GM2); Reverse Fly (GM2); Reverse Grip Lat Pulldown (Cable, GM2); Cable Crunch (GM2).
@@ -302,7 +302,8 @@ Approximate **hard sets per week** from GM2/cable work alone (power + skills add
 
 ### High Pull (Pull A)
 
-- **Options:** Deadlift High Pull (barbell), Kettlebell High Pull, or band high pull (attach band low, pull to chest).
+- **Primary (Power Week):** Band-assisted High Pull-Up — band over the bar for assistance; pull higher than a normal pull-up (bar toward lower chest/waist).
+- **Alternates:** Kettlebell high pull, or band high pull anchored low (pull to chest) if you are not using the bar variation.
 - **Work:** 3x5; paired with front lever hold in the skill block (**60–75 s** after the pair before ring rows).
 
 ### Lengthened partials (Tempo / Volume week)
