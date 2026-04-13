@@ -9,4 +9,4 @@ Low incline (~30–45°) pressing on a bench with GM2 cables—upper chest empha
 
 ## Prescription
 
-- **Power Week:** 3x12, RPE 8–9, paired after cable OHP on Push B.
+- **Power Week:** 3x12, RPE 8–9, giant-set immediately after cable OHP on Push B (minimal rest between moves).

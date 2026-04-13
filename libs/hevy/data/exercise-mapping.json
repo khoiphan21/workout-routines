@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-04T10:53:07.422Z",
+  "generatedAt": "2026-04-13T06:09:47.286Z",
   "hevyTemplateCount": 457,
   "repoExerciseCount": 49,
-  "matched": 49,
+  "matched": 50,
   "toCreate": [],
   "mapping": [
     {
@@ -19,6 +19,13 @@
       "hevyTitle": "Front Lever Hold",
       "matchScore": 0.55,
       "proxyNote": "Power Week Pull B: log back lever tuck on front-lever hold template; see routine notes."
+    },
+    {
+      "slug": "band-assisted-high-pull-up",
+      "repoTitle": "Band-assisted High Pull-Up",
+      "hevyId": "463f2bbc-bc50-42ed-ba37-859ab0b4ea86",
+      "hevyTitle": "Band-assisted High Pull-Up",
+      "matchScore": 1
     },
     {
       "slug": "band-face-pull",
@@ -314,10 +321,10 @@
     {
       "slug": "tuck-front-lever-row",
       "repoTitle": "Tuck Front-Lever Row",
-      "hevyId": "425805F4",
-      "hevyTitle": "Inverted Row",
-      "matchScore": 0.58,
-      "proxyNote": "Pull A: tuck front-lever row logged on inverted row template; see routine notes."
+      "hevyId": "f2fac51e-7700-42d9-8f10-8feee8c99d9b",
+      "hevyTitle": "Ring Row",
+      "matchScore": 1,
+      "proxyNote": "Power Week Pull A: primary prescription is ring row (same Hevy template); use tuck front-lever row as progression when ring rows are easy."
     },
     {
       "slug": "v-ups",

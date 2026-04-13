@@ -2,10 +2,11 @@
 
 ⚙️ Technique:
 
-- Grab the rings with an overhand grip.
-- Walk your feet forward until your body is at an angle.
-- Pull your chest towards the rings, keeping your body in a straight line.
-- Lower yourself back down with control.
+- Set rings approximately **shoulder-width**; use a **full grip** on the rings.
+- **Start** with arms and legs extended; body in one rigid line from head to heels.
+- **Pull** elbows back until the rings touch the **sides of the chest**; keep arms **close to the body**.
+- **Lower** with control to **full arm extension** at the bottom.
+- **Scale** by standing more upright (less horizontal) to reduce load; walk feet forward to increase difficulty.
 
 🎯 Work prescription:
 

@@ -91,6 +91,13 @@ const TO_CREATE_SPECS = {
     muscleGroup: 'chest',
     otherMuscles: ['shoulders', 'triceps'],
   },
+  'band-assisted-high-pull-up': {
+    title: 'Band-assisted High Pull-Up',
+    exerciseType: 'bodyweight_assisted_reps',
+    equipmentCategory: 'resistance_band',
+    muscleGroup: 'lats',
+    otherMuscles: ['upper_back', 'biceps', 'shoulders'],
+  },
 };
 
 /** Slugs to ensure on every push even when toCreate is empty (program-specific customs). */
@@ -99,6 +106,7 @@ const ADDITIONAL_PUSH_SLUGS = [
   'freestanding-handstand-hold',
   'overhead-press-cable-gm2',
   'incline-bench-press-cable-gm2',
+  'band-assisted-high-pull-up',
 ];
 
 const PLACEHOLDER_TEMPLATE_IDS = new Set(['00000000-0000-0000-0000-000000000001']);

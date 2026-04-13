@@ -9,4 +9,4 @@ Knee-extension emphasis for quads using only body weight, a plate/belt, or a sis
 
 ## Prescription
 
-- **Power Week:** 3x12, RPE 8–9, superset with hammer curl (cable) on Push A.
+- **Power Week:** 3x12, RPE 8–9, superset with lateral raise (cable) on Push A.
