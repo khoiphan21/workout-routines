@@ -7,21 +7,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { preserveRoutineIds } from '../libs/hevy/program-bundle.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.resolve(
   __dirname,
   '../programs/khoiphan21/push-pull-gym-monster-2/hevy/routines.json'
 );
-
-/** Preserve Hevy routine ids when regenerating (avoids duplicate creates on re-push). */
-function loadExistingRoutineMeta() {
-  if (!fs.existsSync(OUT)) return new Map();
-  const doc = JSON.parse(fs.readFileSync(OUT, 'utf8'));
-  return new Map(
-    (doc.data ?? []).filter((r) => r.id).map((r) => [r.title, { id: r.id, folder_id: r.folder_id }])
-  );
-}
 
 const PLACEHOLDER = '00000000-0000-0000-0000-000000000001';
 
@@ -135,18 +127,15 @@ function ex(index, title, templateId, opts = {}) {
 }
 
 function routine(title, exercises) {
-  const prev = existingMeta.get(title);
   return {
-    id: prev?.id ?? null,
+    id: null,
     title,
-    folder_id: prev?.folder_id ?? null,
+    folder_id: null,
     _folder_name: 'Push-Pull Gym Monster 2',
     notes: '',
     exercises,
   };
 }
-
-const existingMeta = loadExistingRoutineMeta();
 
 const day1 = routine('Power Week - Day 1: Push A', [
   ex(0, 'General Notes & Warm-Up', T.notes, {
@@ -452,12 +441,15 @@ const day5 = routine('Power Week - Day 5: Pull B', [
   }),
 ]);
 
-const doc = {
-  source: 'programs/khoiphan21/push-pull-gym-monster-2',
-  fetchedAt: null,
-  count: 5,
-  data: [day1, day2, day3, day4, day5],
-};
+const doc = preserveRoutineIds(
+  {
+    source: 'programs/khoiphan21/push-pull-gym-monster-2',
+    fetchedAt: null,
+    count: 5,
+    data: [day1, day2, day3, day4, day5],
+  },
+  OUT
+);
 
 fs.writeFileSync(OUT, JSON.stringify(doc, null, 2), 'utf8');
 console.log(`Wrote ${OUT} (${doc.count} routines)`);

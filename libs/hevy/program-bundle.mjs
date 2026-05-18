@@ -159,6 +159,30 @@ export function loadBundle(programDir) {
   };
 }
 
+/**
+ * Copy Hevy routine id / folder_id from an existing routines.json onto a new doc (by title).
+ * @param {object} routinesDoc - routines.json object with `data` array
+ * @param {string} existingPath - path to previous routines.json
+ * @returns {object} routinesDoc (mutated)
+ */
+export function preserveRoutineIds(routinesDoc, existingPath) {
+  if (!fs.existsSync(existingPath)) return routinesDoc;
+  const existing = JSON.parse(fs.readFileSync(existingPath, 'utf8'));
+  const byTitle = new Map(
+    (existing.data ?? [])
+      .filter((r) => r.id)
+      .map((r) => [r.title, { id: r.id, folder_id: r.folder_id }])
+  );
+  for (const r of routinesDoc.data ?? []) {
+    const meta = byTitle.get(r.title);
+    if (meta) {
+      r.id = meta.id;
+      if (meta.folder_id) r.folder_id = meta.folder_id;
+    }
+  }
+  return routinesDoc;
+}
+
 export function listProgramDirs() {
   const out = [];
   const programsRoot = path.join(REPO_ROOT, 'programs');

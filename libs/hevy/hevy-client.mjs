@@ -119,6 +119,62 @@ export async function fetchById(path, id) {
 }
 
 /**
+ * Fetch a routine by ID. Returns null if not found (404).
+ * @param {string} routineId
+ * @returns {Promise<object|null>}
+ */
+export async function fetchRoutineById(routineId) {
+  const url = `${HEVY_BASE}/routines/${routineId}`;
+  const res = await fetch(url.toString(), { headers: getHevyHeaders() });
+  if (res.status === 404) return null;
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Hevy API routines GET failed (${res.status}): ${text}`);
+  }
+  const data = await res.json();
+  return data?.routine ?? data;
+}
+
+/**
+ * Update routine; returns false on 404 (deleted on Hevy).
+ * @returns {Promise<boolean>} true if updated, false if routine not found
+ */
+export async function tryUpdateRoutine(routineId, payload) {
+  const url = `${HEVY_BASE}/routines/${routineId}`;
+  const body = {
+    routine: {
+      title: payload.title,
+      notes: routineNotes(payload.notes),
+      exercises: (payload.exercises ?? []).map((ex) => ({
+        exercise_template_id: ex.exerciseTemplateId,
+        rest_seconds: ex.restSeconds ?? 60,
+        notes: ex.notes ?? null,
+        superset_id: ex.supersetId ?? null,
+        sets: (ex.sets ?? []).map((s) => {
+          const set = { type: s.type ?? 'normal' };
+          if (s.reps != null) set.reps = s.reps;
+          if (s.durationSeconds != null) set.duration_seconds = s.durationSeconds;
+          if (s.weightKg != null) set.weight_kg = s.weightKg;
+          return set;
+        }),
+      })),
+    },
+  };
+
+  const res = await fetch(url, {
+    method: 'PUT',
+    headers: getHevyHeaders(),
+    body: JSON.stringify(body),
+  });
+  if (res.status === 404) return false;
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Hevy API routines PUT failed (${res.status}): ${text}`);
+  }
+  return true;
+}
+
+/**
  * Create a custom exercise template via Hevy API.
  * @param {object} payload - { title, exerciseType, equipmentCategory, muscleGroup, otherMuscles? }
  * @returns {Promise<{ id: string }>}

@@ -2,6 +2,9 @@
 /**
  * Map repo exercises to Hevy templates for a program bundle.
  *
+ * Custom exercises: exact title match only (no fuzzy overwrite).
+ * Other slugs: account mapping, then fuzzy match (score >= 0.98).
+ *
  * Usage:
  *   npm run hevy:map -- push-pull-homegym
  *   npm run hevy:map -- push-pull-gym-monster-2
@@ -16,13 +19,13 @@ import {
   getBundlePaths,
   loadAccountMapping,
   loadManifest,
+  normTitle,
   resolveProgramDir,
 } from '../libs/hevy/program-bundle.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const EXERCISES_DIR = path.join(ROOT, 'exercises');
-const EXCLUDE_FILES = new Set(['index.md', 'general-notes-and-warm-up.md']);
 
 function parseArgs(argv) {
   const positional = argv.filter((a) => !a.startsWith('-'));
@@ -78,13 +81,24 @@ function getHevyTemplates() {
   return Array.isArray(arr) ? arr : [];
 }
 
-function findBestMatch(repoTitle, hevyTemplates) {
+function findByExactTitle(title, hevyTemplates) {
+  const key = normTitle(title);
+  for (const t of hevyTemplates) {
+    const hevyTitle = t.title ?? t.name ?? t.exercise_name ?? '';
+    if (normTitle(hevyTitle) === key) {
+      return t;
+    }
+  }
+  return null;
+}
+
+function findBestMatch(repoTitle, hevyTemplates, minScore = 0.98) {
   let best = null;
   let bestScore = 0;
   for (const t of hevyTemplates) {
     const hevyTitle = t.title ?? t.name ?? t.exercise_name ?? '';
     const score = similarity(repoTitle, hevyTitle);
-    if (score > bestScore && score >= 0.95) {
+    if (score > bestScore && score >= minScore) {
       bestScore = score;
       best = t;
     }
@@ -133,21 +147,52 @@ function main() {
   const paths = getBundlePaths(programDir);
   const hevyTemplates = getHevyTemplates();
 
+  const customExercises = fs.existsSync(paths.customExercises)
+    ? JSON.parse(fs.readFileSync(paths.customExercises, 'utf8'))
+    : {};
+
+  const programMapping = fs.existsSync(paths.mapping)
+    ? JSON.parse(fs.readFileSync(paths.mapping, 'utf8'))
+    : { mapping: [] };
+
   const slugs = manifest.exerciseSlugs ?? [];
   const account = loadAccountMapping(manifest.account);
   const accountBySlug = new Map((account?.mapping ?? []).map((m) => [m.slug, m]));
+  const programBySlug = new Map((programMapping.mapping ?? []).map((m) => [m.slug, m]));
   const mapping = [];
   const toCreate = [];
 
   for (const slug of slugs) {
-    const existing = accountBySlug.get(slug);
-    if (existing?.hevyId) {
-      mapping.push({ ...existing });
+    const ex = getRepoExercise(slug);
+    const customSpec = customExercises[slug];
+
+    if (customSpec) {
+      const template = findByExactTitle(customSpec.title, hevyTemplates);
+      if (template) {
+        mapping.push({
+          slug: ex.slug,
+          repoTitle: ex.title,
+          hevyId: template.id ?? template.exercise_template_id,
+          hevyTitle: template.title ?? template.name,
+          matchScore: 1,
+        });
+      } else {
+        toCreate.push({
+          slug: ex.slug,
+          title: customSpec.title,
+          file: ex.filepath,
+        });
+      }
       continue;
     }
 
-    const ex = getRepoExercise(slug);
-    const match = findBestMatch(ex.title, hevyTemplates);
+    const existing = accountBySlug.get(slug) ?? programBySlug.get(slug);
+    if (existing?.hevyId && !existing.proxyNote) {
+      mapping.push({ ...existing, repoTitle: ex.title });
+      continue;
+    }
+
+    const match = findBestMatch(ex.title, hevyTemplates, 0.98);
     if (match) {
       mapping.push({
         slug: ex.slug,

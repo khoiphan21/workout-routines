@@ -4,8 +4,8 @@
  *
  * Usage:
  *   npm run hevy:push -- push-pull-homegym
- *   npm run hevy:push -- programs/khoiphan21/push-pull-gym-monster-2
- *   npm run hevy:push -- push-pull-homegym --dry-run
+ *   npm run hevy:push -- push-pull-gym-monster-2 --dry-run
+ *   npm run hevy:push -- push-pull-gym-monster-2 --recreate-routines
  *   npm run hevy:push -- push-pull-homegym --fetch
  */
 
@@ -18,7 +18,7 @@ import {
   createRoutineFolder,
   fetchAllPaginated,
   getHevyApiKey,
-  updateRoutine,
+  tryUpdateRoutine,
 } from '../libs/hevy/hevy-client.mjs';
 import {
   CACHE_DIR,
@@ -29,6 +29,8 @@ import {
   resolveProgramDir,
   saveAccountMapping,
 } from '../libs/hevy/program-bundle.mjs';
+import { reconcileRoutines } from '../libs/hevy/reconcile-routines.mjs';
+import { assertBundleValid } from '../libs/hevy/validate.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PLACEHOLDER_TEMPLATE_IDS = new Set(['00000000-0000-0000-0000-000000000001']);
@@ -45,6 +47,8 @@ function parseArgs(argv) {
     programArg: positional[0],
     dryRun: flags.has('--dry-run'),
     fetch: flags.has('--fetch'),
+    recreateRoutines: flags.has('--recreate-routines'),
+    skipReconcile: flags.has('--skip-reconcile'),
   };
 }
 
@@ -272,12 +276,25 @@ async function pushRoutines(routinesDoc, titleToTemplateId, dryRun) {
       if (dryRun) {
         console.log(`[dry-run] Would update routine: ${routine.title} (${routine.id})`);
       } else {
-        await updateRoutine(routine.id, {
+        const updated = await tryUpdateRoutine(routine.id, {
           title: payload.title,
           notes: payload.notes,
           exercises: payload.exercises,
         });
-        console.log(`Updated routine: ${routine.title} (${routine.id})`);
+        if (updated) {
+          console.log(`Updated routine: ${routine.title} (${routine.id})`);
+        } else {
+          console.log(
+            `Stale id ${routine.id} for "${routine.title}" — creating new routine on Hevy`
+          );
+          const created = await createRoutine(payload);
+          const newId = created?.id;
+          if (!newId) {
+            throw new Error(`No id in create response for ${routine.title}`);
+          }
+          console.log(`Created routine: ${routine.title} → ${newId}`);
+          idUpdates.set(routine.title, newId);
+        }
       }
     } else {
       if (dryRun) {
@@ -301,7 +318,7 @@ async function pushRoutines(routinesDoc, titleToTemplateId, dryRun) {
 function applyRoutineIds(routinesDoc, idUpdates) {
   const next = JSON.parse(JSON.stringify(routinesDoc));
   for (const r of next.data ?? []) {
-    if (!r.id && idUpdates.has(r.title)) {
+    if (idUpdates.has(r.title)) {
       r.id = idUpdates.get(r.title);
     }
   }
@@ -322,7 +339,9 @@ function applyResolvedTemplateIds(routinesDoc, titleToTemplateId) {
 }
 
 async function main() {
-  const { programArg, dryRun, fetch } = parseArgs(process.argv.slice(2));
+  const { programArg, dryRun, fetch, recreateRoutines, skipReconcile } = parseArgs(
+    process.argv.slice(2)
+  );
   const programDir = resolveProgramDir(programArg);
   const bundle = loadBundle(programDir);
   const { manifest, paths } = bundle;
@@ -331,6 +350,9 @@ async function main() {
 
   console.log(`Program: ${manifest.id} (${programDir})`);
   if (dryRun) console.log('Dry run — no API writes');
+  if (recreateRoutines) console.log('--recreate-routines: will clear local routine ids before reconcile');
+
+  assertBundleValid(bundle);
 
   if (!dryRun || fetch) getHevyApiKey();
 
@@ -345,6 +367,18 @@ async function main() {
   );
   const mappingNext = applyMappingUpdates(mapping, exerciseResults);
   const titleToTemplateId = buildTitleToTemplateId(templatesByTitle);
+
+  if (!skipReconcile) {
+    const stats = await reconcileRoutines(routines, manifest, {
+      recreate: recreateRoutines,
+      skipApiCheck: dryRun,
+    });
+    console.log(
+      `Reconcile: cleared=${stats.cleared}, adopted=${stats.adopted}, folderId=${stats.folderId ?? 'n/a'}`
+    );
+  } else {
+    console.log('Skipping routine reconcile (--skip-reconcile)');
+  }
 
   await ensureRoutineFolders(routines, manifest, dryRun);
   const idUpdates = await pushRoutines(routines, titleToTemplateId, dryRun);

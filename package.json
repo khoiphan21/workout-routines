@@ -12,6 +12,7 @@
     "hevy:fetch-folders": "node scripts/hevy-fetch-routine-folders.mjs",
     "hevy:map": "node scripts/hevy-map.mjs",
     "hevy:push": "node scripts/hevy-push.mjs",
+    "hevy:validate": "node scripts/hevy-validate.mjs",
     "hevy:list-folder": "node scripts/hevy-list-folder-routines.mjs"
   },
   "repository": {

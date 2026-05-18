@@ -1,12 +1,12 @@
 {
   "source": "programs/khoiphan21/push-pull-gym-monster-2",
-  "fetchedAt": null,
+  "fetchedAt": "2026-05-18T23:09:08.930Z",
   "count": 5,
   "data": [
     {
-      "id": null,
+      "id": "c2b48f89-6ccd-45d8-bb65-ad7437832ee2",
       "title": "Power Week - Day 1: Push A",
-      "folder_id": null,
+      "folder_id": 2893630,
       "_folder_name": "Push-Pull Gym Monster 2",
       "notes": "",
       "exercises": [
@@ -355,9 +355,9 @@
       ]
     },
     {
-      "id": null,
+      "id": "b5cfc272-4663-48e9-ba10-3eb298b8da86",
       "title": "Power Week - Day 2: Pull A",
-      "folder_id": null,
+      "folder_id": 2893630,
       "_folder_name": "Push-Pull Gym Monster 2",
       "notes": "",
       "exercises": [
@@ -697,9 +697,9 @@
       ]
     },
     {
-      "id": null,
+      "id": "a07edb4d-0a9f-4cb7-8626-f526a0c7f897",
       "title": "Power Week - Day 3: Conditioning",
-      "folder_id": null,
+      "folder_id": 2893630,
       "_folder_name": "Push-Pull Gym Monster 2",
       "notes": "",
       "exercises": [
@@ -1084,9 +1084,9 @@
       ]
     },
     {
-      "id": null,
+      "id": "9c3a94b7-afbf-4c1c-a5db-e25df66b03d0",
       "title": "Power Week - Day 4: Push B",
-      "folder_id": null,
+      "folder_id": 2893630,
       "_folder_name": "Push-Pull Gym Monster 2",
       "notes": "",
       "exercises": [
@@ -1555,9 +1555,9 @@
       ]
     },
     {
-      "id": null,
+      "id": "f46e5ba0-db0b-4d3e-a07d-36578a3593ab",
       "title": "Power Week - Day 5: Pull B",
-      "folder_id": null,
+      "folder_id": 2893630,
       "_folder_name": "Push-Pull Gym Monster 2",
       "notes": "",
       "exercises": [
