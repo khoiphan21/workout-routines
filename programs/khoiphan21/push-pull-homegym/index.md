@@ -2,6 +2,8 @@
 
 A 5-day split built for a **calisthenics station** (bar, rings, bench, bands) plus **Gym Monster 2** cable work—no commercial gym machines required. Run Power, Tempo, and Volume weeks with the same exercises; only progression, reps/sets, and (for Tempo) tempo change.
 
+**Gym Monster 2 only?** See [Push–Pull Gym Monster 2](../push-pull-gym-monster-2/) — same weekly structure with every calisthenics/band movement swapped for Smith and cable work on the GM2.
+
 ## Why this program
 
 - Strength first (heavy triples).
