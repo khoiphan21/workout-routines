@@ -12,6 +12,8 @@ This is a VitePress static documentation site for a workout program. There is on
 - **Dev server:** `npm run docs:dev` (port 5173 by default). Supports hot-reload for `.md` and `.mts` config changes.
 - **Push to Hevy:** `npm run hevy:push -- <program>` — program path required (e.g. `push-pull-homegym`). Reads `programs/<user>/<program>/hevy/` (`manifest.json`, `routines.json`, `mapping.json`, `custom-exercises.json`). Validates bundle, reconciles routine IDs with Hevy, then upserts. Requires `HEVY_API_KEY_KHOIPHAN21` or `HEVY_API_KEY`.
 - **Validate bundle:** `npm run hevy:validate -- <program>` — checks `custom-exercises.json` enums and routine placeholder resolution (no API calls except cache read).
+- **Sync all khoiphan21 programs:** `npm run hevy:sync-khoiphan21` — validate then push every program under `programs/khoiphan21/*/hevy/`. Flags: `--validate-only`, `--push-only`, plus forwarded flags (`--dry-run`, etc.).
+- **CI:** On pull requests to `main`, workflow [`.github/workflows/hevy-sync-khoiphan21.yml`](.github/workflows/hevy-sync-khoiphan21.yml) validates all bundles, then pushes to Hevy (same-repo PRs only) and commits updated `hevy/` JSON back to the PR branch. Requires GitHub secret `HEVY_API_KEY_KHOIPHAN21`.
 - **Map exercises:** `npm run hevy:map -- <program>` — updates program `hevy/mapping.json` and `hevy/status.md` from cache. Custom-exercise slugs use exact Hevy title match only (no fuzzy overwrite).
 - **Push flags:** `--dry-run` (no writes), `--fetch` (refresh exercise template cache), `--recreate-routines` (clear local routine ids then reconcile — use after deleting all routines on Hevy), `--skip-reconcile` (skip Hevy folder/id sync).
 - **List folder routines:** `npm run hevy:list-folder -- <program>` — shows routines in the program folder; marks KEEP vs DELETE for orphan cleanup (Hevy has no DELETE routine API).
@@ -20,6 +22,6 @@ This is a VitePress static documentation site for a workout program. There is on
 - **Hevy cache:** `libs/hevy/cache/` (fetched templates). **Account mapping:** `libs/hevy/account/khoiphan21/exercise-mapping.json`.
 - **Build:** `npm run docs:build` — outputs to `.vitepress/dist`.
 - **Preview built site:** `npm run docs:preview` — serves the production build locally.
-- There are no lint, test, or CI commands beyond the build. The only automated check is that `npm run docs:build` succeeds.
+- **CI (PRs to main):** `hevy-sync-khoiphan21` validates and pushes all khoiphan21 Hevy bundles; `deploy-docs` builds the site on push to main.
 - The VitePress config at `.vitepress/config.mts` auto-generates sidebar navigation from all `.md` files in the repo (excluding `node_modules`, `.git`, `.github`, `.cursor`, `dist`).
 - `index.md` is a symlink to `README.md` — this is required for the VitePress dev server to serve the homepage at `/`.

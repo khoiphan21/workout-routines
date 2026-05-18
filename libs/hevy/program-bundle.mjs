@@ -201,3 +201,26 @@ export function listProgramDirs() {
   }
   return out;
 }
+
+/**
+ * Program directories whose manifest.account matches (e.g. "khoiphan21").
+ * @param {string} account
+ * @returns {string[]} Absolute program directory paths
+ */
+export function listProgramsForAccount(account) {
+  return listProgramDirs().filter((dir) => {
+    try {
+      return loadManifest(dir).account === account;
+    } catch {
+      return false;
+    }
+  });
+}
+
+/**
+ * @param {string} programDir - Absolute path from listProgramDirs()
+ * @returns {string} manifest.id (program slug for CLI)
+ */
+export function programSlugFromDir(programDir) {
+  return loadManifest(programDir).id;
+}
