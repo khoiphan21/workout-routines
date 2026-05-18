@@ -14,7 +14,18 @@ A **Gym Monster 2–only** 5-day split that mirrors [Push–Pull Home Gym](../pu
 - **Gym Monster 2 (Speediance)** — Smith cage, cables, electromagnetic resistance (see [Gym Monster 2](../../../equipment/gym-monster-2.md)).
 - **Bench** — Works / Works Plus (flat or incline) for presses and rows.
 - **Attachments** — Smart PowerGrip handles, tricep rope, ankle straps, barbell hooks + pad; optional AeroRow for rowing-style conditioning.
-- **Not used:** pull-up bar, rings, dip station, resistance bands, wall handstand space.
+- **Not used:** pull-up bar, rings, dip station, resistance bands, wall handstand space, commercial leg-press machines.
+
+### GM2 compatibility audit
+
+| Tier | Meaning | Action in this program |
+|------|---------|------------------------|
+| **A — Replaced** | Wrong equipment or load path on GM2 | **Sissy Squat (Cable, GM2)** replaces Single Leg Press; **RDL (Smith)** replaces heavy close-grip pulldown 3×3 on Pull B |
+| **B — Documented** | Works on GM2; needs setup pages + accurate Hevy customs | See linked `exercises/*-gm2.md` pages |
+| **C — Compatible** | Stock Hevy templates (face pull, rows, curls, etc.) | No movement change |
+| **D — Optional** | Ergonomic swaps if needed | Upright row → high cable row; rev-grip pulldown → supinated chest-supported row if load-capped |
+
+**Cardio on Day 3:** **Stair Machine** and **Rowing Machine** are **Speediance app workout modes** on the GM2 (not separate gym hardware). Pick the built-in stair or AeroRow/row program in the app for EMOM odd minutes.
 
 ## Relationship to Home Gym program
 
@@ -27,7 +38,7 @@ A **Gym Monster 2–only** 5-day split that mirrors [Push–Pull Home Gym](../pu
 | Conditioning | Rings, bands, floor abs | **Cable row, Smith press, split squat, crunch, stair/row, pulldown, knee raise** |
 | Push B power | Barbell bench (rack) | **Bench Press (Smith), 2 s pause** |
 | Push B skills | Handstand triplet | **Smith OHP hold + press + seated press** |
-| Pull B power | Weighted chin-up | **Lat Pulldown – Close Grip (Cable)** |
+| Pull B power | Weighted chin-up | **Romanian Deadlift (Smith Machine)** |
 | Pull B skills | Muscle-up, archers, lever, Nordic | **Explosive pulldown**, **single-arm pulldown**, **SA pulldown hold**, **leg curl (GM2)** |
 
 Hypertrophy pairings and weekly volume targets match the home-gym program unless noted below.
@@ -78,8 +89,8 @@ Same rules as [home gym](../push-pull-homegym/#hard-sets-how-to-count-weekly-tra
 | Shoulders | Smith/cable OHP, lateral raise, face pull **work** sets | Bench, dips, pulldowns (1 indirect if already counted) |
 | Triceps | OH extension, pressdown **work** sets | Close-grip bench, dips |
 | Biceps | Curl **work** sets | Rows, pulldowns |
-| Quads | BSS, leg press / extension, split squat **work** sets | Upright row (light) |
-| Hamstrings | Leg curl (GM2) **work** sets | RDL warm-up (not a hard set unless heavy) |
+| Quads | BSS, sissy squat (cable), split squat **work** sets | Upright row (light) |
+| Hamstrings | Leg curl (GM2), **RDL (Smith) power** **work** sets | Light RDL in warm-up (not a hard set unless heavy) |
 | Calves | Standing calf raise (Smith) **work** sets | Stair machine (conditioning) |
 | Abs | Cable crunch, knee raise **work** sets | — |
 
@@ -109,8 +120,8 @@ Same as [home gym](../push-pull-homegym/#progression-failure-rule-applies-to-all
 - **Hypertrophy + Abs (GM2)**
   - **H1:** Bulgarian Split Squat (Cable) — 3×8 per side → **H2:** Chest Fly (Cable) — 3×12  
     _**60–75 s** after H2._
-  - **H3:** Single Leg Press (Machine) — 3×12 per side → **H4:** Hammer Curl (Cable) — 3×12  
-    _Quad emphasis without calisthenics sissy squat; **60–75 s** after H4._
+  - **H3:** [Sissy Squat (Cable, Gym Monster 2)](../../../exercises/sissy-squat-cable-gm2) — 3×12 per side → **H4:** Hammer Curl (Cable) — 3×12  
+    _Quad emphasis (home-gym sissy pattern on GM2); **60–75 s** after H4._
   - Cable Crunch — 3×15
 
 ### Day 2 — Pull A
@@ -169,9 +180,9 @@ Same as [home gym](../push-pull-homegym/#progression-failure-rule-applies-to-all
 
 ### Day 5 — Pull B
 
-- **Power:** Lat Pulldown – Close Grip (Cable) — 3×3
-  - _Warm-up: ~50% × 5, ~70% × 3, then work sets._
-  - _Rest 3–4 min._
+- **Power:** [Romanian Deadlift (Smith Machine)](../../../exercises/romanian-deadlift-smith-gm2) — 3×3
+  - _Warm-up: empty bar × 8–10, ~50% × 3, ~70% × 2, then work sets._
+  - _Rest 3–4 min. +2.5 kg after clean 3×3._
 - **Technical superset 1**
   - E1: Lat Pulldown (Cable) — 1×5 warm-up, then 3×3 **explosive concentric** (controlled eccentric)
   - E2: Single Arm Lat Pulldown — 3×4 per side
@@ -192,11 +203,11 @@ Same as [home gym](../push-pull-homegym/#week-type-parameter-map): Power / Tempo
 
 ## Canonical exercise list (every week)
 
-- **Push A:** Close-Grip Bench (Smith); Seated Chest Fly Hold; OHP (Smith); Bulgarian Split Squat (Cable); Chest Fly (Cable); Single Leg Press; Hammer Curl (Cable); Cable Crunch.
+- **Push A:** Close-Grip Bench (Smith); Seated Chest Fly Hold; OHP (Smith); Bulgarian Split Squat (Cable); Chest Fly (Cable); Sissy Squat (Cable, GM2); Hammer Curl (Cable); Cable Crunch.
 - **Pull A:** Chest-Supported Row (Cable, GM2); Straight-Arm Pulldown Hold (light); Upright Row (Cable); Single-Arm Cable Row; Face Pull; Cable Row; Bicep Curl (Cable); Cable Crunch.
 - **Conditioning:** Cable Row (V); OHP (Smith) light; Split Squat (Smith); Cable Crunch; Stair or Rowing; Face Pull; Lying Knee Raise; Cable Crunch finisher.
 - **Push B:** Bench (Smith, pause); Smith OHP hold/press; Cable OHP top hold; OHP + Incline Bench (Cable, GM2); Seated Leg Curl; OH Triceps Extension; Lateral Raise (Cable); Calf Raise (Smith); Cable Crunch.
-- **Pull B:** Close-Grip Lat Pulldown; Explosive Lat Pulldown; Single-Arm Lat Pulldown; SA Pulldown Hold; Lying Leg Curl; Wide Cable Row; Rear Delt Fly; Reverse-Grip Pulldown; Cable Crunch.
+- **Pull B:** RDL (Smith) power; Explosive Lat Pulldown; Single-Arm Lat Pulldown; Straight-Arm Pulldown Hold; Lying Leg Curl; Wide Cable Row; Rear Delt Fly; Reverse-Grip Pulldown; Cable Crunch.
 
 ## Key notes (selected)
 
@@ -210,10 +221,14 @@ Use GM2 ramp sets only (no bodyweight sets). On **barbell-mode bench/OHP**, use 
 - **Why not lat pulldown:** Kneeling lat pulldown (high pulleys, ~7–9) is often capped near bodyweight without a knee brace. This row uses **mid pulleys** and the bench for bracing.
 - **Progression:** +2.5 kg on GM2 after a clean 3×3.
 
-### Lat Pulldown (Pull B power / technical)
+### Romanian Deadlift (Pull B power)
 
-- **Note:** Same knee-brace limitation applies for **heavy** vertical pulls; Pull B keeps pulldowns for lighter **explosive** and **supinated** work at manageable loads. If heavy vertical pulling is the goal, add extra **row** volume on Pull A or use a custom knee brace if your GM2 setup allows it.
-- **Progression:** +2.5 kg on GM2 after a clean 3×3 when reps stay crisp.
+- **Setup:** Barbell hooks + pad on Smith; hip hinge, soft knees, bar close to legs. See [exercise page](../../../exercises/romanian-deadlift-smith-gm2.md).
+- **Progression:** +2.5 kg on GM2 after a clean 3×3 with 1 RIR on sets 1–2.
+
+### Lat pulldown (Pull B technical / hypertrophy only)
+
+- **Note:** Kneeling lat pulldown (high pulleys, ~7–9) is often capped near bodyweight without a knee brace. Pull B uses pulldowns only for **submaximal** explosive, single-arm, and reverse-grip work—not as the power triple. If reverse-grip 3×15 stalls, use **supinated chest-supported row** at the Pull A station.
 
 ### Close-Grip Bench (Push A power)
 
@@ -242,8 +257,8 @@ All work stays on GM2; no second station. Pairings match home gym for weekly bal
 | Shoulders (incl. rear) | — | OHP, lateral | Face pull | Rear delt fly | Smith OHP |
 | Triceps | — | OH extension | — | — | — |
 | Biceps | Hammer curl | — | Cable curl | — | — |
-| Quads | BSS, leg press | — | — | Split squat | Split squat |
-| Hamstrings | — | Leg curl | — | Lying leg curl (tech) | — |
+| Quads | BSS, sissy squat (cable) | — | — | Split squat | Split squat |
+| Hamstrings | — | Leg curl | — | RDL (power), lying leg curl (tech) | — |
 | Calves | — | Calf (Smith) | — | — | Stair* |
 | Abs | Crunch | Crunch | Crunch | Crunch | Knee raise, crunch |
 
@@ -262,6 +277,7 @@ All work stays on GM2; no second station. Pairings match home gym for weekly bal
 Hevy bundle: [`hevy/`](hevy/) — Power Week (5 days) is in `routines.json`; `mapping.json` and `custom-exercises.json` are ready for push.
 
 ```bash
+npm run hevy:validate -- push-pull-gym-monster-2
 npm run hevy:map -- push-pull-gym-monster-2
 npm run hevy:push -- push-pull-gym-monster-2
 ```

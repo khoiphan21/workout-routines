@@ -26,7 +26,7 @@ const T = {
   ohpSmithBottomHold: PLACEHOLDER,
   bssCable: PLACEHOLDER,
   chestFlyCable: PLACEHOLDER,
-  legPress: '3FD83744',
+  sissySquatCable: PLACEHOLDER,
   hammerCurl: '36E8F14E',
   crunch: '23A48484',
   chestSupportedRow: PLACEHOLDER,
@@ -49,7 +49,7 @@ const T = {
   ohTriExt: 'B5EFBF9C',
   lateralRaise: 'BE289E45',
   calfSmith: 'AA52E8D2',
-  latPdClose: '4E5257DE',
+  rdlSmith: PLACEHOLDER,
   latPdExplosive: PLACEHOLDER,
   latPd: '6A6C31A5',
   saLatPd: '2EE45F81',
@@ -173,8 +173,9 @@ const day1 = routine('Power Week - Day 1: Push A', [
     sets: repsSets(12, 3),
     rest_seconds: 75,
   }),
-  ex(6, 'Single Leg Press (Machine)', T.legPress, {
-    notes: 'Hypertrophy H3: 3×12/side. Superset with hammer curl.',
+  ex(6, 'Sissy Squat (Cable, Gym Monster 2)', T.sissySquatCable, {
+    notes:
+      'Hypertrophy H3: 3×12/side. Low pulley ~1–3, anchored feet, cable handle or belt. Superset with hammer curl.',
     superset_id: 3,
     sets: repsSets(12, 3),
     rest_seconds: 0,
@@ -386,13 +387,15 @@ const day5 = routine('Power Week - Day 5: Pull B', [
     sets: [set(0, 'normal', { reps: 1 })],
     rest_seconds: 0,
   }),
-  ex(1, 'Lat Pulldown - Close Grip (Cable)', T.latPdClose, {
-    notes: 'Power: 3×3. Ramp ~50%×5, ~70%×3, work. +2.5 kg after clean 3×3. Rest 3–4 min.',
-    sets: powerCableRamp(3),
+  ex(1, 'Romanian Deadlift (Smith Machine)', T.rdlSmith, {
+    notes:
+      'Power: 3×3. Barbell hooks + pad. Ramp empty ×8–10, ~50%×3, ~70%×2, work. +2.5 kg after clean 3×3. Rest 3–4 min.',
+    sets: powerSmithRamp(3),
     rest_seconds: 180,
   }),
   ex(2, 'Lat Pulldown (Cable) — Explosive', T.latPdExplosive, {
-    notes: 'Technical E1: 1×5 warmup, then 3×3 explosive concentric (controlled eccentric).',
+    notes:
+      'Technical E1: 1×5 warmup, then 3×3 explosive concentric (submax load; high pulleys ~7–9).',
     superset_id: 0,
     sets: [set(0, 'warmup', { reps: 5 }), ...repsSets(3, 3)],
     rest_seconds: 0,
@@ -428,7 +431,8 @@ const day5 = routine('Power Week - Day 5: Pull B', [
     rest_seconds: 75,
   }),
   ex(8, 'Reverse Grip Lat Pulldown (Cable)', T.revGripLatPd, {
-    notes: 'Hypertrophy H3: 3×15. Giant with crunch.',
+    notes:
+      'Hypertrophy H3: 3×15 submax (kneeling). If load-capped, use supinated chest-supported row. Giant with crunch.',
     superset_id: 3,
     sets: repsSets(15, 3),
     rest_seconds: 0,

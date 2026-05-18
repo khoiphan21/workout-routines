@@ -1,6 +1,6 @@
 {
   "source": "programs/khoiphan21/push-pull-gym-monster-2",
-  "fetchedAt": "2026-05-18T23:09:08.930Z",
+  "fetchedAt": "2026-05-18T23:19:20.755Z",
   "count": 5,
   "data": [
     {
@@ -33,7 +33,7 @@
           "index": 1,
           "title": "Close-Grip Bench Press (Smith Machine)",
           "notes": "Power: 3×3. Grip ~shoulder width. Ramp: empty bar ×8–10, ~50% ×3, ~70% ×2, work sets. Rest 3–4 min. +2.5 kg after clean 3×3.",
-          "exercise_template_id": "11028e2d-7843-4830-bd71-92f54d4931a1",
+          "exercise_template_id": "e48dcda2-1139-4323-ac34-cdf4efbaec2d",
           "superset_id": null,
           "sets": [
             {
@@ -97,7 +97,7 @@
           "index": 2,
           "title": "Seated Chest Fly (Cable) — Bottom Hold",
           "notes": "Technical A1: 3×10 s bottom hold (light; squeeze stretch). Then A2 OHP Smith. 60–75 s after A2.",
-          "exercise_template_id": "333606b0-095b-4f95-ada1-09675679e225",
+          "exercise_template_id": "f398299f-db31-4365-9077-587451195e58",
           "superset_id": 0,
           "sets": [
             {
@@ -171,7 +171,7 @@
           "index": 4,
           "title": "Bulgarian Split Squat (Cable, Gym Monster 2)",
           "notes": "Hypertrophy H1: 3×8/side (GM2 cable handle). Superset with chest fly.",
-          "exercise_template_id": "5fa8b40d-0703-4b7f-91bd-d17fdd3eb6c2",
+          "exercise_template_id": "729f8f4e-655b-4e17-85af-f307cd41c4cf",
           "superset_id": 2,
           "sets": [
             {
@@ -208,7 +208,7 @@
           "index": 5,
           "title": "Chest Fly (Cable, Gym Monster 2)",
           "notes": "Hypertrophy H2: 3×12 chest fly (GM2). 60–75 s after this exercise.",
-          "exercise_template_id": "1a051e92-c6e1-43b7-b775-3d953abb51ad",
+          "exercise_template_id": "e525809a-f391-4c23-ba39-cecfd884409f",
           "superset_id": 2,
           "sets": [
             {
@@ -243,9 +243,9 @@
         },
         {
           "index": 6,
-          "title": "Single Leg Press (Machine)",
-          "notes": "Hypertrophy H3: 3×12/side. Superset with hammer curl.",
-          "exercise_template_id": "3FD83744",
+          "title": "Sissy Squat (Cable, Gym Monster 2)",
+          "notes": "Hypertrophy H3: 3×12/side. Low pulley ~1–3, anchored feet, cable handle or belt. Superset with hammer curl.",
+          "exercise_template_id": "8391f749-02d0-4a76-8ee8-29d5e89e940d",
           "superset_id": 3,
           "sets": [
             {
@@ -384,7 +384,7 @@
           "index": 1,
           "title": "Chest-Supported Row (Cable, Gym Monster 2)",
           "notes": "Power: 3×3. Works Plus ~30–45°, mid pulleys on vertical bars ~4–6, cable row bar. Ramp ~50%×5, ~70%×3, work. +2.5 kg after clean 3×3. Rest 3–4 min.",
-          "exercise_template_id": "be6ee9a9-7f9e-43e4-856b-6ef1b9d7e473",
+          "exercise_template_id": "e6bce22e-bb97-42e7-ad52-6757d07b26c6",
           "superset_id": null,
           "sets": [
             {
@@ -800,7 +800,7 @@
           "index": 3,
           "title": "Split Squat (Smith Machine)",
           "notes": "Circuit: Split squat on Smith — 12/side.",
-          "exercise_template_id": "c7dd00dd-a21e-4945-bf1e-90bfeef4397e",
+          "exercise_template_id": "41c39ced-9e5d-43f3-841c-cbd36c6c076f",
           "superset_id": 0,
           "sets": [
             {
@@ -1113,7 +1113,7 @@
           "index": 1,
           "title": "Bench Press (Smith Machine, 2s Pause)",
           "notes": "Power: 3×3 with 2 s pause on chest. Ramp: empty bar ×8–10, ~50%×3, ~70%×2, ~85%×1, work. Rest 3–4 min.",
-          "exercise_template_id": "44dfa61f-c0c5-479c-b6b1-920da2e0811b",
+          "exercise_template_id": "777cc5f9-9f2d-4788-acf4-45856db09473",
           "superset_id": null,
           "sets": [
             {
@@ -1186,7 +1186,7 @@
           "index": 2,
           "title": "Overhead Press (Smith Machine) — Bottom Hold",
           "notes": "Technical D1: 3×20–30 s bottom-range hold (light).",
-          "exercise_template_id": "b3d28e9d-e36f-4cdd-9b88-e50d6640b867",
+          "exercise_template_id": "90c283aa-ac10-445d-bb4a-ec3d7fc41375",
           "superset_id": 0,
           "sets": [
             {
@@ -1260,7 +1260,7 @@
           "index": 4,
           "title": "Overhead Press (Cable, Gym Monster 2) — Top Hold",
           "notes": "Technical D3: 3×15 s top hold (light). 60–75 s after D3.",
-          "exercise_template_id": "c92fd7b5-f1aa-43a3-b900-73c646ca3c7d",
+          "exercise_template_id": "abb57219-838c-4204-bc22-acae0bb6084e",
           "superset_id": 0,
           "sets": [
             {
@@ -1582,16 +1582,16 @@
         },
         {
           "index": 1,
-          "title": "Lat Pulldown - Close Grip (Cable)",
-          "notes": "Power: 3×3. Ramp ~50%×5, ~70%×3, work. +2.5 kg after clean 3×3. Rest 3–4 min.",
-          "exercise_template_id": "4E5257DE",
+          "title": "Romanian Deadlift (Smith Machine)",
+          "notes": "Power: 3×3. Barbell hooks + pad. Ramp empty ×8–10, ~50%×3, ~70%×2, work. +2.5 kg after clean 3×3. Rest 3–4 min.",
+          "exercise_template_id": "40d330f0-6594-416d-8efc-8bc1f2df1926",
           "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "warmup",
               "weight_kg": null,
-              "reps": 5,
+              "reps": 10,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1607,9 +1607,9 @@
             },
             {
               "index": 2,
-              "type": "normal",
+              "type": "warmup",
               "weight_kg": null,
-              "reps": 3,
+              "reps": 2,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1631,6 +1631,15 @@
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
+            },
+            {
+              "index": 5,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
             }
           ],
           "rest_seconds": 180
@@ -1638,8 +1647,8 @@
         {
           "index": 2,
           "title": "Lat Pulldown (Cable) — Explosive",
-          "notes": "Technical E1: 1×5 warmup, then 3×3 explosive concentric (controlled eccentric).",
-          "exercise_template_id": "ad10eda8-1056-4cfd-9670-b1f34650076d",
+          "notes": "Technical E1: 1×5 warmup, then 3×3 explosive concentric (submax load; high pulleys ~7–9).",
+          "exercise_template_id": "14d56345-3a82-492e-8ff5-f51a21bf905f",
           "superset_id": 0,
           "sets": [
             {
@@ -1869,7 +1878,7 @@
         {
           "index": 8,
           "title": "Reverse Grip Lat Pulldown (Cable)",
-          "notes": "Hypertrophy H3: 3×15. Giant with crunch.",
+          "notes": "Hypertrophy H3: 3×15 submax (kneeling). If load-capped, use supinated chest-supported row. Giant with crunch.",
           "exercise_template_id": "046E25A2",
           "superset_id": 3,
           "sets": [

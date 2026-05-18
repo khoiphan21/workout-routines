@@ -59,7 +59,8 @@ An all-in-one smart home gym with electromagnetic resistance, combining a power 
 - **Wood chops** — Single-arm wood chops, rotational work
 - **Leg work** — Leg curls, kickbacks, hip work (with ankle straps)
 - **Squats and presses** — With barbell hooks and bench
-- **Smith machine movements** — Squats, bench press, overhead press
+- **Smith machine movements** — Squats, bench press, overhead press, Romanian deadlift
+- **Quad hypertrophy** — Bulgarian split squat (cable), sissy squat (cable), split squat (Smith)—**not** a commercial leg-press machine
 
 ## Substitutes for
 

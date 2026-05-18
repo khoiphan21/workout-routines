@@ -82,5 +82,19 @@
     "equipmentCategory": "machine",
     "muscleGroup": "lats",
     "otherMuscles": ["upper_back", "biceps"]
+  },
+  "sissy-squat-cable-gm2": {
+    "title": "Sissy Squat (Cable, Gym Monster 2)",
+    "exerciseType": "weight_reps",
+    "equipmentCategory": "machine",
+    "muscleGroup": "quadriceps",
+    "otherMuscles": ["glutes"]
+  },
+  "romanian-deadlift-smith-gm2": {
+    "title": "Romanian Deadlift (Smith Machine)",
+    "exerciseType": "weight_reps",
+    "equipmentCategory": "machine",
+    "muscleGroup": "hamstrings",
+    "otherMuscles": ["glutes", "lower_back"]
   }
 }
