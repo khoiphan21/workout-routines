@@ -9,4 +9,4 @@ Gastrocnemius work on the floor, a low block, or the edge of your bench—no sta
 
 ## Prescription
 
-- **Power Week:** 3x12, RPE 8–9, superset with cable lateral raise on Push B.
+- **Power Week:** use **Mini Legs A** (or another leg day) for calf volume; main Push/Pull Power Week routines no longer pair calves with lateral raise.

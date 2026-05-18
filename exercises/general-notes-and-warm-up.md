@@ -15,12 +15,8 @@
 - **Pull A:**
   - Front Lever Hold ↔ Rings Hamstring Curl
   - Feet-Elevated Inverted Row ↔ Straight-Arm Band Pulldown
-- **Push B:**
-  - Pike Push-up ↔ Ring Push-Up
-  - Band Lateral Raise ↔ Overhead Band Triceps Extension
-- **Pull B:**
-  - Back Lever Tuck Hold ↔ Nordic Curl
-  - Wide-Grip Inverted Row ↔ Band High-to-Low Row
+- **Push B (Power Week main routine):** handstand triplet at the wall; GM2 **OHP ↔ incline** giant, then overhead triceps extension, then cable crunch.
+- **Pull B (Power Week main routine):** **Archer pull-up ↔ back lever tuck** pair; Nordic curl own block; GM2 row + reverse fly, reverse-grip pulldown, cable crunch.
 
 🔥 Intensity guidance:
 

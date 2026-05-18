@@ -29,3 +29,7 @@
 - Use resistance bands for assistance.
 - Practice with easier progressions to build strength.
 - Perform the exercise on a low bar to make it easier.
+
+📱 Hevy logging:
+
+- **Power Week Pull A:** log **Ring Row** for the prescribed horizontal row work; use this tuck progression when ring rows are no longer challenging.

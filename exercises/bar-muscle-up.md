@@ -9,9 +9,8 @@
 
 🎯 Work prescription:
 
-- Warm up 1x3 at an easier variation (for example chest-to-bar pull or light band assist)
-- Then 3x3
-- Rest 2 min between sets
+- **Pull B (Power Week):** treat as the **power** slot — **3×3** work sets with **3–4 min** rest (warm up with singles or easier variations first).
+- Other weeks / contexts: warm up 1×3 at an easier variation, then 3×3 with ~2 min rest if used as skill volume.
 
 📈 5 progression levels (all 3x3 unless noted):
 
