@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-13T05:54:39.017Z",
+  "generatedAt": "2026-05-18T22:51:49.411Z",
   "hevyTemplateCount": 457,
   "repoExerciseCount": 49,
-  "matched": 50,
+  "matched": 51,
   "toCreate": [],
   "mapping": [
     {
@@ -90,6 +90,13 @@
       "repoTitle": "Lateral Raise (Cable)",
       "hevyId": "BE289E45",
       "hevyTitle": "Lateral Raise (Cable)",
+      "matchScore": 1
+    },
+    {
+      "slug": "chest-supported-row-cable-gm2",
+      "repoTitle": "Chest-Supported Row (Cable, Gym Monster 2)",
+      "hevyId": "cdeb8832-1695-45b5-979a-dd1c9a860157",
+      "hevyTitle": "Chest-Supported Row (Cable, Gym Monster 2)",
       "matchScore": 1
     },
     {

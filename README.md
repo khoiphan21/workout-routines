@@ -30,6 +30,9 @@ This repository builds **exercise programs** and a **collection of exercises + i
 
 ## Hevy sync
 
+1. Copy `.env.example` → `.env.local` and set `HEVY_API_KEY_KHOIPHAN21` (or export the variable in your shell).
+2. Run:
+
 ```bash
 npm run hevy:fetch-exercises
 npm run hevy:map -- push-pull-homegym

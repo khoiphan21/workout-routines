@@ -1,12 +1,12 @@
 {
   "source": "programs/khoiphan21/push-pull-gym-monster-2",
-  "fetchedAt": null,
+  "fetchedAt": "2026-05-18T22:51:49.410Z",
   "count": 5,
   "data": [
     {
-      "id": null,
+      "id": "c6b0e933-6e0f-4899-88a4-2dab6c0b0aef",
       "title": "Power Week - Day 1: Push A",
-      "folder_id": null,
+      "folder_id": 2893630,
       "_folder_name": "Push-Pull Gym Monster 2",
       "notes": "",
       "exercises": [
@@ -355,9 +355,9 @@
       ]
     },
     {
-      "id": null,
+      "id": "1c3bc033-1ea2-4279-a13e-7229b1bbbaef",
       "title": "Power Week - Day 2: Pull A",
-      "folder_id": null,
+      "folder_id": 2893630,
       "_folder_name": "Push-Pull Gym Monster 2",
       "notes": "",
       "exercises": [
@@ -384,7 +384,7 @@
           "index": 1,
           "title": "Chest-Supported Row (Cable, Gym Monster 2)",
           "notes": "Power: 3×3. Works Plus ~30–45°, mid pulleys on vertical bars ~4–6, cable row bar. Ramp ~50%×5, ~70%×3, work. +2.5 kg after clean 3×3. Rest 3–4 min.",
-          "exercise_template_id": "00000000-0000-0000-0000-000000000001",
+          "exercise_template_id": "cdeb8832-1695-45b5-979a-dd1c9a860157",
           "superset_id": null,
           "sets": [
             {
@@ -697,9 +697,9 @@
       ]
     },
     {
-      "id": null,
+      "id": "23d2ad98-4fc3-42f6-a93a-ab66e658a761",
       "title": "Power Week - Day 3: Conditioning",
-      "folder_id": null,
+      "folder_id": 2893630,
       "_folder_name": "Push-Pull Gym Monster 2",
       "notes": "",
       "exercises": [
@@ -1084,9 +1084,9 @@
       ]
     },
     {
-      "id": null,
+      "id": "d43eece0-6365-4c21-8de9-5c7c0951ca37",
       "title": "Power Week - Day 4: Push B",
-      "folder_id": null,
+      "folder_id": 2893630,
       "_folder_name": "Push-Pull Gym Monster 2",
       "notes": "",
       "exercises": [
@@ -1555,9 +1555,9 @@
       ]
     },
     {
-      "id": null,
+      "id": "1644159f-c6a4-49bd-b087-904966df8aaa",
       "title": "Power Week - Day 5: Pull B",
-      "folder_id": null,
+      "folder_id": 2893630,
       "_folder_name": "Push-Pull Gym Monster 2",
       "notes": "",
       "exercises": [

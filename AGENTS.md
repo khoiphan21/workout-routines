@@ -7,7 +7,7 @@ This is a VitePress static documentation site for a workout program. There is on
 ## Hevy API
 
 - **API docs:** https://api.hevyapp.com/docs/
-- **Environment variable:** `HEVY_API_KEY_KHOIPHAN21` — contains the API key to access the khoiphan21 Hevy account for publishing exercises and workouts. Use this when running scripts or automation that push content to Hevy.
+- **API key:** Set `HEVY_API_KEY_KHOIPHAN21` in the environment, or copy [`.env.example`](.env.example) to `.env.local` (gitignored) and add your key there. Scripts load `.env.local` automatically when the env var is unset.
 
 - **Dev server:** `npm run docs:dev` (port 5173 by default). Supports hot-reload for `.md` and `.mts` config changes.
 - **Push to Hevy:** `npm run hevy:push -- <program>` — program path required (e.g. `push-pull-homegym`). Reads `programs/<user>/<program>/hevy/` (`manifest.json`, `routines.json`, `mapping.json`, `custom-exercises.json`). Requires `HEVY_API_KEY_KHOIPHAN21` or `HEVY_API_KEY`.

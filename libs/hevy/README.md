@@ -27,5 +27,6 @@ Flags: `--dry-run`, `--fetch` (refresh template cache before push).
 
 ## Prerequisites
 
-- `HEVY_API_KEY_KHOIPHAN21` or `HEVY_API_KEY`
 - Hevy Pro membership
+- API key via **`HEVY_API_KEY_KHOIPHAN21`** in the environment, or in **`.env.local`** (copy from [`.env.example`](../../.env.example); file is gitignored)
+- Optional fallbacks: `HEVY_API_KEY`, `HEVY_API_TOKEN`

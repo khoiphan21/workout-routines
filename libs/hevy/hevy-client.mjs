@@ -1,19 +1,25 @@
 /**
  * Hevy API client for fetching exercise templates, routines, and routine folders.
  * API docs: https://api.hevyapp.com/docs/
- * Env: HEVY_API_KEY_KHOIPHAN21 or HEVY_API_KEY
+ * Env: HEVY_API_KEY_KHOIPHAN21, or HEVY_API_KEY / HEVY_API_TOKEN, or .env.local
  */
+
+import { loadEnvLocal } from './load-env.mjs';
 
 const HEVY_BASE = 'https://api.hevyapp.com/v1';
 
 export function getHevyApiKey() {
+  if (!process.env.HEVY_API_KEY_KHOIPHAN21) {
+    loadEnvLocal();
+  }
+
   const key =
     process.env.HEVY_API_KEY_KHOIPHAN21 ||
     process.env.HEVY_API_KEY ||
     process.env.HEVY_API_TOKEN;
   if (!key) {
     throw new Error(
-      'Missing Hevy API key. Set HEVY_API_KEY_KHOIPHAN21, HEVY_API_KEY, or HEVY_API_TOKEN.'
+      'Missing Hevy API key. Set HEVY_API_KEY_KHOIPHAN21 (or HEVY_API_KEY), or copy .env.example to .env.local and add your key.'
     );
   }
   return key;
