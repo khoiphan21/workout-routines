@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T23:19:16.351Z",
+  "generatedAt": "2026-05-18T23:36:49.029Z",
   "programSlugs": [
     "bench-press-smith-pause-gm2",
     "bulgarian-split-squat-cable-gm2",
@@ -25,14 +25,14 @@
     {
       "slug": "bench-press-smith-pause-gm2",
       "repoTitle": "Bench Press (Smith Machine, 2s Pause)",
-      "hevyId": "777cc5f9-9f2d-4788-acf4-45856db09473",
+      "hevyId": "4caa130c-5340-4db7-ac07-2aa2e888f43f",
       "hevyTitle": "Bench Press (Smith Machine, 2s Pause)",
       "matchScore": 1
     },
     {
       "slug": "bulgarian-split-squat-cable-gm2",
       "repoTitle": "Bulgarian Split Squat (Cable, Gym Monster 2)",
-      "hevyId": "729f8f4e-655b-4e17-85af-f307cd41c4cf",
+      "hevyId": "5191953b-d4ba-4633-a1a3-29757dfdad46",
       "hevyTitle": "Bulgarian Split Squat (Cable, Gym Monster 2)",
       "matchScore": 1
     },
@@ -46,21 +46,21 @@
     {
       "slug": "chest-fly-cable-gm2",
       "repoTitle": "Chest Fly (Cable, Gym Monster 2)",
-      "hevyId": "e525809a-f391-4c23-ba39-cecfd884409f",
+      "hevyId": "99af15e9-5e8b-405d-b894-785a6e81d421",
       "hevyTitle": "Chest Fly (Cable, Gym Monster 2)",
       "matchScore": 1
     },
     {
       "slug": "chest-supported-row-cable-gm2",
       "repoTitle": "Chest-Supported Row (Cable, Gym Monster 2)",
-      "hevyId": "e6bce22e-bb97-42e7-ad52-6757d07b26c6",
+      "hevyId": "0f5cacc6-f905-42f4-a621-ba4d5f8cfd7a",
       "hevyTitle": "Chest-Supported Row (Cable, Gym Monster 2)",
       "matchScore": 1
     },
     {
       "slug": "close-grip-bench-smith-gm2",
       "repoTitle": "Close-Grip Bench Press (Smith Machine)",
-      "hevyId": "e48dcda2-1139-4323-ac34-cdf4efbaec2d",
+      "hevyId": "1423bc22-c522-47e9-b361-d755c9be99ff",
       "hevyTitle": "Close-Grip Bench Press (Smith Machine)",
       "matchScore": 1
     },
@@ -74,7 +74,7 @@
     {
       "slug": "lat-pulldown-explosive-gm2",
       "repoTitle": "Lat Pulldown (Cable) — Explosive",
-      "hevyId": "14d56345-3a82-492e-8ff5-f51a21bf905f",
+      "hevyId": "533ffc9c-669d-446f-b43f-30c2d5ea0042",
       "hevyTitle": "Lat Pulldown (Cable) — Explosive",
       "matchScore": 1
     },
@@ -88,7 +88,7 @@
     {
       "slug": "overhead-press-cable-gm2-top-hold",
       "repoTitle": "Overhead Press (Cable, Gym Monster 2) — Top Hold",
-      "hevyId": "abb57219-838c-4204-bc22-acae0bb6084e",
+      "hevyId": "886c8ba5-c997-44e6-b3e7-d0f01f52ed16",
       "hevyTitle": "Overhead Press (Cable, Gym Monster 2) — Top Hold",
       "matchScore": 1
     },
@@ -102,35 +102,35 @@
     {
       "slug": "romanian-deadlift-smith-gm2",
       "repoTitle": "Romanian Deadlift (Smith Machine)",
-      "hevyId": "40d330f0-6594-416d-8efc-8bc1f2df1926",
+      "hevyId": "b4de0063-69bc-4bfe-a27b-1d8815fe5280",
       "hevyTitle": "Romanian Deadlift (Smith Machine)",
       "matchScore": 1
     },
     {
       "slug": "seated-chest-fly-bottom-hold-gm2",
       "repoTitle": "Seated Chest Fly (Cable) — Bottom Hold",
-      "hevyId": "f398299f-db31-4365-9077-587451195e58",
+      "hevyId": "946e69ee-fb64-4940-8808-332ebc44f7ff",
       "hevyTitle": "Seated Chest Fly (Cable) — Bottom Hold",
       "matchScore": 1
     },
     {
       "slug": "sissy-squat-cable-gm2",
       "repoTitle": "Sissy Squat (Cable, Gym Monster 2)",
-      "hevyId": "8391f749-02d0-4a76-8ee8-29d5e89e940d",
+      "hevyId": "44f636fa-ee0e-4585-8ce5-7be01bbf20ae",
       "hevyTitle": "Sissy Squat (Cable, Gym Monster 2)",
       "matchScore": 1
     },
     {
       "slug": "smith-ohp-bottom-hold-gm2",
       "repoTitle": "Overhead Press (Smith Machine) — Bottom Hold",
-      "hevyId": "90c283aa-ac10-445d-bb4a-ec3d7fc41375",
+      "hevyId": "7fd41910-47c4-4e86-b86c-9c6cae1830ed",
       "hevyTitle": "Overhead Press (Smith Machine) — Bottom Hold",
       "matchScore": 1
     },
     {
       "slug": "split-squat-smith-gm2",
       "repoTitle": "Split Squat (Smith Machine)",
-      "hevyId": "41c39ced-9e5d-43f3-841c-cbd36c6c076f",
+      "hevyId": "c98c728c-195f-45e6-9480-727a57d9da85",
       "hevyTitle": "Split Squat (Smith Machine)",
       "matchScore": 1
     },
