@@ -21,6 +21,7 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [Weighted Pull-Up](weighted-pull-up)
 - [Wide-Grip Inverted Row](wide-grip-inverted-row)
 - [Reverse Grip Lat Pulldown (Cable)](reverse-grip-lat-pulldown-cable)
+- [Chest-Supported Row (Cable, Gym Monster 2)](chest-supported-row-cable-gm2)
 
 ### Chest
 
@@ -147,6 +148,11 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 
 ### [Gym Monster 2](../equipment/gym-monster-2)
 
+- [Chest-Supported Row (Cable, Gym Monster 2)](chest-supported-row-cable-gm2)
+- [Incline Bench Press (Cable, Gym Monster 2)](incline-bench-press-cable-gm2)
+- [Overhead Press (Cable, Gym Monster 2)](overhead-press-cable-gm2)
+- [Lateral Raise (Cable)](cable-lateral-raise)
+- [Reverse Grip Lat Pulldown (Cable)](reverse-grip-lat-pulldown-cable)
 - Rowing and horizontal pulling variations (can substitute for band rows, ring rows)
 
 ---

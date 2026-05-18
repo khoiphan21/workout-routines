@@ -22,8 +22,8 @@ A **Gym Monster 2–only** 5-day split that mirrors [Push–Pull Home Gym](../pu
 |-------|-------------------------------------------|-------------------------|
 | Push A power | Weighted dip | **Close-Grip Bench Press (Smith)** |
 | Push A skills | Iron cross hold + pike HSPU | **Cable chest fly iso hold** + **Overhead Press (Smith)** |
-| Pull A power | Weighted pull-up | **Lat Pulldown (Cable)** |
-| Pull A skills | Front lever + high pull + tuck row | **Straight-arm pulldown hold** + **Upright Row (Cable)** + **Single-arm lat pulldown** |
+| Pull A power | Weighted pull-up | **Chest-Supported Row (Cable)** — mid pulleys on vertical bars; full stack vs kneeling lat pulldown |
+| Pull A skills | Front lever + high pull + ring row | **Straight-arm pulldown hold (light)** + **Upright Row (Cable)** + **Single-arm cable row (seated)** |
 | Conditioning | Rings, bands, floor abs | **Cable row, Smith press, split squat, crunch, stair/row, pulldown, knee raise** |
 | Push B power | Barbell bench (rack) | **Bench Press (Smith), 2 s pause** |
 | Push B skills | Handstand triplet | **Smith OHP hold + press + seated press** |
@@ -74,7 +74,7 @@ Same rules as [home gym](../push-pull-homegym/#hard-sets-how-to-count-weekly-tra
 | Muscle / area | Count as direct (examples) | Count as indirect (examples) |
 |---------------|------------------------------|--------------------------------|
 | Chest | Smith bench / close-grip **work** triples; fly; incline press | — |
-| Back / lats | Rows, pulldowns, SA pulldown **work** sets | Face pull → upper back |
+| Back / lats | Chest-supported cable row, cable rows, pulldowns (light/heavy as prescribed) **work** sets | Face pull → upper back |
 | Shoulders | Smith/cable OHP, lateral raise, face pull **work** sets | Bench, dips, pulldowns (1 indirect if already counted) |
 | Triceps | OH extension, pressdown **work** sets | Close-grip bench, dips |
 | Biceps | Curl **work** sets | Rows, pulldowns |
@@ -115,20 +115,21 @@ Same as [home gym](../push-pull-homegym/#progression-failure-rule-applies-to-all
 
 ### Day 2 — Pull A
 
-- **Power:** Lat Pulldown (Cable) — 3×3
+- **Power:** [Chest-Supported Row (Cable, Gym Monster 2)](../../../exercises/chest-supported-row-cable-gm2) — 3×3
+  - _Works Plus ~30–45°, chest on pad. **Both pulleys on vertical bars ~level 4–6** (not floor platform); **cable row bar** on both clips. Log on custom Hevy template. See [exercise page](../../../exercises/chest-supported-row-cable-gm2.md)._
   - _Warm-up: ~50% × 5, ~70% × 3, then work sets._
   - _Progression: +2.5 kg on GM2 after a clean 3×3._
   - _Rest 3–4 min._
-- **Technical block** (pair, then separate pull)
-  - **Pair:** B1 Straight Arm Lat Pulldown (Cable) — 3×12 s hold (light) → B2 Upright Row (Cable) — 3×5  
+- **Technical block** (pair, then separate row — mirrors home-gym lever + high pull + ring row)
+  - **Pair:** B1 Straight Arm Lat Pulldown (Cable) — 3×12 s hold (**light only**) → B2 Upright Row (Cable) — 3×5  
     _**60–75 s** after B2._
-  - **Then:** B3 Single Arm Lat Pulldown — 3×5 per side  
-    _Own block; **2–3 min** between rounds if needed._
-- **Hypertrophy + Abs (GM2)**
+  - **Then:** B3 Single Arm Cable Row — 3×5 per side (seated on bench, GM2 handle)  
+    _Own block; **2–3 min** between rounds if needed. Progress load when reps are crisp._
+- **Hypertrophy + Abs (GM2)** — *same pairing as [home gym Pull A](../push-pull-homegym/#day-2--pull-a)*
   - **H1:** Face Pull (Cable) — 3×15 → **H2:** Seated Cable Row – Bar Grip — 3×10  
     _**60–75 s** after H2._
-  - **H3:** Straight Arm Lat Pulldown (Cable) — 3×15 → **H4:** Bicep Curl (Cable) — 3×12  
-    _**60–75 s** after H4._
+  - **Bicep Curl (Cable)** — 3×12  
+    _Single after face pull / row superset; **60–75 s** between sets._
   - Cable Crunch — 3×12
 
 ### Day 3 — Conditioning (GM2 steady HR)
@@ -141,7 +142,7 @@ Same as [home gym](../push-pull-homegym/#progression-failure-rule-applies-to-all
   - _**60–90 s** after the crunch before the next round._
 - **EMOM 12**
   - Odd: Stair Machine (Steps) or Rowing Machine — 45 s
-  - Even: Straight Arm Lat Pulldown (Cable) — 15 reps, light
+  - Even: Face Pull (Cable) — 15 reps, light
 - **Finisher superset**
   - C1: Lying Knee Raise (bench + ankle strap on GM2) — accumulate 60 s total (e.g. 4×15 s)
   - C2: Cable Crunch — 3×20  
@@ -192,8 +193,8 @@ Same as [home gym](../push-pull-homegym/#week-type-parameter-map): Power / Tempo
 ## Canonical exercise list (every week)
 
 - **Push A:** Close-Grip Bench (Smith); Seated Chest Fly Hold; OHP (Smith); Bulgarian Split Squat (Cable); Chest Fly (Cable); Single Leg Press; Hammer Curl (Cable); Cable Crunch.
-- **Pull A:** Lat Pulldown (Cable); SA Pulldown Hold; Upright Row (Cable); Single-Arm Lat Pulldown; Face Pull; Cable Row; Straight-Arm Pulldown; Bicep Curl (Cable); Cable Crunch.
-- **Conditioning:** Cable Row (V); OHP (Smith) light; Split Squat (Smith); Cable Crunch; Stair or Rowing; Straight-Arm Pulldown; Lying Knee Raise; Cable Crunch finisher.
+- **Pull A:** Chest-Supported Row (Cable, GM2); Straight-Arm Pulldown Hold (light); Upright Row (Cable); Single-Arm Cable Row; Face Pull; Cable Row; Bicep Curl (Cable); Cable Crunch.
+- **Conditioning:** Cable Row (V); OHP (Smith) light; Split Squat (Smith); Cable Crunch; Stair or Rowing; Face Pull; Lying Knee Raise; Cable Crunch finisher.
 - **Push B:** Bench (Smith, pause); Smith OHP hold/press; Cable OHP top hold; OHP + Incline Bench (Cable, GM2); Seated Leg Curl; OH Triceps Extension; Lateral Raise (Cable); Calf Raise (Smith); Cable Crunch.
 - **Pull B:** Close-Grip Lat Pulldown; Explosive Lat Pulldown; Single-Arm Lat Pulldown; SA Pulldown Hold; Lying Leg Curl; Wide Cable Row; Rear Delt Fly; Reverse-Grip Pulldown; Cable Crunch.
 
@@ -201,11 +202,18 @@ Same as [home gym](../push-pull-homegym/#week-type-parameter-map): Power / Tempo
 
 ### Power — warm-up sets
 
-Use GM2 ramp sets only (no bodyweight sets). On pulldowns, use the same % progression as bench.
+Use GM2 ramp sets only (no bodyweight sets). On **barbell-mode bench/OHP**, use % ramps like bench; on **cable rows** (including Pull A power), ramp ~50% → ~70% → work sets or by feel to RPE 8–9 on hypertrophy work.
 
-### Lat Pulldown (Pull A / Pull B power)
+### Chest-Supported Row (Pull A power)
 
+- **Setup:** Dual cables on **vertical bar pulleys ~level 4–6**, **not** the floor platform; chest-supported on Works Plus. Full detail: [exercise page](../../../exercises/chest-supported-row-cable-gm2.md).
+- **Why not lat pulldown:** Kneeling lat pulldown (high pulleys, ~7–9) is often capped near bodyweight without a knee brace. This row uses **mid pulleys** and the bench for bracing.
 - **Progression:** +2.5 kg on GM2 after a clean 3×3.
+
+### Lat Pulldown (Pull B power / technical)
+
+- **Note:** Same knee-brace limitation applies for **heavy** vertical pulls; Pull B keeps pulldowns for lighter **explosive** and **supinated** work at manageable loads. If heavy vertical pulling is the goal, add extra **row** volume on Pull A or use a custom knee brace if your GM2 setup allows it.
+- **Progression:** +2.5 kg on GM2 after a clean 3×3 when reps stay crisp.
 
 ### Close-Grip Bench (Push A power)
 
@@ -230,7 +238,7 @@ All work stays on GM2; no second station. Pairings match home gym for weekly bal
 | Area | Push A | Push B | Pull A | Pull B | Conditioning* |
 |------|--------|--------|--------|--------|-----------------|
 | Chest | Fly | Incline | — | — | — |
-| Back / lats | — | — | Row, SA pulldown | Row, rev-grip pulldown | Cable row, SA pulldown |
+| Back / lats | — | — | Chest-supported row, cable row, SA cable row | Row, rev-grip pulldown | Cable row |
 | Shoulders (incl. rear) | — | OHP, lateral | Face pull | Rear delt fly | Smith OHP |
 | Triceps | — | OH extension | — | — | — |
 | Biceps | Hammer curl | — | Cable curl | — | — |

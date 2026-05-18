@@ -91,6 +91,13 @@ const TO_CREATE_SPECS = {
     muscleGroup: 'chest',
     otherMuscles: ['shoulders', 'triceps'],
   },
+  'chest-supported-row-cable-gm2': {
+    title: 'Chest-Supported Row (Cable, Gym Monster 2)',
+    exerciseType: 'weight_reps',
+    equipmentCategory: 'machine',
+    muscleGroup: 'upper_back',
+    otherMuscles: ['lats', 'biceps'],
+  },
   'band-assisted-high-pull-up': {
     title: 'Band-assisted High Pull-Up',
     exerciseType: 'bodyweight_assisted_reps',
@@ -106,6 +113,7 @@ const ADDITIONAL_PUSH_SLUGS = [
   'freestanding-handstand-hold',
   'overhead-press-cable-gm2',
   'incline-bench-press-cable-gm2',
+  'chest-supported-row-cable-gm2',
 ];
 
 const PLACEHOLDER_TEMPLATE_IDS = new Set(['00000000-0000-0000-0000-000000000001']);
