@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-05-18T22:40:38.479Z",
+  "generatedAt": "2026-05-18T23:00:26.307Z",
   "programSlugs": [
     "archer-pull-ups",
+    "back-lever-tuck-hold",
     "band-assisted-high-pull-up",
     "band-overhead-press",
     "bar-muscle-up",
@@ -31,7 +32,7 @@
     "weighted-dip",
     "weighted-pull-up"
   ],
-  "matched": 29,
+  "matched": 35,
   "toCreate": [],
   "mapping": [
     {
@@ -42,6 +43,13 @@
       "matchScore": 1
     },
     {
+      "slug": "back-lever-tuck-hold",
+      "repoTitle": "Back Lever Tuck Hold",
+      "hevyId": "d971f520-d176-47cc-8775-808a86b9856c",
+      "hevyTitle": "Back Lever Tuck Hold",
+      "matchScore": 1
+    },
+    {
       "slug": "band-assisted-high-pull-up",
       "repoTitle": "Band-assisted High Pull-Up",
       "hevyId": "463f2bbc-bc50-42ed-ba37-859ab0b4ea86",
@@ -49,19 +57,25 @@
       "matchScore": 1
     },
     {
+      "slug": "band-high-to-low-row",
+      "repoTitle": "Band High-to-Low Row",
+      "hevyId": "352ea699-f45c-4e63-8284-eda90b1a9110",
+      "hevyTitle": "Band High-to-Low Row",
+      "matchScore": 1
+    },
+    {
       "slug": "band-overhead-press",
       "repoTitle": "Band Overhead Press",
-      "hevyId": "878CD1D0",
-      "hevyTitle": "Shoulder Press (Dumbbell)",
-      "matchScore": 0.62,
-      "proxyNote": "Conditioning day: log band overhead press on dumbbell shoulder press template (zero or nominal load)."
+      "hevyId": "c76b4dc2-1106-4a72-911f-44209a537b2c",
+      "hevyTitle": "Band Overhead Press",
+      "matchScore": 1
     },
     {
       "slug": "bar-muscle-up",
       "repoTitle": "Bar Muscle Up",
-      "hevyId": "9F9C164B",
-      "hevyTitle": "Muscle Up",
-      "matchScore": 0.88
+      "hevyId": "56baa3e4-c30c-4bd3-91f7-9974978ffbac",
+      "hevyTitle": "Bar Muscle Up",
+      "matchScore": 1
     },
     {
       "slug": "barbell-bench-press",
@@ -73,10 +87,9 @@
     {
       "slug": "bodyweight-split-squat",
       "repoTitle": "Bodyweight Split Squat",
-      "hevyId": "5E1A7777",
-      "hevyTitle": "Lunge",
-      "matchScore": 0.7,
-      "proxyNote": "Conditioning: alternating split squat pattern logged as lunge."
+      "hevyId": "098360e7-be8c-4605-8fb6-816bc2b2bf37",
+      "hevyTitle": "Bodyweight Split Squat",
+      "matchScore": 1
     },
     {
       "slug": "cable-lateral-raise",
@@ -90,6 +103,13 @@
       "repoTitle": "Chest-to-Wall Handstand Hold",
       "hevyId": "3814de10-1893-43b5-8510-61b2e5aaaeb0",
       "hevyTitle": "Chest-to-Wall Handstand Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "dragon-flag-negatives",
+      "repoTitle": "Dragon Flag Negatives",
+      "hevyId": "4e0ac6fb-880b-4bcf-9dfa-a9bf2b7b1fb9",
+      "hevyTitle": "Dragon Flag Negatives",
       "matchScore": 1
     },
     {
@@ -177,10 +197,24 @@
       "matchScore": 1
     },
     {
+      "slug": "reverse-fly-band",
+      "repoTitle": "Reverse Fly (band)",
+      "hevyId": "49b60968-dc7d-4615-ae61-dbb8f17e4e1b",
+      "hevyTitle": "Reverse Fly (band)",
+      "matchScore": 1
+    },
+    {
       "slug": "reverse-grip-lat-pulldown-cable",
       "repoTitle": "Reverse Grip Lat Pulldown (Cable)",
       "hevyId": "046E25A2",
       "hevyTitle": "Reverse Grip Lat Pulldown (Cable)",
+      "matchScore": 1
+    },
+    {
+      "slug": "ring-knee-tucks",
+      "repoTitle": "Ring Knee Tucks",
+      "hevyId": "02df5517-3542-4ce0-9a74-4996d21916ed",
+      "hevyTitle": "Ring Knee Tucks",
       "matchScore": 1
     },
     {
@@ -216,8 +250,7 @@
       "repoTitle": "Tuck Front-Lever Row",
       "hevyId": "f2fac51e-7700-42d9-8f10-8feee8c99d9b",
       "hevyTitle": "Ring Row",
-      "matchScore": 1,
-      "proxyNote": "Power Week Pull A: primary prescription is ring row (same Hevy template); use tuck front-lever row as progression when ring rows are easy."
+      "matchScore": 1
     },
     {
       "slug": "v-ups",
@@ -238,6 +271,13 @@
       "repoTitle": "Weighted Pull-Up",
       "hevyId": "729237D1",
       "hevyTitle": "Pull Up (Weighted)",
+      "matchScore": 1
+    },
+    {
+      "slug": "wide-grip-inverted-row",
+      "repoTitle": "Wide-Grip Inverted Row",
+      "hevyId": "f0b96676-8789-4b6f-92f7-5f33c2d20baf",
+      "hevyTitle": "Wide-Grip Inverted Row",
       "matchScore": 1
     }
   ]

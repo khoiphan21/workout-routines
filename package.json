@@ -11,7 +11,8 @@
     "hevy:fetch-routines": "node scripts/hevy-fetch-routines.mjs",
     "hevy:fetch-folders": "node scripts/hevy-fetch-routine-folders.mjs",
     "hevy:map": "node scripts/hevy-map.mjs",
-    "hevy:push": "node scripts/hevy-push.mjs"
+    "hevy:push": "node scripts/hevy-push.mjs",
+    "hevy:list-folder": "node scripts/hevy-list-folder-routines.mjs"
   },
   "repository": {
     "type": "git",

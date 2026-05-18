@@ -1,11 +1,11 @@
 # Hevy sync status — push-pull-homegym
 
-**Generated:** 2026-05-18T22:40:38.479Z
+**Generated:** 2026-05-18T22:56:57.445Z
 
 | Metric | Count |
 |--------|------:|
-| Program exercise slugs | 29 |
-| Matched to Hevy | 29 |
+| Program exercise slugs | 30 |
+| Matched to Hevy | 30 |
 | To create on Hevy | 0 |
 
 ## Exercises to create
@@ -21,6 +21,7 @@ _None — all slugs matched or listed in `custom-exercises.json`._
 | Repo title | Hevy title | Hevy ID | Score |
 |------------|------------|---------|------:|
 | Archer or Typewriter Pull-Ups | Archer Pull-Up | cd92a721-419c-4693-9362-f642a5244143 | 100% |
+| Back Lever Tuck Hold | Front Lever Hold | 0E608350 | 55% |
 | Band-assisted High Pull-Up | Band-assisted High Pull-Up | 463f2bbc-bc50-42ed-ba37-859ab0b4ea86 | 100% |
 | Band Overhead Press | Shoulder Press (Dumbbell) | 878CD1D0 | 62% |
 | Bar Muscle Up | Muscle Up | 9F9C164B | 88% |

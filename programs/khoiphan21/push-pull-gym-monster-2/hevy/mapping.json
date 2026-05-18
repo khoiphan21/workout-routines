@@ -1,16 +1,39 @@
 {
-  "generatedAt": "2026-05-18T22:51:47.101Z",
+  "generatedAt": "2026-05-18T23:00:38.496Z",
   "programSlugs": [
+    "bench-press-smith-pause-gm2",
+    "bulgarian-split-squat-cable-gm2",
     "cable-lateral-raise",
+    "chest-fly-cable-gm2",
     "chest-supported-row-cable-gm2",
+    "close-grip-bench-smith-gm2",
     "incline-bench-press-cable-gm2",
+    "lat-pulldown-explosive-gm2",
     "overhead-press-cable-gm2",
+    "overhead-press-cable-gm2-top-hold",
     "reverse-grip-lat-pulldown-cable",
+    "seated-chest-fly-bottom-hold-gm2",
+    "smith-ohp-bottom-hold-gm2",
+    "split-squat-smith-gm2",
     "standing-calf-raise"
   ],
-  "matched": 6,
+  "matched": 15,
   "toCreate": [],
   "mapping": [
+    {
+      "slug": "bench-press-smith-pause-gm2",
+      "repoTitle": "Bench Press (Smith Machine, 2s Pause)",
+      "hevyId": "44dfa61f-c0c5-479c-b6b1-920da2e0811b",
+      "hevyTitle": "Bench Press (Smith Machine, 2s Pause)",
+      "matchScore": 1
+    },
+    {
+      "slug": "bulgarian-split-squat-cable-gm2",
+      "repoTitle": "Bulgarian Split Squat (Cable, Gym Monster 2)",
+      "hevyId": "5fa8b40d-0703-4b7f-91bd-d17fdd3eb6c2",
+      "hevyTitle": "Bulgarian Split Squat (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
     {
       "slug": "cable-lateral-raise",
       "repoTitle": "Lateral Raise (Cable)",
@@ -19,10 +42,24 @@
       "matchScore": 1
     },
     {
+      "slug": "chest-fly-cable-gm2",
+      "repoTitle": "Chest Fly (Cable, Gym Monster 2)",
+      "hevyId": "1a051e92-c6e1-43b7-b775-3d953abb51ad",
+      "hevyTitle": "Chest Fly (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
       "slug": "chest-supported-row-cable-gm2",
       "repoTitle": "Chest-Supported Row (Cable, Gym Monster 2)",
-      "hevyId": "cdeb8832-1695-45b5-979a-dd1c9a860157",
+      "hevyId": "be6ee9a9-7f9e-43e4-856b-6ef1b9d7e473",
       "hevyTitle": "Chest-Supported Row (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "close-grip-bench-smith-gm2",
+      "repoTitle": "Close-Grip Bench Press (Smith Machine)",
+      "hevyId": "11028e2d-7843-4830-bd71-92f54d4931a1",
+      "hevyTitle": "Close-Grip Bench Press (Smith Machine)",
       "matchScore": 1
     },
     {
@@ -33,6 +70,13 @@
       "matchScore": 1
     },
     {
+      "slug": "lat-pulldown-explosive-gm2",
+      "repoTitle": "Lat Pulldown (Cable) — Explosive",
+      "hevyId": "ad10eda8-1056-4cfd-9670-b1f34650076d",
+      "hevyTitle": "Lat Pulldown (Cable) — Explosive",
+      "matchScore": 1
+    },
+    {
       "slug": "overhead-press-cable-gm2",
       "repoTitle": "Overhead Press (Cable, Gym Monster 2)",
       "hevyId": "8917a840-6edb-498e-a59c-bae2b2da5eaa",
@@ -40,10 +84,38 @@
       "matchScore": 1
     },
     {
+      "slug": "overhead-press-cable-gm2-top-hold",
+      "repoTitle": "Overhead Press (Cable, Gym Monster 2) — Top Hold",
+      "hevyId": "c92fd7b5-f1aa-43a3-b900-73c646ca3c7d",
+      "hevyTitle": "Overhead Press (Cable, Gym Monster 2) — Top Hold",
+      "matchScore": 1
+    },
+    {
       "slug": "reverse-grip-lat-pulldown-cable",
       "repoTitle": "Reverse Grip Lat Pulldown (Cable)",
       "hevyId": "046E25A2",
       "hevyTitle": "Reverse Grip Lat Pulldown (Cable)",
+      "matchScore": 1
+    },
+    {
+      "slug": "seated-chest-fly-bottom-hold-gm2",
+      "repoTitle": "Seated Chest Fly (Cable) — Bottom Hold",
+      "hevyId": "333606b0-095b-4f95-ada1-09675679e225",
+      "hevyTitle": "Seated Chest Fly (Cable) — Bottom Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "smith-ohp-bottom-hold-gm2",
+      "repoTitle": "Overhead Press (Smith Machine) — Bottom Hold",
+      "hevyId": "b3d28e9d-e36f-4cdd-9b88-e50d6640b867",
+      "hevyTitle": "Overhead Press (Smith Machine) — Bottom Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "split-squat-smith-gm2",
+      "repoTitle": "Split Squat (Smith Machine)",
+      "hevyId": "c7dd00dd-a21e-4945-bf1e-90bfeef4397e",
+      "hevyTitle": "Split Squat (Smith Machine)",
       "matchScore": 1
     },
     {

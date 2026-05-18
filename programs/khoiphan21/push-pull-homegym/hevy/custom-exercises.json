@@ -54,5 +54,33 @@
     "equipmentCategory": "resistance_band",
     "muscleGroup": "lats",
     "otherMuscles": ["upper_back", "biceps", "shoulders"]
+  },
+  "band-overhead-press": {
+    "title": "Band Overhead Press",
+    "exerciseType": "reps_only",
+    "equipmentCategory": "resistance_band",
+    "muscleGroup": "shoulders",
+    "otherMuscles": ["triceps"]
+  },
+  "bodyweight-split-squat": {
+    "title": "Bodyweight Split Squat",
+    "exerciseType": "reps_only",
+    "equipmentCategory": "none",
+    "muscleGroup": "quadriceps",
+    "otherMuscles": ["glutes", "hamstrings"]
+  },
+  "back-lever-tuck-hold": {
+    "title": "Back Lever Tuck Hold",
+    "exerciseType": "duration",
+    "equipmentCategory": "suspension",
+    "muscleGroup": "lats",
+    "otherMuscles": ["abdominals", "lower_back"]
+  },
+  "bar-muscle-up": {
+    "title": "Bar Muscle Up",
+    "exerciseType": "bodyweight_reps",
+    "equipmentCategory": "none",
+    "muscleGroup": "lats",
+    "otherMuscles": ["chest", "shoulders", "triceps"]
   }
 }

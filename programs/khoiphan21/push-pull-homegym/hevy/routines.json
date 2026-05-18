@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-04-13T12:24:14.758Z",
+  "fetchedAt": "2026-05-18T23:00:31.027Z",
   "source": "programs/khoiphan21/push-pull-homegym",
   "count": 16,
   "data": [
     {
       "id": "56f0ba52-32c4-4b8e-bc5e-8d7cebad42b6",
       "title": "Power Week - Day 1: Push A",
-      "folder_id": null,
+      "folder_id": 2893674,
       "updated_at": "2026-03-22T22:41:13.799Z",
       "created_at": "2026-03-22T22:41:13.799Z",
       "exercises": [
@@ -366,7 +366,7 @@
     {
       "id": "34ae88da-9701-440f-90eb-f0eabba0d149",
       "title": "Power Week - Day 2: Pull A",
-      "folder_id": null,
+      "folder_id": 2893674,
       "updated_at": "2026-03-22T22:41:13.799Z",
       "created_at": "2026-03-22T22:41:13.799Z",
       "exercises": [
@@ -726,7 +726,7 @@
     {
       "id": "7ecd730a-e4a5-4b46-8b6c-5d439c22fbae",
       "title": "Power Week - Day 3: Conditioning",
-      "folder_id": null,
+      "folder_id": 2893674,
       "updated_at": "2026-03-22T22:41:13.799Z",
       "created_at": "2026-03-22T22:41:13.799Z",
       "exercises": [
@@ -788,9 +788,9 @@
         },
         {
           "index": 2,
-          "title": "Shoulder Press (Dumbbell)",
+          "title": "Band Overhead Press",
           "notes": "Circuit: Band overhead press 15 reps (log as shoulder press template if needed).",
-          "exercise_template_id": "878CD1D0",
+          "exercise_template_id": "c76b4dc2-1106-4a72-911f-44209a537b2c",
           "superset_id": 0,
           "sets": [
             {
@@ -825,9 +825,9 @@
         },
         {
           "index": 3,
-          "title": "Lunge",
+          "title": "Bodyweight Split Squat",
           "notes": "Circuit: Split squat pattern 12 reps/side.",
-          "exercise_template_id": "5E1A7777",
+          "exercise_template_id": "098360e7-be8c-4605-8fb6-816bc2b2bf37",
           "superset_id": 0,
           "sets": [
             {
@@ -1113,7 +1113,7 @@
     {
       "id": "2290be71-c3b4-4cb6-8c93-9352a3365470",
       "title": "Power Week - Day 4: Push B",
-      "folder_id": null,
+      "folder_id": 2893674,
       "updated_at": "2026-03-22T22:41:13.799Z",
       "created_at": "2026-03-22T22:41:13.799Z",
       "exercises": [
@@ -1473,7 +1473,7 @@
     {
       "id": "3b12149c-577a-4539-96e1-a77b423a002a",
       "title": "Power Week - Day 5: Pull B",
-      "folder_id": null,
+      "folder_id": 2893674,
       "updated_at": "2026-03-22T22:41:13.799Z",
       "created_at": "2026-03-22T22:41:13.799Z",
       "exercises": [
@@ -1498,9 +1498,9 @@
         },
         {
           "index": 1,
-          "title": "Muscle Up",
+          "title": "Bar Muscle Up",
           "notes": "Power: 3x3 strict muscle-ups (first slot on Pull B). Rest 3–4 min. Warm up with easier variations or singles as needed—do not superset power work.",
-          "exercise_template_id": "9F9C164B",
+          "exercise_template_id": "56baa3e4-c30c-4bd3-91f7-9974978ffbac",
           "superset_id": null,
           "sets": [
             {
@@ -1544,9 +1544,9 @@
         },
         {
           "index": 2,
-          "title": "Archer Pull-Up",
+          "title": "Back Lever Tuck Hold",
           "notes": "Skill pair S1a: Archer pull-up 3x4/side. Paired with back lever tuck (S1b)—minimal rest between moves; **60–75 s** after S1b.",
-          "exercise_template_id": "cd92a721-419c-4693-9362-f642a5244143",
+          "exercise_template_id": "d971f520-d176-47cc-8775-808a86b9856c",
           "superset_id": 0,
           "sets": [
             {
@@ -1581,9 +1581,9 @@
         },
         {
           "index": 3,
-          "title": "Front Lever Hold",
+          "title": "Back Lever Tuck Hold",
           "notes": "Skill pair S1b: Back lever tuck 3x12 s (log on front lever hold template).",
-          "exercise_template_id": "0E608350",
+          "exercise_template_id": "d971f520-d176-47cc-8775-808a86b9856c",
           "superset_id": 0,
           "sets": [
             {
@@ -2175,9 +2175,9 @@
       "exercises": [
         {
           "index": 0,
-          "title": "Overhead Press (Cable, Gym Monster 2)",
+          "title": "Band Overhead Press",
           "notes": "Mini routine — shoulders (front + side delts).\nWarm-up: 1x10 band overhead press before starting.\n3x8 @ RPE 8–9. Superset with lateral raise; 60–75 s after lateral raise.",
-          "exercise_template_id": "8917a840-6edb-498e-a59c-bae2b2da5eaa",
+          "exercise_template_id": "c76b4dc2-1106-4a72-911f-44209a537b2c",
           "superset_id": 0,
           "sets": [
             {
@@ -2703,9 +2703,9 @@
       "exercises": [
         {
           "index": 0,
-          "title": "Front Lever Hold",
+          "title": "Back Lever Tuck Hold",
           "notes": "Mini routine — lever skill.\nWarm-up: 1x5 pull-ups + 1x10 band pull-aparts before starting.\nFront lever hold 3x12 s. Superset with back lever tuck; 60–75 s after back lever.",
-          "exercise_template_id": "0E608350",
+          "exercise_template_id": "d971f520-d176-47cc-8775-808a86b9856c",
           "superset_id": 0,
           "sets": [
             {
@@ -2740,9 +2740,9 @@
         },
         {
           "index": 1,
-          "title": "Front Lever Hold",
+          "title": "Back Lever Tuck Hold",
           "notes": "Back lever tuck hold 3x12 s (logged on front lever template). 60–75 s after each round.",
-          "exercise_template_id": "0E608350",
+          "exercise_template_id": "d971f520-d176-47cc-8775-808a86b9856c",
           "superset_id": 0,
           "sets": [
             {

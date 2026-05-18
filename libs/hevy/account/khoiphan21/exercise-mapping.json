@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-18T22:51:49.411Z",
+  "generatedAt": "2026-05-18T23:00:40.138Z",
   "hevyTemplateCount": 457,
   "repoExerciseCount": 49,
-  "matched": 51,
+  "matched": 60,
   "toCreate": [],
   "mapping": [
     {
@@ -15,10 +15,9 @@
     {
       "slug": "back-lever-tuck-hold",
       "repoTitle": "Back Lever Tuck Hold",
-      "hevyId": "0E608350",
-      "hevyTitle": "Front Lever Hold",
-      "matchScore": 0.55,
-      "proxyNote": "Power Week Pull B: log back lever tuck on front-lever hold template; see routine notes."
+      "hevyId": "d971f520-d176-47cc-8775-808a86b9856c",
+      "hevyTitle": "Back Lever Tuck Hold",
+      "matchScore": 1
     },
     {
       "slug": "band-assisted-high-pull-up",
@@ -51,10 +50,9 @@
     {
       "slug": "band-overhead-press",
       "repoTitle": "Band Overhead Press",
-      "hevyId": "878CD1D0",
-      "hevyTitle": "Shoulder Press (Dumbbell)",
-      "matchScore": 0.62,
-      "proxyNote": "Conditioning day: log band overhead press on dumbbell shoulder press template (zero or nominal load)."
+      "hevyId": "c76b4dc2-1106-4a72-911f-44209a537b2c",
+      "hevyTitle": "Band Overhead Press",
+      "matchScore": 1
     },
     {
       "slug": "band-triceps-pressdown",
@@ -66,9 +64,9 @@
     {
       "slug": "bar-muscle-up",
       "repoTitle": "Bar Muscle Up",
-      "hevyId": "9F9C164B",
-      "hevyTitle": "Muscle Up",
-      "matchScore": 0.88
+      "hevyId": "56baa3e4-c30c-4bd3-91f7-9974978ffbac",
+      "hevyTitle": "Bar Muscle Up",
+      "matchScore": 1
     },
     {
       "slug": "barbell-bench-press",
@@ -78,12 +76,25 @@
       "matchScore": 1
     },
     {
+      "slug": "bench-press-smith-pause-gm2",
+      "repoTitle": "Bench Press (Smith Machine, 2s Pause)",
+      "hevyId": "44dfa61f-c0c5-479c-b6b1-920da2e0811b",
+      "hevyTitle": "Bench Press (Smith Machine, 2s Pause)",
+      "matchScore": 1
+    },
+    {
       "slug": "bodyweight-split-squat",
       "repoTitle": "Bodyweight Split Squat",
-      "hevyId": "5E1A7777",
-      "hevyTitle": "Lunge",
-      "matchScore": 0.7,
-      "proxyNote": "Conditioning: alternating split squat pattern logged as lunge."
+      "hevyId": "098360e7-be8c-4605-8fb6-816bc2b2bf37",
+      "hevyTitle": "Bodyweight Split Squat",
+      "matchScore": 1
+    },
+    {
+      "slug": "bulgarian-split-squat-cable-gm2",
+      "repoTitle": "Bulgarian Split Squat (Cable, Gym Monster 2)",
+      "hevyId": "5fa8b40d-0703-4b7f-91bd-d17fdd3eb6c2",
+      "hevyTitle": "Bulgarian Split Squat (Cable, Gym Monster 2)",
+      "matchScore": 1
     },
     {
       "slug": "cable-lateral-raise",
@@ -93,9 +104,16 @@
       "matchScore": 1
     },
     {
+      "slug": "chest-fly-cable-gm2",
+      "repoTitle": "Chest Fly (Cable, Gym Monster 2)",
+      "hevyId": "1a051e92-c6e1-43b7-b775-3d953abb51ad",
+      "hevyTitle": "Chest Fly (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
       "slug": "chest-supported-row-cable-gm2",
       "repoTitle": "Chest-Supported Row (Cable, Gym Monster 2)",
-      "hevyId": "cdeb8832-1695-45b5-979a-dd1c9a860157",
+      "hevyId": "be6ee9a9-7f9e-43e4-856b-6ef1b9d7e473",
       "hevyTitle": "Chest-Supported Row (Cable, Gym Monster 2)",
       "matchScore": 1
     },
@@ -104,6 +122,13 @@
       "repoTitle": "Chest-to-Wall Handstand Hold",
       "hevyId": "3814de10-1893-43b5-8510-61b2e5aaaeb0",
       "hevyTitle": "Chest-to-Wall Handstand Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "close-grip-bench-smith-gm2",
+      "repoTitle": "Close-Grip Bench Press (Smith Machine)",
+      "hevyId": "11028e2d-7843-4830-bd71-92f54d4931a1",
+      "hevyTitle": "Close-Grip Bench Press (Smith Machine)",
       "matchScore": 1
     },
     {
@@ -191,6 +216,13 @@
       "matchScore": 1
     },
     {
+      "slug": "lat-pulldown-explosive-gm2",
+      "repoTitle": "Lat Pulldown (Cable) — Explosive",
+      "hevyId": "ad10eda8-1056-4cfd-9670-b1f34650076d",
+      "hevyTitle": "Lat Pulldown (Cable) — Explosive",
+      "matchScore": 1
+    },
+    {
       "slug": "nordic-curl",
       "repoTitle": "Nordic Curl",
       "hevyId": "108D7A14",
@@ -209,6 +241,13 @@
       "repoTitle": "Overhead Press (Cable, Gym Monster 2)",
       "hevyId": "8917a840-6edb-498e-a59c-bae2b2da5eaa",
       "hevyTitle": "Overhead Press (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "overhead-press-cable-gm2-top-hold",
+      "repoTitle": "Overhead Press (Cable, Gym Monster 2) — Top Hold",
+      "hevyId": "c92fd7b5-f1aa-43a3-b900-73c646ca3c7d",
+      "hevyTitle": "Overhead Press (Cable, Gym Monster 2) — Top Hold",
       "matchScore": 1
     },
     {
@@ -305,10 +344,31 @@
       "matchScore": 1
     },
     {
+      "slug": "seated-chest-fly-bottom-hold-gm2",
+      "repoTitle": "Seated Chest Fly (Cable) — Bottom Hold",
+      "hevyId": "333606b0-095b-4f95-ada1-09675679e225",
+      "hevyTitle": "Seated Chest Fly (Cable) — Bottom Hold",
+      "matchScore": 1
+    },
+    {
       "slug": "sissy-squat-weighted",
       "repoTitle": "Sissy Squat (Weighted)",
       "hevyId": "F5DEF1EB",
       "hevyTitle": "Sissy Squat (Weighted)",
+      "matchScore": 1
+    },
+    {
+      "slug": "smith-ohp-bottom-hold-gm2",
+      "repoTitle": "Overhead Press (Smith Machine) — Bottom Hold",
+      "hevyId": "b3d28e9d-e36f-4cdd-9b88-e50d6640b867",
+      "hevyTitle": "Overhead Press (Smith Machine) — Bottom Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "split-squat-smith-gm2",
+      "repoTitle": "Split Squat (Smith Machine)",
+      "hevyId": "c7dd00dd-a21e-4945-bf1e-90bfeef4397e",
+      "hevyTitle": "Split Squat (Smith Machine)",
       "matchScore": 1
     },
     {
@@ -330,8 +390,7 @@
       "repoTitle": "Tuck Front-Lever Row",
       "hevyId": "f2fac51e-7700-42d9-8f10-8feee8c99d9b",
       "hevyTitle": "Ring Row",
-      "matchScore": 1,
-      "proxyNote": "Power Week Pull A: primary prescription is ring row (same Hevy template); use tuck front-lever row as progression when ring rows are easy."
+      "matchScore": 1
     },
     {
       "slug": "v-ups",

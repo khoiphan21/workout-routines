@@ -14,15 +14,26 @@ const OUT = path.resolve(
   '../programs/khoiphan21/push-pull-gym-monster-2/hevy/routines.json'
 );
 
+/** Preserve Hevy routine ids when regenerating (avoids duplicate creates on re-push). */
+function loadExistingRoutineMeta() {
+  if (!fs.existsSync(OUT)) return new Map();
+  const doc = JSON.parse(fs.readFileSync(OUT, 'utf8'));
+  return new Map(
+    (doc.data ?? []).filter((r) => r.id).map((r) => [r.title, { id: r.id, folder_id: r.folder_id }])
+  );
+}
+
 const PLACEHOLDER = '00000000-0000-0000-0000-000000000001';
 
 const T = {
   notes: '2e6c1b67-6b65-4467-a325-7e718fefc65a',
-  benchSmith: '0FBF7195',
-  seatedChestFly: '6B4C797E',
+  closeGripBenchSmith: PLACEHOLDER,
+  benchSmithPause: PLACEHOLDER,
+  seatedChestFlyHold: PLACEHOLDER,
   ohpSmith: 'B09A1304',
-  bss: 'B5D3A742',
-  chestFlyCable: '651F844C',
+  ohpSmithBottomHold: PLACEHOLDER,
+  bssCable: PLACEHOLDER,
+  chestFlyCable: PLACEHOLDER,
   legPress: '3FD83744',
   hammerCurl: '36E8F14E',
   crunch: '23A48484',
@@ -34,11 +45,12 @@ const T = {
   cableRowBar: 'F1D60854',
   bicepCurl: 'ADA8623C',
   vGripRow: '0393F233',
-  lunge: '5E1A7777',
+  splitSquatSmith: PLACEHOLDER,
   stair: '4377A52C',
   rowing: '0222DB42',
   kneeRaise: 'BD5935CF',
   ohpCableGm2: '8917a840-6edb-498e-a59c-bae2b2da5eaa',
+  ohpCableGm2TopHold: PLACEHOLDER,
   inclineCableGm2: '0bdabadd-dff1-40a8-8f3e-1f77e80daa10',
   legCurlSeated: '11A123F3',
   lyingLegCurl: 'B8127AD1',
@@ -46,6 +58,7 @@ const T = {
   lateralRaise: 'BE289E45',
   calfSmith: 'AA52E8D2',
   latPdClose: '4E5257DE',
+  latPdExplosive: PLACEHOLDER,
   latPd: '6A6C31A5',
   saLatPd: '2EE45F81',
   rowWide: 'C3BCABB3',
@@ -122,15 +135,18 @@ function ex(index, title, templateId, opts = {}) {
 }
 
 function routine(title, exercises) {
+  const prev = existingMeta.get(title);
   return {
-    id: null,
+    id: prev?.id ?? null,
     title,
-    folder_id: null,
+    folder_id: prev?.folder_id ?? null,
     _folder_name: 'Push-Pull Gym Monster 2',
     notes: '',
     exercises,
   };
 }
+
+const existingMeta = loadExistingRoutineMeta();
 
 const day1 = routine('Power Week - Day 1: Push A', [
   ex(0, 'General Notes & Warm-Up', T.notes, {
@@ -138,13 +154,13 @@ const day1 = routine('Power Week - Day 1: Push A', [
     sets: [set(0, 'normal', { reps: 1 })],
     rest_seconds: 0,
   }),
-  ex(1, 'Bench Press (Smith Machine)', T.benchSmith, {
+  ex(1, 'Close-Grip Bench Press (Smith Machine)', T.closeGripBenchSmith, {
     notes:
-      'Power: Close-grip bench on Smith — 3×3. Grip ~shoulder width. Ramp: empty bar ×8–10, ~50% ×3, ~70% ×2, work sets. Rest 3–4 min. +2.5 kg after clean 3×3.',
+      'Power: 3×3. Grip ~shoulder width. Ramp: empty bar ×8–10, ~50% ×3, ~70% ×2, work sets. Rest 3–4 min. +2.5 kg after clean 3×3.',
     sets: powerSmithRamp(3),
     rest_seconds: 180,
   }),
-  ex(2, 'Seated Chest Flys (Cable)', T.seatedChestFly, {
+  ex(2, 'Seated Chest Fly (Cable) — Bottom Hold', T.seatedChestFlyHold, {
     notes: 'Technical A1: 3×10 s bottom hold (light; squeeze stretch). Then A2 OHP Smith. 60–75 s after A2.',
     superset_id: 0,
     sets: durationSets(10, 3),
@@ -156,13 +172,13 @@ const day1 = routine('Power Week - Day 1: Push A', [
     sets: repsSets(3, 3),
     rest_seconds: 75,
   }),
-  ex(4, 'Bulgarian Split Squat', T.bss, {
+  ex(4, 'Bulgarian Split Squat (Cable, Gym Monster 2)', T.bssCable, {
     notes: 'Hypertrophy H1: 3×8/side (GM2 cable handle). Superset with chest fly.',
     superset_id: 2,
     sets: repsSets(8, 3),
     rest_seconds: 0,
   }),
-  ex(5, 'Cable Fly Crossovers', T.chestFlyCable, {
+  ex(5, 'Chest Fly (Cable, Gym Monster 2)', T.chestFlyCable, {
     notes: 'Hypertrophy H2: 3×12 chest fly (GM2). 60–75 s after this exercise.',
     superset_id: 2,
     sets: repsSets(12, 3),
@@ -258,8 +274,8 @@ const day3 = routine('Power Week - Day 3: Conditioning', [
     sets: repsSets(15, 3),
     rest_seconds: 0,
   }),
-  ex(3, 'Lunge', T.lunge, {
-    notes: 'Circuit: Split squat on Smith — 12/side (log as lunge template).',
+  ex(3, 'Split Squat (Smith Machine)', T.splitSquatSmith, {
+    notes: 'Circuit: Split squat on Smith — 12/side.',
     superset_id: 0,
     sets: repsSets(12, 3),
     rest_seconds: 0,
@@ -300,7 +316,7 @@ const day4 = routine('Power Week - Day 4: Push B', [
     sets: [set(0, 'normal', { reps: 1 })],
     rest_seconds: 0,
   }),
-  ex(1, 'Bench Press (Smith Machine)', T.benchSmith, {
+  ex(1, 'Bench Press (Smith Machine, 2s Pause)', T.benchSmithPause, {
     notes:
       'Power: 3×3 with 2 s pause on chest. Ramp: empty bar ×8–10, ~50%×3, ~70%×2, ~85%×1, work. Rest 3–4 min.',
     sets: [
@@ -314,7 +330,7 @@ const day4 = routine('Power Week - Day 4: Push B', [
     ],
     rest_seconds: 180,
   }),
-  ex(2, 'Overhead Press (Smith Machine)', T.ohpSmith, {
+  ex(2, 'Overhead Press (Smith Machine) — Bottom Hold', T.ohpSmithBottomHold, {
     notes: 'Technical D1: 3×20–30 s bottom-range hold (light).',
     superset_id: 0,
     sets: durationSets(25, 3),
@@ -326,7 +342,7 @@ const day4 = routine('Power Week - Day 4: Push B', [
     sets: repsSets(3, 3),
     rest_seconds: 0,
   }),
-  ex(4, 'Overhead Press (Cable, Gym Monster 2)', T.ohpCableGm2, {
+  ex(4, 'Overhead Press (Cable, Gym Monster 2) — Top Hold', T.ohpCableGm2TopHold, {
     notes: 'Technical D3: 3×15 s top hold (light). 60–75 s after D3.',
     superset_id: 0,
     sets: durationSets(15, 3),
@@ -386,7 +402,7 @@ const day5 = routine('Power Week - Day 5: Pull B', [
     sets: powerCableRamp(3),
     rest_seconds: 180,
   }),
-  ex(2, 'Lat Pulldown (Cable)', T.latPd, {
+  ex(2, 'Lat Pulldown (Cable) — Explosive', T.latPdExplosive, {
     notes: 'Technical E1: 1×5 warmup, then 3×3 explosive concentric (controlled eccentric).',
     superset_id: 0,
     sets: [set(0, 'warmup', { reps: 5 }), ...repsSets(3, 3)],

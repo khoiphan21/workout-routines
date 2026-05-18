@@ -5,11 +5,20 @@
   "routineFolder": "Push-Pull Gym Monster 2",
   "docs": ["index.md"],
   "exerciseSlugs": [
+    "bench-press-smith-pause-gm2",
+    "bulgarian-split-squat-cable-gm2",
     "cable-lateral-raise",
+    "chest-fly-cable-gm2",
     "chest-supported-row-cable-gm2",
+    "close-grip-bench-smith-gm2",
     "incline-bench-press-cable-gm2",
+    "lat-pulldown-explosive-gm2",
     "overhead-press-cable-gm2",
+    "overhead-press-cable-gm2-top-hold",
     "reverse-grip-lat-pulldown-cable",
+    "seated-chest-fly-bottom-hold-gm2",
+    "smith-ohp-bottom-hold-gm2",
+    "split-squat-smith-gm2",
     "standing-calf-raise"
   ]
 }
