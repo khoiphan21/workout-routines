@@ -1,0 +1,58 @@
+{
+  "band-high-to-low-row": {
+    "title": "Band High-to-Low Row",
+    "exerciseType": "reps_only",
+    "equipmentCategory": "resistance_band",
+    "muscleGroup": "upper_back",
+    "otherMuscles": ["lats", "biceps"]
+  },
+  "dragon-flag-negatives": {
+    "title": "Dragon Flag Negatives",
+    "exerciseType": "reps_only",
+    "equipmentCategory": "none",
+    "muscleGroup": "abdominals",
+    "otherMuscles": []
+  },
+  "reverse-fly-band": {
+    "title": "Reverse Fly (band)",
+    "exerciseType": "reps_only",
+    "equipmentCategory": "resistance_band",
+    "muscleGroup": "shoulders",
+    "otherMuscles": ["upper_back"]
+  },
+  "ring-knee-tucks": {
+    "title": "Ring Knee Tucks",
+    "exerciseType": "reps_only",
+    "equipmentCategory": "suspension",
+    "muscleGroup": "abdominals",
+    "otherMuscles": []
+  },
+  "wide-grip-inverted-row": {
+    "title": "Wide-Grip Inverted Row",
+    "exerciseType": "reps_only",
+    "equipmentCategory": "none",
+    "muscleGroup": "lats",
+    "otherMuscles": ["upper_back", "biceps"]
+  },
+  "chest-to-wall-handstand-hold": {
+    "title": "Chest-to-Wall Handstand Hold",
+    "exerciseType": "duration",
+    "equipmentCategory": "none",
+    "muscleGroup": "shoulders",
+    "otherMuscles": ["triceps", "abdominals"]
+  },
+  "freestanding-handstand-hold": {
+    "title": "Freestanding Handstand Hold",
+    "exerciseType": "duration",
+    "equipmentCategory": "none",
+    "muscleGroup": "shoulders",
+    "otherMuscles": ["triceps", "abdominals"]
+  },
+  "band-assisted-high-pull-up": {
+    "title": "Band-assisted High Pull-Up",
+    "exerciseType": "bodyweight_assisted_reps",
+    "equipmentCategory": "resistance_band",
+    "muscleGroup": "lats",
+    "otherMuscles": ["upper_back", "biceps", "shoulders"]
+  }
+}

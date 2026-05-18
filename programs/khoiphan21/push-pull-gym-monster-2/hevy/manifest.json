@@ -1,0 +1,15 @@
+{
+  "id": "push-pull-gym-monster-2",
+  "account": "khoiphan21",
+  "apiKeyEnv": "HEVY_API_KEY_KHOIPHAN21",
+  "routineFolder": "Push-Pull Gym Monster 2",
+  "docs": ["index.md"],
+  "exerciseSlugs": [
+    "cable-lateral-raise",
+    "chest-supported-row-cable-gm2",
+    "incline-bench-press-cable-gm2",
+    "overhead-press-cable-gm2",
+    "reverse-grip-lat-pulldown-cable",
+    "standing-calf-raise"
+  ]
+}

@@ -12,6 +12,7 @@ const excludedDirectories = new Set([
   '.github',
   '.cursor',
   '.vitepress',
+  'libs',
   'node_modules',
   'dist',
 ]);
@@ -114,7 +115,7 @@ for (const [, items] of directoryGroups) {
   items.sort((a, b) => a.text.localeCompare(b.text));
 }
 
-const navSectionOrder = ['equipment', 'exercises', 'hevy', 'research', 'plans', 'programs'];
+const navSectionOrder = ['equipment', 'exercises', 'research', 'plans', 'programs'];
 const sectionNavLinks = navSectionOrder
   .filter((section) => directoryGroups.has(section) && section !== 'libs')
   .slice(0, 4)
@@ -149,6 +150,8 @@ export default defineConfig({
     '**/.github/**',
     '**/.cursor/**',
     '**/dist/**',
+    '**/libs/**',
+    '**/programs/**/hevy/**',
   ],
   themeConfig: {
     nav: [

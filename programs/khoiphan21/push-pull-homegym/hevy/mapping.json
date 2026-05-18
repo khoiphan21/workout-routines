@@ -1,0 +1,244 @@
+{
+  "generatedAt": "2026-05-18T22:40:38.479Z",
+  "programSlugs": [
+    "archer-pull-ups",
+    "band-assisted-high-pull-up",
+    "band-overhead-press",
+    "bar-muscle-up",
+    "barbell-bench-press",
+    "bodyweight-split-squat",
+    "cable-lateral-raise",
+    "chest-to-wall-handstand-hold",
+    "freestanding-handstand-hold",
+    "front-lever-hold",
+    "handstand-push-up",
+    "hollow-body-rock",
+    "incline-bench-press-cable-gm2",
+    "iron-cross-hold-progression",
+    "jumping-jacks",
+    "l-sit-hold",
+    "nordic-curl",
+    "overhead-band-triceps-extension",
+    "overhead-press-cable-gm2",
+    "pike-handstand-push-up",
+    "reverse-grip-lat-pulldown-cable",
+    "rings-hamstring-curl",
+    "sissy-squat-weighted",
+    "standing-calf-raise",
+    "straight-arm-band-pulldown",
+    "tuck-front-lever-row",
+    "v-ups",
+    "weighted-dip",
+    "weighted-pull-up"
+  ],
+  "matched": 29,
+  "toCreate": [],
+  "mapping": [
+    {
+      "slug": "archer-pull-ups",
+      "repoTitle": "Archer or Typewriter Pull-Ups",
+      "hevyId": "cd92a721-419c-4693-9362-f642a5244143",
+      "hevyTitle": "Archer Pull-Up",
+      "matchScore": 1
+    },
+    {
+      "slug": "band-assisted-high-pull-up",
+      "repoTitle": "Band-assisted High Pull-Up",
+      "hevyId": "463f2bbc-bc50-42ed-ba37-859ab0b4ea86",
+      "hevyTitle": "Band-assisted High Pull-Up",
+      "matchScore": 1
+    },
+    {
+      "slug": "band-overhead-press",
+      "repoTitle": "Band Overhead Press",
+      "hevyId": "878CD1D0",
+      "hevyTitle": "Shoulder Press (Dumbbell)",
+      "matchScore": 0.62,
+      "proxyNote": "Conditioning day: log band overhead press on dumbbell shoulder press template (zero or nominal load)."
+    },
+    {
+      "slug": "bar-muscle-up",
+      "repoTitle": "Bar Muscle Up",
+      "hevyId": "9F9C164B",
+      "hevyTitle": "Muscle Up",
+      "matchScore": 0.88
+    },
+    {
+      "slug": "barbell-bench-press",
+      "repoTitle": "Barbell Bench Press",
+      "hevyId": "79D0BB3A",
+      "hevyTitle": "Bench Press (Barbell)",
+      "matchScore": 1
+    },
+    {
+      "slug": "bodyweight-split-squat",
+      "repoTitle": "Bodyweight Split Squat",
+      "hevyId": "5E1A7777",
+      "hevyTitle": "Lunge",
+      "matchScore": 0.7,
+      "proxyNote": "Conditioning: alternating split squat pattern logged as lunge."
+    },
+    {
+      "slug": "cable-lateral-raise",
+      "repoTitle": "Lateral Raise (Cable)",
+      "hevyId": "BE289E45",
+      "hevyTitle": "Lateral Raise (Cable)",
+      "matchScore": 1
+    },
+    {
+      "slug": "chest-to-wall-handstand-hold",
+      "repoTitle": "Chest-to-Wall Handstand Hold",
+      "hevyId": "3814de10-1893-43b5-8510-61b2e5aaaeb0",
+      "hevyTitle": "Chest-to-Wall Handstand Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "freestanding-handstand-hold",
+      "repoTitle": "Freestanding Handstand Hold",
+      "hevyId": "1e929910-a921-4568-81fc-a04d2457a117",
+      "hevyTitle": "Freestanding Handstand Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "front-lever-hold",
+      "repoTitle": "Front Lever Hold",
+      "hevyId": "0E608350",
+      "hevyTitle": "Front Lever Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "handstand-push-up",
+      "repoTitle": "Handstand Push-Up",
+      "hevyId": "90B04F96",
+      "hevyTitle": "Handstand Push Up",
+      "matchScore": 1
+    },
+    {
+      "slug": "hollow-body-rock",
+      "repoTitle": "Hollow Body Rock",
+      "hevyId": "970ADF87",
+      "hevyTitle": "Hollow Rock",
+      "matchScore": 0.85
+    },
+    {
+      "slug": "incline-bench-press-cable-gm2",
+      "repoTitle": "Incline Bench Press (Cable, Gym Monster 2)",
+      "hevyId": "0bdabadd-dff1-40a8-8f3e-1f77e80daa10",
+      "hevyTitle": "Incline Bench Press (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "iron-cross-hold-progression",
+      "repoTitle": "Iron Cross Hold Progression",
+      "hevyId": "9f7e20e1-81a6-4621-b715-701c60ac75b9",
+      "hevyTitle": "Iron Cross Hold Progression",
+      "matchScore": 1
+    },
+    {
+      "slug": "jumping-jacks",
+      "repoTitle": "Jumping Jacks",
+      "hevyId": "991833C2",
+      "hevyTitle": "Jumping Jack",
+      "matchScore": 1
+    },
+    {
+      "slug": "l-sit-hold",
+      "repoTitle": "L-Sit Hold",
+      "hevyId": "6D54A050",
+      "hevyTitle": "L-Sit Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "nordic-curl",
+      "repoTitle": "Nordic Curl",
+      "hevyId": "108D7A14",
+      "hevyTitle": "Nordic Hamstrings Curls",
+      "matchScore": 0.9
+    },
+    {
+      "slug": "overhead-band-triceps-extension",
+      "repoTitle": "Overhead Band Triceps Extension",
+      "hevyId": "B5EFBF9C",
+      "hevyTitle": "Overhead Triceps Extension (Cable)",
+      "matchScore": 0.9655172413793104
+    },
+    {
+      "slug": "overhead-press-cable-gm2",
+      "repoTitle": "Overhead Press (Cable, Gym Monster 2)",
+      "hevyId": "8917a840-6edb-498e-a59c-bae2b2da5eaa",
+      "hevyTitle": "Overhead Press (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "pike-handstand-push-up",
+      "repoTitle": "Pike Handstand Push-Up",
+      "hevyId": "a416a14b-519b-4a6a-b7b6-949c3fb25997",
+      "hevyTitle": "Pike Handstand Push-Up (elevated feet)",
+      "matchScore": 1
+    },
+    {
+      "slug": "reverse-grip-lat-pulldown-cable",
+      "repoTitle": "Reverse Grip Lat Pulldown (Cable)",
+      "hevyId": "046E25A2",
+      "hevyTitle": "Reverse Grip Lat Pulldown (Cable)",
+      "matchScore": 1
+    },
+    {
+      "slug": "rings-hamstring-curl",
+      "repoTitle": "Rings Hamstring Curl",
+      "hevyId": "b5440ed7-2280-4148-a624-fef61482edba",
+      "hevyTitle": "Hamstring Curl (Rings)",
+      "matchScore": 1
+    },
+    {
+      "slug": "sissy-squat-weighted",
+      "repoTitle": "Sissy Squat (Weighted)",
+      "hevyId": "F5DEF1EB",
+      "hevyTitle": "Sissy Squat (Weighted)",
+      "matchScore": 1
+    },
+    {
+      "slug": "standing-calf-raise",
+      "repoTitle": "Standing Calf Raise",
+      "hevyId": "06745E58",
+      "hevyTitle": "Standing Calf Raise",
+      "matchScore": 1
+    },
+    {
+      "slug": "straight-arm-band-pulldown",
+      "repoTitle": "Straight Arm Band Pulldown",
+      "hevyId": "ccbbde07-7590-427c-a455-7885ce6ef422",
+      "hevyTitle": "Straight Arm Band Pulldown",
+      "matchScore": 1
+    },
+    {
+      "slug": "tuck-front-lever-row",
+      "repoTitle": "Tuck Front-Lever Row",
+      "hevyId": "f2fac51e-7700-42d9-8f10-8feee8c99d9b",
+      "hevyTitle": "Ring Row",
+      "matchScore": 1,
+      "proxyNote": "Power Week Pull A: primary prescription is ring row (same Hevy template); use tuck front-lever row as progression when ring rows are easy."
+    },
+    {
+      "slug": "v-ups",
+      "repoTitle": "V-Ups",
+      "hevyId": "6BE68B62",
+      "hevyTitle": "V Up",
+      "matchScore": 1
+    },
+    {
+      "slug": "weighted-dip",
+      "repoTitle": "Weighted Dip",
+      "hevyId": "f38313ef-01ce-4d91-8700-e12b2d7e9f84",
+      "hevyTitle": "Weighted Dip",
+      "matchScore": 1
+    },
+    {
+      "slug": "weighted-pull-up",
+      "repoTitle": "Weighted Pull-Up",
+      "hevyId": "729237D1",
+      "hevyTitle": "Pull Up (Weighted)",
+      "matchScore": 1
+    }
+  ]
+}

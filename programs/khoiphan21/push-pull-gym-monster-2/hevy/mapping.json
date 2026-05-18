@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-05-18T22:47:47.309Z",
+  "programSlugs": [
+    "cable-lateral-raise",
+    "chest-supported-row-cable-gm2",
+    "incline-bench-press-cable-gm2",
+    "overhead-press-cable-gm2",
+    "reverse-grip-lat-pulldown-cable",
+    "standing-calf-raise"
+  ],
+  "matched": 5,
+  "toCreate": [
+    {
+      "slug": "chest-supported-row-cable-gm2",
+      "title": "Chest-Supported Row (Cable, Gym Monster 2)",
+      "file": "exercises/chest-supported-row-cable-gm2.md"
+    }
+  ],
+  "mapping": [
+    {
+      "slug": "cable-lateral-raise",
+      "repoTitle": "Lateral Raise (Cable)",
+      "hevyId": "BE289E45",
+      "hevyTitle": "Lateral Raise (Cable)",
+      "matchScore": 1
+    },
+    {
+      "slug": "incline-bench-press-cable-gm2",
+      "repoTitle": "Incline Bench Press (Cable, Gym Monster 2)",
+      "hevyId": "0bdabadd-dff1-40a8-8f3e-1f77e80daa10",
+      "hevyTitle": "Incline Bench Press (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "overhead-press-cable-gm2",
+      "repoTitle": "Overhead Press (Cable, Gym Monster 2)",
+      "hevyId": "8917a840-6edb-498e-a59c-bae2b2da5eaa",
+      "hevyTitle": "Overhead Press (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "reverse-grip-lat-pulldown-cable",
+      "repoTitle": "Reverse Grip Lat Pulldown (Cable)",
+      "hevyId": "046E25A2",
+      "hevyTitle": "Reverse Grip Lat Pulldown (Cable)",
+      "matchScore": 1
+    },
+    {
+      "slug": "standing-calf-raise",
+      "repoTitle": "Standing Calf Raise",
+      "hevyId": "06745E58",
+      "hevyTitle": "Standing Calf Raise",
+      "matchScore": 1
+    }
+  ]
+}

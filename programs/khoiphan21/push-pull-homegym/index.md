@@ -309,3 +309,14 @@ Approximate **hard sets per week** from GM2/cable work alone (power + skills add
 
 - **Research:** Partials at long muscle lengths can enhance hypertrophy in stretched positions.
 - **Where to use:** Chest Fly (bottom stretch), cable OHP or incline bench (bottom third), Nordic Curl (3 s eccentric). Optional; 1–2 exercises per session.
+
+## Sync to Hevy
+
+Hevy bundle: [`hevy/`](hevy/) (`routines.json`, `mapping.json`, `custom-exercises.json`).
+
+```bash
+npm run hevy:map -- push-pull-homegym
+npm run hevy:push -- push-pull-homegym
+```
+
+See [Hevy sync status](hevy/status.md) after mapping.

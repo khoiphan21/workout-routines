@@ -256,3 +256,14 @@ All work stays on GM2; no second station. Pairings match home gym for weekly bal
 ---
 
 **See also:** [Push–Pull Home Gym](../push-pull-homegym/) · [Gym Monster 2 equipment](../../../equipment/gym-monster-2.md)
+
+## Sync to Hevy
+
+Hevy bundle: [`hevy/`](hevy/) — Power Week (5 days) is in `routines.json`; `mapping.json` and `custom-exercises.json` are ready for push.
+
+```bash
+npm run hevy:map -- push-pull-gym-monster-2
+npm run hevy:push -- push-pull-gym-monster-2
+```
+
+See [Hevy sync status](hevy/status.md) after mapping.

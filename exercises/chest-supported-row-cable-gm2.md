@@ -56,7 +56,7 @@ Kneeling lat pulldown on GM2 often caps load near **bodyweight** without a knee 
 | **Template title** | `Chest-Supported Row (Cable, Gym Monster 2)` |
 | **Repo slug** | `chest-supported-row-cable-gm2` |
 
-The template is created on Hevy when you run `npm run hevy:push` (see `scripts/hevy-push-program.mjs` → `TO_CREATE_SPECS`). After the first push, it appears in `libs/hevy/data/exercise-mapping.json` with a `hevyId` for routines.
+The template is created on Hevy when you run `npm run hevy:push -- push-pull-gym-monster-2` (see `programs/khoiphan21/push-pull-gym-monster-2/hevy/custom-exercises.json`). After the first push, it appears in that program’s `hevy/mapping.json` and the account mapping under `libs/hevy/account/khoiphan21/`.
 
 **Routine notes** (suggested): chest-supported, Works Plus ~30–45°, pulleys vertical bars ~level 4–6, **cable row bar** on both clips.
 

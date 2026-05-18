@@ -1,0 +1,23 @@
+{
+  "chest-supported-row-cable-gm2": {
+    "title": "Chest-Supported Row (Cable, Gym Monster 2)",
+    "exerciseType": "weight_reps",
+    "equipmentCategory": "machine",
+    "muscleGroup": "upper_back",
+    "otherMuscles": ["lats", "biceps"]
+  },
+  "overhead-press-cable-gm2": {
+    "title": "Overhead Press (Cable, Gym Monster 2)",
+    "exerciseType": "weight_reps",
+    "equipmentCategory": "machine",
+    "muscleGroup": "shoulders",
+    "otherMuscles": ["triceps"]
+  },
+  "incline-bench-press-cable-gm2": {
+    "title": "Incline Bench Press (Cable, Gym Monster 2)",
+    "exerciseType": "weight_reps",
+    "equipmentCategory": "machine",
+    "muscleGroup": "chest",
+    "otherMuscles": ["shoulders", "triceps"]
+  }
+}

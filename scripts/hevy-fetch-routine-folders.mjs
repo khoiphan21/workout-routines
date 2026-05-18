@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Fetch routine folders from Hevy API and save to libs/hevy/data/routine-folders.json
+ * Fetch routine folders from Hevy API and save to libs/hevy/cache/routine-folders.json
  *
  * Usage: node scripts/hevy-fetch-routine-folders.mjs
  */
@@ -14,15 +14,15 @@ import {
 } from '../libs/hevy/hevy-client.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = path.resolve(__dirname, '../libs/hevy/data');
+const CACHE_DIR = path.resolve(__dirname, '../libs/hevy/cache');
 
 async function main() {
   getHevyApiKey();
-  if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+  if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
 
   const items = await fetchAllPaginated('routine_folders', { pageSize: 10 });
   const data = { fetchedAt: new Date().toISOString(), count: items.length, data: items };
-  const outPath = path.join(DATA_DIR, 'routine-folders.json');
+  const outPath = path.join(CACHE_DIR, 'routine-folders.json');
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2), 'utf8');
   console.log(`Wrote ${items.length} routine folders to ${outPath}`);
 }

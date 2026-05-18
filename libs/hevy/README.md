@@ -2,27 +2,30 @@
 
 Data and client for syncing with [Hevy](https://www.hevyapp.com/) via API.
 
-## Data (`data/`)
+## Layout
 
-| File | Source | Description |
-|------|--------|-------------|
-| `exercise-templates.json` | `npm run hevy:fetch` | Hevy's exercise library (built-in + custom) |
-| `routines.json` | `npm run hevy:fetch` or prepared for push | User's routines (also upserted via `npm run hevy:push`) |
-| `routine-folders.json` | `npm run hevy:fetch` | Routine folder structure |
-| `exercise-mapping.json` | `npm run hevy:map-exercises` or `npm run hevy:push` | Repo slug → Hevy template ID mapping |
+| Path | Role |
+|------|------|
+| `cache/` | Fetched Hevy library (read-only cache) |
+| `account/<user>/exercise-mapping.json` | Merged slug → template ID map after pushes |
+| `programs/<user>/<program>/hevy/` | Per-program bundle: `manifest.json`, `routines.json`, `mapping.json`, `custom-exercises.json` |
 
 ## Scripts (from repo root)
 
 ```bash
-npm run hevy:fetch              # Fetch all (templates, routines, folders)
-npm run hevy:fetch-exercises    # Fetch exercise templates only
-npm run hevy:fetch-routines    # Fetch routines only
-npm run hevy:fetch-folders     # Fetch routine folders only
-npm run hevy:map-exercises     # Compare repo exercises to Hevy; update mapping + hevy/exercises-to-create.md
-npm run hevy:push              # Create missing custom templates + upsert routines from JSON
+npm run hevy:fetch              # Fetch templates, all routines, folders → cache/
+npm run hevy:fetch-exercises    # Exercise templates only
+npm run hevy:fetch-routines     # All account routines → cache/routines-all.json
+npm run hevy:fetch-folders      # Routine folders only
+npm run hevy:map -- <program>   # Map manifest slugs → Hevy IDs; writes program hevy/mapping.json + status.md
+npm run hevy:push -- <program>  # Create customs + upsert routines for one program
 ```
+
+Program argument examples: `push-pull-homegym`, `programs/khoiphan21/push-pull-gym-monster-2`.
+
+Flags: `--dry-run`, `--fetch` (refresh template cache before push).
 
 ## Prerequisites
 
-- `HEVY_API_KEY_KHOIPHAN21` or `HEVY_API_KEY` environment variable
+- `HEVY_API_KEY_KHOIPHAN21` or `HEVY_API_KEY`
 - Hevy Pro membership

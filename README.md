@@ -18,12 +18,22 @@ This repository builds **exercise programs** and a **collection of exercises + i
 ## Structure
 
 ```
-├── programs/           # Workout programs by user
-│   └── khoiphan21/
-│       └── push-pull-homegym/
-├── exercises/          # Exercise library (technique, progressions, scaling)
-├── plans/              # Implementation plans (e.g., Hevy API integration)
-└── .vitepress/         # VitePress config for docs site
+├── programs/<user>/<program>/
+│   ├── index.md        # Program prescription (human-readable)
+│   └── hevy/           # Hevy sync bundle (routines, mapping, customs)
+├── exercises/          # Shared exercise library (technique, progressions)
+├── equipment/
+├── research/
+├── libs/hevy/          # API client, cache, account mapping
+└── .vitepress/
+```
+
+## Hevy sync
+
+```bash
+npm run hevy:fetch-exercises
+npm run hevy:map -- push-pull-homegym
+npm run hevy:push -- push-pull-homegym
 ```
 
 ## Documentation site
