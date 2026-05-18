@@ -14,7 +14,8 @@
     "hevy:push": "node scripts/hevy-push.mjs",
     "hevy:validate": "node scripts/hevy-validate.mjs",
     "hevy:sync-khoiphan21": "node scripts/hevy-sync-khoiphan21.mjs",
-    "hevy:list-folder": "node scripts/hevy-list-folder-routines.mjs"
+    "hevy:list-folder": "node scripts/hevy-list-folder-routines.mjs",
+    "hevy:list-duplicates": "node scripts/hevy-list-duplicate-exercises.mjs"
   },
   "repository": {
     "type": "git",

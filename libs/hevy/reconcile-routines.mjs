@@ -2,7 +2,7 @@
  * Reconcile local routines.json IDs with live Hevy folder state.
  */
 
-import { fetchAllPaginated, fetchRoutineById } from './hevy-client.mjs';
+import { fetchAllPaginated, fetchRoutineById, hevyThrottle } from './hevy-client.mjs';
 import { normTitle } from './program-bundle.mjs';
 
 /**
@@ -64,6 +64,7 @@ export async function reconcileRoutines(routinesDoc, manifest, options = {}) {
 
     if (routine.id && !skipApiCheck) {
       const exists = await fetchRoutineById(routine.id);
+      await hevyThrottle();
       if (!exists) {
         console.log(
           `Reconcile: stale id for "${routine.title}" (${routine.id}) — will create or adopt by title`

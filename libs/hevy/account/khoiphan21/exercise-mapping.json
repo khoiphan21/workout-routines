@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T23:36:53.375Z",
+  "generatedAt": "2026-05-18T23:55:25.945Z",
   "hevyTemplateCount": 457,
   "repoExerciseCount": 49,
   "matched": 63,
@@ -15,7 +15,7 @@
     {
       "slug": "back-lever-tuck-hold",
       "repoTitle": "Back Lever Tuck Hold",
-      "hevyId": "d971f520-d176-47cc-8775-808a86b9856c",
+      "hevyId": "87f5c5fe-6aaf-4249-ac9f-c63d960afed9",
       "hevyTitle": "Back Lever Tuck Hold",
       "matchScore": 1
     },
@@ -85,7 +85,7 @@
     {
       "slug": "bodyweight-split-squat",
       "repoTitle": "Bodyweight Split Squat",
-      "hevyId": "098360e7-be8c-4605-8fb6-816bc2b2bf37",
+      "hevyId": "661704c4-0012-4a0f-ac4c-7c14afff15af",
       "hevyTitle": "Bodyweight Split Squat",
       "matchScore": 1
     },

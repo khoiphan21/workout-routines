@@ -32,13 +32,19 @@ function parseArgs(argv) {
 
 function runScript(scriptName, slug, extraArgs) {
   const scriptPath = path.join(__dirname, scriptName);
-  const args = [scriptPath, slug, ...extraArgs];
+  const args = slug ? [scriptPath, slug, ...extraArgs] : [scriptPath, ...extraArgs];
   const result = spawnSync(process.execPath, args, {
     cwd: REPO_ROOT,
     stdio: 'inherit',
     env: process.env,
   });
   return result.status ?? 1;
+}
+
+function refreshExerciseCache(forwardArgs) {
+  if (forwardArgs.includes('--dry-run')) return 0;
+  console.log('\n========== Refresh exercise template cache ==========\n');
+  return runScript('hevy-fetch-exercise-templates.mjs', null, []);
 }
 
 function main() {
@@ -59,6 +65,13 @@ function main() {
   console.log(`Account ${ACCOUNT}: ${slugs.join(', ')}`);
 
   let exitCode = 0;
+
+  if (!validateOnly && !forwardArgs.includes('--dry-run')) {
+    const cacheCode = refreshExerciseCache(forwardArgs);
+    if (cacheCode !== 0) {
+      process.exit(cacheCode);
+    }
+  }
 
   for (const dir of programDirs.sort((a, b) =>
     programSlugFromDir(a).localeCompare(programSlugFromDir(b))

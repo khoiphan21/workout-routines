@@ -8,6 +8,73 @@ import { loadEnvLocal } from './load-env.mjs';
 
 const HEVY_BASE = 'https://api.hevyapp.com/v1';
 
+const RETRYABLE_STATUS = new Set([429, 502, 503]);
+const DEFAULT_MAX_RETRIES = 8;
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function retryDelayMs(res, attempt) {
+  const retryAfter = res.headers.get('Retry-After');
+  if (retryAfter) {
+    const seconds = Number(retryAfter);
+    if (!Number.isNaN(seconds)) return Math.max(1000, seconds * 1000);
+    const dateMs = Date.parse(retryAfter);
+    if (!Number.isNaN(dateMs)) return Math.max(1000, dateMs - Date.now());
+  }
+  return Math.min(60_000, 2000 * 2 ** attempt);
+}
+
+/**
+ * fetch() with retries on rate limit / transient errors.
+ * @param {string} url
+ * @param {RequestInit} [options]
+ * @param {{ allow404?: boolean, maxRetries?: number }} [opts]
+ * @returns {Promise<Response>}
+ */
+export async function fetchWithRetry(url, options = {}, opts = {}) {
+  const { allow404 = false, maxRetries = DEFAULT_MAX_RETRIES } = opts;
+  let attempt = 0;
+
+  while (true) {
+    const res = await fetch(url, {
+      ...options,
+      headers: { ...getHevyHeaders(), ...options.headers },
+    });
+
+    if (res.ok || (allow404 && res.status === 404)) {
+      return res;
+    }
+
+    if (RETRYABLE_STATUS.has(res.status) && attempt < maxRetries) {
+      const wait = retryDelayMs(res, attempt);
+      const path = new URL(url).pathname;
+      console.warn(
+        `Hevy API ${res.status} ${options.method ?? 'GET'} ${path} — retry in ${Math.round(wait / 1000)}s (${attempt + 1}/${maxRetries})`
+      );
+      await sleep(wait);
+      attempt += 1;
+      continue;
+    }
+
+    const text = await res.text();
+    throw new Error(`Hevy API failed (${res.status}): ${text}`);
+  }
+}
+
+/** Pause between write calls (CI sets HEVY_API_DELAY_MS or defaults to 600ms). */
+export async function hevyThrottle() {
+  const raw = process.env.HEVY_API_DELAY_MS;
+  const ms =
+    raw != null && raw !== ''
+      ? Number(raw)
+      : process.env.CI === 'true'
+        ? 600
+        : 0;
+  if (ms > 0) await sleep(ms);
+}
+
 export function getHevyApiKey() {
   if (!process.env.HEVY_API_KEY_KHOIPHAN21) {
     loadEnvLocal();
@@ -62,14 +129,7 @@ export async function fetchAllPaginated(path, params = {}) {
       if (k !== 'pageSize' && v != null) url.searchParams.set(k, String(v));
     }
 
-    const res = await fetch(url.toString(), {
-      headers: getHevyHeaders(),
-    });
-
-    if (!res.ok) {
-      const text = await res.text();
-      throw new Error(`Hevy API ${path} failed (${res.status}): ${text}`);
-    }
+    const res = await fetchWithRetry(url.toString(), { method: 'GET' });
 
     const data = await res.json();
     let arr = Array.isArray(data)
@@ -102,11 +162,7 @@ export async function fetchAllPaginated(path, params = {}) {
  * Lazy-load fetch (for use with dynamic import)
  */
 async function hevyFetch(url, options = {}) {
-  const res = await fetch(url, { ...options, headers: { ...getHevyHeaders(), ...options.headers } });
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Hevy API failed (${res.status}): ${text}`);
-  }
+  const res = await fetchWithRetry(url, options);
   return res.json();
 }
 
@@ -125,12 +181,8 @@ export async function fetchById(path, id) {
  */
 export async function fetchRoutineById(routineId) {
   const url = `${HEVY_BASE}/routines/${routineId}`;
-  const res = await fetch(url.toString(), { headers: getHevyHeaders() });
+  const res = await fetchWithRetry(url, { method: 'GET' }, { allow404: true });
   if (res.status === 404) return null;
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Hevy API routines GET failed (${res.status}): ${text}`);
-  }
   const data = await res.json();
   return data?.routine ?? data;
 }
@@ -161,16 +213,13 @@ export async function tryUpdateRoutine(routineId, payload) {
     },
   };
 
-  const res = await fetch(url, {
-    method: 'PUT',
-    headers: getHevyHeaders(),
-    body: JSON.stringify(body),
-  });
+  const res = await fetchWithRetry(
+    url,
+    { method: 'PUT', body: JSON.stringify(body) },
+    { allow404: true }
+  );
   if (res.status === 404) return false;
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Hevy API routines PUT failed (${res.status}): ${text}`);
-  }
+  await hevyThrottle();
   return true;
 }
 
@@ -190,15 +239,11 @@ export async function createExerciseTemplate(payload) {
     },
   };
 
-  const res = await fetch(`${HEVY_BASE}/exercise_templates`, {
+  const res = await fetchWithRetry(`${HEVY_BASE}/exercise_templates`, {
     method: 'POST',
-    headers: getHevyHeaders(),
     body: JSON.stringify(body),
   });
   const text = await res.text();
-  if (!res.ok) {
-    throw new Error(`Hevy API exercise_templates POST failed (${res.status}): ${text}`);
-  }
   const trimmed = text.trim();
   if (trimmed.startsWith('{')) {
     const data = JSON.parse(trimmed);
@@ -207,8 +252,10 @@ export async function createExerciseTemplate(payload) {
       data?.exercise?.id ??
       data?.id;
     if (!id) throw new Error(`Unexpected exercise_templates response: ${trimmed}`);
+    await hevyThrottle();
     return { id };
   }
+  await hevyThrottle();
   return { id: trimmed };
 }
 
@@ -248,6 +295,7 @@ export async function createRoutine(payload) {
     method: 'POST',
     body: JSON.stringify(body),
   });
+  await hevyThrottle();
   const routine = data?.routine;
   return Array.isArray(routine) ? routine[0] : routine ?? data;
 }
