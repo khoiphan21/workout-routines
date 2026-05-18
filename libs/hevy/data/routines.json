@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-04T10:53:08.829Z",
+  "fetchedAt": "2026-04-13T05:54:40.168Z",
   "source": "prepared-for-hevy-api-push:khoiphan21@programs/khoiphan21/push-pull-homegym (Power Week, 5 days + Mini Routines)",
   "count": 16,
   "data": [
@@ -501,9 +501,9 @@
         },
         {
           "index": 3,
-          "title": "Deadlift High Pull",
-          "notes": "Skill B2: High pull 3x5. End of first pair—60–75 s rest, then start tuck rows fresh (reduces 3-move shoulder girdle sprint).",
-          "exercise_template_id": "FA5D0DE1",
+          "title": "Band-assisted High Pull-Up",
+          "notes": "Skill B2: Band-assisted high pull-up 3x5—pull higher than a normal pull-up (bar toward lower chest/waist). Loop a band over the bar and step/kneel into it for assistance; keep hollow line and avoid excessive kip. End of first pair—60–75 s rest, then start tuck rows fresh (reduces 3-move shoulder girdle sprint).",
+          "exercise_template_id": "463f2bbc-bc50-42ed-ba37-859ab0b4ea86",
           "superset_id": 0,
           "sets": [
             {

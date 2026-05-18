@@ -91,6 +91,13 @@ const TO_CREATE_SPECS = {
     muscleGroup: 'chest',
     otherMuscles: ['shoulders', 'triceps'],
   },
+  'band-assisted-high-pull-up': {
+    title: 'Band-assisted High Pull-Up',
+    exerciseType: 'bodyweight_assisted_reps',
+    equipmentCategory: 'resistance_band',
+    muscleGroup: 'lats',
+    otherMuscles: ['upper_back', 'biceps', 'shoulders'],
+  },
 };
 
 /** Slugs to ensure on every push even when toCreate is empty (program-specific customs). */
