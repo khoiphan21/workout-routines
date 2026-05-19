@@ -5,8 +5,9 @@
  * Usage:
  *   npm run hevy:push -- push-pull-homegym
  *   npm run hevy:push -- push-pull-gym-monster-2 --dry-run
- *   npm run hevy:push -- push-pull-gym-monster-2 --recreate-routines
- *   npm run hevy:push -- push-pull-homegym --fetch
+ *   npm run hevy:push -- push-pull-gym-monster-2 --allow-create
+ *   npm run hevy:push -- push-pull-homegym --no-fetch
+ *   npm run hevy:push -- push-pull-homegym --recreate-routines --i-know-recreate
  */
 
 import fs from 'node:fs';
@@ -21,7 +22,6 @@ import {
   tryUpdateRoutine,
 } from '../libs/hevy/hevy-client.mjs';
 import {
-  CACHE_DIR,
   loadAccountMapping,
   loadBundle,
   mergeAccountMapping,
@@ -29,26 +29,49 @@ import {
   resolveProgramDir,
   saveAccountMapping,
 } from '../libs/hevy/program-bundle.mjs';
-import { reconcileRoutines } from '../libs/hevy/reconcile-routines.mjs';
+import { fetchFolderRoutinesByTitle, reconcileRoutines } from '../libs/hevy/reconcile-routines.mjs';
+import {
+  buildTemplateIndexForAccount,
+  cacheStaleWarning,
+  loadExerciseTemplates,
+  registerTemplate,
+  resolveCustomExercise,
+} from '../libs/hevy/template-index.mjs';
 import { assertBundleValid } from '../libs/hevy/validate.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PLACEHOLDER_TEMPLATE_IDS = new Set(['00000000-0000-0000-0000-000000000001']);
-const TEMPLATES_CACHE = path.join(CACHE_DIR, 'exercise-templates.json');
 
-function parseArgs(argv) {
+export function parsePushArgs(argv) {
   const flags = new Set();
   const positional = [];
-  for (const a of argv) {
-    if (a.startsWith('-')) flags.add(a);
-    else positional.push(a);
+  let forceCreateSlug = null;
+  let iKnowRecreate = false;
+
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i];
+    if (a === '--force-create') {
+      flags.add(a);
+      forceCreateSlug = argv[i + 1] && !argv[i + 1].startsWith('-') ? argv[++i] : null;
+    } else if (a.startsWith('-')) {
+      flags.add(a);
+      if (a === '--i-know-recreate') iKnowRecreate = true;
+    } else {
+      positional.push(a);
+    }
   }
+
   return {
     programArg: positional[0],
     dryRun: flags.has('--dry-run'),
     fetch: flags.has('--fetch'),
+    noFetch: flags.has('--no-fetch'),
+    allowCreate: flags.has('--allow-create'),
     recreateRoutines: flags.has('--recreate-routines'),
     skipReconcile: flags.has('--skip-reconcile'),
+    allowDuplicateRoutines: flags.has('--allow-duplicate-routines'),
+    forceCreateSlug,
+    iKnowRecreate,
   };
 }
 
@@ -68,52 +91,36 @@ function hevyExerciseToPayload(ex) {
   };
 }
 
-async function loadTemplatesFromCache(fetch, dryRun) {
-  if (fetch) {
-    getHevyApiKey();
-    fs.mkdirSync(CACHE_DIR, { recursive: true });
-    const items = await fetchAllPaginated('exercise_templates', { pageSize: 100 });
-    fs.writeFileSync(
-      TEMPLATES_CACHE,
-      JSON.stringify(
-        { fetchedAt: new Date().toISOString(), count: items.length, data: items },
-        null,
-        2
-      ),
-      'utf8'
-    );
-    console.log(`Cached ${items.length} exercise templates → ${TEMPLATES_CACHE}`);
-    return items;
-  }
-
-  if (!fs.existsSync(TEMPLATES_CACHE)) {
-    throw new Error(
-      `Missing ${TEMPLATES_CACHE}. Run: npm run hevy:fetch-exercises (or hevy:push --fetch)`
-    );
-  }
-
-  const raw = JSON.parse(fs.readFileSync(TEMPLATES_CACHE, 'utf8'));
-  return raw.data ?? raw;
-}
-
-function buildTemplatesByTitle(templates) {
+function buildTitleToTemplateId(index) {
   const m = new Map();
-  for (const t of templates) {
-    m.set(normTitle(t.title), { id: t.id, title: t.title });
-  }
-  return m;
-}
-
-function buildTitleToTemplateId(templatesByTitle) {
-  const m = new Map();
-  for (const [k, v] of templatesByTitle) {
+  for (const [k, v] of index.templatesByTitle) {
     m.set(k, v.id);
   }
   return m;
 }
 
-async function ensureCustomExercises(mapping, customExercises, templatesByTitle, dryRun) {
-  const created = [];
+function allowCreateSlugs(mapping, customExercises, allowCreateAll) {
+  const slugs = new Set();
+  if (allowCreateAll) {
+    for (const slug of Object.keys(customExercises ?? {})) slugs.add(slug);
+  }
+  for (const entry of mapping.toCreate ?? []) {
+    slugs.add(entry.slug);
+  }
+  return slugs;
+}
+
+async function ensureCustomExercises({
+  mapping,
+  customExercises,
+  index,
+  accountBySlug,
+  programBySlug,
+  dryRun,
+  allowCreateSlugs: createSlugs,
+  forceCreateSlug,
+}) {
+  const results = [];
   const seen = new Set();
   const queue = [];
 
@@ -136,29 +143,50 @@ async function ensureCustomExercises(mapping, customExercises, templatesByTitle,
       console.warn(`No custom-exercises.json entry for slug ${slug}, skipping`);
       continue;
     }
-    const key = normTitle(spec.title);
-    const existing = templatesByTitle.get(key);
-    if (existing) {
-      console.log(`Exercise exists: "${spec.title}" → ${existing.id}`);
-      created.push({ slug, repoTitle, hevyId: existing.id, hevyTitle: existing.title });
+
+    const mayCreate =
+      createSlugs.has(slug) || (forceCreateSlug && slug === forceCreateSlug);
+    const resolved = resolveCustomExercise({
+      slug,
+      spec,
+      programMappingRow: programBySlug.get(slug),
+      accountMappingRow: accountBySlug.get(slug),
+      index,
+      allowCreate: mayCreate,
+      forceCreate: forceCreateSlug === slug,
+    });
+
+    if (resolved.ok) {
+      console.log(`Exercise resolved (${resolved.source}): "${spec.title}" → ${resolved.hevyId}`);
+      results.push({
+        slug,
+        repoTitle,
+        hevyId: resolved.hevyId,
+        hevyTitle: resolved.hevyTitle,
+      });
       continue;
     }
 
-    if (dryRun) {
-      const fakeId = `dry-run-${slug}`;
-      console.log(`[dry-run] Would create exercise: "${spec.title}"`);
-      templatesByTitle.set(key, { id: fakeId, title: spec.title });
-      created.push({ slug, repoTitle, hevyId: fakeId, hevyTitle: spec.title });
+    if (resolved.needsCreate && mayCreate) {
+      if (dryRun) {
+        const fakeId = `dry-run-${slug}`;
+        console.log(`[dry-run] Would create exercise: "${spec.title}"`);
+        registerTemplate(index, fakeId, spec.title);
+        results.push({ slug, repoTitle, hevyId: fakeId, hevyTitle: spec.title });
+        continue;
+      }
+
+      const { id } = await createExerciseTemplate(spec);
+      console.log(`Created exercise: "${spec.title}" → ${id}`);
+      registerTemplate(index, id, spec.title);
+      results.push({ slug, repoTitle, hevyId: id, hevyTitle: spec.title });
       continue;
     }
 
-    const { id } = await createExerciseTemplate(spec);
-    console.log(`Created exercise: "${spec.title}" → ${id}`);
-    templatesByTitle.set(key, { id, title: spec.title });
-    created.push({ slug, repoTitle, hevyId: id, hevyTitle: spec.title });
+    throw new Error(resolved.error ?? `Could not resolve custom exercise "${spec.title}" (${slug})`);
   }
 
-  return created;
+  return results;
 }
 
 function applyMappingUpdates(mapping, exerciseResults) {
@@ -188,7 +216,7 @@ function applyMappingUpdates(mapping, exerciseResults) {
 }
 
 function resolveExerciseTemplateId(ex, titleToTemplateId) {
-  let tid = ex.exercise_template_id;
+  const tid = ex.exercise_template_id;
   if (PLACEHOLDER_TEMPLATE_IDS.has(tid)) {
     const resolved = titleToTemplateId.get(normTitle(ex.title));
     if (!resolved) {
@@ -240,7 +268,12 @@ async function ensureRoutineFolders(routinesDoc, manifest, dryRun) {
   }
 }
 
-async function pushRoutines(routinesDoc, titleToTemplateId, dryRun) {
+async function adoptRoutineByTitle(manifest, routineTitle) {
+  const { routinesByTitle } = await fetchFolderRoutinesByTitle(manifest.routineFolder ?? '');
+  return routinesByTitle.get(normTitle(routineTitle)) ?? null;
+}
+
+async function pushRoutines(routinesDoc, manifest, titleToTemplateId, dryRun) {
   const list = [...(routinesDoc.data ?? [])].sort((a, b) => {
     const order = (t) => {
       if (t.includes('Day 1')) return 1;
@@ -275,41 +308,77 @@ async function pushRoutines(routinesDoc, titleToTemplateId, dryRun) {
     if (routine.id) {
       if (dryRun) {
         console.log(`[dry-run] Would update routine: ${routine.title} (${routine.id})`);
-      } else {
-        const updated = await tryUpdateRoutine(routine.id, {
+        continue;
+      }
+
+      const updated = await tryUpdateRoutine(routine.id, {
+        title: payload.title,
+        notes: payload.notes,
+        exercises: payload.exercises,
+      });
+
+      if (updated) {
+        console.log(`Updated routine: ${routine.title} (${routine.id})`);
+        continue;
+      }
+
+      const adoptedId = await adoptRoutineByTitle(manifest, routine.title);
+      if (adoptedId) {
+        console.log(
+          `Stale id ${routine.id} for "${routine.title}" — adopting live routine ${adoptedId}`
+        );
+        routine.id = adoptedId;
+        const retry = await tryUpdateRoutine(routine.id, {
           title: payload.title,
           notes: payload.notes,
           exercises: payload.exercises,
         });
-        if (updated) {
+        if (retry) {
           console.log(`Updated routine: ${routine.title} (${routine.id})`);
-        } else {
-          console.log(
-            `Stale id ${routine.id} for "${routine.title}" — creating new routine on Hevy`
-          );
-          const created = await createRoutine(payload);
-          const newId = created?.id;
-          if (!newId) {
-            throw new Error(`No id in create response for ${routine.title}`);
-          }
-          console.log(`Created routine: ${routine.title} → ${newId}`);
-          idUpdates.set(routine.title, newId);
+          continue;
         }
       }
-    } else {
-      if (dryRun) {
-        console.log(`[dry-run] Would create routine: ${routine.title}`);
-      } else {
-        const created = await createRoutine(payload);
-        const newId = created?.id;
-        if (!newId) {
-          console.error('Create routine response:', created);
-          throw new Error(`No id in create response for ${routine.title}`);
-        }
-        console.log(`Created routine: ${routine.title} → ${newId}`);
-        idUpdates.set(routine.title, newId);
-      }
+
+      throw new Error(
+        `Cannot update or adopt routine "${routine.title}". ` +
+          `Remove orphan routines in Hevy (npm run hevy:list-folder -- ${manifest.id}) before creating another copy.`
+      );
     }
+
+    const existingId = await adoptRoutineByTitle(manifest, routine.title);
+    if (existingId) {
+      if (dryRun) {
+        console.log(
+          `[dry-run] Would adopt and update routine: ${routine.title} (${existingId})`
+        );
+        continue;
+      }
+      routine.id = existingId;
+      const updated = await tryUpdateRoutine(routine.id, {
+        title: payload.title,
+        notes: payload.notes,
+        exercises: payload.exercises,
+      });
+      if (updated) {
+        console.log(`Adopted and updated routine: ${routine.title} (${routine.id})`);
+        continue;
+      }
+      throw new Error(`Failed to update adopted routine "${routine.title}" (${existingId})`);
+    }
+
+    if (dryRun) {
+      console.log(`[dry-run] Would create routine: ${routine.title}`);
+      continue;
+    }
+
+    const created = await createRoutine(payload);
+    const newId = created?.id;
+    if (!newId) {
+      console.error('Create routine response:', created);
+      throw new Error(`No id in create response for ${routine.title}`);
+    }
+    console.log(`Created routine: ${routine.title} → ${newId}`);
+    idUpdates.set(routine.title, newId);
   }
 
   return idUpdates;
@@ -338,40 +407,119 @@ function applyResolvedTemplateIds(routinesDoc, titleToTemplateId) {
   return next;
 }
 
-async function main() {
-  const { programArg, dryRun, fetch, recreateRoutines, skipReconcile } = parseArgs(
-    process.argv.slice(2)
-  );
+/**
+ * Push one program bundle to Hevy.
+ * @param {string} programArg - program slug or path
+ * @param {object} [options]
+ * @param {object} [options.templateIndex] - shared index across sync runs
+ * @param {boolean} [options.dryRun]
+ * @param {boolean} [options.fetch]
+ * @param {boolean} [options.noFetch]
+ * @param {boolean} [options.allowCreate]
+ * @param {string} [options.forceCreateSlug]
+ * @param {boolean} [options.recreateRoutines]
+ * @param {boolean} [options.iKnowRecreate]
+ * @param {boolean} [options.skipReconcile]
+ * @param {boolean} [options.allowDuplicateRoutines]
+ * @param {boolean} [options.skipValidation]
+ * @param {boolean} [options.refreshCacheAfter]
+ */
+export async function runPush(programArg, options = {}) {
   const programDir = resolveProgramDir(programArg);
   const bundle = loadBundle(programDir);
   const { manifest, paths } = bundle;
   let { routines, mapping } = bundle;
   const { customExercises } = bundle;
 
+  const dryRun = options.dryRun ?? false;
+  const fetch = options.fetch ?? false;
+  const noFetch = options.noFetch ?? false;
+  const allowCreate = options.allowCreate ?? false;
+  const recreateRoutines = options.recreateRoutines ?? false;
+  const skipReconcile = options.skipReconcile ?? false;
+  const allowDuplicateRoutines = options.allowDuplicateRoutines ?? false;
+  const forceCreateSlug = options.forceCreateSlug ?? null;
+  const iKnowRecreate = options.iKnowRecreate ?? false;
+  const refreshCacheAfter = options.refreshCacheAfter ?? true;
+
+  if (recreateRoutines && !iKnowRecreate) {
+    throw new Error(
+      '--recreate-routines clears all local routine ids. Pass --i-know-recreate if you intend to reconcile from Hevy.'
+    );
+  }
+
+  if (fetch && noFetch) {
+    throw new Error('Use only one of --fetch or --no-fetch');
+  }
+
   console.log(`Program: ${manifest.id} (${programDir})`);
   if (dryRun) console.log('Dry run — no API writes');
-  if (recreateRoutines) console.log('--recreate-routines: will clear local routine ids before reconcile');
+  if (recreateRoutines) {
+    console.log('--recreate-routines: will clear local routine ids before reconcile');
+  }
 
-  assertBundleValid(bundle);
+  let index = options.templateIndex;
+  let fetchedAt = null;
+
+  if (!index) {
+    const shouldFetch = fetch || (!noFetch && !dryRun);
+    if (noFetch) {
+      const loaded = await loadExerciseTemplates({ requireCache: true });
+      index = buildTemplateIndexForAccount(loaded.templates, manifest.account);
+      fetchedAt = loaded.fetchedAt;
+    } else if (shouldFetch && !dryRun) {
+      getHevyApiKey();
+      const loaded = await loadExerciseTemplates({ fetch: true, writeCache: true });
+      index = buildTemplateIndexForAccount(loaded.templates, manifest.account);
+      fetchedAt = loaded.fetchedAt;
+      console.log(`Fetched ${loaded.templates.length} exercise templates`);
+    } else {
+      const loaded = await loadExerciseTemplates({});
+      if (loaded.templates.length === 0 && !dryRun) {
+        getHevyApiKey();
+        const refetched = await loadExerciseTemplates({ fetch: true, writeCache: true });
+        index = buildTemplateIndexForAccount(refetched.templates, manifest.account);
+        fetchedAt = refetched.fetchedAt;
+        console.log(`Fetched ${refetched.templates.length} exercise templates (cache was missing)`);
+      } else {
+        index = buildTemplateIndexForAccount(loaded.templates, manifest.account);
+        fetchedAt = loaded.fetchedAt;
+        const staleMsg = cacheStaleWarning(fetchedAt);
+        if (staleMsg) console.warn(`Warning: ${staleMsg}`);
+      }
+    }
+  }
+
+  if (!options.skipValidation) {
+    assertBundleValid(bundle, { templateIndex: index });
+  }
 
   if (!dryRun || fetch) getHevyApiKey();
 
-  const templates = await loadTemplatesFromCache(fetch, dryRun);
-  const templatesByTitle = buildTemplatesByTitle(templates);
+  const account = loadAccountMapping(manifest.account);
+  const accountBySlug = new Map((account?.mapping ?? []).map((m) => [m.slug, m]));
+  const programBySlug = new Map((mapping.mapping ?? []).map((m) => [m.slug, m]));
+  const createSlugs = allowCreateSlugs(mapping, customExercises, allowCreate);
 
-  const exerciseResults = await ensureCustomExercises(
+  const exerciseResults = await ensureCustomExercises({
     mapping,
     customExercises,
-    templatesByTitle,
-    dryRun
-  );
+    index,
+    accountBySlug,
+    programBySlug,
+    dryRun,
+    allowCreateSlugs: createSlugs,
+    forceCreateSlug,
+  });
+
   const mappingNext = applyMappingUpdates(mapping, exerciseResults);
-  const titleToTemplateId = buildTitleToTemplateId(templatesByTitle);
+  const titleToTemplateId = buildTitleToTemplateId(index);
 
   if (!skipReconcile) {
     const stats = await reconcileRoutines(routines, manifest, {
       recreate: recreateRoutines,
       skipApiCheck: dryRun,
+      allowDuplicateRoutines,
     });
     console.log(
       `Reconcile: cleared=${stats.cleared}, adopted=${stats.adopted}, folderId=${stats.folderId ?? 'n/a'}`
@@ -381,7 +529,7 @@ async function main() {
   }
 
   await ensureRoutineFolders(routines, manifest, dryRun);
-  const idUpdates = await pushRoutines(routines, titleToTemplateId, dryRun);
+  const idUpdates = await pushRoutines(routines, manifest, titleToTemplateId, dryRun);
 
   if (!dryRun) {
     let routinesNext = applyRoutineIds(routines, idUpdates);
@@ -399,12 +547,45 @@ async function main() {
     console.log('\nWrote', paths.mapping);
     console.log('Wrote', paths.routines);
     console.log('Wrote', accountFile);
+
+    if (refreshCacheAfter) {
+      const refreshed = await loadExerciseTemplates({ fetch: true, writeCache: true });
+      console.log(`Refreshed exercise cache (${refreshed.templates.length} templates)`);
+    }
   } else {
     console.log('\nDry run complete.');
   }
+
+  return { templateIndex: index, mappingNext };
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+async function main() {
+  const args = parsePushArgs(process.argv.slice(2));
+  if (!args.programArg) {
+    console.error('Program path required.\nExample: npm run hevy:push -- push-pull-homegym');
+    process.exit(1);
+  }
+
+  await runPush(args.programArg, {
+    dryRun: args.dryRun,
+    fetch: args.fetch,
+    noFetch: args.noFetch,
+    allowCreate: args.allowCreate,
+    forceCreateSlug: args.forceCreateSlug,
+    recreateRoutines: args.recreateRoutines,
+    iKnowRecreate: args.iKnowRecreate,
+    skipReconcile: args.skipReconcile,
+    allowDuplicateRoutines: args.allowDuplicateRoutines,
+  });
+}
+
+const isMain =
+  process.argv[1] &&
+  path.resolve(process.argv[1]) === path.resolve(fileURLToPath(import.meta.url));
+
+if (isMain) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

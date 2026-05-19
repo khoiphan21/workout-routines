@@ -4,9 +4,15 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { CACHE_DIR, normTitle } from './program-bundle.mjs';
+import {
+  buildTemplateIndexForAccount,
+  EXERCISE_TEMPLATES_CACHE,
+  loadExerciseTemplates,
+  PLACEHOLDER_TEMPLATE_ID,
+} from './template-index.mjs';
+import { CACHE_DIR, listProgramsForAccount, loadBundle, normTitle } from './program-bundle.mjs';
 
-export const PLACEHOLDER_TEMPLATE_ID = '00000000-0000-0000-0000-000000000001';
+export { PLACEHOLDER_TEMPLATE_ID };
 
 export const MUSCLE_GROUPS = new Set([
   'abdominals',
@@ -99,39 +105,115 @@ export function validateCustomExercises(customExercises) {
   return errors;
 }
 
-function loadTemplatesByTitle() {
-  const cachePath = path.join(CACHE_DIR, 'exercise-templates.json');
-  if (!fs.existsSync(cachePath)) {
-    return { byTitle: new Map(), error: `Missing ${cachePath}. Run: npm run hevy:fetch-exercises` };
+/**
+ * @param {string} account
+ * @param {object} [opts]
+ * @param {object} [opts.templateIndex] - pre-built index
+ * @returns {Promise<string[]>} errors
+ */
+export async function validateAccountTemplates(account, opts = {}) {
+  const errors = [];
+  let index = opts.templateIndex;
+
+  if (!index) {
+    if (!fs.existsSync(EXERCISE_TEMPLATES_CACHE)) {
+      errors.push(`Missing ${EXERCISE_TEMPLATES_CACHE}. Run: npm run hevy:fetch-exercises`);
+      return errors;
+    }
+    const { templates } = await loadExerciseTemplates({ requireCache: true });
+    index = buildTemplateIndexForAccount(templates, account);
   }
-  const raw = JSON.parse(fs.readFileSync(cachePath, 'utf8'));
-  const arr = raw.data ?? raw;
-  const byTitle = new Map();
-  for (const t of arr) {
-    byTitle.set(normTitle(t.title), t.id);
+
+  for (const programDir of listProgramsForAccount(account)) {
+    const bundle = loadBundle(programDir);
+    for (const spec of Object.values(bundle.customExercises ?? {})) {
+      if (!spec?.title) continue;
+      const key = normTitle(spec.title);
+      if (!index.duplicateTitles.has(key)) continue;
+      const preferred = index.canonical?.preferredByTitle?.get(key) ?? index.preferredByTitle.get(key);
+      if (!preferred || !index.liveIds.has(preferred)) {
+        const count = index.byTitle.get(key)?.length ?? 0;
+        errors.push(
+          `${bundle.manifest.id}: ${count} Hevy templates titled "${spec.title}". Run: npm run hevy:list-duplicates -- --fetch`
+        );
+      }
+    }
   }
-  return { byTitle, error: null };
+
+  return errors;
 }
 
 /**
  * @param {object} bundle - loadBundle() result
+ * @param {object} [opts]
+ * @param {object} [opts.templateIndex]
  * @returns {{ errors: string[], warnings: string[] }}
  */
-export function validateBundle(bundle) {
+export function validateBundle(bundle, opts = {}) {
   const errors = [];
   const warnings = [];
 
   errors.push(...validateCustomExercises(bundle.customExercises));
 
   const customByTitle = new Map();
-  for (const spec of Object.values(bundle.customExercises ?? {})) {
-    customByTitle.set(normTitle(spec.title), true);
+  for (const [slug, spec] of Object.entries(bundle.customExercises ?? {})) {
+    customByTitle.set(normTitle(spec.title), slug);
   }
 
-  const { byTitle: templatesByTitle, error: cacheError } = loadTemplatesByTitle();
-  if (cacheError) {
-    errors.push(cacheError);
-    return { errors, warnings };
+  const mappingBySlug = new Map((bundle.mapping.mapping ?? []).map((m) => [m.slug, m]));
+  const mappedSlugs = new Set(mappingBySlug.keys());
+
+  for (const entry of bundle.mapping.toCreate ?? []) {
+    if (mappedSlugs.has(entry.slug) && mappingBySlug.get(entry.slug)?.hevyId) {
+      errors.push(
+        `mapping.toCreate includes "${entry.slug}" but mapping already has hevyId — re-run hevy:map`
+      );
+    }
+  }
+
+  for (const [slug, spec] of Object.entries(bundle.customExercises ?? {})) {
+    const row = mappingBySlug.get(slug);
+    if (row?.hevyTitle && normTitle(row.hevyTitle) !== normTitle(spec.title)) {
+      errors.push(
+        `Slug "${slug}": mapping hevyTitle "${row.hevyTitle}" does not match custom-exercises title "${spec.title}"`
+      );
+    }
+  }
+
+  let index = opts.templateIndex;
+  if (!index) {
+    const cachePath = path.join(CACHE_DIR, 'exercise-templates.json');
+    if (!fs.existsSync(cachePath)) {
+      errors.push(`Missing ${cachePath}. Run: npm run hevy:fetch-exercises`);
+      return { errors, warnings };
+    }
+    const raw = JSON.parse(fs.readFileSync(cachePath, 'utf8'));
+    const templates = raw.data ?? raw;
+    index = buildTemplateIndexForAccount(
+      Array.isArray(templates) ? templates : [],
+      bundle.manifest.account
+    );
+  }
+
+  for (const [slug, spec] of Object.entries(bundle.customExercises ?? {})) {
+    const key = normTitle(spec.title);
+    if (index.duplicateTitles.has(key)) {
+      const preferred =
+        index.canonical?.preferredByTitle?.get(key) ?? index.preferredByTitle.get(key);
+      if (!preferred || !index.liveIds.has(preferred)) {
+        const count = index.byTitle.get(key)?.length ?? 0;
+        errors.push(
+          `Duplicate Hevy templates (${count}) for custom title "${spec.title}". Run: npm run hevy:list-duplicates -- --fetch`
+        );
+      }
+    }
+
+    const row = mappingBySlug.get(slug);
+    if (row?.hevyId && !index.liveIds.has(row.hevyId)) {
+      errors.push(
+        `Slug "${slug}": mapping hevyId ${row.hevyId} not in exercise cache. Run: npm run hevy:fetch-exercises`
+      );
+    }
   }
 
   for (const routine of bundle.routines.data ?? []) {
@@ -140,7 +222,7 @@ export function validateBundle(bundle) {
       const title = ex.title ?? '';
 
       if (tid === PLACEHOLDER_TEMPLATE_ID) {
-        if (!customByTitle.has(normTitle(title)) && !templatesByTitle.has(normTitle(title))) {
+        if (!customByTitle.has(normTitle(title)) && !index.templatesByTitle.has(normTitle(title))) {
           errors.push(
             `Routine "${routine.title}" / "${title}": placeholder id but no matching custom-exercises.json title or Hevy cache entry`
           );
@@ -148,14 +230,31 @@ export function validateBundle(bundle) {
         continue;
       }
 
-      if (tid && !templatesByTitle.has(normTitle(title))) {
-        const mappingRow = (bundle.mapping.mapping ?? []).find(
-          (m) => m.hevyId === tid
-        );
-        if (!mappingRow) {
+      if (tid && !index.liveIds.has(tid)) {
+        const foundRow = (bundle.mapping.mapping ?? []).find((m) => m.hevyId === tid);
+        if (!foundRow) {
           warnings.push(
             `Routine "${routine.title}" / "${title}": template id ${tid} not in cache (may still exist on Hevy)`
           );
+        } else {
+          errors.push(
+            `Routine "${routine.title}" / "${title}": template id ${tid} missing from cache — run hevy:fetch-exercises`
+          );
+        }
+      }
+
+      const titleKey = normTitle(title);
+      if (tid && index.duplicateTitles.has(titleKey)) {
+        const ids = index.byTitle.get(titleKey) ?? [];
+        if (ids.some((x) => x.id === tid) && ids.length > 1) {
+          const preferred =
+            index.canonical?.preferredByTitle?.get(titleKey) ??
+            index.preferredByTitle.get(titleKey);
+          if (preferred && tid !== preferred) {
+            errors.push(
+              `Routine "${routine.title}" / "${title}": uses duplicate template id ${tid}; canonical is ${preferred}. Run hevy:list-duplicates`
+            );
+          }
         }
       }
     }
@@ -166,10 +265,11 @@ export function validateBundle(bundle) {
 
 /**
  * @param {object} bundle - loadBundle() result
+ * @param {object} [opts]
  * @throws {Error} If validation fails
  */
-export function assertBundleValid(bundle) {
-  const { errors, warnings } = validateBundle(bundle);
+export function assertBundleValid(bundle, opts = {}) {
+  const { errors, warnings } = validateBundle(bundle, opts);
   for (const w of warnings) console.warn(`Warning: ${w}`);
   if (errors.length > 0) {
     throw new Error(

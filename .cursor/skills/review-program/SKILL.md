@@ -86,14 +86,18 @@ For **each** exercise used in the program:
 Run from repo root:
 
 ```bash
-npm run hevy:fetch-exercises   # refresh libs/hevy/cache/exercise-templates.json
-# optional: npm run hevy:fetch-routines  # cache/routines-all.json
-npm run hevy:map -- <program>  # e.g. push-pull-homegym
+npm run hevy:fetch-exercises
+npm run hevy:map -- <program>              # optional: --fetch
+npm run hevy:validate -- <program>
+npm run hevy:list-duplicates -- --fetch    # must be clean (no ambiguous duplicate titles)
 npm run docs:build
-npm run hevy:push -- <program> # HEVY_API_KEY_KHOIPHAN21; khoiphan21 only
+npm run hevy:push -- <program>             # add --allow-create if mapping.toCreate non-empty
+# or: npm run hevy:sync-khoiphan21
 ```
 
-After a successful push, confirm program `hevy/routines.json` and `hevy/mapping.json` were updated (new routine IDs, `toCreate` cleared).
+Push resolves custom exercises by **program/account mapping `hevyId` first**, then unique cache title match; it **errors** on duplicate Hevy titles or missing canonical ids instead of POSTing duplicates. New customs only when listed in `mapping.toCreate` or with `--allow-create`.
+
+After a successful push, confirm `hevy/routines.json`, `hevy/mapping.json`, and refreshed `libs/hevy/cache/exercise-templates.json` were updated (`toCreate` cleared).
 
 ## 7. Git and safety
 

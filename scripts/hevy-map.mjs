@@ -2,19 +2,19 @@
 /**
  * Map repo exercises to Hevy templates for a program bundle.
  *
- * Custom exercises: exact title match only (no fuzzy overwrite).
+ * Custom exercises: canonical resolution via template-index (no guess on duplicates).
  * Other slugs: account mapping, then fuzzy match (score >= 0.98).
  *
  * Usage:
  *   npm run hevy:map -- push-pull-homegym
- *   npm run hevy:map -- push-pull-gym-monster-2
+ *   npm run hevy:map -- push-pull-gym-monster-2 --fetch
  */
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { getHevyApiKey } from '../libs/hevy/hevy-client.mjs';
 import {
-  CACHE_DIR,
   filterMappingBySlugs,
   getBundlePaths,
   loadAccountMapping,
@@ -22,14 +22,20 @@ import {
   normTitle,
   resolveProgramDir,
 } from '../libs/hevy/program-bundle.mjs';
+import {
+  buildTemplateIndexForAccount,
+  loadExerciseTemplates,
+  resolveCustomExercise,
+} from '../libs/hevy/template-index.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const EXERCISES_DIR = path.join(ROOT, 'exercises');
 
 function parseArgs(argv) {
+  const flags = new Set(argv.filter((a) => a.startsWith('-')));
   const positional = argv.filter((a) => !a.startsWith('-'));
-  return { programArg: positional[0] };
+  return { programArg: positional[0], fetch: flags.has('--fetch') };
 }
 
 function slugToTitle(slug) {
@@ -71,27 +77,6 @@ function getRepoExercise(slug) {
   return { slug, title, filepath: `exercises/${slug}.md` };
 }
 
-function getHevyTemplates() {
-  const filepath = path.join(CACHE_DIR, 'exercise-templates.json');
-  if (!fs.existsSync(filepath)) {
-    throw new Error(`Missing ${filepath}. Run: npm run hevy:fetch-exercises`);
-  }
-  const raw = JSON.parse(fs.readFileSync(filepath, 'utf8'));
-  const arr = raw.data ?? raw.items ?? raw;
-  return Array.isArray(arr) ? arr : [];
-}
-
-function findByExactTitle(title, hevyTemplates) {
-  const key = normTitle(title);
-  for (const t of hevyTemplates) {
-    const hevyTitle = t.title ?? t.name ?? t.exercise_name ?? '';
-    if (normTitle(hevyTitle) === key) {
-      return t;
-    }
-  }
-  return null;
-}
-
 function findBestMatch(repoTitle, hevyTemplates, minScore = 0.98) {
   let best = null;
   let bestScore = 0;
@@ -106,7 +91,7 @@ function findBestMatch(repoTitle, hevyTemplates, minScore = 0.98) {
   return best ? { template: best, score: bestScore } : null;
 }
 
-function writeStatusMd(statusPath, manifest, repoExercises, mapping, toCreate) {
+function writeStatusMd(statusPath, manifest, mapping, toCreate, mapErrors) {
   const md = `# Hevy sync status — ${manifest.id}
 
 **Generated:** ${new Date().toISOString()}
@@ -116,14 +101,23 @@ function writeStatusMd(statusPath, manifest, repoExercises, mapping, toCreate) {
 | Program exercise slugs | ${manifest.exerciseSlugs.length} |
 | Matched to Hevy | ${mapping.length} |
 | To create on Hevy | ${toCreate.length} |
+| Map errors | ${mapErrors.length} |
 
-## Exercises to create
+${
+  mapErrors.length
+    ? `## Errors
+
+${mapErrors.map((e) => `- ${e}`).join('\n')}
+
+`
+    : ''
+}## Exercises to create
 
 ${toCreate.length === 0 ? '_None — all slugs matched or listed in `custom-exercises.json`._' : ''}
 
-| Repo title | Slug | File |
-|------------|------|------|
-${toCreate.map((e) => `| ${e.title} | \`${e.slug}\` | \`${e.file ?? '—'}\` |`).join('\n')}
+| Repo title | Slug | File | Note |
+|------------|------|------|------|
+${toCreate.map((e) => `| ${e.title} | \`${e.slug}\` | \`${e.file ?? '—'}\` | ${e.note ?? ''} |`).join('\n')}
 
 ## Matched
 
@@ -134,18 +128,30 @@ ${mapping.map((m) => `| ${m.repoTitle} | ${m.hevyTitle} | ${m.hevyId} | ${((m.ma
 ## Push
 
 \`\`\`bash
-npm run hevy:push -- ${manifest.id}
+npm run hevy:fetch-exercises
+npm run hevy:validate -- ${manifest.id}
+npm run hevy:list-duplicates -- --fetch
+npm run hevy:push -- ${manifest.id} --allow-create
 \`\`\`
 `;
   fs.writeFileSync(statusPath, md, 'utf8');
 }
 
-function main() {
-  const { programArg } = parseArgs(process.argv.slice(2));
+async function main() {
+  const { programArg, fetch } = parseArgs(process.argv.slice(2));
   const programDir = resolveProgramDir(programArg);
   const manifest = loadManifest(programDir);
   const paths = getBundlePaths(programDir);
-  const hevyTemplates = getHevyTemplates();
+
+  if (fetch) getHevyApiKey();
+  const { templates } = await loadExerciseTemplates({
+    fetch,
+    writeCache: fetch,
+    requireCache: !fetch,
+  });
+
+  const index = buildTemplateIndexForAccount(templates, manifest.account);
+  const hevyTemplates = index.templates;
 
   const customExercises = fs.existsSync(paths.customExercises)
     ? JSON.parse(fs.readFileSync(paths.customExercises, 'utf8'))
@@ -161,26 +167,43 @@ function main() {
   const programBySlug = new Map((programMapping.mapping ?? []).map((m) => [m.slug, m]));
   const mapping = [];
   const toCreate = [];
+  const mapErrors = [];
 
   for (const slug of slugs) {
     const ex = getRepoExercise(slug);
     const customSpec = customExercises[slug];
 
     if (customSpec) {
-      const template = findByExactTitle(customSpec.title, hevyTemplates);
-      if (template) {
+      const resolved = resolveCustomExercise({
+        slug,
+        spec: customSpec,
+        programMappingRow: programBySlug.get(slug),
+        accountMappingRow: accountBySlug.get(slug),
+        index,
+        allowCreate: false,
+      });
+
+      if (resolved.ok) {
         mapping.push({
           slug: ex.slug,
           repoTitle: ex.title,
-          hevyId: template.id ?? template.exercise_template_id,
-          hevyTitle: template.title ?? template.name,
+          hevyId: resolved.hevyId,
+          hevyTitle: resolved.hevyTitle,
           matchScore: 1,
         });
-      } else {
+      } else if (resolved.needsCreate && !resolved.error) {
         toCreate.push({
           slug: ex.slug,
           title: customSpec.title,
           file: ex.filepath,
+        });
+      } else {
+        mapErrors.push(resolved.error ?? `Could not map custom slug ${slug}`);
+        toCreate.push({
+          slug: ex.slug,
+          title: customSpec.title,
+          file: ex.filepath,
+          note: 'blocked — fix errors first',
         });
       }
       continue;
@@ -217,11 +240,19 @@ function main() {
   doc.generatedAt = new Date().toISOString();
 
   fs.writeFileSync(paths.mapping, JSON.stringify(doc, null, 2), 'utf8');
-  writeStatusMd(paths.status, manifest, slugs, mapping, toCreate);
+  writeStatusMd(paths.status, manifest, mapping, toCreate, mapErrors);
 
   console.log(`Wrote ${paths.mapping}`);
   console.log(`Wrote ${paths.status}`);
   console.log(`Matched: ${mapping.length}, To create: ${toCreate.length}`);
+  if (mapErrors.length) {
+    console.error(`\n${mapErrors.length} error(s) — fix before push:`);
+    for (const e of mapErrors) console.error(`  - ${e}`);
+    process.exit(1);
+  }
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
