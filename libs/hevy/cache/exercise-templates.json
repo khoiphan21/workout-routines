@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-19T00:10:01.449Z",
-  "count": 480,
+  "fetchedAt": "2026-05-19T05:50:38.159Z",
+  "count": 481,
   "data": [
     {
       "id": "3BC06AD3",
@@ -2654,6 +2654,15 @@
       "secondary_muscle_groups": [],
       "equipment": "none",
       "is_custom": false
+    },
+    {
+      "id": "1acf3f8f-7b6a-42aa-9a8c-ac1365d98fa7",
+      "title": "Lying Knee Raise (Cable, Gym Monster 2)",
+      "type": "duration",
+      "primary_muscle_group": "abdominals",
+      "secondary_muscle_groups": [],
+      "equipment": "machine",
+      "is_custom": true
     },
     {
       "id": "B8127AD1",

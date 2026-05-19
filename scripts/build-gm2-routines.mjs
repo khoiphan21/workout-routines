@@ -38,9 +38,8 @@ const T = {
   bicepCurl: 'ADA8623C',
   vGripRow: '0393F233',
   splitSquatSmith: PLACEHOLDER,
-  stair: '4377A52C',
-  rowing: '0222DB42',
-  kneeRaise: 'BD5935CF',
+  squatSmith: 'DDCC3821',
+  kneeRaiseCableGm2: PLACEHOLDER,
   ohpCableGm2: '8917a840-6edb-498e-a59c-bae2b2da5eaa',
   ohpCableGm2TopHold: PLACEHOLDER,
   inclineCableGm2: '0bdabadd-dff1-40a8-8f3e-1f77e80daa10',
@@ -248,7 +247,7 @@ const day2 = routine('Power Week - Day 2: Pull A', [
 
 const day3 = routine('Power Week - Day 3: Conditioning', [
   ex(0, 'General Notes & Warm-Up', T.notes, {
-    notes: `${GM2_WARMUP_NOTES}\n\nConditioning: RPE ~5–7. Circuit ×3 (giant set); EMOM 12 (odd: stair/row 45 s, even: face pull 15); finisher knee raise + crunch.`,
+    notes: `${GM2_WARMUP_NOTES}\n\nConditioning: RPE ~5–7. Circuit ×3 (giant set); EMOM 12 (odd: Smith squat 45 s light, even: straight-arm lat pulldown 15); finisher cable knee raise + crunch.`,
     sets: [set(0, 'normal', { reps: 1 })],
     rest_seconds: 0,
   }),
@@ -276,18 +275,19 @@ const day3 = routine('Power Week - Day 3: Conditioning', [
     sets: repsSets(20, 3),
     rest_seconds: 90,
   }),
-  ex(5, 'Stair Machine (Steps)', T.stair, {
-    notes: 'EMOM odd: 45 s (6 sets for 12 min). Alternate with face pull.',
+  ex(5, 'Squat (Smith Machine)', T.squatSmith, {
+    notes:
+      'EMOM odd: 45 s light continuous reps (6 sets for 12 min). Empty bar or ~30–40%—conversational pace. Alternate with straight-arm pulldown.',
     sets: durationSets(45, 6),
     rest_seconds: 15,
   }),
-  ex(6, 'Face Pull', T.facePull, {
-    notes: 'EMOM even: 15 reps light (6 sets).',
+  ex(6, 'Straight Arm Lat Pulldown (Cable)', T.straightArmPulldown, {
+    notes: 'EMOM even: 15 reps light (6 sets). High pulley; replaces home-gym band pulldown.',
     sets: repsSets(15, 6),
     rest_seconds: 45,
   }),
-  ex(7, 'Lying Knee Raise', T.kneeRaise, {
-    notes: 'Finisher C1: accumulate 60 s total (e.g. 4×15 s). Bench + ankle strap on GM2.',
+  ex(7, 'Lying Knee Raise (Cable, Gym Monster 2)', T.kneeRaiseCableGm2, {
+    notes: 'Finisher C1: accumulate 60 s total (e.g. 4×15 s). Bench + ankle straps, low pulleys.',
     superset_id: 1,
     sets: durationSets(15, 4),
     rest_seconds: 0,

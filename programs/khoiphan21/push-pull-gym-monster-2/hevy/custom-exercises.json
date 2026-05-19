@@ -69,6 +69,13 @@
     "muscleGroup": "chest",
     "otherMuscles": ["shoulders"]
   },
+  "lying-knee-raise-cable-gm2": {
+    "title": "Lying Knee Raise (Cable, Gym Monster 2)",
+    "exerciseType": "duration",
+    "equipmentCategory": "machine",
+    "muscleGroup": "abdominals",
+    "otherMuscles": []
+  },
   "split-squat-smith-gm2": {
     "title": "Split Squat (Smith Machine)",
     "exerciseType": "weight_reps",

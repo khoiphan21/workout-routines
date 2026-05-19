@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T23:36:49.029Z",
+  "generatedAt": "2026-05-19T05:50:31.737Z",
   "programSlugs": [
     "bench-press-smith-pause-gm2",
     "bulgarian-split-squat-cable-gm2",
@@ -9,6 +9,7 @@
     "close-grip-bench-smith-gm2",
     "incline-bench-press-cable-gm2",
     "lat-pulldown-explosive-gm2",
+    "lying-knee-raise-cable-gm2",
     "overhead-press-cable-gm2",
     "overhead-press-cable-gm2-top-hold",
     "reverse-grip-lat-pulldown-cable",
@@ -19,7 +20,7 @@
     "split-squat-smith-gm2",
     "standing-calf-raise-smith-gm2"
   ],
-  "matched": 17,
+  "matched": 18,
   "toCreate": [],
   "mapping": [
     {
@@ -76,6 +77,13 @@
       "repoTitle": "Lat Pulldown (Cable) — Explosive",
       "hevyId": "533ffc9c-669d-446f-b43f-30c2d5ea0042",
       "hevyTitle": "Lat Pulldown (Cable) — Explosive",
+      "matchScore": 1
+    },
+    {
+      "slug": "lying-knee-raise-cable-gm2",
+      "repoTitle": "Lying Knee Raise (Cable, Gym Monster 2)",
+      "hevyId": "1acf3f8f-7b6a-42aa-9a8c-ac1365d98fa7",
+      "hevyTitle": "Lying Knee Raise (Cable, Gym Monster 2)",
       "matchScore": 1
     },
     {

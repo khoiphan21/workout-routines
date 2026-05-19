@@ -13,7 +13,7 @@ A **Gym Monster 2–only** 5-day split that mirrors [Push–Pull Home Gym](../pu
 
 - **Gym Monster 2 (Speediance)** — Smith cage, cables, electromagnetic resistance (see [Gym Monster 2](../../../equipment/gym-monster-2.md)).
 - **Bench** — Works / Works Plus (flat or incline) for presses and rows.
-- **Attachments** — Smart PowerGrip handles, tricep rope, ankle straps, barbell hooks + pad; optional AeroRow for rowing-style conditioning.
+- **Attachments** — Smart PowerGrip handles, tricep rope, ankle straps, barbell hooks + pad.
 - **Not used:** pull-up bar, rings, dip station, resistance bands, wall handstand space, commercial leg-press machines.
 
 ### GM2 compatibility audit
@@ -25,8 +25,6 @@ A **Gym Monster 2–only** 5-day split that mirrors [Push–Pull Home Gym](../pu
 | **C — Compatible** | Stock Hevy templates (face pull, rows, curls, etc.) | No movement change |
 | **D — Optional** | Ergonomic swaps if needed | Upright row → high cable row; rev-grip pulldown → supinated chest-supported row if load-capped |
 
-**Cardio on Day 3:** **Stair Machine** and **Rowing Machine** are **Speediance app workout modes** on the GM2 (not separate gym hardware). Pick the built-in stair or AeroRow/row program in the app for EMOM odd minutes.
-
 ## Relationship to Home Gym program
 
 | Block | Home Gym (calisthenics + GM2 hypertrophy) | This program (GM2 only) |
@@ -35,7 +33,7 @@ A **Gym Monster 2–only** 5-day split that mirrors [Push–Pull Home Gym](../pu
 | Push A skills | Iron cross hold + pike HSPU | **Cable chest fly iso hold** + **Overhead Press (Smith)** |
 | Pull A power | Weighted pull-up | **Chest-Supported Row (Cable)** — mid pulleys on vertical bars; full stack vs kneeling lat pulldown |
 | Pull A skills | Front lever + high pull + ring row | **Straight-arm pulldown hold (light)** + **Upright Row (Cable)** + **Single-arm cable row (seated)** |
-| Conditioning | Rings, bands, floor abs | **Cable row, Smith press, split squat, crunch, stair/row, pulldown, knee raise** |
+| Conditioning | Rings, bands, floor abs | **Cable row, Smith press, split squat, crunch, Smith squat (EMOM), straight-arm pulldown, cable knee raise** |
 | Push B power | Barbell bench (rack) | **Bench Press (Smith), 2 s pause** |
 | Push B skills | Handstand triplet | **Smith OHP hold + press + seated press** |
 | Pull B power | Weighted chin-up | **Romanian Deadlift (Smith Machine)** |
@@ -91,12 +89,12 @@ Same rules as [home gym](../push-pull-homegym/#hard-sets-how-to-count-weekly-tra
 | Biceps | Curl **work** sets | Rows, pulldowns |
 | Quads | BSS, sissy squat (cable), split squat **work** sets | Upright row (light) |
 | Hamstrings | Leg curl (GM2), **RDL (Smith) power** **work** sets | Light RDL in warm-up (not a hard set unless heavy) |
-| Calves | Standing calf raise (Smith) **work** sets | Stair machine (conditioning) |
+| Calves | Standing calf raise (Smith) **work** sets | — |
 | Abs | Cable crunch, knee raise **work** sets | — |
 
 ### Conditioning — intensity
 
-Day 3 stays **RPE ~5–7** (conversational). Use **Stair Machine** or **Rowing Machine** on GM2 instead of jumping jacks when possible.
+Day 3 stays **RPE ~5–7** (conversational). EMOM odd uses **light Smith squats** (replaces home-gym jumping jacks) on the same bar you use for OHP and split squats in the circuit.
 
 ### Deload vs strength peaks
 
@@ -145,17 +143,30 @@ Same as [home gym](../push-pull-homegym/#progression-failure-rule-applies-to-all
 
 ### Day 3 — Conditioning (GM2 steady HR)
 
+All stations use **Smith, cables, or bench** on the GM2—no rings, bands, separate cardio machines, or AeroRow setup.
+
+| Block | Exercise | GM2 mode |
+|-------|----------|----------|
+| Circuit | Seated Cable Row – V Grip (Cable) | Mid pulleys (~4–6), V handle, seated on bench |
+| Circuit | Overhead Press (Smith Machine) | Smith bar, light |
+| Circuit | [Split Squat (Smith Machine)](../../../exercises/split-squat-smith-gm2.md) | Smith bar, light |
+| Circuit | Cable Crunch | High pulley, rope or handles |
+| EMOM odd | Squat (Smith Machine) | Light bar, 45 s continuous reps—replaces home-gym jumping jacks |
+| EMOM even | Straight Arm Lat Pulldown (Cable) | High pulley, light—replaces home-gym band pulldown |
+| Finisher | [Lying Knee Raise (Cable, GM2)](../../../exercises/lying-knee-raise-cable-gm2.md) | Bench + ankle straps, low pulleys |
+| Finisher | Cable Crunch | High pulley |
+
 - **Circuit × 3 rounds** (one **giant superset** in Hevy)
   - Seated Cable Row – V Grip (Cable) — 15 reps
   - Overhead Press (Smith Machine) — 15 reps, light
   - Split Squat (Smith Machine) — 12 per side
-  - Cable Crunch — 20 s controlled reps or slow tempo
+  - Cable Crunch — 20 controlled reps or slow tempo
   - _**60–90 s** after the crunch before the next round._
 - **EMOM 12**
-  - Odd: Stair Machine (Steps) or Rowing Machine — 45 s
-  - Even: Face Pull (Cable) — 15 reps, light
+  - Odd: Squat (Smith Machine) — 45 s light continuous reps (empty bar or ~30–40%; stay conversational)
+  - Even: Straight Arm Lat Pulldown (Cable) — 15 reps, light
 - **Finisher superset**
-  - C1: Lying Knee Raise (bench + ankle strap on GM2) — accumulate 60 s total (e.g. 4×15 s)
+  - C1: [Lying Knee Raise (Cable, Gym Monster 2)](../../../exercises/lying-knee-raise-cable-gm2.md) — accumulate 60 s total (e.g. 4×15 s)
   - C2: Cable Crunch — 3×20  
     _**60–75 s** after crunches each round._
 
@@ -205,7 +216,7 @@ Same as [home gym](../push-pull-homegym/#week-type-parameter-map): Power / Tempo
 
 - **Push A:** Close-Grip Bench (Smith); Seated Chest Fly Hold; OHP (Smith); Bulgarian Split Squat (Cable); Chest Fly (Cable); Sissy Squat (Cable, GM2); Hammer Curl (Cable); Cable Crunch.
 - **Pull A:** Chest-Supported Row (Cable, GM2); Straight-Arm Pulldown Hold (light); Upright Row (Cable); Single-Arm Cable Row; Face Pull; Cable Row; Bicep Curl (Cable); Cable Crunch.
-- **Conditioning:** Cable Row (V); OHP (Smith) light; Split Squat (Smith); Cable Crunch; Stair or Rowing; Face Pull; Lying Knee Raise; Cable Crunch finisher.
+- **Conditioning:** Cable Row (V); OHP (Smith) light; Split Squat (Smith); Cable Crunch; Smith Squat (EMOM); Straight-Arm Lat Pulldown; Lying Knee Raise (Cable, GM2); Cable Crunch finisher.
 - **Push B:** Bench (Smith, pause); Smith OHP hold/press; Cable OHP top hold; OHP + Incline Bench (Cable, GM2); Seated Leg Curl; OH Triceps Extension; Lateral Raise (Cable); Calf Raise (Smith); Cable Crunch.
 - **Pull B:** RDL (Smith) power; Explosive Lat Pulldown; Single-Arm Lat Pulldown; Straight-Arm Pulldown Hold; Lying Leg Curl; Wide Cable Row; Rear Delt Fly; Reverse-Grip Pulldown; Cable Crunch.
 
@@ -254,15 +265,15 @@ All work stays on GM2; no second station. Pairings match home gym for weekly bal
 |------|--------|--------|--------|--------|-----------------|
 | Chest | Fly | Incline | — | — | — |
 | Back / lats | — | — | Chest-supported row, cable row, SA cable row | Row, rev-grip pulldown | Cable row |
-| Shoulders (incl. rear) | — | OHP, lateral | Face pull | Rear delt fly | Smith OHP |
+| Shoulders (incl. rear) | — | OHP, lateral | Face pull | Rear delt fly | Smith OHP, straight-arm pulldown |
 | Triceps | — | OH extension | — | — | — |
 | Biceps | Hammer curl | — | Cable curl | — | — |
-| Quads | BSS, sissy squat (cable) | — | — | Split squat | Split squat |
+| Quads | BSS, sissy squat (cable) | — | — | Split squat | Split squat, Smith squat (EMOM)* |
 | Hamstrings | — | Leg curl | — | RDL (power), lying leg curl (tech) | — |
-| Calves | — | Calf (Smith) | — | — | Stair* |
+| Calves | — | Calf (Smith) | — | — | — |
 | Abs | Crunch | Crunch | Crunch | Crunch | Knee raise, crunch |
 
-\*Conditioning at RPE ~5–7; stair/row is not a default calf **hard set**.
+\*Conditioning at RPE ~5–7; EMOM Smith squats are metabolic work, not counted as quad **hard sets**.
 
 ### Lengthened partials (Tempo / Volume week)
 

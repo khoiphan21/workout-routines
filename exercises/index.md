@@ -70,6 +70,7 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 
 - [Dragon Flag Negatives](dragon-flag-negatives)
 - [Hanging Knee Raises](hanging-knee-raises)
+- [Lying Knee Raise (Cable, Gym Monster 2)](lying-knee-raise-cable-gm2)
 - [Hollow Body Rock](hollow-body-rock)
 - [L-Sit Hold](l-sit-hold)
 - [Ring Body Saw](ring-body-saw)
@@ -174,6 +175,7 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [Romanian Deadlift (Smith Machine)](romanian-deadlift-smith-gm2)
 - [Seated Chest Fly (Cable) — Bottom Hold](seated-chest-fly-bottom-hold-gm2)
 - [Sissy Squat (Cable, Gym Monster 2)](sissy-squat-cable-gm2)
+- [Lying Knee Raise (Cable, Gym Monster 2)](lying-knee-raise-cable-gm2)
 - [Split Squat (Smith Machine)](split-squat-smith-gm2)
 - [Standing Calf Raise (Smith)](standing-calf-raise-smith-gm2)
 - [Lateral Raise (Cable)](cable-lateral-raise)
