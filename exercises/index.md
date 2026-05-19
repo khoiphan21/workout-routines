@@ -21,11 +21,18 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [Weighted Pull-Up](weighted-pull-up)
 - [Wide-Grip Inverted Row](wide-grip-inverted-row)
 - [Reverse Grip Lat Pulldown (Cable)](reverse-grip-lat-pulldown-cable)
+- [Chest-Supported Row (Cable, Gym Monster 2)](chest-supported-row-cable-gm2)
+- [Lat Pulldown (Cable) — Explosive](lat-pulldown-explosive-gm2)
+- [Romanian Deadlift (Smith Machine)](romanian-deadlift-smith-gm2)
 
 ### Chest
 
 - [Barbell Bench Press](barbell-bench-press)
+- [Bench Press (Smith Machine, 2s Pause)](bench-press-smith-pause-gm2)
+- [Chest Fly (Cable, Gym Monster 2)](chest-fly-cable-gm2)
+- [Close-Grip Bench Press (Smith Machine)](close-grip-bench-smith-gm2)
 - [Incline Bench Press (Cable, Gym Monster 2)](incline-bench-press-cable-gm2)
+- [Seated Chest Fly (Cable) — Bottom Hold](seated-chest-fly-bottom-hold-gm2)
 - [Decline Ring Push-up](decline-ring-push-up)
 - [Pike Handstand Push-Up](pike-handstand-push-up)
 - [Pike Push-up](pike-push-up)
@@ -42,6 +49,8 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [Band Overhead Press](band-overhead-press)
 - [Lateral Raise (Cable)](cable-lateral-raise)
 - [Overhead Press (Cable, Gym Monster 2)](overhead-press-cable-gm2)
+- [Overhead Press (Cable, Gym Monster 2) — Top Hold](overhead-press-cable-gm2-top-hold)
+- [Overhead Press (Smith Machine) — Bottom Hold](smith-ohp-bottom-hold-gm2)
 - [Chest-to-Wall Handstand Hold](chest-to-wall-handstand-hold)
 - [Freestanding Handstand Hold](freestanding-handstand-hold)
 - [Handstand Push-Up](handstand-push-up)
@@ -70,11 +79,16 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 ### Legs
 
 - [Bodyweight Split Squat](bodyweight-split-squat)
+- [Bulgarian Split Squat (Cable, Gym Monster 2)](bulgarian-split-squat-cable-gm2)
 - [Nordic Curl](nordic-curl)
 - [Pistol Squat](pistol-squat)
 - [Rings Hamstring Curl](rings-hamstring-curl)
+- [Romanian Deadlift (Smith Machine)](romanian-deadlift-smith-gm2)
+- [Sissy Squat (Cable, Gym Monster 2)](sissy-squat-cable-gm2)
 - [Sissy Squat (Weighted)](sissy-squat-weighted)
+- [Split Squat (Smith Machine)](split-squat-smith-gm2)
 - [Standing Calf Raise](standing-calf-raise)
+- [Standing Calf Raise (Smith)](standing-calf-raise-smith-gm2)
 
 ### Skill / holds
 
@@ -147,7 +161,23 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 
 ### [Gym Monster 2](../equipment/gym-monster-2)
 
-- Rowing and horizontal pulling variations (can substitute for band rows, ring rows)
+- [Bench Press (Smith Machine, 2s Pause)](bench-press-smith-pause-gm2)
+- [Bulgarian Split Squat (Cable, Gym Monster 2)](bulgarian-split-squat-cable-gm2)
+- [Chest Fly (Cable, Gym Monster 2)](chest-fly-cable-gm2)
+- [Chest-Supported Row (Cable, Gym Monster 2)](chest-supported-row-cable-gm2)
+- [Close-Grip Bench Press (Smith Machine)](close-grip-bench-smith-gm2)
+- [Incline Bench Press (Cable, Gym Monster 2)](incline-bench-press-cable-gm2)
+- [Lat Pulldown (Cable) — Explosive](lat-pulldown-explosive-gm2)
+- [Overhead Press (Cable, Gym Monster 2)](overhead-press-cable-gm2)
+- [Overhead Press (Cable, Gym Monster 2) — Top Hold](overhead-press-cable-gm2-top-hold)
+- [Overhead Press (Smith Machine) — Bottom Hold](smith-ohp-bottom-hold-gm2)
+- [Romanian Deadlift (Smith Machine)](romanian-deadlift-smith-gm2)
+- [Seated Chest Fly (Cable) — Bottom Hold](seated-chest-fly-bottom-hold-gm2)
+- [Sissy Squat (Cable, Gym Monster 2)](sissy-squat-cable-gm2)
+- [Split Squat (Smith Machine)](split-squat-smith-gm2)
+- [Standing Calf Raise (Smith)](standing-calf-raise-smith-gm2)
+- [Lateral Raise (Cable)](cable-lateral-raise)
+- [Reverse Grip Lat Pulldown (Cable)](reverse-grip-lat-pulldown-cable)
 
 ---
 

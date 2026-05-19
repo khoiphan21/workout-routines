@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-04-13T05:54:53.183Z",
-  "count": 460,
+  "fetchedAt": "2026-05-19T00:10:01.449Z",
+  "count": 480,
   "data": [
     {
       "id": "3BC06AD3",
@@ -126,6 +126,18 @@
       "is_custom": false
     },
     {
+      "id": "87f5c5fe-6aaf-4249-ac9f-c63d960afed9",
+      "title": "Back Lever Tuck Hold",
+      "type": "duration",
+      "primary_muscle_group": "lats",
+      "secondary_muscle_groups": [
+        "abdominals",
+        "lower_back"
+      ],
+      "equipment": "suspension",
+      "is_custom": true
+    },
+    {
       "id": "F51D9080",
       "title": "Ball Slams",
       "type": "weight_reps",
@@ -180,6 +192,17 @@
       "is_custom": true
     },
     {
+      "id": "c76b4dc2-1106-4a72-911f-44209a537b2c",
+      "title": "Band Overhead Press",
+      "type": "reps_only",
+      "primary_muscle_group": "shoulders",
+      "secondary_muscle_groups": [
+        "triceps"
+      ],
+      "equipment": "resistance_band",
+      "is_custom": true
+    },
+    {
       "id": "E8D86EE8",
       "title": "Band Pullaparts",
       "type": "reps_only",
@@ -197,6 +220,19 @@
       "primary_muscle_group": "triceps",
       "secondary_muscle_groups": [],
       "equipment": "resistance_band",
+      "is_custom": true
+    },
+    {
+      "id": "56baa3e4-c30c-4bd3-91f7-9974978ffbac",
+      "title": "Bar Muscle Up",
+      "type": "bodyweight_weighted",
+      "primary_muscle_group": "lats",
+      "secondary_muscle_groups": [
+        "chest",
+        "shoulders",
+        "triceps"
+      ],
+      "equipment": "none",
       "is_custom": true
     },
     {
@@ -309,6 +345,18 @@
       ],
       "equipment": "machine",
       "is_custom": false
+    },
+    {
+      "id": "4caa130c-5340-4db7-ac07-2aa2e888f43f",
+      "title": "Bench Press (Smith Machine, 2s Pause)",
+      "type": "weight_reps",
+      "primary_muscle_group": "chest",
+      "secondary_muscle_groups": [
+        "shoulders",
+        "triceps"
+      ],
+      "equipment": "machine",
+      "is_custom": true
     },
     {
       "id": "E644F828",
@@ -437,6 +485,18 @@
       "is_custom": false
     },
     {
+      "id": "661704c4-0012-4a0f-ac4c-7c14afff15af",
+      "title": "Bodyweight Split Squat",
+      "type": "reps_only",
+      "primary_muscle_group": "quadriceps",
+      "secondary_muscle_groups": [
+        "glutes",
+        "hamstrings"
+      ],
+      "equipment": "none",
+      "is_custom": true
+    },
+    {
       "id": "A0D8FA1B",
       "title": "Boxing",
       "type": "duration",
@@ -483,9 +543,30 @@
       "is_custom": false
     },
     {
+      "id": "5191953b-d4ba-4633-a1a3-29757dfdad46",
+      "title": "Bulgarian Split Squat (Cable, Gym Monster 2)",
+      "type": "weight_reps",
+      "primary_muscle_group": "quadriceps",
+      "secondary_muscle_groups": [
+        "glutes",
+        "hamstrings"
+      ],
+      "equipment": "machine",
+      "is_custom": true
+    },
+    {
       "id": "BB792A36",
       "title": "Burpee",
       "type": "reps_only",
+      "primary_muscle_group": "full_body",
+      "secondary_muscle_groups": [],
+      "equipment": "none",
+      "is_custom": false
+    },
+    {
+      "id": "115CC72C",
+      "title": "Burpee Broad Jumps",
+      "type": "distance_duration",
       "primary_muscle_group": "full_body",
       "secondary_muscle_groups": [],
       "equipment": "none",
@@ -511,7 +592,7 @@
     },
     {
       "id": "CC55119B",
-      "title": "Cable Core Palloff Press",
+      "title": "Cable Core Pallof Press",
       "type": "weight_reps",
       "primary_muscle_group": "abdominals",
       "secondary_muscle_groups": [
@@ -634,6 +715,17 @@
       "is_custom": false
     },
     {
+      "id": "99af15e9-5e8b-405d-b894-785a6e81d421",
+      "title": "Chest Fly (Cable, Gym Monster 2)",
+      "type": "weight_reps",
+      "primary_muscle_group": "chest",
+      "secondary_muscle_groups": [
+        "shoulders"
+      ],
+      "equipment": "machine",
+      "is_custom": true
+    },
+    {
       "id": "12017185",
       "title": "Chest Fly (Dumbbell)",
       "type": "weight_reps",
@@ -707,6 +799,18 @@
       ],
       "equipment": "dumbbell",
       "is_custom": false
+    },
+    {
+      "id": "0f5cacc6-f905-42f4-a621-ba4d5f8cfd7a",
+      "title": "Chest-Supported Row (Cable, Gym Monster 2)",
+      "type": "weight_reps",
+      "primary_muscle_group": "upper_back",
+      "secondary_muscle_groups": [
+        "lats",
+        "biceps"
+      ],
+      "equipment": "machine",
+      "is_custom": true
     },
     {
       "id": "F21D5693",
@@ -835,6 +939,17 @@
       "secondary_muscle_groups": [],
       "equipment": "none",
       "is_custom": false
+    },
+    {
+      "id": "1423bc22-c522-47e9-b361-d755c9be99ff",
+      "title": "Close-Grip Bench Press (Smith Machine)",
+      "type": "weight_reps",
+      "primary_muscle_group": "chest",
+      "secondary_muscle_groups": [
+        "triceps"
+      ],
+      "equipment": "machine",
+      "is_custom": true
     },
     {
       "id": "724CDE60",
@@ -2383,6 +2498,18 @@
       "is_custom": false
     },
     {
+      "id": "533ffc9c-669d-446f-b43f-30c2d5ea0042",
+      "title": "Lat Pulldown (Cable) — Explosive",
+      "type": "weight_reps",
+      "primary_muscle_group": "lats",
+      "secondary_muscle_groups": [
+        "upper_back",
+        "biceps"
+      ],
+      "equipment": "machine",
+      "is_custom": true
+    },
+    {
       "id": "4E5257DE",
       "title": "Lat Pulldown - Close Grip (Cable)",
       "type": "weight_reps",
@@ -2719,6 +2846,17 @@
       "is_custom": true
     },
     {
+      "id": "886c8ba5-c997-44e6-b3e7-d0f01f52ed16",
+      "title": "Overhead Press (Cable, Gym Monster 2) — Top Hold",
+      "type": "duration",
+      "primary_muscle_group": "shoulders",
+      "secondary_muscle_groups": [
+        "triceps"
+      ],
+      "equipment": "machine",
+      "is_custom": true
+    },
+    {
       "id": "6AC96645",
       "title": "Overhead Press (Dumbbell)",
       "type": "weight_reps",
@@ -2739,6 +2877,17 @@
       ],
       "equipment": "machine",
       "is_custom": false
+    },
+    {
+      "id": "7fd41910-47c4-4e86-b86c-9c6cae1830ed",
+      "title": "Overhead Press (Smith Machine) — Bottom Hold",
+      "type": "duration",
+      "primary_muscle_group": "shoulders",
+      "secondary_muscle_groups": [
+        "triceps"
+      ],
+      "equipment": "machine",
+      "is_custom": true
     },
     {
       "id": "2CFED196",
@@ -3450,6 +3599,18 @@
       "is_custom": false
     },
     {
+      "id": "b4de0063-69bc-4bfe-a27b-1d8815fe5280",
+      "title": "Romanian Deadlift (Smith Machine)",
+      "type": "weight_reps",
+      "primary_muscle_group": "hamstrings",
+      "secondary_muscle_groups": [
+        "glutes",
+        "lower_back"
+      ],
+      "equipment": "machine",
+      "is_custom": true
+    },
+    {
       "id": "234897AB",
       "title": "Rope Cable Curl",
       "type": "weight_reps",
@@ -3567,6 +3728,17 @@
       "secondary_muscle_groups": [],
       "equipment": "machine",
       "is_custom": false
+    },
+    {
+      "id": "946e69ee-fb64-4940-8808-332ebc44f7ff",
+      "title": "Seated Chest Fly (Cable) — Bottom Hold",
+      "type": "duration",
+      "primary_muscle_group": "chest",
+      "secondary_muscle_groups": [
+        "shoulders"
+      ],
+      "equipment": "machine",
+      "is_custom": true
     },
     {
       "id": "6B4C797E",
@@ -4010,6 +4182,17 @@
       "is_custom": false
     },
     {
+      "id": "44f636fa-ee0e-4585-8ce5-7be01bbf20ae",
+      "title": "Sissy Squat (Cable, Gym Monster 2)",
+      "type": "weight_reps",
+      "primary_muscle_group": "quadriceps",
+      "secondary_muscle_groups": [
+        "glutes"
+      ],
+      "equipment": "machine",
+      "is_custom": true
+    },
+    {
       "id": "F5DEF1EB",
       "title": "Sissy Squat (Weighted)",
       "type": "weight_reps",
@@ -4046,6 +4229,15 @@
       "is_custom": false
     },
     {
+      "id": "5D99A2FA",
+      "title": "Ski Erg",
+      "type": "distance_duration",
+      "primary_muscle_group": "cardio",
+      "secondary_muscle_groups": [],
+      "equipment": "machine",
+      "is_custom": false
+    },
+    {
       "id": "84325755",
       "title": "Skiing",
       "type": "duration",
@@ -4070,6 +4262,15 @@
       "primary_muscle_group": "triceps",
       "secondary_muscle_groups": [],
       "equipment": "dumbbell",
+      "is_custom": false
+    },
+    {
+      "id": "7D1BD41D",
+      "title": "Sled Pull",
+      "type": "short_distance_weight",
+      "primary_muscle_group": "full_body",
+      "secondary_muscle_groups": [],
+      "equipment": "other",
       "is_custom": false
     },
     {
@@ -4155,6 +4356,18 @@
       ],
       "equipment": "dumbbell",
       "is_custom": false
+    },
+    {
+      "id": "c98c728c-195f-45e6-9480-727a57d9da85",
+      "title": "Split Squat (Smith Machine)",
+      "type": "weight_reps",
+      "primary_muscle_group": "quadriceps",
+      "secondary_muscle_groups": [
+        "glutes",
+        "hamstrings"
+      ],
+      "equipment": "machine",
+      "is_custom": true
     },
     {
       "id": "9283BABA",
@@ -4823,6 +5036,18 @@
         "hamstrings"
       ],
       "equipment": "dumbbell",
+      "is_custom": false
+    },
+    {
+      "id": "F30A4F01",
+      "title": "Walking Lunge (Sandbag)",
+      "type": "short_distance_weight",
+      "primary_muscle_group": "quadriceps",
+      "secondary_muscle_groups": [
+        "hamstrings",
+        "glutes"
+      ],
+      "equipment": "other",
       "is_custom": false
     },
     {

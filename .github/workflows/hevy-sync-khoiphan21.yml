@@ -1,0 +1,33 @@
+name: Hevy validate (khoiphan21)
+
+on:
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: hevy-validate-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate Hevy bundles
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate all khoiphan21 programs
+        run: npm run hevy:sync-khoiphan21 -- --validate-only

@@ -13,18 +13,77 @@ This repository builds **exercise programs** and a **collection of exercises + i
 
 - **User:** khoiphan21 (primary account for publishing)
 - **API key:** Stored in `HEVY_API_KEY_KHOIPHAN21` environment variable
-- **Programs:** See [Push–Pull Home Gym](/programs/khoiphan21/push-pull-homegym) — a 5-day Push–Pull program for home gym (to be updated later)
+- **Programs:** [Push–Pull Home Gym](/programs/khoiphan21/push-pull-homegym), [Push–Pull Gym Monster 2](/programs/khoiphan21/push-pull-gym-monster-2)
 
 ## Structure
 
 ```
-├── programs/           # Workout programs by user
-│   └── khoiphan21/
-│       └── push-pull-homegym/
-├── exercises/          # Exercise library (technique, progressions, scaling)
-├── plans/              # Implementation plans (e.g., Hevy API integration)
-└── .vitepress/         # VitePress config for docs site
+├── programs/<user>/<program>/
+│   ├── index.md        # Program prescription (human-readable)
+│   └── hevy/           # Hevy sync bundle (routines, mapping, customs)
+├── exercises/          # Shared exercise library (technique, progressions)
+├── equipment/
+├── research/
+├── libs/hevy/          # API client, cache, account mapping
+└── .vitepress/
 ```
+
+## Hevy sync
+
+1. Copy `.env.example` → `.env.local` and set `HEVY_API_KEY_KHOIPHAN21` (or export the variable in your shell).
+
+### Safe workflow (recommended)
+
+Run these steps **in order** before pushing a program to Hevy. Replace `<program>` with a slug such as `push-pull-homegym` or `push-pull-gym-monster-2`.
+
+```bash
+npm run hevy:fetch-exercises
+npm run hevy:map -- <program>
+npm run hevy:validate -- <program>
+npm run hevy:list-duplicates -- --fetch
+npm run hevy:push -- <program>
+```
+
+| Step | Command | Purpose |
+|------|---------|---------|
+| 1 | `hevy:fetch-exercises` | Refresh `libs/hevy/cache/exercise-templates.json` from the API |
+| 2 | `hevy:map -- <program>` | Update `programs/.../hevy/mapping.json` and `status.md` (optional: `--fetch`) |
+| 3 | `hevy:validate -- <program>` | Fail locally on bad enums, duplicate titles, mapping mismatches |
+| 4 | `hevy:list-duplicates -- --fetch` | List duplicate custom exercise IDs to delete in the Hevy app (must be clean) |
+| 5 | `hevy:push -- <program>` | Upsert customs and routines (see flags below) |
+
+**Push all khoiphan21 programs** (validate + push + cache refresh):
+
+```bash
+npm run hevy:sync-khoiphan21
+```
+
+**CI (pull requests to `main`):** validates all bundles only—no push to Hevy. Run `hevy:sync-khoiphan21` locally when you want to publish.
+
+### How push avoids duplicates
+
+- Custom exercises resolve by **program/account `hevyId` in mapping first**, then a unique title match in the cache—not by blind POST when the cache is stale.
+- New customs are created only for slugs in `mapping.toCreate`, unless you pass `--allow-create`.
+- Routine push **adopts by title** or updates an existing id; it **errors** instead of creating a second routine when a same-title routine already exists in the folder.
+
+### Useful push flags
+
+| Flag | When to use |
+|------|-------------|
+| `--dry-run` | Preview without API writes |
+| `--allow-create` | Allow creating any unresolved custom (default: only `mapping.toCreate`) |
+| `--fetch` | Refresh exercise cache immediately before this push |
+| `--no-fetch` | Use on-disk cache only (errors if missing) |
+| `--recreate-routines --i-know-recreate` | After deleting all routines on Hevy; re-adopt by title |
+
+See [AGENTS.md](AGENTS.md) for the full command reference.
+
+### Troubleshooting
+
+- **Duplicate custom exercises on Hevy:** run `hevy:list-duplicates -- --fetch`, delete listed IDs in the app, then re-run the safe workflow.
+- **Orphan routines in a folder:** `npm run hevy:list-folder -- <program>` — remove extras in Hevy before pushing again.
+- **Regenerating `routines.json`:** use `preserveRoutineIds()` (see `scripts/build-gm2-routines.mjs`) so local routine ids are not wiped.
+- **Renamed custom in `custom-exercises.json`:** re-map, validate, delete the old template in Hevy manually; push will not add a second template without `--allow-create`.
 
 ## Documentation site
 

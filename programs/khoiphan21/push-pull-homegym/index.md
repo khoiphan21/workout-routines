@@ -2,6 +2,8 @@
 
 A 5-day split built for a **calisthenics station** (bar, rings, bench, bands) plus **Gym Monster 2** cable work—no commercial gym machines required. Run Power, Tempo, and Volume weeks with the same exercises; only progression, reps/sets, and (for Tempo) tempo change.
 
+**Gym Monster 2 only?** See [Push–Pull Gym Monster 2](../push-pull-gym-monster-2/) — same weekly structure with every calisthenics/band movement swapped for Smith and cable work on the GM2.
+
 ## Why this program
 
 - Strength first (heavy triples).
@@ -307,3 +309,14 @@ Approximate **hard sets per week** from GM2/cable work alone (power + skills add
 
 - **Research:** Partials at long muscle lengths can enhance hypertrophy in stretched positions.
 - **Where to use:** Chest Fly (bottom stretch), cable OHP or incline bench (bottom third), Nordic Curl (3 s eccentric). Optional; 1–2 exercises per session.
+
+## Sync to Hevy
+
+Hevy bundle: [`hevy/`](hevy/) (`routines.json`, `mapping.json`, `custom-exercises.json`).
+
+```bash
+npm run hevy:map -- push-pull-homegym
+npm run hevy:push -- push-pull-homegym
+```
+
+See [Hevy sync status](hevy/status.md) after mapping.

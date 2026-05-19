@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Fetch all exercise templates, routines, and routine folders from Hevy API
- * and save them as JSON files in libs/hevy/data/.
+ * and save them as JSON files in libs/hevy/cache/.
  *
  * Usage: node scripts/hevy-fetch-all.mjs
  * Requires: HEVY_API_KEY_KHOIPHAN21 (or HEVY_API_KEY)
@@ -16,23 +16,23 @@ import {
 } from '../libs/hevy/hevy-client.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = path.resolve(__dirname, '../libs/hevy/data');
+const CACHE_DIR = path.resolve(__dirname, '../libs/hevy/cache');
 
-function ensureDataDir() {
-  if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
+function ensureCacheDir() {
+  if (!fs.existsSync(CACHE_DIR)) {
+    fs.mkdirSync(CACHE_DIR, { recursive: true });
   }
 }
 
 function writeJson(filename, data) {
-  const filepath = path.join(DATA_DIR, filename);
+  const filepath = path.join(CACHE_DIR, filename);
   fs.writeFileSync(filepath, JSON.stringify(data, null, 2), 'utf8');
   console.log(`Wrote ${filepath}`);
 }
 
 async function main() {
   getHevyApiKey(); // validate early
-  ensureDataDir();
+  ensureCacheDir();
 
   console.log('Fetching exercise templates...');
   const exerciseTemplates = await fetchAllPaginated('exercise_templates', {
@@ -46,7 +46,7 @@ async function main() {
 
   console.log('Fetching routines...');
   const routines = await fetchAllPaginated('routines', { pageSize: 10 });
-  writeJson('routines.json', {
+  writeJson('routines-all.json', {
     fetchedAt: new Date().toISOString(),
     count: routines.length,
     data: routines,

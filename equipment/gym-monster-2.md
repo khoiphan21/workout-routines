@@ -52,13 +52,15 @@ An all-in-one smart home gym with electromagnetic resistance, combining a power 
 
 - **Rowing** — Horizontal pulling with AeroRow bench
 - **Cable rows** — Bent-over rows, single-arm rows, high-to-low rows
-- **Pulldowns** — Lat pulldowns, straight-arm pulldowns
+- **Pulldowns** — Lat pulldowns, straight-arm pulldowns (often kneeling; without a knee pad, heavy vertical load may cap near bodyweight—prefer **chest-supported cable rows** (mid pulleys on vertical bars) for heavy horizontal pulling)
+- **Chest-supported cable rows** — Mid pulleys on vertical bars (not floor platform); bench chest-on-pad; dual cable → cable row bar
 - **Curls** — Bicep curls, hammer curls
 - **Tricep work** — Tricep pushdowns, extensions (with tricep rope)
 - **Wood chops** — Single-arm wood chops, rotational work
 - **Leg work** — Leg curls, kickbacks, hip work (with ankle straps)
 - **Squats and presses** — With barbell hooks and bench
-- **Smith machine movements** — Squats, bench press, overhead press
+- **Smith machine movements** — Squats, bench press, overhead press, Romanian deadlift
+- **Quad hypertrophy** — Bulgarian split squat (cable), sissy squat (cable), split squat (Smith)—**not** a commercial leg-press machine
 
 ## Substitutes for
 

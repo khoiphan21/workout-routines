@@ -1,8 +1,38 @@
 {
-  "generatedAt": "2026-04-13T05:54:39.017Z",
-  "hevyTemplateCount": 457,
-  "repoExerciseCount": 49,
-  "matched": 50,
+  "generatedAt": "2026-05-18T23:55:14.606Z",
+  "programSlugs": [
+    "archer-pull-ups",
+    "back-lever-tuck-hold",
+    "band-assisted-high-pull-up",
+    "band-overhead-press",
+    "bar-muscle-up",
+    "barbell-bench-press",
+    "bodyweight-split-squat",
+    "cable-lateral-raise",
+    "chest-to-wall-handstand-hold",
+    "freestanding-handstand-hold",
+    "front-lever-hold",
+    "handstand-push-up",
+    "hollow-body-rock",
+    "incline-bench-press-cable-gm2",
+    "iron-cross-hold-progression",
+    "jumping-jacks",
+    "l-sit-hold",
+    "nordic-curl",
+    "overhead-band-triceps-extension",
+    "overhead-press-cable-gm2",
+    "pike-handstand-push-up",
+    "reverse-grip-lat-pulldown-cable",
+    "rings-hamstring-curl",
+    "sissy-squat-weighted",
+    "standing-calf-raise",
+    "straight-arm-band-pulldown",
+    "tuck-front-lever-row",
+    "v-ups",
+    "weighted-dip",
+    "weighted-pull-up"
+  ],
+  "matched": 35,
   "toCreate": [],
   "mapping": [
     {
@@ -15,23 +45,15 @@
     {
       "slug": "back-lever-tuck-hold",
       "repoTitle": "Back Lever Tuck Hold",
-      "hevyId": "0E608350",
-      "hevyTitle": "Front Lever Hold",
-      "matchScore": 0.55,
-      "proxyNote": "Power Week Pull B: log back lever tuck on front-lever hold template; see routine notes."
+      "hevyId": "87f5c5fe-6aaf-4249-ac9f-c63d960afed9",
+      "hevyTitle": "Back Lever Tuck Hold",
+      "matchScore": 1
     },
     {
       "slug": "band-assisted-high-pull-up",
       "repoTitle": "Band-assisted High Pull-Up",
       "hevyId": "463f2bbc-bc50-42ed-ba37-859ab0b4ea86",
       "hevyTitle": "Band-assisted High Pull-Up",
-      "matchScore": 1
-    },
-    {
-      "slug": "band-face-pull",
-      "repoTitle": "Band Face Pull",
-      "hevyId": "0678a629-dca3-493d-a8d9-6efd190e4378",
-      "hevyTitle": "Band Face Pull",
       "matchScore": 1
     },
     {
@@ -42,33 +64,18 @@
       "matchScore": 1
     },
     {
-      "slug": "band-lateral-raise",
-      "repoTitle": "Band Lateral Raise",
-      "hevyId": "ba0dbba0-26a8-4211-b2b2-4d6ed06c3e15",
-      "hevyTitle": "Band Lateral Raise",
-      "matchScore": 1
-    },
-    {
       "slug": "band-overhead-press",
       "repoTitle": "Band Overhead Press",
-      "hevyId": "878CD1D0",
-      "hevyTitle": "Shoulder Press (Dumbbell)",
-      "matchScore": 0.62,
-      "proxyNote": "Conditioning day: log band overhead press on dumbbell shoulder press template (zero or nominal load)."
-    },
-    {
-      "slug": "band-triceps-pressdown",
-      "repoTitle": "Band Triceps Pressdown",
-      "hevyId": "fc552e96-bf21-47e9-9ddd-36468f8c125d",
-      "hevyTitle": "Band Triceps Pressdown",
+      "hevyId": "c76b4dc2-1106-4a72-911f-44209a537b2c",
+      "hevyTitle": "Band Overhead Press",
       "matchScore": 1
     },
     {
       "slug": "bar-muscle-up",
       "repoTitle": "Bar Muscle Up",
-      "hevyId": "9F9C164B",
-      "hevyTitle": "Muscle Up",
-      "matchScore": 0.88
+      "hevyId": "56baa3e4-c30c-4bd3-91f7-9974978ffbac",
+      "hevyTitle": "Bar Muscle Up",
+      "matchScore": 1
     },
     {
       "slug": "barbell-bench-press",
@@ -80,10 +87,9 @@
     {
       "slug": "bodyweight-split-squat",
       "repoTitle": "Bodyweight Split Squat",
-      "hevyId": "5E1A7777",
-      "hevyTitle": "Lunge",
-      "matchScore": 0.7,
-      "proxyNote": "Conditioning: alternating split squat pattern logged as lunge."
+      "hevyId": "661704c4-0012-4a0f-ac4c-7c14afff15af",
+      "hevyTitle": "Bodyweight Split Squat",
+      "matchScore": 1
     },
     {
       "slug": "cable-lateral-raise",
@@ -100,24 +106,10 @@
       "matchScore": 1
     },
     {
-      "slug": "decline-ring-push-up",
-      "repoTitle": "Decline Ring Push-up",
-      "hevyId": "1a8e799e-20fa-4776-b1ae-5e24affa3c67",
-      "hevyTitle": "Decline Ring Push-up",
-      "matchScore": 1
-    },
-    {
       "slug": "dragon-flag-negatives",
       "repoTitle": "Dragon Flag Negatives",
       "hevyId": "4e0ac6fb-880b-4bcf-9dfa-a9bf2b7b1fb9",
       "hevyTitle": "Dragon Flag Negatives",
-      "matchScore": 1
-    },
-    {
-      "slug": "feet-elevated-inverted-row",
-      "repoTitle": "Feet-Elevated Inverted Row",
-      "hevyId": "a83dde48-834f-4422-a049-db17db6c2507",
-      "hevyTitle": "Feet-Elevated Inverted Row",
       "matchScore": 1
     },
     {
@@ -139,13 +131,6 @@
       "repoTitle": "Handstand Push-Up",
       "hevyId": "90B04F96",
       "hevyTitle": "Handstand Push Up",
-      "matchScore": 1
-    },
-    {
-      "slug": "hanging-knee-raises",
-      "repoTitle": "Hanging Knee Raises",
-      "hevyId": "19477b53-d27f-41b5-96e8-8c3da6db1b17",
-      "hevyTitle": "Hanging Knee Raises",
       "matchScore": 1
     },
     {
@@ -212,20 +197,6 @@
       "matchScore": 1
     },
     {
-      "slug": "pike-push-up",
-      "repoTitle": "Pike Push-up",
-      "hevyId": "0EFE8162",
-      "hevyTitle": "Pike Pushup",
-      "matchScore": 1
-    },
-    {
-      "slug": "pistol-squat",
-      "repoTitle": "Pistol Squat",
-      "hevyId": "3FF6A22E",
-      "hevyTitle": "Pistol Squat",
-      "matchScore": 1
-    },
-    {
       "slug": "reverse-fly-band",
       "repoTitle": "Reverse Fly (band)",
       "hevyId": "49b60968-dc7d-4615-ae61-dbb8f17e4e1b",
@@ -240,55 +211,11 @@
       "matchScore": 1
     },
     {
-      "slug": "ring-archer-push-up",
-      "repoTitle": "Ring Archer Push-Up",
-      "hevyId": "AEA56BDC",
-      "hevyTitle": "Ring Push Up",
-      "matchScore": 0.65,
-      "proxyNote": "Push B: archer variation logged on ring push-up template; see routine notes."
-    },
-    {
-      "slug": "ring-body-saw",
-      "repoTitle": "Ring Body Saw",
-      "hevyId": "66ae8bf1-7e65-4b56-9201-2cbdad0d8953",
-      "hevyTitle": "Ring Body Saw",
-      "matchScore": 1
-    },
-    {
-      "slug": "ring-flye",
-      "repoTitle": "Ring Flye",
-      "hevyId": "f0110aa1-bbd7-4d89-8347-ad5ed4734829",
-      "hevyTitle": "Ring Flye",
-      "matchScore": 1
-    },
-    {
       "slug": "ring-knee-tucks",
       "repoTitle": "Ring Knee Tucks",
       "hevyId": "02df5517-3542-4ce0-9a74-4996d21916ed",
       "hevyTitle": "Ring Knee Tucks",
       "matchScore": 1
-    },
-    {
-      "slug": "ring-push-up",
-      "repoTitle": "Ring Push-Up",
-      "hevyId": "AEA56BDC",
-      "hevyTitle": "Ring Push Up",
-      "matchScore": 1
-    },
-    {
-      "slug": "ring-row",
-      "repoTitle": "Ring Row",
-      "hevyId": "f2fac51e-7700-42d9-8f10-8feee8c99d9b",
-      "hevyTitle": "Ring Row",
-      "matchScore": 1
-    },
-    {
-      "slug": "ring-support-turned-out-hold",
-      "repoTitle": "Ring Support Turned-Out Hold",
-      "hevyId": "BE3615CF",
-      "hevyTitle": "Handstand Hold",
-      "matchScore": 0.5,
-      "proxyNote": "Push B: rings turned-out support hold logged on handstand hold template; see routine notes."
     },
     {
       "slug": "rings-hamstring-curl",
@@ -323,21 +250,13 @@
       "repoTitle": "Tuck Front-Lever Row",
       "hevyId": "f2fac51e-7700-42d9-8f10-8feee8c99d9b",
       "hevyTitle": "Ring Row",
-      "matchScore": 1,
-      "proxyNote": "Power Week Pull A: primary prescription is ring row (same Hevy template); use tuck front-lever row as progression when ring rows are easy."
+      "matchScore": 1
     },
     {
       "slug": "v-ups",
       "repoTitle": "V-Ups",
       "hevyId": "6BE68B62",
       "hevyTitle": "V Up",
-      "matchScore": 1
-    },
-    {
-      "slug": "weighted-chin-up",
-      "repoTitle": "Weighted Chin-Up",
-      "hevyId": "023943F1",
-      "hevyTitle": "Chin Up (Weighted)",
       "matchScore": 1
     },
     {

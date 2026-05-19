@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Fetch routines from Hevy API and save to libs/hevy/data/routines.json
+ * Fetch routines from Hevy API and save to libs/hevy/cache/routines-all.json
  *
  * Usage: node scripts/hevy-fetch-routines.mjs
  */
@@ -14,15 +14,15 @@ import {
 } from '../libs/hevy/hevy-client.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = path.resolve(__dirname, '../libs/hevy/data');
+const CACHE_DIR = path.resolve(__dirname, '../libs/hevy/cache');
 
 async function main() {
   getHevyApiKey();
-  if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+  if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
 
   const items = await fetchAllPaginated('routines', { pageSize: 10 });
   const data = { fetchedAt: new Date().toISOString(), count: items.length, data: items };
-  const outPath = path.join(DATA_DIR, 'routines.json');
+  const outPath = path.join(CACHE_DIR, 'routines-all.json');
   fs.writeFileSync(outPath, JSON.stringify(data, null, 2), 'utf8');
   console.log(`Wrote ${items.length} routines to ${outPath}`);
 }

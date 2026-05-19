@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-05-18T23:36:49.029Z",
+  "programSlugs": [
+    "bench-press-smith-pause-gm2",
+    "bulgarian-split-squat-cable-gm2",
+    "cable-lateral-raise",
+    "chest-fly-cable-gm2",
+    "chest-supported-row-cable-gm2",
+    "close-grip-bench-smith-gm2",
+    "incline-bench-press-cable-gm2",
+    "lat-pulldown-explosive-gm2",
+    "overhead-press-cable-gm2",
+    "overhead-press-cable-gm2-top-hold",
+    "reverse-grip-lat-pulldown-cable",
+    "romanian-deadlift-smith-gm2",
+    "seated-chest-fly-bottom-hold-gm2",
+    "sissy-squat-cable-gm2",
+    "smith-ohp-bottom-hold-gm2",
+    "split-squat-smith-gm2",
+    "standing-calf-raise-smith-gm2"
+  ],
+  "matched": 17,
+  "toCreate": [],
+  "mapping": [
+    {
+      "slug": "bench-press-smith-pause-gm2",
+      "repoTitle": "Bench Press (Smith Machine, 2s Pause)",
+      "hevyId": "4caa130c-5340-4db7-ac07-2aa2e888f43f",
+      "hevyTitle": "Bench Press (Smith Machine, 2s Pause)",
+      "matchScore": 1
+    },
+    {
+      "slug": "bulgarian-split-squat-cable-gm2",
+      "repoTitle": "Bulgarian Split Squat (Cable, Gym Monster 2)",
+      "hevyId": "5191953b-d4ba-4633-a1a3-29757dfdad46",
+      "hevyTitle": "Bulgarian Split Squat (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "cable-lateral-raise",
+      "repoTitle": "Lateral Raise (Cable)",
+      "hevyId": "BE289E45",
+      "hevyTitle": "Lateral Raise (Cable)",
+      "matchScore": 1
+    },
+    {
+      "slug": "chest-fly-cable-gm2",
+      "repoTitle": "Chest Fly (Cable, Gym Monster 2)",
+      "hevyId": "99af15e9-5e8b-405d-b894-785a6e81d421",
+      "hevyTitle": "Chest Fly (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "chest-supported-row-cable-gm2",
+      "repoTitle": "Chest-Supported Row (Cable, Gym Monster 2)",
+      "hevyId": "0f5cacc6-f905-42f4-a621-ba4d5f8cfd7a",
+      "hevyTitle": "Chest-Supported Row (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "close-grip-bench-smith-gm2",
+      "repoTitle": "Close-Grip Bench Press (Smith Machine)",
+      "hevyId": "1423bc22-c522-47e9-b361-d755c9be99ff",
+      "hevyTitle": "Close-Grip Bench Press (Smith Machine)",
+      "matchScore": 1
+    },
+    {
+      "slug": "incline-bench-press-cable-gm2",
+      "repoTitle": "Incline Bench Press (Cable, Gym Monster 2)",
+      "hevyId": "0bdabadd-dff1-40a8-8f3e-1f77e80daa10",
+      "hevyTitle": "Incline Bench Press (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "lat-pulldown-explosive-gm2",
+      "repoTitle": "Lat Pulldown (Cable) — Explosive",
+      "hevyId": "533ffc9c-669d-446f-b43f-30c2d5ea0042",
+      "hevyTitle": "Lat Pulldown (Cable) — Explosive",
+      "matchScore": 1
+    },
+    {
+      "slug": "overhead-press-cable-gm2",
+      "repoTitle": "Overhead Press (Cable, Gym Monster 2)",
+      "hevyId": "8917a840-6edb-498e-a59c-bae2b2da5eaa",
+      "hevyTitle": "Overhead Press (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "overhead-press-cable-gm2-top-hold",
+      "repoTitle": "Overhead Press (Cable, Gym Monster 2) — Top Hold",
+      "hevyId": "886c8ba5-c997-44e6-b3e7-d0f01f52ed16",
+      "hevyTitle": "Overhead Press (Cable, Gym Monster 2) — Top Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "reverse-grip-lat-pulldown-cable",
+      "repoTitle": "Reverse Grip Lat Pulldown (Cable)",
+      "hevyId": "046E25A2",
+      "hevyTitle": "Reverse Grip Lat Pulldown (Cable)",
+      "matchScore": 1
+    },
+    {
+      "slug": "romanian-deadlift-smith-gm2",
+      "repoTitle": "Romanian Deadlift (Smith Machine)",
+      "hevyId": "b4de0063-69bc-4bfe-a27b-1d8815fe5280",
+      "hevyTitle": "Romanian Deadlift (Smith Machine)",
+      "matchScore": 1
+    },
+    {
+      "slug": "seated-chest-fly-bottom-hold-gm2",
+      "repoTitle": "Seated Chest Fly (Cable) — Bottom Hold",
+      "hevyId": "946e69ee-fb64-4940-8808-332ebc44f7ff",
+      "hevyTitle": "Seated Chest Fly (Cable) — Bottom Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "sissy-squat-cable-gm2",
+      "repoTitle": "Sissy Squat (Cable, Gym Monster 2)",
+      "hevyId": "44f636fa-ee0e-4585-8ce5-7be01bbf20ae",
+      "hevyTitle": "Sissy Squat (Cable, Gym Monster 2)",
+      "matchScore": 1
+    },
+    {
+      "slug": "smith-ohp-bottom-hold-gm2",
+      "repoTitle": "Overhead Press (Smith Machine) — Bottom Hold",
+      "hevyId": "7fd41910-47c4-4e86-b86c-9c6cae1830ed",
+      "hevyTitle": "Overhead Press (Smith Machine) — Bottom Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "split-squat-smith-gm2",
+      "repoTitle": "Split Squat (Smith Machine)",
+      "hevyId": "c98c728c-195f-45e6-9480-727a57d9da85",
+      "hevyTitle": "Split Squat (Smith Machine)",
+      "matchScore": 1
+    },
+    {
+      "slug": "standing-calf-raise-smith-gm2",
+      "repoTitle": "Standing Calf Raise (Smith)",
+      "hevyId": "AA52E8D2",
+      "hevyTitle": "Standing Calf Raise (Smith)",
+      "matchScore": 1
+    }
+  ]
+}
