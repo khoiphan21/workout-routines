@@ -48,13 +48,10 @@
 - Banded Squat to Press — 1x10
 - Quadruped Thoracic Rotation — 1x10 per side
 
-📈 Power lift ramp-up sets (e.g. Weighted Pull-ups/Dips):
+📈 Power lift ramp-up sets:
 
-- Warm up set 1: Bodyweight 1x6.
-- Warm up set 2: Light weight or band assistance 1x3.
-- Warm up set 3: ~80% of work weight 1x2.
-- Warm up set 4: ~90% of work weight 1x1.
-- Then perform work sets (e.g., 3x3) with 3–4 min rest.
+- **Weighted Pull-Up (Pull A)—3 warm-ups:** Bodyweight 1×5 → light or band 1×3 → ~70% of work weight 1×2 → then 3×3 work sets (3–4 min rest).
+- **Dips / bench / chin—4 warm-ups:** Bodyweight 1×6 → light 1×3 → ~80% 1×2 → ~90% 1×1 → then work sets (3–4 min rest).
 
 🔄 If you attempt a progression and cannot meet the target today (applies to all exercises):
 

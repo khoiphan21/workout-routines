@@ -145,7 +145,7 @@ Planned deloads help **fatigue**; they may **not** maximize **peak strength** in
 ### Day 2 — Pull A
 
 - **Power:** Weighted Pull-Up — 3x3
-  - _Warm-up: bodyweight × 5, light load × 3, 50% × 3, 70% × 2, then work sets._
+  - _Warm-up (3 sets): bodyweight × 5, light load × 3, ~70% × 2, then work sets._
   - _Progression: add +2.5 kg next pull day after a clean 3x3._
   - _Rest 3-4 min._
 - **Skill block** (split for shoulder-girdle quality: pair, then separate row work)
@@ -250,11 +250,13 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 
 ### Power — warm-up sets
 
-- Before work sets: bodyweight × 5, light load × 3, 50% × 3, 70% × 2, then work sets.
+- **Weighted Pull-Up (Pull A):** 3 warm-ups—bodyweight × 5, light load × 3, ~70% × 2, then work sets.
+- **Other power lifts** (dip, bench, chin): bodyweight × 5, light load × 3, 50% × 3, 70% × 2, then work sets.
 - Adapt as needed (e.g. band-assisted pull-up as "light load" if unweighted is heavy).
 
 ### Weighted Pull-Up
 
+- **Warm-up (Pull A):** 3 sets only—bodyweight × 5, light load × 3, ~70% × 2, then 3×3 work sets.
 - **Progression:** add +2.5 kg next session after a clean 3x3.
 
 ### Front Lever (rings) — ladder

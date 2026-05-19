@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-18T23:55:25.944Z",
+  "fetchedAt": "2026-05-19T23:38:33.526Z",
   "source": "programs/khoiphan21/push-pull-homegym",
   "count": 16,
   "data": [
@@ -392,7 +392,7 @@
         {
           "index": 1,
           "title": "Pull Up (Weighted)",
-          "notes": "Power: 3x3. Rest 3–4 min. Progress +2.5 kg after a clean 3x3.\nRamp: bodyweight × 5, light × 3, ~50% × 3, ~70% × 2, then work sets.",
+          "notes": "Power: 3x3. Rest 3–4 min. Progress +2.5 kg after a clean 3x3.\nRamp (3 warm-ups): bodyweight × 5, light × 3, ~70% × 2, then work sets.",
           "exercise_template_id": "729237D1",
           "superset_id": null,
           "sets": [
@@ -418,16 +418,16 @@
               "index": 2,
               "type": "warmup",
               "weight_kg": null,
-              "reps": 3,
+              "reps": 2,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
             },
             {
               "index": 3,
-              "type": "warmup",
+              "type": "normal",
               "weight_kg": null,
-              "reps": 2,
+              "reps": 3,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -443,15 +443,6 @@
             },
             {
               "index": 5,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 3,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 6,
               "type": "normal",
               "weight_kg": null,
               "reps": 3,
