@@ -1,15 +1,12 @@
-name: Hevy sync (khoiphan21)
+name: Hevy validate (khoiphan21)
 
 on:
   pull_request:
     branches:
       - main
 
-permissions:
-  contents: write
-
 concurrency:
-  group: hevy-sync-${{ github.event.pull_request.number }}
+  group: hevy-validate-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
@@ -34,41 +31,3 @@ jobs:
 
       - name: Validate all khoiphan21 programs
         run: npm run hevy:sync-khoiphan21 -- --validate-only
-
-  push:
-    name: Push routines to Hevy
-    needs: validate
-    runs-on: ubuntu-latest
-    # Secrets are not passed to workflows from fork PRs; push only for same-repo PRs.
-    if: github.event.pull_request.head.repo.full_name == github.repository
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Push all khoiphan21 programs to Hevy
-        env:
-          HEVY_API_KEY_KHOIPHAN21: ${{ secrets.HEVY_API_KEY_KHOIPHAN21 }}
-          CI: 'true'
-          HEVY_API_DELAY_MS: '800'
-        run: npm run hevy:sync-khoiphan21 -- --push-only
-
-      - name: Commit Hevy bundle updates
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'ci: sync Hevy bundles for khoiphan21'
-          file_pattern: |
-            libs/hevy/account/khoiphan21/**
-            libs/hevy/cache/exercise-templates.json
-            programs/khoiphan21/**/hevy/**

@@ -52,11 +52,13 @@ npm run hevy:push -- <program>
 | 4 | `hevy:list-duplicates -- --fetch` | List duplicate custom exercise IDs to delete in the Hevy app (must be clean) |
 | 5 | `hevy:push -- <program>` | Upsert customs and routines (see flags below) |
 
-**Push all khoiphan21 programs** (validate + push + cache refresh, as in CI):
+**Push all khoiphan21 programs** (validate + push + cache refresh):
 
 ```bash
 npm run hevy:sync-khoiphan21
 ```
+
+**CI (pull requests to `main`):** validates all bundles only—no push to Hevy. Run `hevy:sync-khoiphan21` locally when you want to publish.
 
 ### How push avoids duplicates
 

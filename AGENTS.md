@@ -13,7 +13,7 @@ This is a VitePress static documentation site for a workout program. There is on
 - **Push to Hevy:** `npm run hevy:push -- <program>` — program path required (e.g. `push-pull-homegym`). Validates bundle, resolves custom exercises by **mapping id first** (not cache title alone), reconciles routine IDs, then upserts. **Does not POST new exercises** unless they are in `mapping.toCreate` or you pass `--allow-create`. Auto-fetches exercise cache unless `--no-fetch`. Requires `HEVY_API_KEY_KHOIPHAN21` or `HEVY_API_KEY`.
 - **Validate bundle:** `npm run hevy:validate -- <program>` — checks enums, duplicate Hevy titles for customs, mapping/title consistency, and cache coverage (reads `libs/hevy/cache/exercise-templates.json` only).
 - **Sync all khoiphan21 programs:** `npm run hevy:sync-khoiphan21` — account duplicate check, validate each program, push with shared in-memory template index, post-push cache refresh. Flags: `--validate-only`, `--push-only`, plus forwarded push flags.
-- **CI:** On pull requests to `main`, workflow [`.github/workflows/hevy-sync-khoiphan21.yml`](.github/workflows/hevy-sync-khoiphan21.yml) validates all bundles, refreshes cache, pushes to Hevy (same-repo PRs only) with throttling. Commits updated `hevy/` JSON and cache back to the PR branch. Requires GitHub secret `HEVY_API_KEY_KHOIPHAN21`.
+- **CI:** On pull requests to `main`, workflow [`.github/workflows/hevy-sync-khoiphan21.yml`](.github/workflows/hevy-sync-khoiphan21.yml) validates all khoiphan21 bundles only (no API push). Push to Hevy is manual via the safe workflow below.
 - **Map exercises:** `npm run hevy:map -- <program>` — updates `hevy/mapping.json` and `hevy/status.md`. Custom slugs use [`libs/hevy/template-index.mjs`](libs/hevy/template-index.mjs) (fails on ambiguous duplicate titles). Optional `--fetch`.
 - **Push flags:**
   - `--dry-run` — no API writes
@@ -43,6 +43,6 @@ npm run hevy:push -- <program>   # add --allow-create if mapping has toCreate
 - **Hevy cache:** `libs/hevy/cache/exercise-templates.json`. Stale cache warning after 24h (`HEVY_CACHE_MAX_AGE_MS` to override). **Account mapping:** `libs/hevy/account/khoiphan21/exercise-mapping.json`.
 - **Build:** `npm run docs:build` — outputs to `.vitepress/dist`.
 - **Preview built site:** `npm run docs:preview` — serves the production build locally.
-- **CI (PRs to main):** `hevy-sync-khoiphan21` validates and pushes all khoiphan21 Hevy bundles; `deploy-docs` builds the site on push to main.
+- **CI (PRs to main):** `hevy-sync-khoiphan21` validates all khoiphan21 Hevy bundles; `deploy-docs` builds the site on push to main.
 - The VitePress config at `.vitepress/config.mts` auto-generates sidebar navigation from all `.md` files in the repo (excluding `node_modules`, `.git`, `.github`, `.cursor`, `dist`).
 - `index.md` is a symlink to `README.md` — this is required for the VitePress dev server to serve the homepage at `/`.
