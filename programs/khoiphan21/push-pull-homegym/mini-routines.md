@@ -78,7 +78,7 @@ Superset 1 → 2; 60–75 s after reverse fly each round.
 
 #### Mini Push A: Fly & Triceps
 
-*Chest + triceps. ~10 min.*
+*Chest + triceps giant set on Push A main routine (H3–H4); same pairing here for optional extra volume.*
 
 | # | Exercise | Sets × Reps | Notes |
 |---|----------|-------------|-------|

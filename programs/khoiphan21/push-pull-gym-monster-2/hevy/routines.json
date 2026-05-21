@@ -170,7 +170,7 @@
         {
           "index": 4,
           "title": "Bulgarian Split Squat (Cable, Gym Monster 2)",
-          "notes": "Hypertrophy H1: 3×8/side (GM2 cable handle). Superset with chest fly.",
+          "notes": "Hypertrophy H1: 3×8/side on GM2 floor platform (both sides). Superset with chest fly.",
           "exercise_template_id": "5191953b-d4ba-4633-a1a3-29757dfdad46",
           "superset_id": 2,
           "sets": [
@@ -244,7 +244,7 @@
         {
           "index": 6,
           "title": "Sissy Squat (Cable, Gym Monster 2)",
-          "notes": "Hypertrophy H3: 3×12/side. Low pulley ~1–3, anchored feet, cable handle or belt. Superset with hammer curl.",
+          "notes": "Hypertrophy H3: 3×12/side on GM2 floor platform (same side). Anchored feet; cable handle or belt. Superset with hammer curl.",
           "exercise_template_id": "44f636fa-ee0e-4585-8ce5-7be01bbf20ae",
           "superset_id": 3,
           "sets": [

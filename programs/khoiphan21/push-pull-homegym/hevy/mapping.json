@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T23:38:23.211Z",
+  "generatedAt": "2026-05-21T02:32:02.066Z",
   "programSlugs": [
     "archer-pull-ups",
     "back-lever-tuck-hold",
@@ -29,10 +29,11 @@
     "straight-arm-band-pulldown",
     "tuck-front-lever-row",
     "v-ups",
+    "warmup-general-power-week",
     "weighted-dip",
     "weighted-pull-up"
   ],
-  "matched": 35,
+  "matched": 36,
   "toCreate": [],
   "mapping": [
     {
@@ -257,6 +258,13 @@
       "repoTitle": "V-Ups",
       "hevyId": "6BE68B62",
       "hevyTitle": "V Up",
+      "matchScore": 1
+    },
+    {
+      "slug": "warmup-general-power-week",
+      "repoTitle": "Warmup: Pull - Power Week",
+      "hevyId": "b33075d5-4d97-4f79-b530-70eb75498eb3",
+      "hevyTitle": "Warmup: Pull - Power Week",
       "matchScore": 1
     },
     {

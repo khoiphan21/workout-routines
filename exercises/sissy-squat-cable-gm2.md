@@ -6,7 +6,7 @@ Knee-extension quad work on the GM2 cable stack—replaces **Single Leg Press** 
 
 | Setting | Value |
 |---------|--------|
-| **Pulleys** | Low on vertical bars, **~level 1–3** (same side) |
+| **Pulleys** | **Floor platform** anchor (same side as working leg; low platform—not vertical bars) |
 | **Attachment** | Smart PowerGrip handle (one hand) or belt/strap clipped to low cable |
 | **Anchor** | Balls of feet against Smith upright or fixed wedge; torso tall |
 

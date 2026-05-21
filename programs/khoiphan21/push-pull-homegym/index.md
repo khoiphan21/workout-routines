@@ -52,6 +52,7 @@ A 5-day split built for a **calisthenics station** (bar, rings, bench, bands) pl
   - Banded Bent-Over Rows — 1x10
   - Banded Squat to Press — 1x10
   - Quadruped Thoracic Rotation — 1x10 per side
+- **Hevy (Power Week main days):** log one **Warmup: Pull - Power Week** duration set (**7 min / 420 s**) at the start of each main day (same band protocol on all days). Power ramps stay on the power lift only (pull-up/dip: 3 warm-ups; bench: 4 warm-ups on Push B).
 - **Power triples:** ~85–90% of the day's triple; 1 rep in reserve on the first 2 sets.
 - **Hypertrophy:** RPE 8–9 (1–2 reps in reserve).
 - **Weekly balance:** Over a **microcycle (one week)**, spread **direct** hypertrophy volume so major areas (chest, back/lats, shoulders, arms, legs, calves, abs) each get meaningful work at **2×/week** where possible. **≥10 hard sets / muscle / week** (from `research/strength-hypertrophy.md`) should include **power + skills + GM2** using a transparent count (see **Hard sets — how to count** below)—not table estimates alone.
@@ -128,19 +129,23 @@ Planned deloads help **fatigue**; they may **not** maximize **peak strength** in
 ### Day 1 — Push A
 
 - **Power:** Weighted Dip — 3x3 (belted)
-  - _Warm-up: bodyweight × 5, light load × 3, 50% × 3, 70% × 2, then work sets._
+  - _Warm-up (3 sets): bodyweight × 5, light load × 3, ~70% × 2, then work sets._
   - _Rest 3-4 min._
 - **Skill superset** (non-competing: ring hold line ↔ vertical press)
   - A1: Iron Cross Hold Progression — 3x10 s
-  - A2: Pike Handstand Push-Up (elevated feet) — 3x3
+  - A2: Handstand Push-Up (wall) — 3x3  
+    _Next step after easy **pike HSPU (elevated feet)**; chest-to-wall or back-to-wall. Regress to higher pike or partial ROM if lockout is shaky._
   - _A1 then A2 with minimal rest; **60–75 s** after A2 before repeating the pair._
-- **Hypertrophy + Abs (Gym Monster 2)** — *paired to spread shoulder/triceps fatigue across the week*
-  - **H1:** Bulgarian Split Squat (Cable) — 3x8 per side → **H2:** Chest Fly (Cable) — 3x12  
-    _Quad/glute work, then chest isolation; **60–75 s** after H2._
-  - **H3:** Sissy Squat (weighted or bodyweight) — 3x12 → **H4:** Lateral Raise (Cable) — 3x12  
-    _Quad-focused knee-extension pattern without a leg-extension machine (belt or plate held at chest); pair with side-delt work—**60–75 s** after H4._
-  - Cable Crunch — 3x15  
-    _Single; **60 s** before/after as needed._
+- **Quad primer** (last stop at the calisthenics station before GM2)
+  - Sissy Squat (weighted or bodyweight) — 3×12  
+    _Anchored feet, plate/belt optional; knee-extension emphasis vs BSS split pattern. **60–75 s** between sets._
+- **Hypertrophy + Abs (Gym Monster 2)** — *after sissy, move to GM2 and do not return to rings/bar*
+  - **H1:** Bulgarian Split Squat (Cable) — 3x8 per side → **H2:** Lateral Raise (Cable) — 3x12  
+    _Both on **GM2 floor platform**—same anchor zone; **60–75 s** after H2._
+  - **H3:** Chest Fly (Cable) — 3×12 → **H4:** Overhead Triceps Extension (Cable) — 3×15  
+    _Chest fly mid pulleys (**handles**), then OH tri high pulley (**rope**); raise pulleys or swap attachment between moves; **60–75 s** after H4._
+  - [Hollow Body Rock](../../../exercises/hollow-body-rock.md) — 3×20 s  
+    _Floor / yoga mat at GM2—equipment-free abs; low back stays down._
 
 ### Day 2 — Pull A
 
@@ -240,7 +245,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 
 ## Canonical exercise list (used in every week)
 
-- **Push A:** Weighted Dip; Iron Cross Hold Progression; Pike Handstand Push-Up; Bulgarian Split Squat (GM2); Chest Fly (GM2); Sissy Squat (weighted/BW); Lateral Raise (Cable, GM2); Cable Crunch (GM2).
+- **Push A:** Weighted Dip; Iron Cross Hold Progression; Handstand Push-Up (wall); Sissy Squat (weighted/BW); Bulgarian Split Squat (GM2); Lateral Raise (Cable, GM2); Chest Fly (GM2); Overhead Triceps Extension (Cable, GM2); Hollow Body Rock.
 - **Pull A:** Weighted Pull-Up; Front Lever Hold; Band-assisted High Pull-Up; Ring Row; Face Pull (GM2); Cable Row (GM2); Bicep Curl (Cable, GM2); Cable Crunch (GM2).
 - **Conditioning:** Ring Row; Band Overhead Press; Bodyweight Split Squat; Hollow Body Rock; Jumping Jacks; Band Straight-Arm Pulldown; L-Sit Hold; V-Ups.
 - **Push B:** Barbell Bench Press (pause); Chest-to-Wall Handstand Hold; Wall Handstand Push-Up; Freestanding Handstand Hold; Overhead Press (Cable, GM2); Incline Bench Press (Cable, GM2); Overhead Triceps Extension (GM2); Cable Crunch (GM2).
@@ -251,8 +256,20 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 ### Power — warm-up sets
 
 - **Weighted Pull-Up (Pull A):** 3 warm-ups—bodyweight × 5, light load × 3, ~70% × 2, then work sets.
-- **Other power lifts** (dip, bench, chin): bodyweight × 5, light load × 3, 50% × 3, 70% × 2, then work sets.
+- **Weighted Dip (Push A):** 3 warm-ups—bodyweight × 5, light load × 3, ~70% × 2, then work sets.
+- **Other power lifts** (bench on Push B): empty bar × 8–10, ~50% × 3, ~70% × 2, ~85% × 1, then work sets.
 - Adapt as needed (e.g. band-assisted pull-up as "light load" if unweighted is heavy).
+
+### Weighted Dip
+
+- **Warm-up (Push A):** 3 sets only—bodyweight × 5, light load × 3, ~70% × 2, then 3×3 work sets.
+- **Progression:** add +2.5 kg after a clean 3×3 (same rule as weighted pull-up).
+
+### Handstand push-up (Push A skill)
+
+- **Current:** wall **Handstand Push-Up** 3×3 paired with iron cross hold.
+- **Previous step:** pike HSPU with elevated feet 3×3 (see [pike progression](../../../exercises/pike-handstand-push-up.md)).
+- **Push B** still runs the full handstand triplet (hold + HSPU + freestanding)—Push A is the strength slot for vertical pressing volume.
 
 ### Weighted Pull-Up
 
@@ -277,9 +294,9 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 ### Hypertrophy blocks — Gym Monster 2 (all days)
 
 - All hypertrophy work is on Gym Monster 2 for easier progressive overload tracking (0.5 kg increments).
-- Do calisthenics skills first (outside), then move to GM2 and complete the hypertrophy block without going back.
+- Do calisthenics skills first (outside), then move to GM2 and complete the hypertrophy block **and Push A abs** without going back to the calisthenics station.
 - **Pull A:** Face Pull; Cable Row; Bicep Curl (Cable); Cable Crunch.
-- **Push A:** Bulgarian Split Squat; Chest Fly; Sissy Squat; Lateral Raise (Cable); Cable Crunch.
+- **Push A:** Sissy Squat; Bulgarian Split Squat; Lateral Raise (Cable); Chest Fly; Overhead Triceps Extension; Hollow Body Rock (floor at GM2).
 - **Push B:** Overhead Press (Cable, GM2); Incline Bench Press (Cable, GM2); Overhead Triceps Extension; Cable Crunch.
 - **Pull B:** Seated Cable Row (Wide Grip); Reverse Fly; Reverse Grip Lat Pulldown; Cable Crunch (paired blocks per day summary).
 
@@ -292,12 +309,12 @@ Approximate **hard sets per week** from GM2/cable work alone (power + skills add
 | Chest | Fly | Incline | — | — | — |
 | Back / lats | — | — | Row | Row, high row | Ring row, band pulldown |
 | Shoulders (incl. rear) | Lateral raise | OHP | Face pull | Rev fly | Band OH press |
-| Triceps | — | OH extension | — | — | — |
+| Triceps | OH extension | OH extension | — | — | — |
 | Biceps | — | — (optional Mini Push C) | Cable curl | — | — |
 | Quads | BSS, sissy squat | — | Split squat | — | Split squat |
 | Hamstrings | — | — | — | Nordic (skill) | — |
 | Calves | — | — | — | — | Jumping jacks* |
-| Abs | Crunch | Crunch | Crunch | Crunch (paired w/ row) | L-sit, V-up, hollow |
+| Abs | Hollow body rock | Crunch | Crunch | Crunch (paired w/ row) | L-sit, V-up, hollow |
 
 \*Conditioning is lower-threshold; count separately if tracking volume. Jumping jacks are not a default **hard set** for calves unless run at high RPE.
 

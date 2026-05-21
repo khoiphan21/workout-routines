@@ -1,6 +1,15 @@
 # Lateral Raise (Cable)
 
-Side-delt isolation on a cable stack (Gym Monster 2 or crossover). Used on **Push A** after sissy squat so **Push B** can keep GM2 work to **OHP + incline giant** and triceps isolation without duplicating lateral work.
+Side-delt isolation on a cable stack (Gym Monster 2 or crossover). Used on **Push A** paired with Bulgarian split squat so **Push B** can keep GM2 work to **OHP + incline giant** and triceps isolation without duplicating lateral work.
+
+## Pulley setup (GM2)
+
+| Setting | Value |
+|---------|--------|
+| **Pulleys** | **Floor platform** anchors (both sides, low platform—not vertical bars) |
+| **Attachment** | Smart PowerGrip handle (one or two; cross-body or bilateral as prescribed) |
+
+On a crossover, use the lowest pulley setting instead.
 
 ## How to perform
 
@@ -9,4 +18,4 @@ Side-delt isolation on a cable stack (Gym Monster 2 or crossover). Used on **Pus
 
 ## Prescription
 
-- **Power Week:** 3x12, RPE 8–9, superset with sissy squat on Push A.
+- **Power Week:** 3x12, RPE 8–9, superset with Bulgarian split squat on Push A.

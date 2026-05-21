@@ -6,7 +6,7 @@ Single-leg squat with rear foot elevated—loaded via low cable on the GM2 stack
 
 | Setting | Value |
 |---------|--------|
-| **Pulleys** | **~level 2–4** on vertical bars (low) |
+| **Pulleys** | **Floor platform** anchors (both sides, low platform—not vertical bars) |
 | **Attachment** | One Smart PowerGrip handle (same-side hand as front leg) |
 | **Bench** | Rear foot on Works / Works Plus |
 

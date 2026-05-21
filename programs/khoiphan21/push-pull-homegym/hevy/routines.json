@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-19T23:38:33.526Z",
+  "fetchedAt": "2026-05-21T02:32:18.393Z",
   "source": "programs/khoiphan21/push-pull-homegym",
   "count": 16,
   "data": [
@@ -12,18 +12,18 @@
       "exercises": [
         {
           "index": 0,
-          "title": "General Notes & Warm-Up ",
-          "notes": "Pull–Push Home Gym — Power Week\n\nHypertrophy finish: Gym Monster 2 cable block (60 s between moves; complete at GM2 without returning to calisthenics station).\n\nPower triples: ~85–90% of today's best triple; 1 RIR on the first 2 work sets. Do not superset power work.\n\nSkills / holds: pick a level with clean positions and 1–2 s in reserve on timed holds.\n\nGeneral warm-up (every day):\nBand Pull-Aparts — 1x10; Band Dislocates — 1x10; Banded Scapular Protraction — 1x10; Banded Shoulder External Rotation — 1x10; Banded One-Arm Triceps Overhead Press — 1x10 per side; Banded RDLs — 1x10; Banded Bent-Over Rows — 1x10; Banded Squat to Press — 1x10; Quadruped Thoracic Rotation — 1x10 per side.\n\nPower ramp (weighted pull/chin/dip): bodyweight × 5, light load × 3, ~50% × 3, ~70% × 2, then work sets. Rest 3–4 min on power work.\n\nSee programs/khoiphan21/push-pull-homegym for progression, tempo/volume week rules, and skill ladders.",
-          "exercise_template_id": "2e6c1b67-6b65-4467-a325-7e718fefc65a",
+          "title": "Warmup: General - Power Week",
+          "notes": "Pull–Push Home Gym — Power Week\n\nFlow: calisthenics (power + skills + sissy squat) → GM2 cable block + hollow rock abs. Do not return to rings/bar after GM2 starts.\n\nPower triples: ~85–90% of today's best triple; 1 RIR on the first 2 work sets. Do not superset power work.\n\nSkills / holds: pick a level with clean positions and 1–2 s in reserve on timed holds.\n\nGeneral warm-up (~7 min, log as duration):\nBand Pull-Aparts — 1x10; Band Dislocates — 1x10; Banded Scapular Protraction — 1x10; Banded Shoulder External Rotation — 1x10; Banded One-Arm Triceps Overhead Press — 1x10 per side; Banded RDLs — 1x10; Banded Bent-Over Rows — 1x10; Banded Squat to Press — 1x10; Quadruped Thoracic Rotation — 1x10 per side.\n\nPower ramp (first heavy lift only): weighted pull-up / weighted dip — bodyweight × 5, light × 3, ~70% × 2; bench — empty bar × 8–10, ~50% × 3, ~70% × 2, ~85% × 1. Rest 3–4 min on power work.\n\nSee programs/khoiphan21/push-pull-homegym for progression, tempo/volume week rules, and skill ladders.",
+          "exercise_template_id": "b33075d5-4d97-4f79-b530-70eb75498eb3",
           "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 1,
+              "reps": null,
               "distance_meters": null,
-              "duration_seconds": null,
+              "duration_seconds": 420,
               "custom_metric": null
             }
           ],
@@ -32,7 +32,7 @@
         {
           "index": 1,
           "title": "Weighted Dip",
-          "notes": "Power: 3x3 (belted). Rest 3–4 min.\nPause variation on Push B day (see that routine).\nRamp: bodyweight × 5, light × 3, ~50% × 3, ~70% × 2, then work sets.",
+          "notes": "Power: 3x3 (belted). Rest 3–4 min.\nPause variation on Push B day (see that routine).\nRamp (3 warm-ups): bodyweight × 5, light × 3, ~70% × 2, then work sets.",
           "exercise_template_id": "f38313ef-01ce-4d91-8700-e12b2d7e9f84",
           "superset_id": null,
           "sets": [
@@ -58,16 +58,16 @@
               "index": 2,
               "type": "warmup",
               "weight_kg": null,
-              "reps": 3,
+              "reps": 2,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
             },
             {
               "index": 3,
-              "type": "warmup",
+              "type": "normal",
               "weight_kg": null,
-              "reps": 2,
+              "reps": 3,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -83,15 +83,6 @@
             },
             {
               "index": 5,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 3,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 6,
               "type": "normal",
               "weight_kg": null,
               "reps": 3,
@@ -141,9 +132,9 @@
         },
         {
           "index": 3,
-          "title": "Pike Handstand Push-Up (elevated feet)",
-          "notes": "Skill superset A2: Pike HSPU elevated 3x3. Paired with iron cross hold; 60–75 s rest after this exercise each round.",
-          "exercise_template_id": "a416a14b-519b-4a6a-b7b6-949c3fb25997",
+          "title": "Handstand Push Up",
+          "notes": "Skill superset A2: Wall HSPU 3×3 (after easy elevated pike). Paired with iron cross hold; regress to pike or partial ROM if needed. 60–75 s rest after this exercise each round.",
+          "exercise_template_id": "90B04F96",
           "superset_id": 0,
           "sets": [
             {
@@ -178,8 +169,45 @@
         },
         {
           "index": 4,
+          "title": "Sissy Squat (Weighted)",
+          "notes": "Quad pre-GM2: 3×12 (sissy stand; plate/belt or GM2 floor-platform cable). Single exercise—60–75 s between sets. Then start GM2 block (no return to rings/bar).",
+          "exercise_template_id": "F5DEF1EB",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        },
+        {
+          "index": 5,
           "title": "Bulgarian Split Squat (Cable)",
-          "notes": "Hypertrophy H1: 3x8/side. Superset with chest fly; 0 s before H2; 60–75 s after H2 each round.",
+          "notes": "Hypertrophy H1: 3×8/side on GM2 floor platform (both sides). Superset with lateral raise (same anchor zone); 0 s before H2; 60–75 s after H2 each round.",
           "exercise_template_id": "B5D3A742",
           "superset_id": 2,
           "sets": [
@@ -214,10 +242,10 @@
           "rest_seconds": 0
         },
         {
-          "index": 5,
-          "title": "Chest Fly (Cable)",
-          "notes": "Hypertrophy H2: 3x12. End of push/leg–chest pair.",
-          "exercise_template_id": "651F844C",
+          "index": 6,
+          "title": "Lateral Raise (Cable)",
+          "notes": "Hypertrophy H2: 3×12 side delt on GM2 floor platform (both sides). Paired with BSS—same anchor zone; 60–75 s after this exercise each round.",
+          "exercise_template_id": "BE289E45",
           "superset_id": 2,
           "sets": [
             {
@@ -251,10 +279,10 @@
           "rest_seconds": 75
         },
         {
-          "index": 6,
-          "title": "Sissy Squat (Weighted)",
-          "notes": "Hypertrophy H3: 3x12 quad emphasis (sissy stand / anchored feet; plate or belt). Superset with lateral raise—side delt work lives on Push A; hammer curl moves to Push B incline pair.",
-          "exercise_template_id": "F5DEF1EB",
+          "index": 7,
+          "title": "Chest Fly (Cable)",
+          "notes": "Hypertrophy H3: 3×12 mid pulleys (handles). Giant with OH triceps extension—swap to high pulley + rope for H4; 60–75 s after H4.",
+          "exercise_template_id": "651F844C",
           "superset_id": 3,
           "sets": [
             {
@@ -288,17 +316,17 @@
           "rest_seconds": 0
         },
         {
-          "index": 7,
-          "title": "Lateral Raise (Cable)",
-          "notes": "Hypertrophy H4: 3x12 side delt (GM2). Paired with sissy squat to spread fatigue; **60–75 s** after this exercise each round. Biceps: hammer curl on Push B.",
-          "exercise_template_id": "BE289E45",
+          "index": 8,
+          "title": "Overhead Triceps Extension (Cable)",
+          "notes": "Hypertrophy H4: 3×15 long-head triceps (high pulley, rope). End of fly + tri pair; 60–75 s after extension.",
+          "exercise_template_id": "B5EFBF9C",
           "superset_id": 3,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 12,
+              "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -307,7 +335,7 @@
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": 12,
+              "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -316,7 +344,7 @@
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": 12,
+              "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -325,37 +353,37 @@
           "rest_seconds": 75
         },
         {
-          "index": 8,
-          "title": "Cable Crunch",
-          "notes": "Abs: 3x15. Single exercise; 60 s before next round if repeating.",
-          "exercise_template_id": "23A48484",
+          "index": 9,
+          "title": "Hollow Rock",
+          "notes": "Abs: 3×20 s on floor/yoga mat at GM2. Equipment-free; low back pressed down.",
+          "exercise_template_id": "970ADF87",
           "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": null,
               "distance_meters": null,
-              "duration_seconds": null,
+              "duration_seconds": 20,
               "custom_metric": null
             },
             {
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": null,
               "distance_meters": null,
-              "duration_seconds": null,
+              "duration_seconds": 20,
               "custom_metric": null
             },
             {
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": null,
               "distance_meters": null,
-              "duration_seconds": null,
+              "duration_seconds": 20,
               "custom_metric": null
             }
           ],
@@ -372,8 +400,8 @@
       "exercises": [
         {
           "index": 0,
-          "title": "Warmup: Pull - Power Week",
-          "notes": "Pull–Push Home Gym — Power Week\n\nHypertrophy finish: Gym Monster 2 cable block (60 s between moves; complete at GM2 without returning to calisthenics station).\n\nPower triples: ~85–90% of today's best triple; 1 RIR on the first 2 work sets. Do not superset power work.\n\nSkills / holds: pick a level with clean positions and 1–2 s in reserve on timed holds.\n\nGeneral warm-up (every day):\nBand Pull-Aparts — 1x10; Band Dislocates — 1x10; Banded Scapular Protraction — 1x10; Banded Shoulder External Rotation — 1x10; Banded One-Arm Triceps Overhead Press — 1x10 per side; Banded RDLs — 1x10; Banded Bent-Over Rows — 1x10; Banded Squat to Press — 1x10; Quadruped Thoracic Rotation — 1x10 per side.\n\nPower ramp (weighted pull/chin/dip): bodyweight × 5, light load × 3, ~50% × 3, ~70% × 2, then work sets. Rest 3–4 min on power work.\n\nSee programs/khoiphan21/push-pull-homegym for progression, tempo/volume week rules, and skill ladders.",
+          "title": "Warmup: General - Power Week",
+          "notes": "Pull–Push Home Gym — Power Week\n\nHypertrophy finish: Gym Monster 2 cable block (60 s between moves; complete at GM2 without returning to calisthenics station).\n\nPower triples: ~85–90% of today's best triple; 1 RIR on the first 2 work sets. Do not superset power work.\n\nSkills / holds: pick a level with clean positions and 1–2 s in reserve on timed holds.\n\nGeneral warm-up (~7 min, log as duration):\nBand Pull-Aparts — 1x10; Band Dislocates — 1x10; Banded Scapular Protraction — 1x10; Banded Shoulder External Rotation — 1x10; Banded One-Arm Triceps Overhead Press — 1x10 per side; Banded RDLs — 1x10; Banded Bent-Over Rows — 1x10; Banded Squat to Press — 1x10; Quadruped Thoracic Rotation — 1x10 per side.\n\nPower ramp (first heavy lift only): weighted pull-up / weighted dip — bodyweight × 5, light × 3, ~70% × 2; bench — empty bar × 8–10, ~50% × 3, ~70% × 2, ~85% × 1. Rest 3–4 min on power work.\n\nSee programs/khoiphan21/push-pull-homegym for progression, tempo/volume week rules, and skill ladders.",
           "exercise_template_id": "b33075d5-4d97-4f79-b530-70eb75498eb3",
           "superset_id": null,
           "sets": [
@@ -723,9 +751,9 @@
       "exercises": [
         {
           "index": 0,
-          "title": "Warm Up",
-          "notes": "Conditioning day — steady HR. Circuit ×3 rounds (rest 60–90 s between rounds); then EMOM 12 (odd: jumping jacks 45 s, even: band straight-arm pulldown 15 reps); L-sit accumulate 60 s; V-ups 3x20. Adjust set counts in app if you prefer separate logging per round.",
-          "exercise_template_id": "79EF4E4F",
+          "title": "Warmup: General - Power Week",
+          "notes": "Pull–Push Home Gym — Power Week\n\nDay 3 conditioning — steady HR RPE 5–7. Complete the band warm-up below, then follow circuit / EMOM / L-sit / V-up notes on the following exercises.\n\nPower triples: ~85–90% of today's best triple; 1 RIR on the first 2 work sets. Do not superset power work.\n\nSkills / holds: pick a level with clean positions and 1–2 s in reserve on timed holds.\n\nGeneral warm-up (~7 min, log as duration):\nBand Pull-Aparts — 1x10; Band Dislocates — 1x10; Banded Scapular Protraction — 1x10; Banded Shoulder External Rotation — 1x10; Banded One-Arm Triceps Overhead Press — 1x10 per side; Banded RDLs — 1x10; Banded Bent-Over Rows — 1x10; Banded Squat to Press — 1x10; Quadruped Thoracic Rotation — 1x10 per side.\n\nPower ramp (first heavy lift only): weighted pull-up / weighted dip — bodyweight × 5, light × 3, ~70% × 2; bench — empty bar × 8–10, ~50% × 3, ~70% × 2, ~85% × 1. Rest 3–4 min on power work.\n\nSee programs/khoiphan21/push-pull-homegym for progression, tempo/volume week rules, and skill ladders.",
+          "exercise_template_id": "b33075d5-4d97-4f79-b530-70eb75498eb3",
           "superset_id": null,
           "sets": [
             {
@@ -734,7 +762,7 @@
               "weight_kg": null,
               "reps": null,
               "distance_meters": null,
-              "duration_seconds": 90,
+              "duration_seconds": 420,
               "custom_metric": null
             }
           ],
@@ -1110,18 +1138,18 @@
       "exercises": [
         {
           "index": 0,
-          "title": "General Notes & Warm-Up ",
-          "notes": "Pull–Push Home Gym — Power Week\n\nHypertrophy finish: Gym Monster 2 cable block (60 s between moves; complete at GM2 without returning to calisthenics station).\n\nPower triples: ~85–90% of today's best triple; 1 RIR on the first 2 work sets. Do not superset power work.\n\nSkills / holds: pick a level with clean positions and 1–2 s in reserve on timed holds.\n\nGeneral warm-up (every day):\nBand Pull-Aparts — 1x10; Band Dislocates — 1x10; Banded Scapular Protraction — 1x10; Banded Shoulder External Rotation — 1x10; Banded One-Arm Triceps Overhead Press — 1x10 per side; Banded RDLs — 1x10; Banded Bent-Over Rows — 1x10; Banded Squat to Press — 1x10; Quadruped Thoracic Rotation — 1x10 per side.\n\nPower ramp: weighted pull/chin/dip — bodyweight × 5, light × 3, ~50% × 3, ~70% × 2. Bench — empty bar × 8–10, then ~50% × 3, ~70% × 2, ~85% × 1, then work sets. Rest 3–4 min on power work.\n\nSee programs/khoiphan21/push-pull-homegym for progression, tempo/volume week rules, and skill ladders.",
-          "exercise_template_id": "2e6c1b67-6b65-4467-a325-7e718fefc65a",
+          "title": "Warmup: General - Power Week",
+          "notes": "Pull–Push Home Gym — Power Week\n\nHypertrophy finish: Gym Monster 2 cable block (60 s between moves; complete at GM2 without returning to calisthenics station).\n\nPower triples: ~85–90% of today's best triple; 1 RIR on the first 2 work sets. Do not superset power work.\n\nSkills / holds: pick a level with clean positions and 1–2 s in reserve on timed holds.\n\nGeneral warm-up (~7 min, log as duration):\nBand Pull-Aparts — 1x10; Band Dislocates — 1x10; Banded Scapular Protraction — 1x10; Banded Shoulder External Rotation — 1x10; Banded One-Arm Triceps Overhead Press — 1x10 per side; Banded RDLs — 1x10; Banded Bent-Over Rows — 1x10; Banded Squat to Press — 1x10; Quadruped Thoracic Rotation — 1x10 per side.\n\nPower ramp (first heavy lift only): weighted pull-up / weighted dip — bodyweight × 5, light × 3, ~70% × 2; bench — empty bar × 8–10, ~50% × 3, ~70% × 2, ~85% × 1. Rest 3–4 min on power work.\n\nSee programs/khoiphan21/push-pull-homegym for progression, tempo/volume week rules, and skill ladders.",
+          "exercise_template_id": "b33075d5-4d97-4f79-b530-70eb75498eb3",
           "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 1,
+              "reps": null,
               "distance_meters": null,
-              "duration_seconds": null,
+              "duration_seconds": 420,
               "custom_metric": null
             }
           ],
@@ -1470,8 +1498,8 @@
       "exercises": [
         {
           "index": 0,
-          "title": "Warmup: Pull - Power Week",
-          "notes": "Pull–Push Home Gym — Power Week\n\nHypertrophy finish: Gym Monster 2 cable block (60 s between moves; complete at GM2 without returning to calisthenics station).\n\nPower triples: ~85–90% of today's best triple; 1 RIR on the first 2 work sets. Do not superset power work.\n\nSkills / holds: pick a level with clean positions and 1–2 s in reserve on timed holds.\n\nGeneral warm-up (every day):\nBand Pull-Aparts — 1x10; Band Dislocates — 1x10; Banded Scapular Protraction — 1x10; Banded Shoulder External Rotation — 1x10; Banded One-Arm Triceps Overhead Press — 1x10 per side; Banded RDLs — 1x10; Banded Bent-Over Rows — 1x10; Banded Squat to Press — 1x10; Quadruped Thoracic Rotation — 1x10 per side.\n\nPower ramp (weighted pull/chin/dip): bodyweight × 5, light load × 3, ~50% × 3, ~70% × 2, then work sets. Rest 3–4 min on power work.\n\nSee programs/khoiphan21/push-pull-homegym for progression, tempo/volume week rules, and skill ladders.",
+          "title": "Warmup: General - Power Week",
+          "notes": "Pull–Push Home Gym — Power Week\n\nHypertrophy finish: Gym Monster 2 cable block (60 s between moves; complete at GM2 without returning to calisthenics station).\n\nPower triples: ~85–90% of today's best triple; 1 RIR on the first 2 work sets. Do not superset power work.\n\nSkills / holds: pick a level with clean positions and 1–2 s in reserve on timed holds.\n\nGeneral warm-up (~7 min, log as duration):\nBand Pull-Aparts — 1x10; Band Dislocates — 1x10; Banded Scapular Protraction — 1x10; Banded Shoulder External Rotation — 1x10; Banded One-Arm Triceps Overhead Press — 1x10 per side; Banded RDLs — 1x10; Banded Bent-Over Rows — 1x10; Banded Squat to Press — 1x10; Quadruped Thoracic Rotation — 1x10 per side.\n\nPower ramp (first heavy lift only): weighted pull-up / weighted dip — bodyweight × 5, light × 3, ~70% × 2; bench — empty bar × 8–10, ~50% × 3, ~70% × 2, ~85% × 1. Rest 3–4 min on power work.\n\nSee programs/khoiphan21/push-pull-homegym for progression, tempo/volume week rules, and skill ladders.",
           "exercise_template_id": "b33075d5-4d97-4f79-b530-70eb75498eb3",
           "superset_id": null,
           "sets": [

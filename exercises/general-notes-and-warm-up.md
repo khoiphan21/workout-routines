@@ -48,10 +48,12 @@
 - Banded Squat to Press — 1x10
 - Quadruped Thoracic Rotation — 1x10 per side
 
+**Hevy (Power Week main days):** log one **Warmup: Pull - Power Week** duration set (**7 min / 420 s**) at the start of each main day. Power ramps stay on the power lift only.
+
 📈 Power lift ramp-up sets:
 
-- **Weighted Pull-Up (Pull A)—3 warm-ups:** Bodyweight 1×5 → light or band 1×3 → ~70% of work weight 1×2 → then 3×3 work sets (3–4 min rest).
-- **Dips / bench / chin—4 warm-ups:** Bodyweight 1×6 → light 1×3 → ~80% 1×2 → ~90% 1×1 → then work sets (3–4 min rest).
+- **Weighted Pull-Up (Pull A) / Weighted Dip (Push A)—3 warm-ups:** Bodyweight 1×5 → light or band 1×3 → ~70% of work weight 1×2 → then 3×3 work sets (3–4 min rest).
+- **Bench (Push B)—4 warm-ups:** Empty bar 1×8–10 → ~50% 1×3 → ~70% 1×2 → ~85% 1×1 → then 3×3 work sets (3–4 min rest).
 
 🔄 If you attempt a progression and cannot meet the target today (applies to all exercises):
 

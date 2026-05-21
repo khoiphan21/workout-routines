@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-19T23:38:33.528Z",
+  "generatedAt": "2026-05-21T02:32:18.394Z",
   "hevyTemplateCount": 457,
   "repoExerciseCount": 49,
-  "matched": 64,
+  "matched": 65,
   "toCreate": [],
   "mapping": [
     {
@@ -425,6 +425,13 @@
       "repoTitle": "V-Ups",
       "hevyId": "6BE68B62",
       "hevyTitle": "V Up",
+      "matchScore": 1
+    },
+    {
+      "slug": "warmup-general-power-week",
+      "repoTitle": "Warmup: Pull - Power Week",
+      "hevyId": "b33075d5-4d97-4f79-b530-70eb75498eb3",
+      "hevyTitle": "Warmup: Pull - Power Week",
       "matchScore": 1
     },
     {

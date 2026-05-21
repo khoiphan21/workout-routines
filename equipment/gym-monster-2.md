@@ -44,7 +44,8 @@ An all-in-one smart home gym with electromagnetic resistance, combining a power 
 
 ## Cable system
 
-- **11 adjustable height settings** — Cable anchors from floor level to the main frame (levels 0–9)
+- **11 adjustable height settings** — Cable anchors from floor level to the main frame (levels 0–9) on the **vertical bars**
+- **Floor platform anchors** — Low pulley clips on the base platform (Bulgarian split squat, low lateral raise, sissy squat, some leg work)—**not** the same as mid/high work on vertical bars
 - **Dual direct-drive motors** — Electromagnetic resistance
 - **Smart safety system** — Sensors cut resistance when unsafe motion is detected
 
