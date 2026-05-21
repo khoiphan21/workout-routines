@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-05-21T02:32:20.839Z",
-  "count": 481,
+  "fetchedAt": "2026-05-21T02:55:14.696Z",
+  "count": 482,
   "data": [
     {
       "id": "3BC06AD3",
@@ -5087,6 +5087,15 @@
       "secondary_muscle_groups": [],
       "equipment": "none",
       "is_custom": false
+    },
+    {
+      "id": "04239eef-517b-4299-905a-275cc4c5125f",
+      "title": "Warmup: General - Power Week",
+      "type": "duration",
+      "primary_muscle_group": "other",
+      "secondary_muscle_groups": [],
+      "equipment": "resistance_band",
+      "is_custom": true
     },
     {
       "id": "b33075d5-4d97-4f79-b530-70eb75498eb3",

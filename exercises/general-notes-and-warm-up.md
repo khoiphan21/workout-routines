@@ -48,7 +48,7 @@
 - Banded Squat to Press — 1x10
 - Quadruped Thoracic Rotation — 1x10 per side
 
-**Hevy (Power Week main days):** log one **Warmup: Pull - Power Week** duration set (**7 min / 420 s**) at the start of each main day. Power ramps stay on the power lift only.
+**Hevy (Power Week main days):** log one **Warmup: General - Power Week** duration set (**7 min / 420 s**) at the start of each main day. Power ramps stay on the power lift only.
 
 📈 Power lift ramp-up sets:
 

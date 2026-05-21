@@ -84,7 +84,7 @@
     "otherMuscles": ["chest", "shoulders", "triceps"]
   },
   "warmup-general-power-week": {
-    "title": "Warmup: Pull - Power Week",
+    "title": "Warmup: General - Power Week",
     "exerciseType": "duration",
     "equipmentCategory": "resistance_band",
     "muscleGroup": "other",

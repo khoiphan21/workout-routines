@@ -52,7 +52,7 @@ A 5-day split built for a **calisthenics station** (bar, rings, bench, bands) pl
   - Banded Bent-Over Rows — 1x10
   - Banded Squat to Press — 1x10
   - Quadruped Thoracic Rotation — 1x10 per side
-- **Hevy (Power Week main days):** log one **Warmup: Pull - Power Week** duration set (**7 min / 420 s**) at the start of each main day (same band protocol on all days). Power ramps stay on the power lift only (pull-up/dip: 3 warm-ups; bench: 4 warm-ups on Push B).
+- **Hevy (Power Week main days):** log one **Warmup: General - Power Week** duration set (**7 min / 420 s**) at the start of each main day (same band protocol on all days). Power ramps stay on the power lift only (pull-up/dip: 3 warm-ups; bench: 4 warm-ups on Push B).
 - **Power triples:** ~85–90% of the day's triple; 1 rep in reserve on the first 2 sets.
 - **Hypertrophy:** RPE 8–9 (1–2 reps in reserve).
 - **Weekly balance:** Over a **microcycle (one week)**, spread **direct** hypertrophy volume so major areas (chest, back/lats, shoulders, arms, legs, calves, abs) each get meaningful work at **2×/week** where possible. **≥10 hard sets / muscle / week** (from `research/strength-hypertrophy.md`) should include **power + skills + GM2** using a transparent count (see **Hard sets — how to count** below)—not table estimates alone.
