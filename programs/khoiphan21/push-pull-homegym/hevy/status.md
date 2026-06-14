@@ -1,11 +1,11 @@
 # Hevy sync status — push-pull-homegym
 
-**Generated:** 2026-06-14T22:22:39.710Z
+**Generated:** 2026-06-14T22:41:46.428Z
 
 | Metric | Count |
 |--------|------:|
-| Program exercise slugs | 33 |
-| Matched to Hevy | 33 |
+| Program exercise slugs | 34 |
+| Matched to Hevy | 34 |
 | To create on Hevy | 0 |
 | Map errors | 0 |
 
@@ -49,6 +49,7 @@ _None — all slugs matched or listed in `custom-exercises.json`._
 | Sissy Squat (Weighted) | Sissy Squat (Weighted) | F5DEF1EB | 100% |
 | Standing Calf Raise | Standing Calf Raise | 06745E58 | 100% |
 | Straight Arm Band Pulldown | Straight Arm Band Pulldown | ccbbde07-7590-427c-a455-7885ce6ef422 | 100% |
+| Supine Dual Handle Chest Fly | Supine Dual-Handle Chest Fly | 1082a484-f9f5-44f6-97f0-be76223b87c1 | 100% |
 | Tuck Front-Lever Row | Ring Row | f2fac51e-7700-42d9-8f10-8feee8c99d9b | 100% |
 | V-Ups | V Up | 6BE68B62 | 100% |
 | Warmup General Power Week | Warmup: General - Power Week | 04239eef-517b-4299-905a-275cc4c5125f | 100% |

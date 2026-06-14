@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-14T22:26:07.779Z",
+  "fetchedAt": "2026-06-14T22:41:31.703Z",
   "source": "programs/khoiphan21/push-pull-homegym",
   "count": 16,
   "data": [
@@ -280,9 +280,9 @@
         },
         {
           "index": 7,
-          "title": "Cable Fly Crossovers",
-          "notes": "Hypertrophy H3: 3x12 mid pulleys (handles). Giant with prone incline dual-handle triceps kickback; 60-75 s after H4.",
-          "exercise_template_id": "651F844C",
+          "title": "Supine Dual-Handle Chest Fly",
+          "notes": "Hypertrophy H3: 3x12 supine dual-handle chest fly on GM2. Giant with prone incline dual-handle triceps kickback; 60-75 s after H4.",
+          "exercise_template_id": "1082a484-f9f5-44f6-97f0-be76223b87c1",
           "superset_id": 3,
           "sets": [
             {

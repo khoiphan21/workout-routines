@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-06-14T22:26:59.862Z",
-  "count": 484,
+  "fetchedAt": "2026-06-14T22:42:00.043Z",
+  "count": 485,
   "data": [
     {
       "id": "3BC06AD3",
@@ -4745,6 +4745,17 @@
       ],
       "equipment": "none",
       "is_custom": false
+    },
+    {
+      "id": "1082a484-f9f5-44f6-97f0-be76223b87c1",
+      "title": "Supine Dual-Handle Chest Fly",
+      "type": "weight_reps",
+      "primary_muscle_group": "chest",
+      "secondary_muscle_groups": [
+        "shoulders"
+      ],
+      "equipment": "machine",
+      "is_custom": true
     },
     {
       "id": "B60A678F",

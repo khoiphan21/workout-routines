@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-14T22:26:32.356Z",
+  "generatedAt": "2026-06-14T22:41:31.705Z",
   "hevyTemplateCount": 457,
   "repoExerciseCount": 49,
-  "matched": 68,
+  "matched": 69,
   "toCreate": [],
   "mapping": [
     {
@@ -425,6 +425,13 @@
       "repoTitle": "Straight Arm Band Pulldown",
       "hevyId": "ccbbde07-7590-427c-a455-7885ce6ef422",
       "hevyTitle": "Straight Arm Band Pulldown",
+      "matchScore": 1
+    },
+    {
+      "slug": "supine-dual-handle-chest-fly",
+      "repoTitle": "Supine Dual-Handle Chest Fly",
+      "hevyId": "1082a484-f9f5-44f6-97f0-be76223b87c1",
+      "hevyTitle": "Supine Dual-Handle Chest Fly",
       "matchScore": 1
     },
     {

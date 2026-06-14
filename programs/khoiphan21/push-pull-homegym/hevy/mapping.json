@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T22:22:54.814Z",
+  "generatedAt": "2026-06-14T22:41:46.428Z",
   "programSlugs": [
     "archer-pull-ups",
     "back-lever-tuck-hold",
@@ -29,13 +29,14 @@
     "sissy-squat-weighted",
     "standing-calf-raise",
     "straight-arm-band-pulldown",
+    "supine-dual-handle-chest-fly",
     "tuck-front-lever-row",
     "v-ups",
     "warmup-general-power-week",
     "weighted-dip",
     "weighted-pull-up"
   ],
-  "matched": 38,
+  "matched": 34,
   "toCreate": [],
   "mapping": [
     {
@@ -57,13 +58,6 @@
       "repoTitle": "Band-assisted High Pull-Up",
       "hevyId": "463f2bbc-bc50-42ed-ba37-859ab0b4ea86",
       "hevyTitle": "Band-assisted High Pull-Up",
-      "matchScore": 1
-    },
-    {
-      "slug": "band-high-to-low-row",
-      "repoTitle": "Band High-to-Low Row",
-      "hevyId": "352ea699-f45c-4e63-8284-eda90b1a9110",
-      "hevyTitle": "Band High-to-Low Row",
       "matchScore": 1
     },
     {
@@ -106,13 +100,6 @@
       "repoTitle": "Chest-to-Wall Handstand Hold",
       "hevyId": "3814de10-1893-43b5-8510-61b2e5aaaeb0",
       "hevyTitle": "Chest-to-Wall Handstand Hold",
-      "matchScore": 1
-    },
-    {
-      "slug": "dragon-flag-negatives",
-      "repoTitle": "Dragon Flag Negatives",
-      "hevyId": "4e0ac6fb-880b-4bcf-9dfa-a9bf2b7b1fb9",
-      "hevyTitle": "Dragon Flag Negatives",
       "matchScore": 1
     },
     {
@@ -201,16 +188,9 @@
     },
     {
       "slug": "prone-incline-dual-handle-triceps-kickback-floor",
-      "repoTitle": "Prone Incline Dual-Handle Triceps Kickback (Floor)",
+      "repoTitle": "Prone Incline Dual Handle Triceps Kickback Floor",
       "hevyId": "230db9e3-3129-4208-a0e6-88a2dc606866",
       "hevyTitle": "Prone Incline Dual-Handle Triceps Kickback (Floor)",
-      "matchScore": 1
-    },
-    {
-      "slug": "reverse-fly-band",
-      "repoTitle": "Reverse Fly (band)",
-      "hevyId": "49b60968-dc7d-4615-ae61-dbb8f17e4e1b",
-      "hevyTitle": "Reverse Fly (band)",
       "matchScore": 1
     },
     {
@@ -218,13 +198,6 @@
       "repoTitle": "Reverse Grip Lat Pulldown (Cable)",
       "hevyId": "046E25A2",
       "hevyTitle": "Reverse Grip Lat Pulldown (Cable)",
-      "matchScore": 1
-    },
-    {
-      "slug": "ring-knee-tucks",
-      "repoTitle": "Ring Knee Tucks",
-      "hevyId": "02df5517-3542-4ce0-9a74-4996d21916ed",
-      "hevyTitle": "Ring Knee Tucks",
       "matchScore": 1
     },
     {
@@ -236,7 +209,7 @@
     },
     {
       "slug": "seated-dual-handle-shoulder-press",
-      "repoTitle": "Seated Dual-Handle Shoulder Press",
+      "repoTitle": "Seated Dual Handle Shoulder Press",
       "hevyId": "774fc480-3aca-4ada-9af9-7a819378aac5",
       "hevyTitle": "Seated Dual-Handle Shoulder Press",
       "matchScore": 1
@@ -263,6 +236,13 @@
       "matchScore": 1
     },
     {
+      "slug": "supine-dual-handle-chest-fly",
+      "repoTitle": "Supine Dual Handle Chest Fly",
+      "hevyId": "1082a484-f9f5-44f6-97f0-be76223b87c1",
+      "hevyTitle": "Supine Dual-Handle Chest Fly",
+      "matchScore": 1
+    },
+    {
       "slug": "tuck-front-lever-row",
       "repoTitle": "Tuck Front-Lever Row",
       "hevyId": "f2fac51e-7700-42d9-8f10-8feee8c99d9b",
@@ -278,7 +258,7 @@
     },
     {
       "slug": "warmup-general-power-week",
-      "repoTitle": "Warmup: General - Power Week",
+      "repoTitle": "Warmup General Power Week",
       "hevyId": "04239eef-517b-4299-905a-275cc4c5125f",
       "hevyTitle": "Warmup: General - Power Week",
       "matchScore": 1
@@ -295,13 +275,6 @@
       "repoTitle": "Weighted Pull-Up",
       "hevyId": "729237D1",
       "hevyTitle": "Pull Up (Weighted)",
-      "matchScore": 1
-    },
-    {
-      "slug": "wide-grip-inverted-row",
-      "repoTitle": "Wide-Grip Inverted Row",
-      "hevyId": "f0b96676-8789-4b6f-92f7-5f33c2d20baf",
-      "hevyTitle": "Wide-Grip Inverted Row",
       "matchScore": 1
     }
   ]

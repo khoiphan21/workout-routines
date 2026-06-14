@@ -103,5 +103,12 @@
     "equipmentCategory": "machine",
     "muscleGroup": "triceps",
     "otherMuscles": []
+  },
+  "supine-dual-handle-chest-fly": {
+    "title": "Supine Dual-Handle Chest Fly",
+    "exerciseType": "weight_reps",
+    "equipmentCategory": "machine",
+    "muscleGroup": "chest",
+    "otherMuscles": ["shoulders"]
   }
 }
