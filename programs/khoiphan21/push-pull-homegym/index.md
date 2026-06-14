@@ -4,6 +4,8 @@ A 5-day split built for a **calisthenics station** (bar, rings, bench, bands) pl
 
 **Gym Monster 2 only?** See [Push–Pull Gym Monster 2](../push-pull-gym-monster-2/) — same weekly structure with every calisthenics/band movement swapped for Smith and cable work on the GM2.
 
+**Commercial gym (World Gym)?** See [Push–Pull @ World Gym](../push-pull-world-gym/) — Pull B with muscle-up power and commercial cable hypertrophy.
+
 ## Why this program
 
 - Strength first (heavy triples).
@@ -131,19 +133,17 @@ Planned deloads help **fatigue**; they may **not** maximize **peak strength** in
 - **Power:** Weighted Dip — 3x3 (belted)
   - _Warm-up (3 sets): bodyweight × 5, light load × 3, ~70% × 2, then work sets._
   - _Rest 3-4 min._
-- **Skill superset** (non-competing: ring hold line ↔ vertical press)
+- **Skill / quad tri-set** (non-competing: ring hold line ↔ vertical press ↔ knee-extension)
   - A1: Iron Cross Hold Progression — 3x10 s
-  - A2: Handstand Push-Up (wall) — 3x3  
-    _Next step after easy **pike HSPU (elevated feet)**; chest-to-wall or back-to-wall. Regress to higher pike or partial ROM if lockout is shaky._
-  - _A1 then A2 with minimal rest; **60–75 s** after A2 before repeating the pair._
-- **Quad primer** (last stop at the calisthenics station before GM2)
-  - Sissy Squat (weighted or bodyweight) — 3×12  
-    _Anchored feet, plate/belt optional; knee-extension emphasis vs BSS split pattern. **60–75 s** between sets._
+  - A2: Pike Handstand Push-Up (elevated feet) — 3x5/3/3  
+    _Regress to higher pike or partial ROM if lockout is shaky._
+  - A3: Sissy Squat (weighted or bodyweight) — 3×12  
+    _Anchored feet, plate/belt optional; knee-extension emphasis. A1 → A2 → A3 with minimal rest; **60–75 s** after A3._
 - **Hypertrophy + Abs (Gym Monster 2)** — *after sissy, move to GM2 and do not return to rings/bar*
-  - **H1:** Bulgarian Split Squat (Cable) — 3x8 per side → **H2:** Lateral Raise (Cable) — 3x12  
-    _Both on **GM2 floor platform**—same anchor zone; **60–75 s** after H2._
-  - **H3:** Chest Fly (Cable) — 3×12 → **H4:** Overhead Triceps Extension (Cable) — 3×15  
-    _Chest fly mid pulleys (**handles**), then OH tri high pulley (**rope**); raise pulleys or swap attachment between moves; **60–75 s** after H4._
+  - **H1:** Seated Dual-Handle Shoulder Press — 3x8 → **H2:** Lateral Raise (Cable) — 3x12  
+    _Both on **GM2**; **60–75 s** after H2._
+  - **H3:** Chest Fly (Cable) — 3×12 → **H4:** Prone Incline Dual-Handle Triceps Kickback (Floor) — 3×15  
+    _Chest fly mid pulleys (**handles**), then prone floor kickback with dual handles; **60–75 s** after H4._
   - [Hollow Body Rock](../../../exercises/hollow-body-rock.md) — 3×20 s  
     _Floor / yoga mat at GM2—equipment-free abs; low back stays down._
 
@@ -245,7 +245,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 
 ## Canonical exercise list (used in every week)
 
-- **Push A:** Weighted Dip; Iron Cross Hold Progression; Handstand Push-Up (wall); Sissy Squat (weighted/BW); Bulgarian Split Squat (GM2); Lateral Raise (Cable, GM2); Chest Fly (GM2); Overhead Triceps Extension (Cable, GM2); Hollow Body Rock.
+- **Push A:** Weighted Dip; Iron Cross Hold Progression; Pike Handstand Push-Up (elevated feet); Sissy Squat (weighted/BW); Seated Dual-Handle Shoulder Press (GM2); Lateral Raise (Cable, GM2); Chest Fly (GM2); Prone Incline Dual-Handle Triceps Kickback (Floor); Hollow Body Rock.
 - **Pull A:** Weighted Pull-Up; Front Lever Hold; Band-assisted High Pull-Up; Ring Row; Face Pull (GM2); Cable Row (GM2); Bicep Curl (Cable, GM2); Cable Crunch (GM2).
 - **Conditioning:** Ring Row; Band Overhead Press; Bodyweight Split Squat; Hollow Body Rock; Jumping Jacks; Band Straight-Arm Pulldown; L-Sit Hold; V-Ups.
 - **Push B:** Barbell Bench Press (pause); Chest-to-Wall Handstand Hold; Wall Handstand Push-Up; Freestanding Handstand Hold; Overhead Press (Cable, GM2); Incline Bench Press (Cable, GM2); Overhead Triceps Extension (GM2); Cable Crunch (GM2).
@@ -296,7 +296,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 - All hypertrophy work is on Gym Monster 2 for easier progressive overload tracking (0.5 kg increments).
 - Do calisthenics skills first (outside), then move to GM2 and complete the hypertrophy block **and Push A abs** without going back to the calisthenics station.
 - **Pull A:** Face Pull; Cable Row; Bicep Curl (Cable); Cable Crunch.
-- **Push A:** Sissy Squat; Bulgarian Split Squat; Lateral Raise (Cable); Chest Fly; Overhead Triceps Extension; Hollow Body Rock (floor at GM2).
+- **Push A:** Sissy Squat; Seated Dual-Handle Shoulder Press; Lateral Raise (Cable); Chest Fly; Prone Incline Dual-Handle Triceps Kickback (Floor); Hollow Body Rock (floor at GM2).
 - **Push B:** Overhead Press (Cable, GM2); Incline Bench Press (Cable, GM2); Overhead Triceps Extension; Cable Crunch.
 - **Pull B:** Seated Cable Row (Wide Grip); Reverse Fly; Reverse Grip Lat Pulldown; Cable Crunch (paired blocks per day summary).
 

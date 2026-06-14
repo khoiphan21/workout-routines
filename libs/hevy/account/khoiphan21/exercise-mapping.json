@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-21T02:55:12.532Z",
+  "generatedAt": "2026-06-14T22:26:32.356Z",
   "hevyTemplateCount": 457,
   "repoExerciseCount": 49,
-  "matched": 65,
+  "matched": 68,
   "toCreate": [],
   "mapping": [
     {
@@ -279,6 +279,13 @@
       "matchScore": 1
     },
     {
+      "slug": "prone-incline-dual-handle-triceps-kickback-floor",
+      "repoTitle": "Prone Incline Dual-Handle Triceps Kickback (Floor)",
+      "hevyId": "230db9e3-3129-4208-a0e6-88a2dc606866",
+      "hevyTitle": "Prone Incline Dual-Handle Triceps Kickback (Floor)",
+      "matchScore": 1
+    },
+    {
       "slug": "reverse-fly-band",
       "repoTitle": "Reverse Fly (band)",
       "hevyId": "49b60968-dc7d-4615-ae61-dbb8f17e4e1b",
@@ -365,6 +372,13 @@
       "matchScore": 1
     },
     {
+      "slug": "seated-dual-handle-shoulder-press",
+      "repoTitle": "Seated Dual-Handle Shoulder Press",
+      "hevyId": "774fc480-3aca-4ada-9af9-7a819378aac5",
+      "hevyTitle": "Seated Dual-Handle Shoulder Press",
+      "matchScore": 1
+    },
+    {
       "slug": "sissy-squat-cable-gm2",
       "repoTitle": "Sissy Squat (Cable, Gym Monster 2)",
       "hevyId": "44f636fa-ee0e-4585-8ce5-7be01bbf20ae",
@@ -432,6 +446,13 @@
       "repoTitle": "Warmup: General - Power Week",
       "hevyId": "04239eef-517b-4299-905a-275cc4c5125f",
       "hevyTitle": "Warmup: General - Power Week",
+      "matchScore": 1
+    },
+    {
+      "slug": "warmup-general-world-gym",
+      "repoTitle": "Warmup: General - World Gym",
+      "hevyId": "5cc8b811-6c0e-4dc1-8127-ebe7c641e184",
+      "hevyTitle": "Warmup: General - World Gym",
       "matchScore": 1
     },
     {

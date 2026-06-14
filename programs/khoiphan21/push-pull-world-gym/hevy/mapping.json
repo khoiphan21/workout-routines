@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-06-14T22:26:17.602Z",
+  "programSlugs": [
+    "archer-pull-ups",
+    "back-lever-tuck-hold",
+    "bar-muscle-up",
+    "nordic-curl",
+    "warmup-general-world-gym"
+  ],
+  "matched": 5,
+  "toCreate": [],
+  "mapping": [
+    {
+      "slug": "archer-pull-ups",
+      "repoTitle": "Archer or Typewriter Pull-Ups",
+      "hevyId": "cd92a721-419c-4693-9362-f642a5244143",
+      "hevyTitle": "Archer Pull-Up",
+      "matchScore": 1
+    },
+    {
+      "slug": "back-lever-tuck-hold",
+      "repoTitle": "Back Lever Tuck Hold",
+      "hevyId": "87f5c5fe-6aaf-4249-ac9f-c63d960afed9",
+      "hevyTitle": "Back Lever Tuck Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "bar-muscle-up",
+      "repoTitle": "Bar Muscle Up",
+      "hevyId": "56baa3e4-c30c-4bd3-91f7-9974978ffbac",
+      "hevyTitle": "Bar Muscle Up",
+      "matchScore": 1
+    },
+    {
+      "slug": "nordic-curl",
+      "repoTitle": "Nordic Curl",
+      "hevyId": "108D7A14",
+      "hevyTitle": "Nordic Hamstrings Curls",
+      "matchScore": 0.9
+    },
+    {
+      "slug": "warmup-general-world-gym",
+      "repoTitle": "Warmup: General - World Gym",
+      "hevyId": "5cc8b811-6c0e-4dc1-8127-ebe7c641e184",
+      "hevyTitle": "Warmup: General - World Gym",
+      "matchScore": 1
+    }
+  ]
+}

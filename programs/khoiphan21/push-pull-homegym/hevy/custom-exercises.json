@@ -89,5 +89,19 @@
     "equipmentCategory": "resistance_band",
     "muscleGroup": "other",
     "otherMuscles": []
+  },
+  "seated-dual-handle-shoulder-press": {
+    "title": "Seated Dual-Handle Shoulder Press",
+    "exerciseType": "weight_reps",
+    "equipmentCategory": "machine",
+    "muscleGroup": "shoulders",
+    "otherMuscles": ["triceps"]
+  },
+  "prone-incline-dual-handle-triceps-kickback-floor": {
+    "title": "Prone Incline Dual-Handle Triceps Kickback (Floor)",
+    "exerciseType": "weight_reps",
+    "equipmentCategory": "machine",
+    "muscleGroup": "triceps",
+    "otherMuscles": []
   }
 }

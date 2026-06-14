@@ -1,0 +1,9 @@
+{
+  "warmup-general-world-gym": {
+    "title": "Warmup: General - World Gym",
+    "exerciseType": "duration",
+    "equipmentCategory": "machine",
+    "muscleGroup": "other",
+    "otherMuscles": []
+  }
+}

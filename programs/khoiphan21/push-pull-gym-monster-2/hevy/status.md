@@ -1,25 +1,21 @@
 # Hevy sync status — push-pull-gym-monster-2
 
-**Generated:** 2026-05-19T04:46:32.008Z
+**Generated:** 2026-06-14T21:47:15.790Z
 
 | Metric | Count |
 |--------|------:|
 | Program exercise slugs | 18 |
-| Matched to Hevy | 17 |
-| To create on Hevy | 1 |
-| Map errors | 1 |
-
-## Errors
-
-- No Hevy template for "Lying Knee Raise (Cable, Gym Monster 2)" (slug lying-knee-raise-cable-gm2). Run hevy:map, then hevy:push --allow-create (or add to mapping.toCreate).
+| Matched to Hevy | 18 |
+| To create on Hevy | 0 |
+| Map errors | 0 |
 
 ## Exercises to create
 
-
+_None — all slugs matched or listed in `custom-exercises.json`._
 
 | Repo title | Slug | File | Note |
 |------------|------|------|------|
-| Lying Knee Raise (Cable, Gym Monster 2) | `lying-knee-raise-cable-gm2` | `exercises/lying-knee-raise-cable-gm2.md` | blocked — fix errors first |
+
 
 ## Matched
 
@@ -33,6 +29,7 @@
 | Close-Grip Bench Press (Smith Machine) | Close-Grip Bench Press (Smith Machine) | 1423bc22-c522-47e9-b361-d755c9be99ff | 100% |
 | Incline Bench Press (Cable, Gym Monster 2) | Incline Bench Press (Cable, Gym Monster 2) | 0bdabadd-dff1-40a8-8f3e-1f77e80daa10 | 100% |
 | Lat Pulldown (Cable) — Explosive | Lat Pulldown (Cable) — Explosive | 533ffc9c-669d-446f-b43f-30c2d5ea0042 | 100% |
+| Lying Knee Raise (Cable, Gym Monster 2) | Lying Knee Raise (Cable, Gym Monster 2) | 1acf3f8f-7b6a-42aa-9a8c-ac1365d98fa7 | 100% |
 | Overhead Press (Cable, Gym Monster 2) | Overhead Press (Cable, Gym Monster 2) | 8917a840-6edb-498e-a59c-bae2b2da5eaa | 100% |
 | Overhead Press (Cable, Gym Monster 2) — Top Hold | Overhead Press (Cable, Gym Monster 2) — Top Hold | 886c8ba5-c997-44e6-b3e7-d0f01f52ed16 | 100% |
 | Reverse Grip Lat Pulldown (Cable) | Reverse Grip Lat Pulldown (Cable) | 046E25A2 | 100% |

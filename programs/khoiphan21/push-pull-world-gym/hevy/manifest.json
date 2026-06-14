@@ -1,0 +1,14 @@
+{
+  "id": "push-pull-world-gym",
+  "account": "khoiphan21",
+  "apiKeyEnv": "HEVY_API_KEY_KHOIPHAN21",
+  "routineFolder": "Push-Pull @ World Gym",
+  "docs": ["index.md"],
+  "exerciseSlugs": [
+    "archer-pull-ups",
+    "back-lever-tuck-hold",
+    "bar-muscle-up",
+    "nordic-curl",
+    "warmup-general-world-gym"
+  ]
+}

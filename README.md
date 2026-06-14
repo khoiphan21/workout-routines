@@ -52,6 +52,13 @@ npm run hevy:push -- <program>
 | 4 | `hevy:list-duplicates -- --fetch` | List duplicate custom exercise IDs to delete in the Hevy app (must be clean) |
 | 5 | `hevy:push -- <program>` | Upsert customs and routines (see flags below) |
 
+**Pull routine changes from Hevy into local snapshots** (no API writes):
+
+```bash
+npm run hevy:fetch
+npm run hevy:pull-routines
+```
+
 **Push all khoiphan21 programs** (validate + push + cache refresh):
 
 ```bash

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T02:50:49.276Z",
+  "generatedAt": "2026-06-14T22:22:54.814Z",
   "programSlugs": [
     "archer-pull-ups",
     "back-lever-tuck-hold",
@@ -22,8 +22,10 @@
     "overhead-band-triceps-extension",
     "overhead-press-cable-gm2",
     "pike-handstand-push-up",
+    "prone-incline-dual-handle-triceps-kickback-floor",
     "reverse-grip-lat-pulldown-cable",
     "rings-hamstring-curl",
+    "seated-dual-handle-shoulder-press",
     "sissy-squat-weighted",
     "standing-calf-raise",
     "straight-arm-band-pulldown",
@@ -33,7 +35,7 @@
     "weighted-dip",
     "weighted-pull-up"
   ],
-  "matched": 36,
+  "matched": 38,
   "toCreate": [],
   "mapping": [
     {
@@ -198,6 +200,13 @@
       "matchScore": 1
     },
     {
+      "slug": "prone-incline-dual-handle-triceps-kickback-floor",
+      "repoTitle": "Prone Incline Dual-Handle Triceps Kickback (Floor)",
+      "hevyId": "230db9e3-3129-4208-a0e6-88a2dc606866",
+      "hevyTitle": "Prone Incline Dual-Handle Triceps Kickback (Floor)",
+      "matchScore": 1
+    },
+    {
       "slug": "reverse-fly-band",
       "repoTitle": "Reverse Fly (band)",
       "hevyId": "49b60968-dc7d-4615-ae61-dbb8f17e4e1b",
@@ -223,6 +232,13 @@
       "repoTitle": "Rings Hamstring Curl",
       "hevyId": "b5440ed7-2280-4148-a624-fef61482edba",
       "hevyTitle": "Hamstring Curl (Rings)",
+      "matchScore": 1
+    },
+    {
+      "slug": "seated-dual-handle-shoulder-press",
+      "repoTitle": "Seated Dual-Handle Shoulder Press",
+      "hevyId": "774fc480-3aca-4ada-9af9-7a819378aac5",
+      "hevyTitle": "Seated Dual-Handle Shoulder Press",
       "matchScore": 1
     },
     {

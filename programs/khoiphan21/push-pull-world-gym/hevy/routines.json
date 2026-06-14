@@ -1,0 +1,341 @@
+{
+  "fetchedAt": "2026-06-14T22:26:32.355Z",
+  "source": "programs/khoiphan21/push-pull-world-gym",
+  "count": 1,
+  "data": [
+    {
+      "id": "d2236b0b-d801-4b69-bd0f-9297545eb359",
+      "title": "Power Week - Day 5: Pull B",
+      "folder_id": 2910602,
+      "updated_at": "2026-05-21T22:12:24.724Z",
+      "created_at": "2026-05-21T22:12:24.724Z",
+      "exercises": [
+        {
+          "index": 0,
+          "title": "Warmup: General - World Gym",
+          "notes": "Push–Pull @ World Gym — Power Week — Pull B\n\nFlow: muscle-up power → skill pair (archer + back lever) → Nordic → commercial cable hypertrophy block.\n\nGeneral warm-up (~7 min, log as duration):\nFace Pull (Cable) 1×10; Cable External Rotation 1×10/side light; Seated Cable Row – Bar Grip 1×10 light; Face Pull 1×10 (ER emphasis); Light lat pulldown 1×10; band pull-apart 1×10 if you brought a band, else light cable row 1×10; bodyweight squat 1×10.\n\nPower: muscle-up is the first heavy slot—warm up with singles or easier variations; rest 3–4 min on work sets.\n\nSee programs/khoiphan21/push-pull-world-gym for progression and week-type rules.",
+          "exercise_template_id": "5cc8b811-6c0e-4dc1-8127-ebe7c641e184",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 420,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 1,
+          "title": "Bar Muscle Up",
+          "notes": "Power: 3×3 strict muscle-ups (first slot on Pull B). Rest 3–4 min. Warm up with easier variations or singles as needed—do not superset power work.",
+          "exercise_template_id": "56baa3e4-c30c-4bd3-91f7-9974978ffbac",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "warmup",
+              "weight_kg": null,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 180
+        },
+        {
+          "index": 2,
+          "title": "Archer Pull-Up",
+          "notes": "Skill pair S1a: Archer pull-up 3×4/side. Paired with back lever tuck (S1b)—minimal rest between moves; **60–75 s** after S1b.",
+          "exercise_template_id": "cd92a721-419c-4693-9362-f642a5244143",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 4,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 4,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 4,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 3,
+          "title": "Back Lever Tuck Hold",
+          "notes": "Skill pair S1b: Back lever tuck 3×12 s.",
+          "exercise_template_id": "87f5c5fe-6aaf-4249-ac9f-c63d960afed9",
+          "superset_id": 0,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": null,
+              "distance_meters": null,
+              "duration_seconds": 12,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        },
+        {
+          "index": 4,
+          "title": "Nordic Hamstrings Curls",
+          "notes": "Skill S2: Nordic curl 3×6—own block after archer / lever pair (GHD or bench anchor; band-assist as needed). Rest **90 s** if needed for quality.",
+          "exercise_template_id": "108D7A14",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 6,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 6,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 6,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 90
+        },
+        {
+          "index": 5,
+          "title": "Seated Cable Row - Bar Wide Grip",
+          "notes": "Hypertrophy H1: 3×10 at World Gym seated row. Superset with rear-delt fly—alternate row pattern with rear delt (60–75 s after H2).",
+          "exercise_template_id": "C3BCABB3",
+          "superset_id": 2,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 10,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 0
+        },
+        {
+          "index": 6,
+          "title": "Rear Delt Reverse Fly (Cable)",
+          "notes": "Hypertrophy H2: 3×15 at crossover / dual-cable station.",
+          "exercise_template_id": "C315DC2A",
+          "superset_id": 2,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        },
+        {
+          "index": 7,
+          "title": "Reverse Grip Lat Pulldown (Cable)",
+          "notes": "Hypertrophy H3: 3×15 on lat pulldown (supinated/parallel grip)—supinated slot vs Pull A pronated work. Single; **60–75 s** between sets.",
+          "exercise_template_id": "046E25A2",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 15,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 75
+        },
+        {
+          "index": 8,
+          "title": "Cable Crunch",
+          "notes": "Abs: 3×12 finisher at cable station.",
+          "exercise_template_id": "23A48484",
+          "superset_id": null,
+          "sets": [
+            {
+              "index": 0,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 1,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 12,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            }
+          ],
+          "rest_seconds": 60
+        }
+      ],
+      "_folder_name": "Push-Pull @ World Gym"
+    }
+  ]
+}

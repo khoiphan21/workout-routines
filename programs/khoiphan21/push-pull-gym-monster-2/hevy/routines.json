@@ -1,18 +1,18 @@
 {
+  "fetchedAt": "2026-06-14T22:17:35.173Z",
   "source": "programs/khoiphan21/push-pull-gym-monster-2",
-  "fetchedAt": "2026-05-19T05:50:35.971Z",
   "count": 5,
   "data": [
     {
       "id": "c2b48f89-6ccd-45d8-bb65-ad7437832ee2",
       "title": "Power Week - Day 1: Push A",
       "folder_id": 2893630,
-      "_folder_name": "Push-Pull Gym Monster 2",
-      "notes": "",
+      "updated_at": "2026-05-19T05:50:35.360Z",
+      "created_at": "2026-05-18T23:09:07.798Z",
       "exercises": [
         {
           "index": 0,
-          "title": "General Notes & Warm-Up",
+          "title": "General Notes & Warm-Up ",
           "notes": "Pull–Push Gym Monster 2 — Power Week\n\nAll work on GM2 (Smith + cables). Hypertrophy: RPE 8–9 (1–2 RIR). Power triples: ~85–90% of today's triple; 1 RIR on sets 1–2. Do not superset power work.\n\nGeneral warm-up (every day, GM2):\nFace Pull (Cable) 1×10; Cable Twist (Up to Down) 1×10/side light; Seated Cable Row – Bar Grip 1×10; Face Pull 1×10 (ER emphasis); OH Triceps Extension (Cable) 1×10/side light; RDL (Smith) 1×10; Cable Row 1×10; Squat (Smith) ×5 → OHP (Smith) ×5 complex.\n\nSee programs/khoiphan21/push-pull-gym-monster-2 for tempo/volume weeks and progression.",
           "exercise_template_id": "2e6c1b67-6b65-4467-a325-7e718fefc65a",
           "superset_id": null,
@@ -170,7 +170,7 @@
         {
           "index": 4,
           "title": "Bulgarian Split Squat (Cable, Gym Monster 2)",
-          "notes": "Hypertrophy H1: 3×8/side on GM2 floor platform (both sides). Superset with chest fly.",
+          "notes": "Hypertrophy H1: 3×8/side (GM2 cable handle). Superset with chest fly.",
           "exercise_template_id": "5191953b-d4ba-4633-a1a3-29757dfdad46",
           "superset_id": 2,
           "sets": [
@@ -244,7 +244,7 @@
         {
           "index": 6,
           "title": "Sissy Squat (Cable, Gym Monster 2)",
-          "notes": "Hypertrophy H3: 3×12/side on GM2 floor platform (same side). Anchored feet; cable handle or belt. Superset with hammer curl.",
+          "notes": "Hypertrophy H3: 3×12/side. Low pulley ~1–3, anchored feet, cable handle or belt. Superset with hammer curl.",
           "exercise_template_id": "44f636fa-ee0e-4585-8ce5-7be01bbf20ae",
           "superset_id": 3,
           "sets": [
@@ -352,18 +352,19 @@
           ],
           "rest_seconds": 60
         }
-      ]
+      ],
+      "_folder_name": "Push-Pull Gym Monster 2"
     },
     {
       "id": "b5cfc272-4663-48e9-ba10-3eb298b8da86",
       "title": "Power Week - Day 2: Pull A",
       "folder_id": 2893630,
-      "_folder_name": "Push-Pull Gym Monster 2",
-      "notes": "",
+      "updated_at": "2026-05-19T05:50:35.651Z",
+      "created_at": "2026-05-18T23:09:08.085Z",
       "exercises": [
         {
           "index": 0,
-          "title": "General Notes & Warm-Up",
+          "title": "General Notes & Warm-Up ",
           "notes": "Pull–Push Gym Monster 2 — Power Week\n\nAll work on GM2 (Smith + cables). Hypertrophy: RPE 8–9 (1–2 RIR). Power triples: ~85–90% of today's triple; 1 RIR on sets 1–2. Do not superset power work.\n\nGeneral warm-up (every day, GM2):\nFace Pull (Cable) 1×10; Cable Twist (Up to Down) 1×10/side light; Seated Cable Row – Bar Grip 1×10; Face Pull 1×10 (ER emphasis); OH Triceps Extension (Cable) 1×10/side light; RDL (Smith) 1×10; Cable Row 1×10; Squat (Smith) ×5 → OHP (Smith) ×5 complex.\n\nSee programs/khoiphan21/push-pull-gym-monster-2 for tempo/volume weeks and progression.",
           "exercise_template_id": "2e6c1b67-6b65-4467-a325-7e718fefc65a",
           "superset_id": null,
@@ -694,18 +695,19 @@
           ],
           "rest_seconds": 60
         }
-      ]
+      ],
+      "_folder_name": "Push-Pull Gym Monster 2"
     },
     {
       "id": "a07edb4d-0a9f-4cb7-8626-f526a0c7f897",
       "title": "Power Week - Day 3: Conditioning",
       "folder_id": 2893630,
-      "_folder_name": "Push-Pull Gym Monster 2",
-      "notes": "",
+      "updated_at": "2026-05-19T05:50:35.930Z",
+      "created_at": "2026-05-18T23:09:08.366Z",
       "exercises": [
         {
           "index": 0,
-          "title": "General Notes & Warm-Up",
+          "title": "General Notes & Warm-Up ",
           "notes": "Pull–Push Gym Monster 2 — Power Week\n\nAll work on GM2 (Smith + cables). Hypertrophy: RPE 8–9 (1–2 RIR). Power triples: ~85–90% of today's triple; 1 RIR on sets 1–2. Do not superset power work.\n\nGeneral warm-up (every day, GM2):\nFace Pull (Cable) 1×10; Cable Twist (Up to Down) 1×10/side light; Seated Cable Row – Bar Grip 1×10; Face Pull 1×10 (ER emphasis); OH Triceps Extension (Cable) 1×10/side light; RDL (Smith) 1×10; Cable Row 1×10; Squat (Smith) ×5 → OHP (Smith) ×5 complex.\n\nSee programs/khoiphan21/push-pull-gym-monster-2 for tempo/volume weeks and progression.\n\nConditioning: RPE ~5–7. Circuit ×3 (giant set); EMOM 12 (odd: Smith squat 45 s light, even: straight-arm lat pulldown 15); finisher cable knee raise + crunch.",
           "exercise_template_id": "2e6c1b67-6b65-4467-a325-7e718fefc65a",
           "superset_id": null,
@@ -1081,18 +1083,19 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Push-Pull Gym Monster 2"
     },
     {
       "id": "9c3a94b7-afbf-4c1c-a5db-e25df66b03d0",
       "title": "Power Week - Day 4: Push B",
       "folder_id": 2893630,
-      "_folder_name": "Push-Pull Gym Monster 2",
-      "notes": "",
+      "updated_at": "2026-05-19T05:50:36.220Z",
+      "created_at": "2026-05-18T23:09:08.643Z",
       "exercises": [
         {
           "index": 0,
-          "title": "General Notes & Warm-Up",
+          "title": "General Notes & Warm-Up ",
           "notes": "Pull–Push Gym Monster 2 — Power Week\n\nAll work on GM2 (Smith + cables). Hypertrophy: RPE 8–9 (1–2 RIR). Power triples: ~85–90% of today's triple; 1 RIR on sets 1–2. Do not superset power work.\n\nGeneral warm-up (every day, GM2):\nFace Pull (Cable) 1×10; Cable Twist (Up to Down) 1×10/side light; Seated Cable Row – Bar Grip 1×10; Face Pull 1×10 (ER emphasis); OH Triceps Extension (Cable) 1×10/side light; RDL (Smith) 1×10; Cable Row 1×10; Squat (Smith) ×5 → OHP (Smith) ×5 complex.\n\nSee programs/khoiphan21/push-pull-gym-monster-2 for tempo/volume weeks and progression.",
           "exercise_template_id": "2e6c1b67-6b65-4467-a325-7e718fefc65a",
           "superset_id": null,
@@ -1552,18 +1555,19 @@
           ],
           "rest_seconds": 60
         }
-      ]
+      ],
+      "_folder_name": "Push-Pull Gym Monster 2"
     },
     {
       "id": "f46e5ba0-db0b-4d3e-a07d-36578a3593ab",
       "title": "Power Week - Day 5: Pull B",
       "folder_id": 2893630,
-      "_folder_name": "Push-Pull Gym Monster 2",
-      "notes": "",
+      "updated_at": "2026-05-19T05:50:36.506Z",
+      "created_at": "2026-05-18T23:09:08.943Z",
       "exercises": [
         {
           "index": 0,
-          "title": "General Notes & Warm-Up",
+          "title": "General Notes & Warm-Up ",
           "notes": "Pull–Push Gym Monster 2 — Power Week\n\nAll work on GM2 (Smith + cables). Hypertrophy: RPE 8–9 (1–2 RIR). Power triples: ~85–90% of today's triple; 1 RIR on sets 1–2. Do not superset power work.\n\nGeneral warm-up (every day, GM2):\nFace Pull (Cable) 1×10; Cable Twist (Up to Down) 1×10/side light; Seated Cable Row – Bar Grip 1×10; Face Pull 1×10 (ER emphasis); OH Triceps Extension (Cable) 1×10/side light; RDL (Smith) 1×10; Cable Row 1×10; Squat (Smith) ×5 → OHP (Smith) ×5 complex.\n\nSee programs/khoiphan21/push-pull-gym-monster-2 for tempo/volume weeks and progression.",
           "exercise_template_id": "2e6c1b67-6b65-4467-a325-7e718fefc65a",
           "superset_id": null,
@@ -1661,15 +1665,6 @@
               "custom_metric": null
             },
             {
-              "index": 0,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 3,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
               "index": 1,
               "type": "normal",
               "weight_kg": null,
@@ -1680,6 +1675,15 @@
             },
             {
               "index": 2,
+              "type": "normal",
+              "weight_kg": null,
+              "reps": 3,
+              "distance_meters": null,
+              "duration_seconds": null,
+              "custom_metric": null
+            },
+            {
+              "index": 3,
               "type": "normal",
               "weight_kg": null,
               "reps": 3,
@@ -1949,7 +1953,8 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Push-Pull Gym Monster 2"
     }
   ]
 }

@@ -17,6 +17,7 @@ npm run hevy:fetch              # Fetch templates, all routines, folders → cac
 npm run hevy:fetch-exercises    # Exercise templates only
 npm run hevy:fetch-routines     # All account routines → cache/routines-all.json
 npm run hevy:fetch-folders      # Routine folders only
+npm run hevy:pull-routines      # Rewrite local program routines.json snapshots from cache
 npm run hevy:map -- <program>   # Map manifest slugs → Hevy IDs; writes program hevy/mapping.json + status.md
 npm run hevy:push -- <program>  # Create customs + upsert routines for one program
 ```

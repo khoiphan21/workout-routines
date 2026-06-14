@@ -191,7 +191,7 @@ async function main() {
           hevyTitle: resolved.hevyTitle,
           matchScore: 1,
         });
-      } else if (resolved.needsCreate && !resolved.error) {
+      } else if (resolved.needsCreate) {
         toCreate.push({
           slug: ex.slug,
           title: customSpec.title,

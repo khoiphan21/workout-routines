@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-21T02:55:12.530Z",
+  "fetchedAt": "2026-06-14T22:26:07.779Z",
   "source": "programs/khoiphan21/push-pull-homegym",
   "count": 16,
   "data": [
@@ -7,8 +7,8 @@
       "id": "56f0ba52-32c4-4b8e-bc5e-8d7cebad42b6",
       "title": "Power Week - Day 1: Push A",
       "folder_id": 2893674,
-      "updated_at": "2026-03-22T22:41:13.799Z",
-      "created_at": "2026-03-22T22:41:13.799Z",
+      "updated_at": "2026-06-10T22:53:06.749Z",
+      "created_at": "2025-09-21T12:43:00.028Z",
       "exercises": [
         {
           "index": 0,
@@ -23,7 +23,7 @@
               "weight_kg": null,
               "reps": null,
               "distance_meters": null,
-              "duration_seconds": 420,
+              "duration_seconds": 322,
               "custom_metric": null
             }
           ],
@@ -48,7 +48,7 @@
             {
               "index": 1,
               "type": "warmup",
-              "weight_kg": null,
+              "weight_kg": 5,
               "reps": 3,
               "distance_meters": null,
               "duration_seconds": null,
@@ -57,7 +57,7 @@
             {
               "index": 2,
               "type": "warmup",
-              "weight_kg": null,
+              "weight_kg": 15,
               "reps": 2,
               "distance_meters": null,
               "duration_seconds": null,
@@ -66,7 +66,7 @@
             {
               "index": 3,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 20,
               "reps": 3,
               "distance_meters": null,
               "duration_seconds": null,
@@ -75,7 +75,7 @@
             {
               "index": 4,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 20,
               "reps": 3,
               "distance_meters": null,
               "duration_seconds": null,
@@ -84,7 +84,7 @@
             {
               "index": 5,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 20,
               "reps": 3,
               "distance_meters": null,
               "duration_seconds": null,
@@ -96,7 +96,7 @@
         {
           "index": 2,
           "title": "Iron Cross Hold Progression",
-          "notes": "Skill superset A1: 3x10 s iron cross progression. Then A2 with minimal rest. 60–75 s after A2 before next round.",
+          "notes": "Skill tri-set A1: 3x10 s iron cross progression. Then A2 and A3 with minimal rest. 60-75 s after A3 before next round.",
           "exercise_template_id": "9f7e20e1-81a6-4621-b715-701c60ac75b9",
           "superset_id": 0,
           "sets": [
@@ -132,16 +132,16 @@
         },
         {
           "index": 3,
-          "title": "Handstand Push Up",
-          "notes": "Skill superset A2: Wall HSPU 3×3 (after easy elevated pike). Paired with iron cross hold; regress to pike or partial ROM if needed. 60–75 s rest after this exercise each round.",
-          "exercise_template_id": "90B04F96",
+          "title": "Pike Handstand Push-Up (elevated feet)",
+          "notes": "Skill tri-set A2: elevated pike handstand push-up. Then A3 with minimal rest.",
+          "exercise_template_id": "a416a14b-519b-4a6a-b7b6-949c3fb25997",
           "superset_id": 0,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 3,
+              "reps": 5,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -165,14 +165,14 @@
               "custom_metric": null
             }
           ],
-          "rest_seconds": 75
+          "rest_seconds": 0
         },
         {
           "index": 4,
           "title": "Sissy Squat (Weighted)",
-          "notes": "Quad pre-GM2: 3×12 (sissy stand; plate/belt or GM2 floor-platform cable). Single exercise—60–75 s between sets. Then start GM2 block (no return to rings/bar).",
+          "notes": "Skill/quad tri-set A3: 3x12 (sissy stand; plate/belt or GM2 floor-platform cable). Rest 60-75 s after this exercise before the next round. Then start GM2 block (no return to rings/bar).",
           "exercise_template_id": "F5DEF1EB",
-          "superset_id": null,
+          "superset_id": 0,
           "sets": [
             {
               "index": 0,
@@ -206,9 +206,9 @@
         },
         {
           "index": 5,
-          "title": "Bulgarian Split Squat (Cable)",
-          "notes": "Hypertrophy H1: 3×8/side on GM2 floor platform (both sides). Superset with lateral raise (same anchor zone); 0 s before H2; 60–75 s after H2 each round.",
-          "exercise_template_id": "B5D3A742",
+          "title": "Seated Dual-Handle Shoulder Press",
+          "notes": "Hypertrophy H1: 3x8 seated dual-handle shoulder press on GM2. Superset with lateral raise; 0 s before H2; 60-75 s after H2 each round.",
+          "exercise_template_id": "774fc480-3aca-4ada-9af9-7a819378aac5",
           "superset_id": 2,
           "sets": [
             {
@@ -244,14 +244,14 @@
         {
           "index": 6,
           "title": "Lateral Raise (Cable)",
-          "notes": "Hypertrophy H2: 3×12 side delt on GM2 floor platform (both sides). Paired with BSS—same anchor zone; 60–75 s after this exercise each round.",
+          "notes": "Hypertrophy H2: 3x12 side delt on GM2. Paired with seated dual-handle shoulder press; 60-75 s after this exercise each round.",
           "exercise_template_id": "BE289E45",
           "superset_id": 2,
           "sets": [
             {
               "index": 0,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 7,
               "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
@@ -260,7 +260,7 @@
             {
               "index": 1,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 7,
               "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
@@ -269,7 +269,7 @@
             {
               "index": 2,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 7,
               "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
@@ -280,16 +280,16 @@
         },
         {
           "index": 7,
-          "title": "Chest Fly (Cable)",
-          "notes": "Hypertrophy H3: 3×12 mid pulleys (handles). Giant with OH triceps extension—swap to high pulley + rope for H4; 60–75 s after H4.",
+          "title": "Cable Fly Crossovers",
+          "notes": "Hypertrophy H3: 3x12 mid pulleys (handles). Giant with prone incline dual-handle triceps kickback; 60-75 s after H4.",
           "exercise_template_id": "651F844C",
           "superset_id": 3,
           "sets": [
             {
               "index": 0,
               "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
+              "weight_kg": 15,
+              "reps": 10,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -297,8 +297,8 @@
             {
               "index": 1,
               "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
+              "weight_kg": 15,
+              "reps": 8,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -306,7 +306,7 @@
             {
               "index": 2,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 13,
               "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
@@ -317,9 +317,9 @@
         },
         {
           "index": 8,
-          "title": "Overhead Triceps Extension (Cable)",
-          "notes": "Hypertrophy H4: 3×15 long-head triceps (high pulley, rope). End of fly + tri pair; 60–75 s after extension.",
-          "exercise_template_id": "B5EFBF9C",
+          "title": "Prone Incline Dual-Handle Triceps Kickback (Floor)",
+          "notes": "Hypertrophy H4: 3x15 prone incline dual-handle triceps kickback from the floor. End of fly + triceps pair; 60-75 s after kickback.",
+          "exercise_template_id": "230db9e3-3129-4208-a0e6-88a2dc606866",
           "superset_id": 3,
           "sets": [
             {
@@ -365,7 +365,7 @@
               "weight_kg": null,
               "reps": null,
               "distance_meters": null,
-              "duration_seconds": 20,
+              "duration_seconds": 26,
               "custom_metric": null
             },
             {
@@ -374,7 +374,7 @@
               "weight_kg": null,
               "reps": null,
               "distance_meters": null,
-              "duration_seconds": 20,
+              "duration_seconds": 51,
               "custom_metric": null
             },
             {
@@ -383,7 +383,7 @@
               "weight_kg": null,
               "reps": null,
               "distance_meters": null,
-              "duration_seconds": 20,
+              "duration_seconds": 23,
               "custom_metric": null
             }
           ],
@@ -395,8 +395,8 @@
       "id": "34ae88da-9701-440f-90eb-f0eabba0d149",
       "title": "Power Week - Day 2: Pull A",
       "folder_id": 2893674,
-      "updated_at": "2026-03-22T22:41:13.799Z",
-      "created_at": "2026-03-22T22:41:13.799Z",
+      "updated_at": "2026-06-11T23:49:21.450Z",
+      "created_at": "2025-09-17T09:19:54.685Z",
       "exercises": [
         {
           "index": 0,
@@ -411,7 +411,7 @@
               "weight_kg": null,
               "reps": null,
               "distance_meters": null,
-              "duration_seconds": 420,
+              "duration_seconds": 295,
               "custom_metric": null
             }
           ],
@@ -436,7 +436,7 @@
             {
               "index": 1,
               "type": "warmup",
-              "weight_kg": null,
+              "weight_kg": 10,
               "reps": 3,
               "distance_meters": null,
               "duration_seconds": null,
@@ -445,7 +445,7 @@
             {
               "index": 2,
               "type": "warmup",
-              "weight_kg": null,
+              "weight_kg": 15,
               "reps": 2,
               "distance_meters": null,
               "duration_seconds": null,
@@ -454,7 +454,7 @@
             {
               "index": 3,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 20,
               "reps": 3,
               "distance_meters": null,
               "duration_seconds": null,
@@ -463,8 +463,8 @@
             {
               "index": 4,
               "type": "normal",
-              "weight_kg": null,
-              "reps": 3,
+              "weight_kg": 20,
+              "reps": 2,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -472,8 +472,8 @@
             {
               "index": 5,
               "type": "normal",
-              "weight_kg": null,
-              "reps": 3,
+              "weight_kg": 20,
+              "reps": 2,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -566,7 +566,7 @@
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 5,
+              "reps": 4,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -575,7 +575,7 @@
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": 5,
+              "reps": 3,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -584,7 +584,7 @@
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": 5,
+              "reps": 2,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -602,7 +602,7 @@
             {
               "index": 0,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 18,
               "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
@@ -611,7 +611,7 @@
             {
               "index": 1,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 18,
               "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
@@ -620,7 +620,7 @@
             {
               "index": 2,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 18,
               "reps": 15,
               "distance_meters": null,
               "duration_seconds": null,
@@ -639,7 +639,7 @@
             {
               "index": 0,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 55,
               "reps": 10,
               "distance_meters": null,
               "duration_seconds": null,
@@ -648,8 +648,8 @@
             {
               "index": 1,
               "type": "normal",
-              "weight_kg": null,
-              "reps": 10,
+              "weight_kg": 55,
+              "reps": 7,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -657,8 +657,8 @@
             {
               "index": 2,
               "type": "normal",
-              "weight_kg": null,
-              "reps": 10,
+              "weight_kg": 50,
+              "reps": 7,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -676,7 +676,7 @@
             {
               "index": 0,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 20,
               "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
@@ -685,7 +685,7 @@
             {
               "index": 1,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 20,
               "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
@@ -694,8 +694,8 @@
             {
               "index": 2,
               "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
+              "weight_kg": 20,
+              "reps": 5,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -713,7 +713,7 @@
             {
               "index": 0,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 28,
               "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
@@ -722,7 +722,7 @@
             {
               "index": 1,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 28,
               "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
@@ -731,7 +731,7 @@
             {
               "index": 2,
               "type": "normal",
-              "weight_kg": null,
+              "weight_kg": 28,
               "reps": 12,
               "distance_meters": null,
               "duration_seconds": null,
@@ -746,8 +746,8 @@
       "id": "7ecd730a-e4a5-4b46-8b6c-5d439c22fbae",
       "title": "Power Week - Day 3: Conditioning",
       "folder_id": 2893674,
-      "updated_at": "2026-03-22T22:41:13.799Z",
-      "created_at": "2026-03-22T22:41:13.799Z",
+      "updated_at": "2026-05-21T02:50:59.174Z",
+      "created_at": "2026-03-22T22:50:50.947Z",
       "exercises": [
         {
           "index": 0,
@@ -1133,8 +1133,8 @@
       "id": "2290be71-c3b4-4cb6-8c93-9352a3365470",
       "title": "Power Week - Day 4: Push B",
       "folder_id": 2893674,
-      "updated_at": "2026-03-22T22:41:13.799Z",
-      "created_at": "2026-03-22T22:41:13.799Z",
+      "updated_at": "2026-05-21T02:50:59.637Z",
+      "created_at": "2026-03-22T22:50:51.021Z",
       "exercises": [
         {
           "index": 0,
@@ -1267,7 +1267,7 @@
         },
         {
           "index": 3,
-          "title": "Wall Handstand Push-Up",
+          "title": "Handstand Push Up",
           "notes": "Handstand giant D2: Wall HSPU 3x3. Then D3 freestanding; 60–75 s after D3.",
           "exercise_template_id": "90B04F96",
           "superset_id": 0,
@@ -1493,8 +1493,8 @@
       "id": "3b12149c-577a-4539-96e1-a77b423a002a",
       "title": "Power Week - Day 5: Pull B",
       "folder_id": 2893674,
-      "updated_at": "2026-03-22T22:41:13.799Z",
-      "created_at": "2026-03-22T22:41:13.799Z",
+      "updated_at": "2026-05-22T02:37:56.121Z",
+      "created_at": "2026-03-22T22:50:51.101Z",
       "exercises": [
         {
           "index": 0,
@@ -1682,8 +1682,8 @@
             {
               "index": 0,
               "type": "normal",
-              "weight_kg": null,
-              "reps": 10,
+              "weight_kg": 59,
+              "reps": 8,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1691,8 +1691,8 @@
             {
               "index": 1,
               "type": "normal",
-              "weight_kg": null,
-              "reps": 10,
+              "weight_kg": 59,
+              "reps": 8,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1825,8 +1825,9 @@
     {
       "id": "f5933ea9-bc65-4fcb-a9bb-dbe16352c503",
       "title": "Mini Pull A: Row & Curl",
-      "_folder_name": "Mini Routines",
       "folder_id": 2638884,
+      "updated_at": "2026-05-21T02:55:07.964Z",
+      "created_at": "2026-04-04T10:53:07.969Z",
       "exercises": [
         {
           "index": 0,
@@ -1911,13 +1912,15 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Mini Routines"
     },
     {
       "id": "6463d062-65fe-48d9-9c19-5e17819a3a94",
       "title": "Mini Pull B: Pulldown & Face Pull",
-      "_folder_name": "Mini Routines",
       "folder_id": 2638884,
+      "updated_at": "2026-05-21T02:55:08.424Z",
+      "created_at": "2026-04-04T10:53:08.047Z",
       "exercises": [
         {
           "index": 0,
@@ -2002,13 +2005,15 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Mini Routines"
     },
     {
       "id": "8fe33820-5254-438e-b913-58e91998f205",
       "title": "Mini Pull C: Wide Row & Reverse Fly",
-      "_folder_name": "Mini Routines",
       "folder_id": 2638884,
+      "updated_at": "2026-05-21T02:55:08.884Z",
+      "created_at": "2026-04-04T10:53:08.117Z",
       "exercises": [
         {
           "index": 0,
@@ -2093,17 +2098,19 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Mini Routines"
     },
     {
       "id": "7df16849-0bbf-4629-b6b7-d48486d40f12",
       "title": "Mini Push A: Fly & Triceps",
-      "_folder_name": "Mini Routines",
       "folder_id": 2638884,
+      "updated_at": "2026-05-21T02:55:09.353Z",
+      "created_at": "2026-04-04T10:53:08.202Z",
       "exercises": [
         {
           "index": 0,
-          "title": "Chest Fly (Cable)",
+          "title": "Cable Fly Crossovers",
           "notes": "Mini routine — chest + triceps.\nWarm-up: 1x10 band dislocates + 1x8 push-ups before starting.\n3x12 @ RPE 8–9. Superset with OH triceps extension; 60–75 s after extension.",
           "exercise_template_id": "651F844C",
           "superset_id": 0,
@@ -2184,13 +2191,15 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Mini Routines"
     },
     {
       "id": "db508702-3307-4c95-8ad5-89cbc084c9df",
       "title": "Mini Push B: OHP & Lateral Raise",
-      "_folder_name": "Mini Routines",
       "folder_id": 2638884,
+      "updated_at": "2026-05-21T02:55:09.810Z",
+      "created_at": "2026-04-04T10:53:08.280Z",
       "exercises": [
         {
           "index": 0,
@@ -2275,13 +2284,15 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Mini Routines"
     },
     {
       "id": "97294fea-5351-4d36-8b95-41182bfae2ef",
       "title": "Mini Push C: Incline & Hammer Curl",
-      "_folder_name": "Mini Routines",
       "folder_id": 2638884,
+      "updated_at": "2026-05-21T02:55:10.270Z",
+      "created_at": "2026-04-04T10:53:08.359Z",
       "exercises": [
         {
           "index": 0,
@@ -2366,17 +2377,19 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Mini Routines"
     },
     {
       "id": "cf1ae873-9698-4da8-a200-c4bda8736ff1",
       "title": "Mini Legs A: BSS & Calf Raise",
-      "_folder_name": "Mini Routines",
       "folder_id": 2638884,
+      "updated_at": "2026-05-21T02:55:10.715Z",
+      "created_at": "2026-04-04T10:53:08.446Z",
       "exercises": [
         {
           "index": 0,
-          "title": "Bulgarian Split Squat (Cable)",
+          "title": "Bulgarian Split Squat",
           "notes": "Mini routine — quads + calves.\nWarm-up: 1x10 bodyweight squats before starting.\n3x8/side @ RPE 8–9. Superset with calf raise; 60–75 s after calf raise.",
           "exercise_template_id": "B5D3A742",
           "superset_id": 0,
@@ -2457,13 +2470,15 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Mini Routines"
     },
     {
       "id": "7d455c01-c3f8-479a-b2e9-f43eedef8229",
       "title": "Mini Legs B: Sissy Squat & Ham Curl",
-      "_folder_name": "Mini Routines",
       "folder_id": 2638884,
+      "updated_at": "2026-05-21T02:55:11.188Z",
+      "created_at": "2026-04-04T10:53:08.524Z",
       "exercises": [
         {
           "index": 0,
@@ -2548,13 +2563,15 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Mini Routines"
     },
     {
       "id": "5935dc41-a6ea-44fa-b5b1-8e2d666b611c",
       "title": "Mini Core: Crunch & L-Sit",
-      "_folder_name": "Mini Routines",
       "folder_id": 2638884,
+      "updated_at": "2026-05-21T02:55:11.651Z",
+      "created_at": "2026-04-04T10:53:08.603Z",
       "exercises": [
         {
           "index": 0,
@@ -2630,13 +2647,15 @@
           ],
           "rest_seconds": 60
         }
-      ]
+      ],
+      "_folder_name": "Mini Routines"
     },
     {
       "id": "99dd1f79-0c4b-4822-8e8c-367e7b177517",
       "title": "Mini Skill A: Handstand",
-      "_folder_name": "Mini Routines",
       "folder_id": 2638884,
+      "updated_at": "2026-05-21T02:55:12.117Z",
+      "created_at": "2026-04-04T10:53:08.713Z",
       "exercises": [
         {
           "index": 0,
@@ -2712,13 +2731,15 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Mini Routines"
     },
     {
       "id": "7726497e-c526-4c30-9fe4-431e60861a03",
       "title": "Mini Skill B: Levers",
-      "_folder_name": "Mini Routines",
       "folder_id": 2638884,
+      "updated_at": "2026-05-21T02:55:12.590Z",
+      "created_at": "2026-04-04T10:53:08.788Z",
       "exercises": [
         {
           "index": 0,
@@ -2794,7 +2815,8 @@
           ],
           "rest_seconds": 75
         }
-      ]
+      ],
+      "_folder_name": "Mini Routines"
     }
   ]
 }
