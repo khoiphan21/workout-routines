@@ -140,7 +140,7 @@ Planned deloads help **fatigue**; they may **not** maximize **peak strength** in
   - A3: Sissy Squat (weighted or bodyweight) — 3×12  
     _Anchored feet, plate/belt optional; knee-extension emphasis. A1 → A2 → A3 with minimal rest; **60–75 s** after A3._
 - **Hypertrophy + Abs (Gym Monster 2)** — *after sissy, move to GM2 and do not return to rings/bar*
-  - **H1:** Seated Dual-Handle Shoulder Press — 3x8 → **H2:** Lateral Raise (Cable) — 3x12  
+  - **H1:** Seated Dual-Handle Shoulder Press — 3x8 → **H2:** Lateral Raise (Cable) — 3x8  
     _Both on **GM2**; **60–75 s** after H2._
   - **H3:** Supine Dual-Handle Chest Fly — 3×12 → **H4:** Prone Incline Dual-Handle Triceps Kickback (Floor) — 3×15  
     _Supine floor fly with dual handles, then prone floor kickback with dual handles; **60–75 s** after H4._

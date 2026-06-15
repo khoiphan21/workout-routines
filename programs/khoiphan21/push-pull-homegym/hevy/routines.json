@@ -244,7 +244,7 @@
         {
           "index": 6,
           "title": "Lateral Raise (Cable)",
-          "notes": "Hypertrophy H2: 3x12 side delt on GM2. Paired with seated dual-handle shoulder press; 60-75 s after this exercise each round.",
+          "notes": "Hypertrophy H2: 3x8 side delt on GM2. Paired with seated dual-handle shoulder press; 60-75 s after this exercise each round.",
           "exercise_template_id": "BE289E45",
           "superset_id": 2,
           "sets": [
@@ -252,7 +252,7 @@
               "index": 0,
               "type": "normal",
               "weight_kg": 7,
-              "reps": 12,
+              "reps": 8,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -261,7 +261,7 @@
               "index": 1,
               "type": "normal",
               "weight_kg": 7,
-              "reps": 12,
+              "reps": 8,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -270,7 +270,7 @@
               "index": 2,
               "type": "normal",
               "weight_kg": 7,
-              "reps": 12,
+              "reps": 8,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
