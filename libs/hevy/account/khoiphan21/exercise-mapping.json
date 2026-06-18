@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-14T22:41:31.705Z",
+  "generatedAt": "2026-06-18T01:08:50.813Z",
   "hevyTemplateCount": 457,
   "repoExerciseCount": 49,
-  "matched": 69,
+  "matched": 71,
   "toCreate": [],
   "mapping": [
     {
@@ -279,6 +279,13 @@
       "matchScore": 1
     },
     {
+      "slug": "prone-incline-cable-y-raise",
+      "repoTitle": "Prone Incline Cable Y-Raise",
+      "hevyId": "ec485033-7081-47a9-9cd8-5e5f3f9bb92e",
+      "hevyTitle": "Prone Incline Cable Y-Raise",
+      "matchScore": 1
+    },
+    {
       "slug": "prone-incline-dual-handle-triceps-kickback-floor",
       "repoTitle": "Prone Incline Dual-Handle Triceps Kickback (Floor)",
       "hevyId": "230db9e3-3129-4208-a0e6-88a2dc606866",
@@ -446,6 +453,13 @@
       "repoTitle": "V-Ups",
       "hevyId": "6BE68B62",
       "hevyTitle": "V Up",
+      "matchScore": 1
+    },
+    {
+      "slug": "wall-walks",
+      "repoTitle": "Wall Walks",
+      "hevyId": "54b0404b-9549-4b59-9a23-fe44e1d94ebd",
+      "hevyTitle": "Wall Walks",
       "matchScore": 1
     },
     {

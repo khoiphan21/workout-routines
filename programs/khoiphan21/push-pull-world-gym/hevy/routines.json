@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-14T22:26:32.355Z",
+  "fetchedAt": "2026-06-18T01:08:50.812Z",
   "source": "programs/khoiphan21/push-pull-world-gym",
   "count": 1,
   "data": [
@@ -263,7 +263,7 @@
         {
           "index": 7,
           "title": "Reverse Grip Lat Pulldown (Cable)",
-          "notes": "Hypertrophy H3: 3×15 on lat pulldown (supinated/parallel grip)—supinated slot vs Pull A pronated work. Single; **60–75 s** between sets.",
+          "notes": "Hypertrophy H3: 3×8 on lat pulldown (supinated/parallel grip)—supinated slot vs Pull A pronated work. Single; **60–75 s** between sets.",
           "exercise_template_id": "046E25A2",
           "superset_id": null,
           "sets": [
@@ -271,7 +271,7 @@
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 8,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -280,7 +280,7 @@
               "index": 1,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 8,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -289,7 +289,7 @@
               "index": 2,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
+              "reps": 8,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null

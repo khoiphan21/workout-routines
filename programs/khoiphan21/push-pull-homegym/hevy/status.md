@@ -1,21 +1,22 @@
 # Hevy sync status — push-pull-homegym
 
-**Generated:** 2026-06-14T22:41:46.428Z
+**Generated:** 2026-06-18T01:01:58.183Z
 
 | Metric | Count |
 |--------|------:|
 | Program exercise slugs | 34 |
-| Matched to Hevy | 34 |
-| To create on Hevy | 0 |
+| Matched to Hevy | 32 |
+| To create on Hevy | 2 |
 | Map errors | 0 |
 
 ## Exercises to create
 
-_None — all slugs matched or listed in `custom-exercises.json`._
+
 
 | Repo title | Slug | File | Note |
 |------------|------|------|------|
-
+| Prone Incline Cable Y-Raise | `prone-incline-cable-y-raise` | `exercises/prone-incline-cable-y-raise.md` |  |
+| Wall Walks | `wall-walks` | `—` |  |
 
 ## Matched
 
@@ -32,7 +33,6 @@ _None — all slugs matched or listed in `custom-exercises.json`._
 | Chest-to-Wall Handstand Hold | Chest-to-Wall Handstand Hold | 3814de10-1893-43b5-8510-61b2e5aaaeb0 | 100% |
 | Freestanding Handstand Hold | Freestanding Handstand Hold | 1e929910-a921-4568-81fc-a04d2457a117 | 100% |
 | Front Lever Hold | Front Lever Hold | 0E608350 | 100% |
-| Handstand Push-Up | Handstand Push Up | 90B04F96 | 100% |
 | Hollow Body Rock | Hollow Rock | 970ADF87 | 85% |
 | Incline Bench Press (Cable, Gym Monster 2) | Incline Bench Press (Cable, Gym Monster 2) | 0bdabadd-dff1-40a8-8f3e-1f77e80daa10 | 100% |
 | Iron Cross Hold Progression | Iron Cross Hold Progression | 9f7e20e1-81a6-4621-b715-701c60ac75b9 | 100% |
@@ -40,7 +40,6 @@ _None — all slugs matched or listed in `custom-exercises.json`._
 | L-Sit Hold | L-Sit Hold | 6D54A050 | 100% |
 | Nordic Curl | Nordic Hamstrings Curls | 108D7A14 | 90% |
 | Overhead Band Triceps Extension | Overhead Triceps Extension (Cable) | B5EFBF9C | 97% |
-| Overhead Press (Cable, Gym Monster 2) | Overhead Press (Cable, Gym Monster 2) | 8917a840-6edb-498e-a59c-bae2b2da5eaa | 100% |
 | Pike Handstand Push-Up | Pike Handstand Push-Up (elevated feet) | a416a14b-519b-4a6a-b7b6-949c3fb25997 | 100% |
 | Prone Incline Dual Handle Triceps Kickback Floor | Prone Incline Dual-Handle Triceps Kickback (Floor) | 230db9e3-3129-4208-a0e6-88a2dc606866 | 100% |
 | Reverse Grip Lat Pulldown (Cable) | Reverse Grip Lat Pulldown (Cable) | 046E25A2 | 100% |

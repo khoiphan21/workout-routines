@@ -54,7 +54,7 @@ A 5-day split built for a **calisthenics station** (bar, rings, bench, bands) pl
   - Banded Bent-Over Rows — 1x10
   - Banded Squat to Press — 1x10
   - Quadruped Thoracic Rotation — 1x10 per side
-- **Hevy (Power Week main days):** log one **Warmup: General - Power Week** duration set (**7 min / 420 s**) at the start of each main day (same band protocol on all days). Power ramps stay on the power lift only (pull-up/dip: 3 warm-ups; bench: 4 warm-ups on Push B).
+- **Hevy (Power Week main days):** log one **Warmup: General - Power Week** duration set (**7 min / 420 s**) at the start of each main day (same band protocol on all days). Power ramps stay on the power lift only (pull-up/dip: 3 warm-ups; bench: 3 warm-ups on Push B).
 - **Power triples:** ~85–90% of the day's triple; 1 rep in reserve on the first 2 sets.
 - **Hypertrophy:** RPE 8–9 (1–2 reps in reserve).
 - **Weekly balance:** Over a **microcycle (one week)**, spread **direct** hypertrophy volume so major areas (chest, back/lats, shoulders, arms, legs, calves, abs) each get meaningful work at **2×/week** where possible. **≥10 hard sets / muscle / week** (from `research/strength-hypertrophy.md`) should include **power + skills + GM2** using a transparent count (see **Hard sets — how to count** below)—not table estimates alone.
@@ -71,7 +71,7 @@ Use **hard sets** = work sets taken **~0–3 RIR** (exclude warm-ups and easy sk
 |---------------|------------------------------|--------------------------------|
 | Chest | Bench/dip **work** triples; fly; incline press | — |
 | Back / lats | Rows, pulldowns, SA pulldown **work** sets | Face pull → small upper-back |
-| Shoulders | OHP, lateral raise, face pull, rev fly **work** sets | Bench/dip/HSPU (1 indirect each if already counted for chest/triceps) |
+| Shoulders | Y-raise, lateral raise, face pull, rev fly **work** sets | Bench/dip/HSPU (1 indirect each if already counted for chest/triceps) |
 | Triceps | Tri extension **work** sets | Dip, bench, HSPU, muscle-up (1 indirect each) |
 | Biceps | Curl **work** sets | Chin-up, row, lever row (0.5 indirect per row set optional) |
 | Quads | BSS, sissy squat, split squat **work** sets | High pull (if quad-dominant variant) |
@@ -185,16 +185,16 @@ Planned deloads help **fatigue**; they may **not** maximize **peak strength** in
 ### Day 4 — Push B
 
 - **Power:** Barbell Bench Press (2 s pause on chest) — 3x3
-  - _Warm-up: empty bar × 8–10, then ~50% × 3, ~70% × 2, ~85% × 1, then work sets._
+  - _Warm-up: empty bar × 8–10, then ~50% × 3, ~70% × 2, then work sets._
   - _Rest 3–4 min. Aligns with compound-first strength work (see research/exercise-selection-technique)._
 - **Handstand skill giant set**
   - D1: Chest-to-Wall Handstand Hold — 3×20–30 s
-  - D2: Wall Handstand Push-Up — 3x3
+  - D2: Wall Walks — 3x3
   - D3: Freestanding Handstand Hold — 3×15 s
-  - _D1 → D2 → D3 with minimal rest; **60–75 s** after D3 before the next round. Chest stays close to the wall on D1; full ROM on D2; clean line on D3._
+  - _D1 → D2 → D3 with minimal rest; **60–75 s** after D3 before the next round. Chest stays close to the wall on D1; keep D2 controlled and regress to Wall Handstand Shoulder Taps — 3x6–10 total if needed; clean line on D3._
 - **Hypertrophy + Abs (Gym Monster 2)** — *same exercise count as Push A (warm-up + power + skill + 2 GM2 slots + crunch)*
-  - **H1–H2 (giant):** Overhead Press (Cable, GM2) — 3x8 → **Incline Bench Press (Cable, GM2)** — 3x12  
-    _Minimal rest between OHP and incline; **60–75 s** after incline. Hamstrings: Nordic on Pull B; hammer curl: optional **Mini Push C** if you want extra arm volume._
+  - **H1–H2 (giant):** Prone Incline Cable Y-Raise — 3x12 → **Incline Bench Press (Cable, GM2)** — 3x12
+    _Same low incline bench setup; minimal rest between Y-raise and incline press; **60–75 s** after incline. Hamstrings: Nordic on Pull B; hammer curl: optional **Mini Push C** if you want extra arm volume._
   - **Overhead Triceps Extension (Cable)** — 3x15  
     _Single; **60–75 s** between sets._
   - Cable Crunch — 3x15  
@@ -213,7 +213,7 @@ Planned deloads help **fatigue**; they may **not** maximize **peak strength** in
 - **Hypertrophy + Abs (Gym Monster 2)** — *same exercise count as Pull A*
   - **H1:** Seated Cable Row (Wide Grip) — 3x10 → **H2:** Reverse Fly (Cable) — 3x15  
     _Row + rear-delt; **60–75 s** after H2._
-  - **Reverse Grip Lat Pulldown (Cable)** — 3x15  
+  - **Reverse Grip Lat Pulldown (Cable)** — 3x8
     _Single—supinated stack vs Pull A pronated work; **60–75 s** between sets._
   - Cable Crunch — 3x12  
     _Single._
@@ -233,7 +233,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 - **Power lifts:** 3x2 @ moderate load, tempo 3-0-1; rest ~3 min.
 - **Skills:** same durations with an added 2 s isometric at the hardest position each set.
 - **Hypertrophy:** same reps with tempo 3-1-3; reduce load ~10–15% to sustain tempo.
-- **Lengthened partials (optional):** emphasise bottom half on 1–2 exercises (e.g. Chest Fly bottom stretch, cable OHP or incline bench bottom third, Nordic Curl 3 s eccentric).
+- **Lengthened partials (optional):** emphasise bottom half on 1–2 exercises (e.g. Chest Fly bottom stretch, Y-raise or incline bench bottom third, Nordic Curl 3 s eccentric).
 - **Supersets:** rest 60–75 s.
 
 ### Volume Week
@@ -248,7 +248,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 - **Push A:** Weighted Dip; Iron Cross Hold Progression; Pike Handstand Push-Up (elevated feet); Sissy Squat (weighted/BW); Seated Dual-Handle Shoulder Press (GM2); Lateral Raise (Cable, GM2); Supine Dual-Handle Chest Fly (GM2); Prone Incline Dual-Handle Triceps Kickback (Floor); Hollow Body Rock.
 - **Pull A:** Weighted Pull-Up; Front Lever Hold; Band-assisted High Pull-Up; Ring Row; Face Pull (GM2); Cable Row (GM2); Bicep Curl (Cable, GM2); Cable Crunch (GM2).
 - **Conditioning:** Ring Row; Band Overhead Press; Bodyweight Split Squat; Hollow Body Rock; Jumping Jacks; Band Straight-Arm Pulldown; L-Sit Hold; V-Ups.
-- **Push B:** Barbell Bench Press (pause); Chest-to-Wall Handstand Hold; Wall Handstand Push-Up; Freestanding Handstand Hold; Overhead Press (Cable, GM2); Incline Bench Press (Cable, GM2); Overhead Triceps Extension (GM2); Cable Crunch (GM2).
+- **Push B:** Barbell Bench Press (pause); Chest-to-Wall Handstand Hold; Wall Walks; Freestanding Handstand Hold; Prone Incline Cable Y-Raise; Incline Bench Press (Cable, GM2); Overhead Triceps Extension (GM2); Cable Crunch (GM2).
 - **Pull B:** Muscle-Up; Archer Pull-Ups; Back Lever Tuck Hold; Nordic Curl; Seated Cable Row Wide Grip (GM2); Reverse Fly (GM2); Reverse Grip Lat Pulldown (Cable, GM2); Cable Crunch (GM2).
 
 ## Key notes (selected)
@@ -257,7 +257,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 
 - **Weighted Pull-Up (Pull A):** 3 warm-ups—bodyweight × 5, light load × 3, ~70% × 2, then work sets.
 - **Weighted Dip (Push A):** 3 warm-ups—bodyweight × 5, light load × 3, ~70% × 2, then work sets.
-- **Other power lifts** (bench on Push B): empty bar × 8–10, ~50% × 3, ~70% × 2, ~85% × 1, then work sets.
+- **Other power lifts** (bench on Push B): empty bar × 8–10, ~50% × 3, ~70% × 2, then work sets.
 - Adapt as needed (e.g. band-assisted pull-up as "light load" if unweighted is heavy).
 
 ### Weighted Dip
@@ -265,11 +265,11 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 - **Warm-up (Push A):** 3 sets only—bodyweight × 5, light load × 3, ~70% × 2, then 3×3 work sets.
 - **Progression:** add +2.5 kg after a clean 3×3 (same rule as weighted pull-up).
 
-### Handstand push-up (Push A skill)
+### Pike handstand push-up (Push A skill)
 
-- **Current:** wall **Handstand Push-Up** 3×3 paired with iron cross hold.
-- **Previous step:** pike HSPU with elevated feet 3×3 (see [pike progression](../../../exercises/pike-handstand-push-up.md)).
-- **Push B** still runs the full handstand triplet (hold + HSPU + freestanding)—Push A is the strength slot for vertical pressing volume.
+- **Current:** **Pike Handstand Push-Up (elevated feet)** 3x5/3/3 paired with iron cross hold and sissy squat.
+- **Next step:** wall handstand push-up when elevated pike reps are clean (see [pike progression](../../../exercises/pike-handstand-push-up.md)).
+- **Push B** now runs the handstand control triplet (hold + wall walks + freestanding)—Push A is the strength slot for vertical pressing volume.
 
 ### Weighted Pull-Up
 
@@ -297,7 +297,7 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 - Do calisthenics skills first (outside), then move to GM2 and complete the hypertrophy block **and Push A abs** without going back to the calisthenics station.
 - **Pull A:** Face Pull; Cable Row; Bicep Curl (Cable); Cable Crunch.
 - **Push A:** Sissy Squat; Seated Dual-Handle Shoulder Press; Lateral Raise (Cable); Supine Dual-Handle Chest Fly; Prone Incline Dual-Handle Triceps Kickback (Floor); Hollow Body Rock (floor at GM2).
-- **Push B:** Overhead Press (Cable, GM2); Incline Bench Press (Cable, GM2); Overhead Triceps Extension; Cable Crunch.
+- **Push B:** Prone Incline Cable Y-Raise; Incline Bench Press (Cable, GM2); Overhead Triceps Extension; Cable Crunch.
 - **Pull B:** Seated Cable Row (Wide Grip); Reverse Fly; Reverse Grip Lat Pulldown; Cable Crunch (paired blocks per day summary).
 
 ### Weekly hypertrophy balance (direct sets, Power Week)
@@ -308,7 +308,7 @@ Approximate **hard sets per week** from GM2/cable work alone (power + skills add
 |------|--------|--------|--------|--------|---------------|
 | Chest | Fly | Incline | — | — | — |
 | Back / lats | — | — | Row | Row, high row | Ring row, band pulldown |
-| Shoulders (incl. rear) | Lateral raise | OHP | Face pull | Rev fly | Band OH press |
+| Shoulders (incl. rear) | Lateral raise | Y-raise | Face pull | Rev fly | Band OH press |
 | Triceps | OH extension | OH extension | — | — | — |
 | Biceps | — | — (optional Mini Push C) | Cable curl | — | — |
 | Quads | BSS, sissy squat | — | Split squat | — | Split squat |
@@ -327,7 +327,7 @@ Approximate **hard sets per week** from GM2/cable work alone (power + skills add
 ### Lengthened partials (Tempo / Volume week)
 
 - **Research:** Partials at long muscle lengths can enhance hypertrophy in stretched positions.
-- **Where to use:** Chest Fly (bottom stretch), cable OHP or incline bench (bottom third), Nordic Curl (3 s eccentric). Optional; 1–2 exercises per session.
+- **Where to use:** Chest Fly (bottom stretch), Y-raise or incline bench (bottom third), Nordic Curl (3 s eccentric). Optional; 1–2 exercises per session.
 
 ## Sync to Hevy
 

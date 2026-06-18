@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-06-14T22:42:00.043Z",
-  "count": 485,
+  "fetchedAt": "2026-06-18T01:08:53.948Z",
+  "count": 487,
   "data": [
     {
       "id": "3BC06AD3",
@@ -3141,6 +3141,18 @@
       "is_custom": false
     },
     {
+      "id": "ec485033-7081-47a9-9cd8-5e5f3f9bb92e",
+      "title": "Prone Incline Cable Y-Raise",
+      "type": "weight_reps",
+      "primary_muscle_group": "shoulders",
+      "secondary_muscle_groups": [
+        "traps",
+        "upper_back"
+      ],
+      "equipment": "machine",
+      "is_custom": true
+    },
+    {
       "id": "230db9e3-3129-4208-a0e6-88a2dc606866",
       "title": "Prone Incline Dual-Handle Triceps Kickback (Floor)",
       "type": "weight_reps",
@@ -5109,6 +5121,18 @@
       ],
       "equipment": "other",
       "is_custom": false
+    },
+    {
+      "id": "54b0404b-9549-4b59-9a23-fe44e1d94ebd",
+      "title": "Wall Walks",
+      "type": "reps_only",
+      "primary_muscle_group": "shoulders",
+      "secondary_muscle_groups": [
+        "triceps",
+        "abdominals"
+      ],
+      "equipment": "none",
+      "is_custom": true
     },
     {
       "id": "79EF4E4F",

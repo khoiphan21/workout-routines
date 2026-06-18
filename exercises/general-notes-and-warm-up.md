@@ -15,7 +15,7 @@
 - **Pull A:**
   - Front Lever Hold ↔ Rings Hamstring Curl
   - Feet-Elevated Inverted Row ↔ Straight-Arm Band Pulldown
-- **Push B (Power Week main routine):** handstand triplet at the wall; GM2 **OHP ↔ incline** giant, then overhead triceps extension, then cable crunch.
+- **Push B (Power Week main routine):** handstand triplet at the wall; GM2 **prone incline Y-raise -> incline press** giant, then overhead triceps extension, then cable crunch.
 - **Pull B (Power Week main routine):** **Archer pull-up ↔ back lever tuck** pair; Nordic curl own block; GM2 row + reverse fly, reverse-grip pulldown, cable crunch.
 
 🔥 Intensity guidance:
@@ -53,7 +53,7 @@
 📈 Power lift ramp-up sets:
 
 - **Weighted Pull-Up (Pull A) / Weighted Dip (Push A)—3 warm-ups:** Bodyweight 1×5 → light or band 1×3 → ~70% of work weight 1×2 → then 3×3 work sets (3–4 min rest).
-- **Bench (Push B)—4 warm-ups:** Empty bar 1×8–10 → ~50% 1×3 → ~70% 1×2 → ~85% 1×1 → then 3×3 work sets (3–4 min rest).
+- **Bench (Push B)-3 warm-ups:** Empty bar 1x8-10 -> ~50% 1x3 -> ~70% 1x2 -> then 3x3 work sets (3-4 min rest).
 
 🔄 If you attempt a progression and cannot meet the target today (applies to all exercises):
 

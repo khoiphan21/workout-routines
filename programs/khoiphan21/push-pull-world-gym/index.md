@@ -27,7 +27,7 @@ Session order: **warm-up → power → skills → cable hypertrophy + abs**. Do 
 | Skill pair | Archer Pull-Up ↔ Back Lever Tuck Hold | 3×4/side → 3×12 s; **60–75 s** after the pair |
 | Skill | Nordic Hamstrings Curl | 3×6 — own block; **~90 s** if needed |
 | Hypertrophy H1–H2 | Seated Cable Row (wide) ↔ Rear Delt Reverse Fly (Cable) | 3×10 → 3×15; **60–75 s** after H2 |
-| Hypertrophy H3 | Reverse Grip Lat Pulldown (Cable) | 3×15 — supinated stack vs Pull A pronated work |
+| Hypertrophy H3 | Reverse Grip Lat Pulldown (Cable) | 3×8 — supinated stack vs Pull A pronated work |
 | Abs | Cable Crunch | 3×12 |
 
 ### vs Home Gym Pull B

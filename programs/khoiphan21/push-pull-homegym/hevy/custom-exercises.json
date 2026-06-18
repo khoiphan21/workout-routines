@@ -48,6 +48,13 @@
     "muscleGroup": "shoulders",
     "otherMuscles": ["triceps", "abdominals"]
   },
+  "wall-walks": {
+    "title": "Wall Walks",
+    "exerciseType": "reps_only",
+    "equipmentCategory": "none",
+    "muscleGroup": "shoulders",
+    "otherMuscles": ["triceps", "abdominals"]
+  },
   "band-assisted-high-pull-up": {
     "title": "Band-assisted High Pull-Up",
     "exerciseType": "bodyweight_assisted_reps",
@@ -110,5 +117,12 @@
     "equipmentCategory": "machine",
     "muscleGroup": "chest",
     "otherMuscles": ["shoulders"]
+  },
+  "prone-incline-cable-y-raise": {
+    "title": "Prone Incline Cable Y-Raise",
+    "exerciseType": "weight_reps",
+    "equipmentCategory": "machine",
+    "muscleGroup": "shoulders",
+    "otherMuscles": ["traps", "upper_back"]
   }
 }

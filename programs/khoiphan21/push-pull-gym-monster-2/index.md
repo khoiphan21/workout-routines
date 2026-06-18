@@ -205,7 +205,7 @@ All stations use **Smith, cables, or bench** on the GM2—no rings, bands, separ
 - **Hypertrophy + Abs (GM2)**
   - **H1:** Seated Cable Row – Bar Wide Grip — 3×10 → **H2:** Rear Delt Reverse Fly (Cable) — 3×15  
     _**60–75 s** after H2._
-  - **H3:** Reverse Grip Lat Pulldown (Cable) — 3×15 → **H4:** Cable Crunch — 3×12  
+  - **H3:** Reverse Grip Lat Pulldown (Cable) — 3×8 → **H4:** Cable Crunch — 3×12
     _**60–75 s** after H4._
 
 ## Week-type parameter map
@@ -239,7 +239,7 @@ Use GM2 ramp sets only (no bodyweight sets). On **barbell-mode bench/OHP**, use 
 
 ### Lat pulldown (Pull B technical / hypertrophy only)
 
-- **Note:** Kneeling lat pulldown (high pulleys, ~7–9) is often capped near bodyweight without a knee brace. Pull B uses pulldowns only for **submaximal** explosive, single-arm, and reverse-grip work—not as the power triple. If reverse-grip 3×15 stalls, use **supinated chest-supported row** at the Pull A station.
+- **Note:** Kneeling lat pulldown (high pulleys, ~7–9) is often capped near bodyweight without a knee brace. Pull B uses pulldowns only for **submaximal** explosive, single-arm, and reverse-grip work—not as the power triple. If reverse-grip 3×8 stalls, use **supinated chest-supported row** at the Pull A station.
 
 ### Close-Grip Bench (Push A power)
 

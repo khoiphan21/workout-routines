@@ -1,6 +1,6 @@
 # Lateral Raise (Cable)
 
-Side-delt isolation on a cable stack (Gym Monster 2 or crossover). Used on **Push A** paired with Bulgarian split squat so **Push B** can keep GM2 work to **OHP + incline giant** and triceps isolation without duplicating lateral work.
+Side-delt isolation on a cable stack (Gym Monster 2 or crossover). Used on **Push A** so **Push B** can use the prone incline Y-raise + incline press giant and triceps isolation without duplicating lateral work.
 
 ## Pulley setup (GM2)
 
