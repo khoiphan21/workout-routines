@@ -16,7 +16,7 @@ Core finisher on Day 3 conditioning—replaces **L-Sit Hold** from the home-gym 
 - Strap ankles; arms hold the bench or rest at sides.
 - Exhale and draw knees toward chest under control; pause briefly at the top.
 - Lower without arching the low back off the pad.
-- **Finisher:** accumulate **60 s total** (e.g. 4×15 s) at RPE ~5–7; pair with Cable Crunch in the same superset.
+- **Finisher:** accumulate **60 s total** (e.g. 4×15 s) at RPE ~5–7; pair with Sevens in the same superset.
 
 ## GM2 notes
 

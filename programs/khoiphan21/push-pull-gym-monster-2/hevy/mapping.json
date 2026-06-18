@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T01:02:05.826Z",
+  "generatedAt": "2026-06-18T01:30:30.363Z",
   "programSlugs": [
     "bench-press-smith-pause-gm2",
     "bulgarian-split-squat-cable-gm2",
@@ -15,12 +15,13 @@
     "reverse-grip-lat-pulldown-cable",
     "romanian-deadlift-smith-gm2",
     "seated-chest-fly-bottom-hold-gm2",
+    "sevens",
     "sissy-squat-cable-gm2",
     "smith-ohp-bottom-hold-gm2",
     "split-squat-smith-gm2",
     "standing-calf-raise-smith-gm2"
   ],
-  "matched": 18,
+  "matched": 19,
   "toCreate": [],
   "mapping": [
     {
@@ -119,6 +120,13 @@
       "repoTitle": "Seated Chest Fly (Cable) — Bottom Hold",
       "hevyId": "946e69ee-fb64-4940-8808-332ebc44f7ff",
       "hevyTitle": "Seated Chest Fly (Cable) — Bottom Hold",
+      "matchScore": 1
+    },
+    {
+      "slug": "sevens",
+      "repoTitle": "Sevens",
+      "hevyId": "6588a05c-644a-480d-b52f-c1fd674ea12f",
+      "hevyTitle": "Sevens",
       "matchScore": 1
     },
     {

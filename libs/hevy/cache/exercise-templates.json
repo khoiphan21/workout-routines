@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "2026-06-18T01:08:53.948Z",
-  "count": 487,
+  "fetchedAt": "2026-06-18T01:30:11.428Z",
+  "count": 488,
   "data": [
     {
       "id": "3BC06AD3",
@@ -3903,6 +3903,15 @@
       "secondary_muscle_groups": [],
       "equipment": "barbell",
       "is_custom": false
+    },
+    {
+      "id": "6588a05c-644a-480d-b52f-c1fd674ea12f",
+      "title": "Sevens",
+      "type": "reps_only",
+      "primary_muscle_group": "abdominals",
+      "secondary_muscle_groups": [],
+      "equipment": "none",
+      "is_custom": true
     },
     {
       "id": "878CD1D0",

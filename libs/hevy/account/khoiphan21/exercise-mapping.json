@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-18T01:08:50.813Z",
+  "generatedAt": "2026-06-18T01:30:08.487Z",
   "hevyTemplateCount": 457,
   "repoExerciseCount": 49,
-  "matched": 71,
+  "matched": 72,
   "toCreate": [],
   "mapping": [
     {
@@ -383,6 +383,13 @@
       "repoTitle": "Seated Dual-Handle Shoulder Press",
       "hevyId": "774fc480-3aca-4ada-9af9-7a819378aac5",
       "hevyTitle": "Seated Dual-Handle Shoulder Press",
+      "matchScore": 1
+    },
+    {
+      "slug": "sevens",
+      "repoTitle": "Sevens",
+      "hevyId": "6588a05c-644a-480d-b52f-c1fd674ea12f",
+      "hevyTitle": "Sevens",
       "matchScore": 1
     },
     {

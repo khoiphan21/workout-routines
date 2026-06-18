@@ -76,6 +76,7 @@ Exercises grouped by muscle group and by equipment. Links point to individual ex
 - [L-Sit Hold](l-sit-hold)
 - [Ring Body Saw](ring-body-saw)
 - [Ring Knee Tucks](ring-knee-tucks)
+- [Sevens](sevens)
 - [V-Ups](v-ups)
 
 ### Legs

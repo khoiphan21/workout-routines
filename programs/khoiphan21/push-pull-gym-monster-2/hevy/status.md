@@ -1,11 +1,11 @@
 # Hevy sync status — push-pull-gym-monster-2
 
-**Generated:** 2026-06-14T21:47:15.790Z
+**Generated:** 2026-06-18T01:30:30.363Z
 
 | Metric | Count |
 |--------|------:|
-| Program exercise slugs | 18 |
-| Matched to Hevy | 18 |
+| Program exercise slugs | 19 |
+| Matched to Hevy | 19 |
 | To create on Hevy | 0 |
 | Map errors | 0 |
 
@@ -35,6 +35,7 @@ _None — all slugs matched or listed in `custom-exercises.json`._
 | Reverse Grip Lat Pulldown (Cable) | Reverse Grip Lat Pulldown (Cable) | 046E25A2 | 100% |
 | Romanian Deadlift (Smith Machine) | Romanian Deadlift (Smith Machine) | b4de0063-69bc-4bfe-a27b-1d8815fe5280 | 100% |
 | Seated Chest Fly (Cable) — Bottom Hold | Seated Chest Fly (Cable) — Bottom Hold | 946e69ee-fb64-4940-8808-332ebc44f7ff | 100% |
+| Sevens | Sevens | 6588a05c-644a-480d-b52f-c1fd674ea12f | 100% |
 | Sissy Squat (Cable, Gym Monster 2) | Sissy Squat (Cable, Gym Monster 2) | 44f636fa-ee0e-4585-8ce5-7be01bbf20ae | 100% |
 | Overhead Press (Smith Machine) — Bottom Hold | Overhead Press (Smith Machine) — Bottom Hold | 7fd41910-47c4-4e86-b86c-9c6cae1830ed | 100% |
 | Split Squat (Smith Machine) | Split Squat (Smith Machine) | c98c728c-195f-45e6-9480-727a57d9da85 | 100% |

@@ -1,22 +1,21 @@
 # Hevy sync status — push-pull-homegym
 
-**Generated:** 2026-06-18T01:01:58.183Z
+**Generated:** 2026-06-18T01:30:30.365Z
 
 | Metric | Count |
 |--------|------:|
-| Program exercise slugs | 34 |
-| Matched to Hevy | 32 |
-| To create on Hevy | 2 |
+| Program exercise slugs | 35 |
+| Matched to Hevy | 35 |
+| To create on Hevy | 0 |
 | Map errors | 0 |
 
 ## Exercises to create
 
-
+_None — all slugs matched or listed in `custom-exercises.json`._
 
 | Repo title | Slug | File | Note |
 |------------|------|------|------|
-| Prone Incline Cable Y-Raise | `prone-incline-cable-y-raise` | `exercises/prone-incline-cable-y-raise.md` |  |
-| Wall Walks | `wall-walks` | `—` |  |
+
 
 ## Matched
 
@@ -41,16 +40,19 @@
 | Nordic Curl | Nordic Hamstrings Curls | 108D7A14 | 90% |
 | Overhead Band Triceps Extension | Overhead Triceps Extension (Cable) | B5EFBF9C | 97% |
 | Pike Handstand Push-Up | Pike Handstand Push-Up (elevated feet) | a416a14b-519b-4a6a-b7b6-949c3fb25997 | 100% |
+| Prone Incline Cable Y-Raise | Prone Incline Cable Y-Raise | ec485033-7081-47a9-9cd8-5e5f3f9bb92e | 100% |
 | Prone Incline Dual Handle Triceps Kickback Floor | Prone Incline Dual-Handle Triceps Kickback (Floor) | 230db9e3-3129-4208-a0e6-88a2dc606866 | 100% |
 | Reverse Grip Lat Pulldown (Cable) | Reverse Grip Lat Pulldown (Cable) | 046E25A2 | 100% |
 | Rings Hamstring Curl | Hamstring Curl (Rings) | b5440ed7-2280-4148-a624-fef61482edba | 100% |
 | Seated Dual Handle Shoulder Press | Seated Dual-Handle Shoulder Press | 774fc480-3aca-4ada-9af9-7a819378aac5 | 100% |
+| Sevens | Sevens | 6588a05c-644a-480d-b52f-c1fd674ea12f | 100% |
 | Sissy Squat (Weighted) | Sissy Squat (Weighted) | F5DEF1EB | 100% |
 | Standing Calf Raise | Standing Calf Raise | 06745E58 | 100% |
 | Straight Arm Band Pulldown | Straight Arm Band Pulldown | ccbbde07-7590-427c-a455-7885ce6ef422 | 100% |
 | Supine Dual Handle Chest Fly | Supine Dual-Handle Chest Fly | 1082a484-f9f5-44f6-97f0-be76223b87c1 | 100% |
 | Tuck Front-Lever Row | Ring Row | f2fac51e-7700-42d9-8f10-8feee8c99d9b | 100% |
 | V-Ups | V Up | 6BE68B62 | 100% |
+| Wall Walks | Wall Walks | 54b0404b-9549-4b59-9a23-fe44e1d94ebd | 100% |
 | Warmup General Power Week | Warmup: General - Power Week | 04239eef-517b-4299-905a-275cc4c5125f | 100% |
 | Weighted Dip | Weighted Dip | f38313ef-01ce-4d91-8700-e12b2d7e9f84 | 100% |
 | Weighted Pull-Up | Pull Up (Weighted) | 729237D1 | 100% |

@@ -9,4 +9,4 @@ Vertical pull on the Gym Monster 2 (or any cable stack) with a supinated or para
 
 ## Prescription
 
-- **Power Week:** 3x8, RPE 8–9, single exercise on Pull B (cable crunch is logged separately after).
+- **Power Week:** 3x8, RPE 8–9, single exercise on Pull B (Sevens is logged separately after).

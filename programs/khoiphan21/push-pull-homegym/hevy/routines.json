@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-18T01:08:35.837Z",
+  "fetchedAt": "2026-06-18T01:29:53.667Z",
   "source": "programs/khoiphan21/push-pull-homegym",
   "count": 16,
   "data": [
@@ -705,34 +705,16 @@
         },
         {
           "index": 8,
-          "title": "Cable Crunch",
-          "notes": "Abs: 3x12.",
-          "exercise_template_id": "23A48484",
+          "title": "Sevens",
+          "notes": "Abs: 1 circuit of Sevens. 7 leg raises -> 7 bicycle crunches -> 7 leg raises -> 7 bicycle crunches -> 7 seconds boat hold -> 7 leg raises -> 7 side-to-side toe touches -> 7 leg raises -> 7 side-to-side toe touches -> 7 seconds boat hold.",
+          "exercise_template_id": "6588a05c-644a-480d-b52f-c1fd674ea12f",
           "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "normal",
-              "weight_kg": 28,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": 28,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": 28,
-              "reps": 12,
+              "weight_kg": null,
+              "reps": 1,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1443,34 +1425,16 @@
         },
         {
           "index": 8,
-          "title": "Cable Crunch",
-          "notes": "Abs: 3x15. Single finisher.",
-          "exercise_template_id": "23A48484",
+          "title": "Sevens",
+          "notes": "Abs: 1 circuit of Sevens. 7 leg raises -> 7 bicycle crunches -> 7 leg raises -> 7 bicycle crunches -> 7 seconds boat hold -> 7 leg raises -> 7 side-to-side toe touches -> 7 leg raises -> 7 side-to-side toe touches -> 7 seconds boat hold.",
+          "exercise_template_id": "6588a05c-644a-480d-b52f-c1fd674ea12f",
           "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 15,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 15,
+              "reps": 1,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -1776,34 +1740,16 @@
         },
         {
           "index": 8,
-          "title": "Cable Crunch",
-          "notes": "Abs: 3x12 finisher.",
-          "exercise_template_id": "23A48484",
+          "title": "Sevens",
+          "notes": "Abs: 1 circuit of Sevens. 7 leg raises -> 7 bicycle crunches -> 7 leg raises -> 7 bicycle crunches -> 7 seconds boat hold -> 7 leg raises -> 7 side-to-side toe touches -> 7 leg raises -> 7 side-to-side toe touches -> 7 seconds boat hold.",
+          "exercise_template_id": "6588a05c-644a-480d-b52f-c1fd674ea12f",
           "superset_id": null,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 12,
+              "reps": 1,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null
@@ -2566,34 +2512,16 @@
       "exercises": [
         {
           "index": 0,
-          "title": "Cable Crunch",
-          "notes": "Mini routine — abs.\nNo warm-up needed.\n3x15 @ RPE 8–9. Superset with L-sit; 60 s after L-sit.",
-          "exercise_template_id": "23A48484",
+          "title": "Sevens",
+          "notes": "Abs: 1 circuit of Sevens. 7 leg raises -> 7 bicycle crunches -> 7 leg raises -> 7 bicycle crunches -> 7 seconds boat hold -> 7 leg raises -> 7 side-to-side toe touches -> 7 leg raises -> 7 side-to-side toe touches -> 7 seconds boat hold.",
+          "exercise_template_id": "6588a05c-644a-480d-b52f-c1fd674ea12f",
           "superset_id": 0,
           "sets": [
             {
               "index": 0,
               "type": "normal",
               "weight_kg": null,
-              "reps": 15,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 1,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 15,
-              "distance_meters": null,
-              "duration_seconds": null,
-              "custom_metric": null
-            },
-            {
-              "index": 2,
-              "type": "normal",
-              "weight_kg": null,
-              "reps": 15,
+              "reps": 1,
               "distance_meters": null,
               "duration_seconds": null,
               "custom_metric": null

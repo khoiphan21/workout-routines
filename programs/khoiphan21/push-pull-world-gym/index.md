@@ -9,7 +9,8 @@ Commercial-gym variant of [Push–Pull Home Gym](../push-pull-homegym/) for sess
 - **Pull-up bar / rig** — muscle-ups, archer pull-ups
 - **Rings or bar** — back lever tuck hold (use rings if available; bar tuck is fine)
 - **GHD or bench + anchor** — Nordic curl (band-assist as needed)
-- **Cable stations** — seated row, crossover rear-delt fly, lat pulldown, cable crunch
+- **Cable stations** — seated row, crossover rear-delt fly, lat pulldown
+- **Floor space** — Sevens ab circuit
 - **Optional:** light resistance band for warm-up pull-aparts if you bring one
 
 ## Hevy folder
@@ -28,7 +29,7 @@ Session order: **warm-up → power → skills → cable hypertrophy + abs**. Do 
 | Skill | Nordic Hamstrings Curl | 3×6 — own block; **~90 s** if needed |
 | Hypertrophy H1–H2 | Seated Cable Row (wide) ↔ Rear Delt Reverse Fly (Cable) | 3×10 → 3×15; **60–75 s** after H2 |
 | Hypertrophy H3 | Reverse Grip Lat Pulldown (Cable) | 3×8 — supinated stack vs Pull A pronated work |
-| Abs | Cable Crunch | 3×12 |
+| Abs | Sevens | 1 circuit |
 
 ### vs Home Gym Pull B
 

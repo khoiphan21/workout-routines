@@ -4,70 +4,94 @@
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "upper_back",
-    "otherMuscles": ["lats", "biceps"]
+    "otherMuscles": [
+      "lats",
+      "biceps"
+    ]
   },
   "overhead-press-cable-gm2": {
     "title": "Overhead Press (Cable, Gym Monster 2)",
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "shoulders",
-    "otherMuscles": ["triceps"]
+    "otherMuscles": [
+      "triceps"
+    ]
   },
   "incline-bench-press-cable-gm2": {
     "title": "Incline Bench Press (Cable, Gym Monster 2)",
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "chest",
-    "otherMuscles": ["shoulders", "triceps"]
+    "otherMuscles": [
+      "shoulders",
+      "triceps"
+    ]
   },
   "close-grip-bench-smith-gm2": {
     "title": "Close-Grip Bench Press (Smith Machine)",
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "chest",
-    "otherMuscles": ["triceps"]
+    "otherMuscles": [
+      "triceps"
+    ]
   },
   "bench-press-smith-pause-gm2": {
     "title": "Bench Press (Smith Machine, 2s Pause)",
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "chest",
-    "otherMuscles": ["shoulders", "triceps"]
+    "otherMuscles": [
+      "shoulders",
+      "triceps"
+    ]
   },
   "seated-chest-fly-bottom-hold-gm2": {
     "title": "Seated Chest Fly (Cable) — Bottom Hold",
     "exerciseType": "duration",
     "equipmentCategory": "machine",
     "muscleGroup": "chest",
-    "otherMuscles": ["shoulders"]
+    "otherMuscles": [
+      "shoulders"
+    ]
   },
   "smith-ohp-bottom-hold-gm2": {
     "title": "Overhead Press (Smith Machine) — Bottom Hold",
     "exerciseType": "duration",
     "equipmentCategory": "machine",
     "muscleGroup": "shoulders",
-    "otherMuscles": ["triceps"]
+    "otherMuscles": [
+      "triceps"
+    ]
   },
   "overhead-press-cable-gm2-top-hold": {
     "title": "Overhead Press (Cable, Gym Monster 2) — Top Hold",
     "exerciseType": "duration",
     "equipmentCategory": "machine",
     "muscleGroup": "shoulders",
-    "otherMuscles": ["triceps"]
+    "otherMuscles": [
+      "triceps"
+    ]
   },
   "bulgarian-split-squat-cable-gm2": {
     "title": "Bulgarian Split Squat (Cable, Gym Monster 2)",
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "quadriceps",
-    "otherMuscles": ["glutes", "hamstrings"]
+    "otherMuscles": [
+      "glutes",
+      "hamstrings"
+    ]
   },
   "chest-fly-cable-gm2": {
     "title": "Chest Fly (Cable, Gym Monster 2)",
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "chest",
-    "otherMuscles": ["shoulders"]
+    "otherMuscles": [
+      "shoulders"
+    ]
   },
   "lying-knee-raise-cable-gm2": {
     "title": "Lying Knee Raise (Cable, Gym Monster 2)",
@@ -81,27 +105,45 @@
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "quadriceps",
-    "otherMuscles": ["glutes", "hamstrings"]
+    "otherMuscles": [
+      "glutes",
+      "hamstrings"
+    ]
   },
   "lat-pulldown-explosive-gm2": {
     "title": "Lat Pulldown (Cable) — Explosive",
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "lats",
-    "otherMuscles": ["upper_back", "biceps"]
+    "otherMuscles": [
+      "upper_back",
+      "biceps"
+    ]
   },
   "sissy-squat-cable-gm2": {
     "title": "Sissy Squat (Cable, Gym Monster 2)",
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "quadriceps",
-    "otherMuscles": ["glutes"]
+    "otherMuscles": [
+      "glutes"
+    ]
   },
   "romanian-deadlift-smith-gm2": {
     "title": "Romanian Deadlift (Smith Machine)",
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "hamstrings",
-    "otherMuscles": ["glutes", "lower_back"]
+    "otherMuscles": [
+      "glutes",
+      "lower_back"
+    ]
+  },
+  "sevens": {
+    "title": "Sevens",
+    "exerciseType": "reps_only",
+    "equipmentCategory": "none",
+    "muscleGroup": "abdominals",
+    "otherMuscles": []
   }
 }

@@ -3,7 +3,10 @@
   "account": "khoiphan21",
   "apiKeyEnv": "HEVY_API_KEY_KHOIPHAN21",
   "routineFolder": "Push-Pull Home Gym",
-  "docs": ["index.md", "mini-routines.md"],
+  "docs": [
+    "index.md",
+    "mini-routines.md"
+  ],
   "exerciseSlugs": [
     "archer-pull-ups",
     "back-lever-tuck-hold",
@@ -29,6 +32,7 @@
     "reverse-grip-lat-pulldown-cable",
     "rings-hamstring-curl",
     "seated-dual-handle-shoulder-press",
+    "sevens",
     "sissy-squat-weighted",
     "standing-calf-raise",
     "straight-arm-band-pulldown",

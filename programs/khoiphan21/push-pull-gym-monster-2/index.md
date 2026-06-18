@@ -120,7 +120,7 @@ Same as [home gym](../push-pull-homegym/#progression-failure-rule-applies-to-all
     _**60–75 s** after H2._
   - **H3:** [Sissy Squat (Cable, Gym Monster 2)](../../../exercises/sissy-squat-cable-gm2) — 3×12 per side → **H4:** Hammer Curl (Cable) — 3×12  
     _Quad emphasis (home-gym sissy pattern on GM2); **60–75 s** after H4._
-  - Cable Crunch — 3×15
+  - Sevens — 1 circuit
 
 ### Day 2 — Pull A
 
@@ -139,7 +139,7 @@ Same as [home gym](../push-pull-homegym/#progression-failure-rule-applies-to-all
     _**60–75 s** after H2._
   - **Bicep Curl (Cable)** — 3×12  
     _Single after face pull / row superset; **60–75 s** between sets._
-  - Cable Crunch — 3×12
+  - Sevens — 1 circuit
 
 ### Day 3 — Conditioning (GM2 steady HR)
 
@@ -150,24 +150,24 @@ All stations use **Smith, cables, or bench** on the GM2—no rings, bands, separ
 | Circuit | Seated Cable Row – V Grip (Cable) | Mid pulleys (~4–6), V handle, seated on bench |
 | Circuit | Overhead Press (Smith Machine) | Smith bar, light |
 | Circuit | [Split Squat (Smith Machine)](../../../exercises/split-squat-smith-gm2.md) | Smith bar, light |
-| Circuit | Cable Crunch | High pulley, rope or handles |
+| Circuit | Sevens | Floor / bodyweight |
 | EMOM odd | Squat (Smith Machine) | Light bar, 45 s continuous reps—replaces home-gym jumping jacks |
 | EMOM even | Straight Arm Lat Pulldown (Cable) | High pulley, light—replaces home-gym band pulldown |
 | Finisher | [Lying Knee Raise (Cable, GM2)](../../../exercises/lying-knee-raise-cable-gm2.md) | Bench + ankle straps, low pulleys |
-| Finisher | Cable Crunch | High pulley |
+| Finisher | Sevens | Floor / bodyweight |
 
 - **Circuit × 3 rounds** (one **giant superset** in Hevy)
   - Seated Cable Row – V Grip (Cable) — 15 reps
   - Overhead Press (Smith Machine) — 15 reps, light
   - Split Squat (Smith Machine) — 12 per side
-  - Cable Crunch — 20 controlled reps or slow tempo
+  - Sevens — 1 circuit
   - _**60–90 s** after the crunch before the next round._
 - **EMOM 12**
   - Odd: Squat (Smith Machine) — 45 s light continuous reps (empty bar or ~30–40%; stay conversational)
   - Even: Straight Arm Lat Pulldown (Cable) — 15 reps, light
 - **Finisher superset**
   - C1: [Lying Knee Raise (Cable, Gym Monster 2)](../../../exercises/lying-knee-raise-cable-gm2.md) — accumulate 60 s total (e.g. 4×15 s)
-  - C2: Cable Crunch — 3×20  
+  - C2: Sevens — 1 circuit
     _**60–75 s** after crunches each round._
 
 ### Day 4 — Push B
@@ -187,7 +187,7 @@ All stations use **Smith, cables, or bench** on the GM2—no rings, bands, separ
     _**60–75 s** after H4._
   - **H5:** Lateral Raise (Cable) — 3×12 → **H6:** Standing Calf Raise (Smith) — 3×12  
     _**60–75 s** after H6._
-  - Cable Crunch — 3×15
+  - Sevens — 1 circuit
 
 ### Day 5 — Pull B
 
@@ -205,7 +205,7 @@ All stations use **Smith, cables, or bench** on the GM2—no rings, bands, separ
 - **Hypertrophy + Abs (GM2)**
   - **H1:** Seated Cable Row – Bar Wide Grip — 3×10 → **H2:** Rear Delt Reverse Fly (Cable) — 3×15  
     _**60–75 s** after H2._
-  - **H3:** Reverse Grip Lat Pulldown (Cable) — 3×8 → **H4:** Cable Crunch — 3×12
+  - **H3:** Reverse Grip Lat Pulldown (Cable) — 3×8 → **H4:** Sevens — 1 circuit
     _**60–75 s** after H4._
 
 ## Week-type parameter map
@@ -214,11 +214,11 @@ Same as [home gym](../push-pull-homegym/#week-type-parameter-map): Power / Tempo
 
 ## Canonical exercise list (every week)
 
-- **Push A:** Close-Grip Bench (Smith); Seated Chest Fly Hold; OHP (Smith); Bulgarian Split Squat (Cable); Chest Fly (Cable); Sissy Squat (Cable, GM2); Hammer Curl (Cable); Cable Crunch.
-- **Pull A:** Chest-Supported Row (Cable, GM2); Straight-Arm Pulldown Hold (light); Upright Row (Cable); Single-Arm Cable Row; Face Pull; Cable Row; Bicep Curl (Cable); Cable Crunch.
-- **Conditioning:** Cable Row (V); OHP (Smith) light; Split Squat (Smith); Cable Crunch; Smith Squat (EMOM); Straight-Arm Lat Pulldown; Lying Knee Raise (Cable, GM2); Cable Crunch finisher.
-- **Push B:** Bench (Smith, pause); Smith OHP hold/press; Cable OHP top hold; OHP + Incline Bench (Cable, GM2); Seated Leg Curl; OH Triceps Extension; Lateral Raise (Cable); Calf Raise (Smith); Cable Crunch.
-- **Pull B:** RDL (Smith) power; Explosive Lat Pulldown; Single-Arm Lat Pulldown; Straight-Arm Pulldown Hold; Lying Leg Curl; Wide Cable Row; Rear Delt Fly; Reverse-Grip Pulldown; Cable Crunch.
+- **Push A:** Close-Grip Bench (Smith); Seated Chest Fly Hold; OHP (Smith); Bulgarian Split Squat (Cable); Chest Fly (Cable); Sissy Squat (Cable, GM2); Hammer Curl (Cable); Sevens.
+- **Pull A:** Chest-Supported Row (Cable, GM2); Straight-Arm Pulldown Hold (light); Upright Row (Cable); Single-Arm Cable Row; Face Pull; Cable Row; Bicep Curl (Cable); Sevens.
+- **Conditioning:** Cable Row (V); OHP (Smith) light; Split Squat (Smith); Sevens; Smith Squat (EMOM); Straight-Arm Lat Pulldown; Lying Knee Raise (Cable, GM2); Sevens finisher.
+- **Push B:** Bench (Smith, pause); Smith OHP hold/press; Cable OHP top hold; OHP + Incline Bench (Cable, GM2); Seated Leg Curl; OH Triceps Extension; Lateral Raise (Cable); Calf Raise (Smith); Sevens.
+- **Pull B:** RDL (Smith) power; Explosive Lat Pulldown; Single-Arm Lat Pulldown; Straight-Arm Pulldown Hold; Lying Leg Curl; Wide Cable Row; Rear Delt Fly; Reverse-Grip Pulldown; Sevens.
 
 ## Key notes (selected)
 

@@ -5,5 +5,12 @@
     "equipmentCategory": "machine",
     "muscleGroup": "other",
     "otherMuscles": []
+  },
+  "sevens": {
+    "title": "Sevens",
+    "exerciseType": "reps_only",
+    "equipmentCategory": "none",
+    "muscleGroup": "abdominals",
+    "otherMuscles": []
   }
 }

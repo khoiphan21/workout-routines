@@ -146,7 +146,7 @@ Superset 1 → 2; 60–75 s after ham curl each round.
 
 | # | Exercise | Sets × Reps | Notes |
 |---|----------|-------------|-------|
-| 1 | Cable Crunch (GM2) | 3×15 | RPE 8–9 |
+| 1 | Sevens | 1 circuit | Controlled |
 | 2 | L-Sit Hold (floor / low bars) | 3×15 s | Submaximal |
 
 No warm-up needed. Superset 1 → 2; 60 s after L-sit each round.

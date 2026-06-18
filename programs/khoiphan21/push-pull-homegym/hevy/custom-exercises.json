@@ -4,7 +4,10 @@
     "exerciseType": "reps_only",
     "equipmentCategory": "resistance_band",
     "muscleGroup": "upper_back",
-    "otherMuscles": ["lats", "biceps"]
+    "otherMuscles": [
+      "lats",
+      "biceps"
+    ]
   },
   "dragon-flag-negatives": {
     "title": "Dragon Flag Negatives",
@@ -18,7 +21,9 @@
     "exerciseType": "reps_only",
     "equipmentCategory": "resistance_band",
     "muscleGroup": "shoulders",
-    "otherMuscles": ["upper_back"]
+    "otherMuscles": [
+      "upper_back"
+    ]
   },
   "ring-knee-tucks": {
     "title": "Ring Knee Tucks",
@@ -32,63 +37,91 @@
     "exerciseType": "reps_only",
     "equipmentCategory": "none",
     "muscleGroup": "lats",
-    "otherMuscles": ["upper_back", "biceps"]
+    "otherMuscles": [
+      "upper_back",
+      "biceps"
+    ]
   },
   "chest-to-wall-handstand-hold": {
     "title": "Chest-to-Wall Handstand Hold",
     "exerciseType": "duration",
     "equipmentCategory": "none",
     "muscleGroup": "shoulders",
-    "otherMuscles": ["triceps", "abdominals"]
+    "otherMuscles": [
+      "triceps",
+      "abdominals"
+    ]
   },
   "freestanding-handstand-hold": {
     "title": "Freestanding Handstand Hold",
     "exerciseType": "duration",
     "equipmentCategory": "none",
     "muscleGroup": "shoulders",
-    "otherMuscles": ["triceps", "abdominals"]
+    "otherMuscles": [
+      "triceps",
+      "abdominals"
+    ]
   },
   "wall-walks": {
     "title": "Wall Walks",
     "exerciseType": "reps_only",
     "equipmentCategory": "none",
     "muscleGroup": "shoulders",
-    "otherMuscles": ["triceps", "abdominals"]
+    "otherMuscles": [
+      "triceps",
+      "abdominals"
+    ]
   },
   "band-assisted-high-pull-up": {
     "title": "Band-assisted High Pull-Up",
     "exerciseType": "bodyweight_assisted_reps",
     "equipmentCategory": "resistance_band",
     "muscleGroup": "lats",
-    "otherMuscles": ["upper_back", "biceps", "shoulders"]
+    "otherMuscles": [
+      "upper_back",
+      "biceps",
+      "shoulders"
+    ]
   },
   "band-overhead-press": {
     "title": "Band Overhead Press",
     "exerciseType": "reps_only",
     "equipmentCategory": "resistance_band",
     "muscleGroup": "shoulders",
-    "otherMuscles": ["triceps"]
+    "otherMuscles": [
+      "triceps"
+    ]
   },
   "bodyweight-split-squat": {
     "title": "Bodyweight Split Squat",
     "exerciseType": "reps_only",
     "equipmentCategory": "none",
     "muscleGroup": "quadriceps",
-    "otherMuscles": ["glutes", "hamstrings"]
+    "otherMuscles": [
+      "glutes",
+      "hamstrings"
+    ]
   },
   "back-lever-tuck-hold": {
     "title": "Back Lever Tuck Hold",
     "exerciseType": "duration",
     "equipmentCategory": "suspension",
     "muscleGroup": "lats",
-    "otherMuscles": ["abdominals", "lower_back"]
+    "otherMuscles": [
+      "abdominals",
+      "lower_back"
+    ]
   },
   "bar-muscle-up": {
     "title": "Bar Muscle Up",
     "exerciseType": "bodyweight_reps",
     "equipmentCategory": "none",
     "muscleGroup": "lats",
-    "otherMuscles": ["chest", "shoulders", "triceps"]
+    "otherMuscles": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ]
   },
   "warmup-general-power-week": {
     "title": "Warmup: General - Power Week",
@@ -102,7 +135,9 @@
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "shoulders",
-    "otherMuscles": ["triceps"]
+    "otherMuscles": [
+      "triceps"
+    ]
   },
   "prone-incline-dual-handle-triceps-kickback-floor": {
     "title": "Prone Incline Dual-Handle Triceps Kickback (Floor)",
@@ -116,13 +151,25 @@
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "chest",
-    "otherMuscles": ["shoulders"]
+    "otherMuscles": [
+      "shoulders"
+    ]
   },
   "prone-incline-cable-y-raise": {
     "title": "Prone Incline Cable Y-Raise",
     "exerciseType": "weight_reps",
     "equipmentCategory": "machine",
     "muscleGroup": "shoulders",
-    "otherMuscles": ["traps", "upper_back"]
+    "otherMuscles": [
+      "traps",
+      "upper_back"
+    ]
+  },
+  "sevens": {
+    "title": "Sevens",
+    "exerciseType": "reps_only",
+    "equipmentCategory": "none",
+    "muscleGroup": "abdominals",
+    "otherMuscles": []
   }
 }

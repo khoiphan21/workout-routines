@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-06-18T01:08:35.910Z",
+  "generatedAt": "2026-06-18T01:30:30.365Z",
   "programSlugs": [
     "archer-pull-ups",
     "back-lever-tuck-hold",
     "bar-muscle-up",
     "nordic-curl",
+    "sevens",
     "warmup-general-world-gym"
   ],
-  "matched": 5,
+  "matched": 6,
   "toCreate": [],
   "mapping": [
     {
@@ -39,8 +40,15 @@
       "matchScore": 0.9
     },
     {
+      "slug": "sevens",
+      "repoTitle": "Sevens",
+      "hevyId": "6588a05c-644a-480d-b52f-c1fd674ea12f",
+      "hevyTitle": "Sevens",
+      "matchScore": 1
+    },
+    {
       "slug": "warmup-general-world-gym",
-      "repoTitle": "Warmup: General - World Gym",
+      "repoTitle": "Warmup General World Gym",
       "hevyId": "5cc8b811-6c0e-4dc1-8127-ebe7c641e184",
       "hevyTitle": "Warmup: General - World Gym",
       "matchScore": 1

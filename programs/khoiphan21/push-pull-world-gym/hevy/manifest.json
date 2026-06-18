@@ -3,12 +3,15 @@
   "account": "khoiphan21",
   "apiKeyEnv": "HEVY_API_KEY_KHOIPHAN21",
   "routineFolder": "Push-Pull @ World Gym",
-  "docs": ["index.md"],
+  "docs": [
+    "index.md"
+  ],
   "exerciseSlugs": [
     "archer-pull-ups",
     "back-lever-tuck-hold",
     "bar-muscle-up",
     "nordic-curl",
+    "sevens",
     "warmup-general-world-gym"
   ]
 }

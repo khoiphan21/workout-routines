@@ -163,7 +163,7 @@ Planned deloads help **fatigue**; they may **not** maximize **peak strength** in
     _Rear delts / external rotation + mid-back row; **60–75 s** after H2._
   - **Bicep Curl (Cable)** — 3x12  
     _Single after face pull / row superset; **60–75 s** between sets._
-  - Cable Crunch — 3x12  
+  - Sevens — 1 circuit
     _Single._
 
 ### Day 3 — Conditioning (Cali-style steady HR)
@@ -197,7 +197,7 @@ Planned deloads help **fatigue**; they may **not** maximize **peak strength** in
     _Same low incline bench setup; minimal rest between Y-raise and incline press; **60–75 s** after incline. Hamstrings: Nordic on Pull B; hammer curl: optional **Mini Push C** if you want extra arm volume._
   - **Overhead Triceps Extension (Cable)** — 3x15  
     _Single; **60–75 s** between sets._
-  - Cable Crunch — 3x15  
+  - Sevens — 1 circuit
     _Single._
 
 ### Day 5 — Pull B
@@ -215,7 +215,7 @@ Planned deloads help **fatigue**; they may **not** maximize **peak strength** in
     _Row + rear-delt; **60–75 s** after H2._
   - **Reverse Grip Lat Pulldown (Cable)** — 3x8
     _Single—supinated stack vs Pull A pronated work; **60–75 s** between sets._
-  - Cable Crunch — 3x12  
+  - Sevens — 1 circuit
     _Single._
 
 _If a listed skill exceeds your level, select the appropriate progression ladder step but keep the same sets/reps/seconds._
@@ -246,10 +246,10 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 ## Canonical exercise list (used in every week)
 
 - **Push A:** Weighted Dip; Iron Cross Hold Progression; Pike Handstand Push-Up (elevated feet); Sissy Squat (weighted/BW); Seated Dual-Handle Shoulder Press (GM2); Lateral Raise (Cable, GM2); Supine Dual-Handle Chest Fly (GM2); Prone Incline Dual-Handle Triceps Kickback (Floor); Hollow Body Rock.
-- **Pull A:** Weighted Pull-Up; Front Lever Hold; Band-assisted High Pull-Up; Ring Row; Face Pull (GM2); Cable Row (GM2); Bicep Curl (Cable, GM2); Cable Crunch (GM2).
+- **Pull A:** Weighted Pull-Up; Front Lever Hold; Band-assisted High Pull-Up; Ring Row; Face Pull (GM2); Cable Row (GM2); Bicep Curl (Cable, GM2); Sevens.
 - **Conditioning:** Ring Row; Band Overhead Press; Bodyweight Split Squat; Hollow Body Rock; Jumping Jacks; Band Straight-Arm Pulldown; L-Sit Hold; V-Ups.
-- **Push B:** Barbell Bench Press (pause); Chest-to-Wall Handstand Hold; Wall Walks; Freestanding Handstand Hold; Prone Incline Cable Y-Raise; Incline Bench Press (Cable, GM2); Overhead Triceps Extension (GM2); Cable Crunch (GM2).
-- **Pull B:** Muscle-Up; Archer Pull-Ups; Back Lever Tuck Hold; Nordic Curl; Seated Cable Row Wide Grip (GM2); Reverse Fly (GM2); Reverse Grip Lat Pulldown (Cable, GM2); Cable Crunch (GM2).
+- **Push B:** Barbell Bench Press (pause); Chest-to-Wall Handstand Hold; Wall Walks; Freestanding Handstand Hold; Prone Incline Cable Y-Raise; Incline Bench Press (Cable, GM2); Overhead Triceps Extension (GM2); Sevens.
+- **Pull B:** Muscle-Up; Archer Pull-Ups; Back Lever Tuck Hold; Nordic Curl; Seated Cable Row Wide Grip (GM2); Reverse Fly (GM2); Reverse Grip Lat Pulldown (Cable, GM2); Sevens.
 
 ## Key notes (selected)
 
@@ -295,10 +295,10 @@ _If a listed skill exceeds your level, select the appropriate progression ladder
 
 - All hypertrophy work is on Gym Monster 2 for easier progressive overload tracking (0.5 kg increments).
 - Do calisthenics skills first (outside), then move to GM2 and complete the hypertrophy block **and Push A abs** without going back to the calisthenics station.
-- **Pull A:** Face Pull; Cable Row; Bicep Curl (Cable); Cable Crunch.
+- **Pull A:** Face Pull; Cable Row; Bicep Curl (Cable); Sevens.
 - **Push A:** Sissy Squat; Seated Dual-Handle Shoulder Press; Lateral Raise (Cable); Supine Dual-Handle Chest Fly; Prone Incline Dual-Handle Triceps Kickback (Floor); Hollow Body Rock (floor at GM2).
-- **Push B:** Prone Incline Cable Y-Raise; Incline Bench Press (Cable, GM2); Overhead Triceps Extension; Cable Crunch.
-- **Pull B:** Seated Cable Row (Wide Grip); Reverse Fly; Reverse Grip Lat Pulldown; Cable Crunch (paired blocks per day summary).
+- **Push B:** Prone Incline Cable Y-Raise; Incline Bench Press (Cable, GM2); Overhead Triceps Extension; Sevens.
+- **Pull B:** Seated Cable Row (Wide Grip); Reverse Fly; Reverse Grip Lat Pulldown; Sevens (paired blocks per day summary).
 
 ### Weekly hypertrophy balance (direct sets, Power Week)
 
